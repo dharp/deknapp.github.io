@@ -2,7 +2,7 @@
 
 import os, sys
 
-dr = './raw_markdown/'
+dr = './pages'
 
 def rewrite_file(name, string_to_remove):
     print name.split('/')[-1]
@@ -18,6 +18,7 @@ def rewrite_file(name, string_to_remove):
     
     os.system('cp ' + dest_name + ' ' + name)
     os.system('rm ' + source_name)
+    os.system('rm ' + dest_name)
 
 strings_to_remove = ['![](images/lagrit1.jpg){width="420" height="120"}', '![](images/lagrit2.jpg){width="180" height="120"}]',
                      '[]{#content}']
