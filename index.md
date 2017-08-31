@@ -67,7 +67,7 @@ BSD 3-Clause License (See
 
 - [Online Manual](pages/manual.md)
 - [Features](pages/features.md)
-- [Applications](pages/applications.md)
+- [Applications](pages/applications.html)
 - [Development Team](pages/development.md)
 - [LaGriT Facts (pdf)] TBD 
 - [Graphics examples](pages/graphics.md)
