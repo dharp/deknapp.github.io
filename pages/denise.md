@@ -16,14 +16,14 @@ title: LANL  LaGriT
 
 
                Pictures Created By Denise George 
- "160" "1"            --------------------------------- 
+              --------------------------------- 
 
-                                    ![](images/nist.jpg)"495"  
+                                    ![](images/nist.jpg)  
                                     "385"                     
 
-                                    ![](http://www.lanl.gov/images/tr 
+                                     
                                                  
-                                    "420" "1"           
+                                                
 
 
 

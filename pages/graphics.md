@@ -166,9 +166,9 @@ ear.gif)
         (10MB)](new_md/dendrite 
 ng.gif)                           
 
-![](http://www.lanl.gov/images/tr 
+ 
              
-"420" "1"           
+            
 
 
 

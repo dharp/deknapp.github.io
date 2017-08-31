@@ -9,8 +9,8 @@ title: Semiconductor
 
 
 
-![](http://www.lanl.gov/images/xtr "160"
-"1"
+ 
+
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
 \* Read avs files\
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
@@ -72,12 +72,12 @@ finish
 
  
 
-![](http://www.lanl.gov/images/xtr "420"
-"1"
+ 
+
 
 [Return to LaGriT Home Page](index.smd)
 
-![](http://www.lanl.gov/images/xtr "160"
-"1"
+ 
+
 
 

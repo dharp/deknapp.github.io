@@ -9,8 +9,8 @@ title: Geometry
 
 
 
-![](http://www.lanl.gov/images/xtr "160"
-"1"
+ 
+
 \* create a 3-D tetrahedral mesh object and name it 3dmesh\
 cmo/create/3dmesh/\
 \* unit cube\
@@ -72,12 +72,12 @@ finish
 
  
 
-![](http://www.lanl.gov/images/xtr "420"
-"1"
+ 
+
 
 [Return to LaGriT Home Page](index.smd)
 
-![](http://www.lanl.gov/images/xtr "160"
-"1"
+ 
+
 
 

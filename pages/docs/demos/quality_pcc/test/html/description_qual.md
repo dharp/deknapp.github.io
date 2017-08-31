@@ -40,22 +40,22 @@ Output
 >
 > [output\_qual2](../input_output/output_qual2)
 
-![](transparent.gif)"10" "1"
+![](transparent.gif)"10" 
 
-![](transparent.gif)"10" "1"
+![](transparent.gif)"10" 
 
-![](transparent.gif)"30" "1"
+![](transparent.gif)"30" 
 
-![](transparent.gif)"135" "1"
+![](transparent.gif)"135" 
 
-![](transparent.gif)"25" "1"
+![](transparent.gif)"25" 
 
-![](transparent.gif)"150" "1"
+![](transparent.gif)"150" 
 
-![](transparent.gif)"45" "1"
+![](transparent.gif)"45" 
 
-![](transparent.gif)"200" "1"
+![](transparent.gif)"200" 
 
-![](transparent.gif)"5" "1"
+![](transparent.gif)"5" 
 
-![](transparent.gif)"252" "1"
+![](transparent.gif)"252" 

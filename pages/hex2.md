@@ -9,8 +9,8 @@ title: Semiconductor
 
 
 
-![](http://www.lanl.gov/images/xtr "160"
-"1"
+ 
+
 \* RTZ: Cylindrical coordinates\
 \
 cmo/create/cmo\_hex\_rtz//\
@@ -26,12 +26,12 @@ finish
 
  
 
-![](http://www.lanl.gov/images/xtr "420"
-"1"
+ 
+
 
 [Return to LaGriT Home Page](index.smd)
 
-![](http://www.lanl.gov/images/xtr "160"
-"1"
+ 
+
 
 

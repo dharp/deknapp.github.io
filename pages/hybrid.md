@@ -16,7 +16,7 @@ title: LANL  LaGriT
 
 
                Hybrid Examples                   
- "160" "1"            ---------------                   
+              ---------------                   
 
                                     Click on picture to expand        
 
@@ -66,9 +66,9 @@ title: LANL  LaGriT
                                     ---+----------------------------- 
                                     ------+                           
 
-                                    ![](http://www.lanl.gov/images/tr 
+                                     
                                                  
-                                    "420" "1"           
+                                                
 
 
 

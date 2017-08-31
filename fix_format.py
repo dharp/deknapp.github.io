@@ -9,7 +9,7 @@ def filter_file(infile_name, no_list):
         outfile.write(data)
 
 dr = '/home/nknapp/deknapp.github.io/pages/'
-no_list = ['\"\"']
+no_list = ['[]{#content', '![](http://www.lanl.gov/images/tr', "\"495\"", "\"420\"", "\"1\"", "![](http://www.lanl.gov/images/xtr", "\"160\""]
 
 
 for root, drs, fles in os.walk(dr):

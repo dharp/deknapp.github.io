@@ -9,8 +9,8 @@ title: Geometry
 
 
 
-![](http://www.lanl.gov/images/xtr "160"
-"1"
+ 
+
 \* input.cylrot use rotateln and trans to move cylinder\
 \* create a cylinder centered around x=.5,z=.5, radius = .1\
 \* the cylinder is aligned parallel to the y-axis.\
@@ -61,12 +61,12 @@ finish
 
  
 
-![](http://www.lanl.gov/images/xtr "420"
-"1"
+ 
+
 
 [Return to LaGriT Home Page](index.smd)
 
-![](http://www.lanl.gov/images/xtr "160"
-"1"
+ 
+
 
 

@@ -23,17 +23,17 @@ Images of GMV input and output
 [Input geometry ![](image/input_hex_tn.gif)"114"
 "89"](image/input_hex.gif)
 
-![](transparent.gif)"4" "1"
+![](transparent.gif)"4" 
 
-![](transparent.gif)"46" "1"
+![](transparent.gif)"46" 
 
-![](transparent.gif)"128" "1"
+![](transparent.gif)"128" 
 
-![](transparent.gif)"33" "1"
+![](transparent.gif)"33" 
 
-![](transparent.gif)"128" "1"
+![](transparent.gif)"128" 
 
-![](transparent.gif)"517" "1"
+![](transparent.gif)"517" 
 
 > > [](image/input_hex.gif)
 > >

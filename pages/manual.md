@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-[]{#content                      
+                      
 Online Manual                     
 =============                     
 
@@ -101,8 +101,8 @@ hub.com/lanl/LaGriT)
 \                                 
 \                                 
 \                                 
-![](http://www.lanl.gov/images/tr 
+ 
              
-"420" "1"           
+            
 
 

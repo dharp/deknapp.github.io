@@ -16,7 +16,7 @@ title: LANL  LaGriT
 
 
                LaGriT Licensing, Distribution, a 
- "160" "1"            nd Installation                   
+              nd Installation                   
                                     --------------------------------- 
                                     ---------------                   
 
@@ -74,9 +74,9 @@ title: LANL  LaGriT
                                     Contact me, (<gable@lanl.gov>) if 
                                     you have questions.               
 
-                                    ![](http://www.lanl.gov/images/tr 
+                                     
                                                  
-                                    "420" "1"           
+                                                
 
 
 

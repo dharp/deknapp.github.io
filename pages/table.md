@@ -13,9 +13,9 @@ title: LANL  LaGriT
 ---
 
 
- ![](http://www.lanl.gov/images/tr  <div class="wide_tbl">            
+   <div class="wide_tbl">            
                                                  
- "160" "1"            ### Table of LaGriT Commands      
+              ### Table of LaGriT Commands      
 
                                     +-----------------+-------------- 
                                     ---+-----------------+----------- 
@@ -785,7 +785,7 @@ title: LANL  LaGriT
 
                                                                 
 
-                                    ![](http://www.lanl.gov/images/tr 
+                                     
                                                  
-                                    "420" "1"           
+                                                
 

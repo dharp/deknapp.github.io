@@ -16,7 +16,7 @@ title: LANL  LaGriT
 
 
                Grain Evolution in a T-Junction   
- "160" "1"            -------------------------------   
+              -------------------------------   
 
                                     #### by Tinka Gammel              
 
@@ -251,9 +251,9 @@ title: LANL  LaGriT
                                     ="500"                            
                                     "500"                     
 
-                                    ![](http://www.lanl.gov/images/tr 
+                                     
                                                  
-                                    "420" "1"           
+                                                
 
 
 

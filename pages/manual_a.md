@@ -9,8 +9,8 @@ title: Online Manual
 
 
 
-![](http://www.lanl.gov/images/xtr "160"
-"1"
+ 
+
 Online Manual
 =============
 
@@ -56,8 +56,8 @@ C.  [Fatal memory management errors](docs/errors.md#panic) (PANIC!)
 
 ### [LaGriT REFERENCES](docs/References.md)
 
-![](http://www.lanl.gov/images/xtr "420"
-"1"
+ 
+
 
 [Return to LaGriT Home Page](index.smd)
 

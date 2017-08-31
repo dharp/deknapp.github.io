@@ -21,7 +21,7 @@ title: '\*arguments:'
 >
 > [![](image/image8tn.gif)"156" "153"](image/image8a.gif)
 > [View A ](image/image8a.gif)[![](image/image8btn.gif)"170"
-> "160"](image/image8b.gif) [View B](image/image8b.gif)\
+> ](image/image8b.gif) [View B](image/image8b.gif)\
 >  \
 >  
 >

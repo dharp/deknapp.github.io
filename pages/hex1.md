@@ -9,8 +9,8 @@ title: Semiconductor
 
 
 
-![](http://www.lanl.gov/images/xtr "160"
-"1"
+ 
+
 \*XYZ: Cartesian coordinates\
 \
 cmo/create/cmo\_hex\_xyz/\
@@ -23,12 +23,12 @@ dump/gmv/gmv\_hex\_xyz/\
 
  
 
-![](http://www.lanl.gov/images/xtr "420"
-"1"
+ 
+
 
 [Return to LaGriT Home Page](index.smd)
 
-![](http://www.lanl.gov/images/xtr "160"
-"1"
+ 
+
 
 

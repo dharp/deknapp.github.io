@@ -14,8 +14,8 @@ title: LANL  LaGriT
 
 
 
-![](http://www.lanl.gov/images/tr "160"
-"1"
+ 
+
 3D Grid Generation LaGriT
 -------------------------
 
@@ -74,7 +74,7 @@ Applications \
 
 
 
-![](http://www.lanl.gov/images/tr "420"
-"1"
+ 
+
 
 
