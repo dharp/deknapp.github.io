@@ -15,14 +15,12 @@ title: LANL  LaGriT
                       
 Online Manual                     
 =============                     
-
-\                                 
+                               
 ### **I.  INTRODUCTION**          
 
 -   A. [LaGriT and                
 PyLaGriT](docs/lagrit.md)   
--   B. [Tutorial](docs/Tutorial.s 
-md)                             
+-   B. [Tutorial](docs/Tutorials.md)                             
 -   C. [Examples and Simple       
 Demos](docs/demos/index.md) 
 
@@ -50,14 +48,11 @@ Interface](docs/commandi.md
 -   C. [Fortran                   
 Interface](docs/fortran.md) 
 -   D. [Mesh Object               
-Connectivity](docs/meshobjcon 
-.md)                            
+Connectivity](docs/meshobjcon.md)                            
 -   E.                            
-[Geometries](docs/geometries. 
-md)                             
+[Geometries](docs/geometries.md)                             
 
-### IV.  INTERFACING USER ROUTINE 
-S TO LaGriT                       
+### IV.  INTERFACING USER ROUTINES TO LaGriT                       
 
 -   A. [Building an Executable    
 and Running                   
@@ -78,14 +73,11 @@ Subroutines](util.md)
 
 -   A. [Errors in parsing or      
 executing                     
-commands](docs/errors.md#pa 
-rse).                             
+commands](docs/errors.md#parse).                             
 -   B.  [Out of memory            
-errors.](docs/errors.md#mem 
-ory)                              
+errors.](docs/errors.md#memory)                              
 -   C.  [Fatal memory management  
-errors](docs/errors.md#pani 
-c)                                
+errors](docs/errors.md#panic)                                
 (PANIC!)                      
 
 \                                 
@@ -96,11 +88,7 @@ c)
 \                                 
 ###  [**Download lagrit.lanl.gov  
 Manual from Github**](https://git 
-hub.com/lanl/LaGriT)              
-
-\                                 
-\                                 
-\                                 
+hub.com/lanl/LaGriT)                                              
  
              
             
