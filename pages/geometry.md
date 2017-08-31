@@ -16,7 +16,7 @@ title: LANL  LaGriT
 
 
                Geometry Examples                 
- width="160" height="1"            -----------------                 
+ "160" "1"            -----------------                 
 
                                     Click on picture to expand        
 
@@ -29,7 +29,7 @@ title: LANL  LaGriT
                                      25"                             
 
 
-                                     height="225"](images/boxtilt_e 
+                                     "225"](images/boxtilt_e 
                                     xp                               
 
                                      and.jpg)                        
@@ -38,7 +38,7 @@ title: LANL  LaGriT
 
 
 
-                                     [View input desk](semi.html)    
+                                     [View input desk](semi.md)    
 
 
                                     +-------------------------------- 
@@ -48,9 +48,9 @@ title: LANL  LaGriT
                                     h=  [![](images/hex.jpg)" 
                                     225"                             
                                      "225"                           
-                                        height="225"](images/hex_ex 
+                                        "225"](images/hex_ex 
                                     pand.                            
-                                     height="225"](images/sn.sphere 
+                                     "225"](images/sn.sphere 
                                     _e  jpg)                         
 
                                      xpand.jpg)                      
@@ -71,8 +71,8 @@ title: LANL  LaGriT
                                      225"                            
                                         "                            
 
-                                     height="225"](images/cylinder_ 
-                                    ex  height="225"](images/coord_ 
+                                     "225"](images/cylinder_ 
+                                    ex  "225"](images/coord_ 
                                     expan                            
                                      pand.jpg)                       
                                         d.jpg)                       
@@ -80,7 +80,7 @@ title: LANL  LaGriT
 
 
 
-                                     [View input desk](geocyl.html)  
+                                     [View input desk](geocyl.md)  
                                         [View imput desk](geocoord.h 
                                     tml)                             
                                     +-------------------------------- 
@@ -89,7 +89,7 @@ title: LANL  LaGriT
 
                                     ![](http://www.lanl.gov/images/tr 
                                                  
-                                    width="420" height="1"           
+                                    "420" "1"           
 
 
 

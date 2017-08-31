@@ -42,7 +42,7 @@ value of the max edge length of each element.\
 **quality**/**angle**/**gt****lt**/value\]/\
 displays a count of the number of elements with a dihedral angle that is
 greater than or less than the supplied value. See also
-[cmo/addatt/mo/ang\_\*](cmo/cmo_addatt.html) commands for dihedral angle
+[cmo/addatt/mo/ang\_\*](cmo/cmo_addatt.md) commands for dihedral angle
 and solid angle calculations.\
 **quality**/**pcc**\
 creates an element based attribute called 'neg\_coup\_coeff' which is a
@@ -52,7 +52,7 @@ This is  **element** attribute and is useful when viewing a mesh with
 GMV to find the negative coupling coefficients.\
 **quality**/**quad** generates some quality measures for quads and
 displays them after binning them into seven bins. Please see
-[`cmo / addatt // quad_quality`](cmo/cmo_addatt.html#quad) for details
+[`cmo / addatt // quad_quality`](cmo/cmo_addatt.md#quad) for details
 on the quality measures used.\
 **quality**/**taylor**/fieldname/value/\
 displays a count of the number of element-edge pairs with a taylor error
@@ -109,6 +109,6 @@ EXAMPLES:
   ------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [Detect and characterize tetrahedra as type : sliver, cap, needle,
-wedge](../QUALITY_sliver_cap_needle_wedge.html)\
+wedge](../QUALITY_sliver_cap_needle_wedge.md)\
 
 \

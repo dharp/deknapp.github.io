@@ -15,7 +15,7 @@ title: LANL  LaGriT
 
  ![](http://www.lanl.gov/images/tr  <div class="wide_tbl">            
                                                  
- width="160" height="1"            ### Table of LaGriT Commands      
+ "160" "1"            ### Table of LaGriT Commands      
 
                                     +-----------------+-------------- 
                                     ---+-----------------+----------- 
@@ -26,8 +26,8 @@ title: LANL  LaGriT
                                                       commands/ADDM 
                                     ES  ommands/ASSIGN.             
 
-                                                      H.html)       
-                                        html)                       
+                                                      H.md)       
+                                        md)                       
 
                                                       (add one mesh 
                                         (set global                 
@@ -44,11 +44,11 @@ title: LANL  LaGriT
                                                       /commands/BOU 
                                     ND  ONENTS](docs/co  ommands/bu 
                                     bble.                            
-                                                      AR1.html)     
-                                        mmands/BOUNDARY  html)      
+                                                      AR1.md)     
+                                        mmands/BOUNDARY  md)      
 
                                                       (set attribut 
-                                    es  _C.html)         (extrude t 
+                                    es  _C.md)         (extrude t 
                                     o 3d                             
                                                       on surfaces)  
                                         (count bc's)     and extrac 
@@ -63,10 +63,10 @@ title: LANL  LaGriT
                                     (d  [CMO](docs/comm  [COLORMAP] 
                                     (docs                            
                                                       ocs/commands/ 
-                                    ca  ands/CMO2.html)  /commands/ 
+                                    ca  ands/CMO2.md)  /commands/ 
                                     COLOR                            
-                                                      lc_rdist.html 
-                                    )   (modify mesh     MAP.html)  
+                                                      lc_rdist.md 
+                                    )   (modify mesh     MAP.md)  
 
                                                       (calculate    
                                         object)          (build     
@@ -86,8 +86,8 @@ title: LANL  LaGriT
                                                       commands/COMP 
                                     UT  commands/CONNEC  /commands/ 
                                     COORD                            
-                                                      E.html)       
-                                        T1.html)         SY.html)   
+                                                      E.md)       
+                                        T1.md)         SY.md)   
 
                                                       (compute a ne 
                                     w   (2D and 3D       (change    
@@ -107,8 +107,8 @@ title: LANL  LaGriT
                                                       commands/COPY 
                                     PT  s/commands/crea  (docs/comm 
                                     ands/                            
-                                                      S.html)(copy  
-                                        tepts.html)      create_gra 
+                                                      S.md)(copy  
+                                        tepts.md)      create_gra 
                                     ph.ht                            
                                                       points)       
                                         (create points)  ml)(create 
@@ -128,8 +128,8 @@ title: LANL  LaGriT
                                                       ommands/DEFIN 
                                     E.  /commands/DEREF  ommands/DO 
                                     PING1                            
-                                                      html)         
-                                        INE.html)        .html)     
+                                                      md)         
+                                        INE.md)        .md)     
 
                                                       (give a name  
                                     to  (merge nodes     (depreciat 
@@ -171,7 +171,7 @@ title: LANL  LaGriT
                                     tm  commands/elmtes  ommands/EL 
                                     TSET2                            
                                                       l)            
-                                        t.html)          .html)     
+                                        t.md)          .md)     
 
                                                       (prints some  
                                         (validate        (select, n 
@@ -191,8 +191,8 @@ title: LANL  LaGriT
                                                       commands/EXTR 
                                     AC  commands/extrud             
 
-                                                      T1.html)      
-                                        e.html)                     
+                                                      T1.md)      
+                                        e.md)                     
 
                                                       (extract a    
                                         (extrude a                  
@@ -210,7 +210,7 @@ title: LANL  LaGriT
                                     ht  ommands/FILTER.  ommands/FI 
                                     NISH.                            
                                                       ml)           
-                                        html)            html)      
+                                        md)            md)      
 
                                                       (manipulate a 
                                         (detect and      (end       
@@ -251,8 +251,8 @@ title: LANL  LaGriT
                                                       ommands/GENIE 
                                     E.  /commands/geome  s/commands 
                                     /GRID                            
-                                                      html)         
-                                        try.html)        2GRID.html 
+                                                      md)         
+                                        try.md)        2GRID.md 
                                     )                                
                                                       (make/update  
                                         (set the         (element t 
@@ -273,7 +273,7 @@ title: LANL  LaGriT
                                     ml  /commands/HEXTO             
 
                                                       )             
-                                        TE.html)                    
+                                        TE.md)                    
 
                                                       (print global 
                                         (convert                    
@@ -291,7 +291,7 @@ title: LANL  LaGriT
                                     .h  mmands/INPUT.ht  s/commands 
                                     /INTE                            
                                                       tml)          
-                                        ml)              RSECT.html 
+                                        ml)              RSECT.md 
                                     )                                
                                                       (read input   
                                         (read input      (..2 2d me 
@@ -311,8 +311,8 @@ title: LANL  LaGriT
                                                       mands/interse 
                                     ct  in_interpolate.             
 
-                                                      elements.html 
-                                    )   html)                       
+                                                      elements.md 
+                                    )   md)                       
 
                                                       ( .. of 2     
                                         (.. attribute               
@@ -329,7 +329,7 @@ title: LANL  LaGriT
                                                       ommands/kdtre 
                                     e.                              
 
-                                                      html)         
+                                                      md)         
 
 
                                                       (represent me 
@@ -344,11 +344,11 @@ title: LANL  LaGriT
                                      L                [LOG](docs/co 
                                     mm  [LOOP](docs/com  [LOWER\_D] 
                                     (docs                            
-                                                      ands/LOG.html 
-                                    )   mands/loop.html  /commands/ 
+                                                      ands/LOG.md 
+                                    )   mands/loop.md  /commands/ 
                                     lower                            
                                                       (turn log fil 
-                                    e   )                _d.html)   
+                                    e   )                _d.md)   
 
                                                       off and on)   
                                         (execute         (create lo 
@@ -367,9 +367,9 @@ title: LANL  LaGriT
                                     s/com                            
                                                       commands/MASS 
                                     AG  /commands/MASSA  mands/MATH 
-                                    .html                            
-                                                      E.html)       
-                                        GE2.html)        )          
+                                    .md                            
+                                                      E.md)       
+                                        GE2.md)        )          
 
                                                       (optimize the 
                                         (optimize the    (do math o 
@@ -386,7 +386,7 @@ title: LANL  LaGriT
                                                       ommands/memor 
                                     y.  mmands/MERGE.ht  mmands/met 
                                     is.ht                            
-                                                      html)         
+                                                      md)         
                                         ml)              ml)        
 
                                                       (query state  
@@ -408,7 +408,7 @@ title: LANL  LaGriT
                                     ml  commands/MREGIO             
 
                                                       )             
-                                        N.html)                     
+                                        N.md)                     
 
                                                       (set modes)   
                                         (define a                   
@@ -428,7 +428,7 @@ title: LANL  LaGriT
                                                       (docs/command 
                                     s/                              
 
-                                                      NEGATIVE.html 
+                                                      NEGATIVE.md 
                                     )                               
 
                                                       (test bndry f 
@@ -446,7 +446,7 @@ title: LANL  LaGriT
                                                       cs/commands/O 
                                     FF                              
 
-                                                      SETSURF.html) 
+                                                      SETSURF.md) 
 
 
                                                       (..triangulat 
@@ -462,10 +462,10 @@ title: LANL  LaGriT
                                     s/  [PSET](docs/com  [PSTATUS]( 
                                     docs/                            
                                                       commands/PERT 
-                                    UR  mands/PSET.html  commands/P 
+                                    UR  mands/PSET.md  commands/P 
                                     STATU                            
-                                                      B.html)       
-                                        )                S.html)    
+                                                      B.md)       
+                                        )                S.md)    
 
                                                       (perturb node 
                                         (define, name    (operate o 
@@ -482,8 +482,8 @@ title: LANL  LaGriT
                                                       ommands/QUADX 
                                     Y.  commands/QUADXY  commands/Q 
                                     UALIT                            
-                                                      html)         
-                                        Z1.html)         Y.html)    
+                                                      md)         
+                                        Z1.md)         Y.md)    
 
                                                       (define a     
                                         (define a        (evaluate  
@@ -502,9 +502,9 @@ title: LANL  LaGriT
                                     s/com                            
                                                       ommands/RADAP 
                                     T.  cs/commands/ran  mands/READ 
-                                    .html                            
-                                                      html)         
-                                        kvolume.html)    )          
+                                    .md                            
+                                                      md)         
+                                        kvolume.md)    )          
 
                                                       (adaptive     
                                         (list small      (read data 
@@ -525,7 +525,7 @@ title: LANL  LaGriT
                                     ht  ommands/REFINE.  /commands/ 
                                     refin                            
                                                       ml)           
-                                        html)            e2d.html)  
+                                        md)            e2d.md)  
 
                                                       (swap         
                                         (refine          (refine a  
@@ -545,8 +545,8 @@ title: LANL  LaGriT
                                                       ommands/REGIO 
                                     N.  commands/REGNPT  commands/R 
                                     EORDE                            
-                                                      html)         
-                                        S.html)          R.html)    
+                                                      md)         
+                                        S.md)          R.md)    
 
                                                       (define a     
                                         (distributes     (reorder n 
@@ -564,9 +564,9 @@ title: LANL  LaGriT
                                     cs  [RM](docs/comma  [RMMAT](do 
                                     cs/co                            
                                                       /commands/RES 
-                                    ET  nds/RM.html)     mmands/RMM 
+                                    ET  nds/RM.md)     mmands/RMM 
                                     AT.ht                            
-                                                      PT.html)      
+                                                      PT.md)      
                                         (remove nodes    ml)        
 
                                                       (reset node   
@@ -584,8 +584,8 @@ title: LANL  LaGriT
                                                       commands/RMPO 
                                     IN  /commands/RMREG  /commands/ 
                                     RMSPH                            
-                                                      T.html)       
-                                        ION.html)        ERE.html)  
+                                                      T.md)       
+                                        ION.md)        ERE.md)  
 
                                                       (remove       
                                         (remove a        (remove no 
@@ -605,8 +605,8 @@ title: LANL  LaGriT
                                                       ommands/RMSUR 
                                     F.  /commands/ROTAT  /commands/ 
                                     ROTAT                            
-                                                      html)         
-                                        ELN.html)        EPT.html)( 
+                                                      md)         
+                                        ELN.md)        EPT.md)( 
                                     rotat                            
                                                       (remove nodes 
                                         (rotate nodes    e          
@@ -623,11 +623,11 @@ title: LANL  LaGriT
                                                       [RZ](docs/com 
                                     ma  [RZAMR](docs/co  [RZBRICK]( 
                                     docs/                            
-                                                      nds/RZ.html)  
+                                                      nds/RZ.md)  
                                         mmands/RZAMR.ht  commands/R 
                                     ZBRIC                            
                                                       (depreciated, 
-                                        ml)              K.html)    
+                                        ml)              K.md)    
 
                                                       see createpts 
                                     )   (depreciated,    (depreciat 
@@ -642,7 +642,7 @@ title: LANL  LaGriT
                                     co  [RZS](docs/comm  [RZV](docs 
                                     /comm                            
                                                       mmands/RZRAN. 
-                                    ht  ands/RZS.html)   ands/RZV_L 
+                                    ht  ands/RZS.md)   ands/RZV_L 
                                     G.htm                            
                                                       ml)           
                                         (depreciated,    l)         
@@ -663,7 +663,7 @@ title: LANL  LaGriT
                                     ht  ommands/SETPTS.  commands/S 
                                     ETSIZ                            
                                                       ml)           
-                                        html)            E.html)    
+                                        md)            E.md)    
 
                                                       (scale node   
                                         (set node type,  (calc size 
@@ -682,9 +682,9 @@ title: LANL  LaGriT
                                     s/com                            
                                                       commands/SETT 
                                     ET  ommands/SMOOTH.  mands/SORT 
-                                    .html                            
-                                                      S.html)       
-                                        html)            )          
+                                    .md                            
+                                                      S.md)       
+                                        md)            )          
 
                                                       (make child   
                                         (node            (sort an   
@@ -702,7 +702,7 @@ title: LANL  LaGriT
                                     ht  commands/SURFAC  commands/S 
                                     URFPT                            
                                                       ml)           
-                                        E.html)          S.html)    
+                                        E.md)          S.md)    
 
                                                       (read,merge,s 
                                     ta  (define a        (make node 
@@ -723,7 +723,7 @@ title: LANL  LaGriT
                                     ht  ocs/commands/TR             
 
                                                       ml)           
-                                        IAGN.html)                  
+                                        IAGN.md)                  
 
                                                       (translate no 
                                     de  ( ..a polygon)              
@@ -740,8 +740,8 @@ title: LANL  LaGriT
                                                       commands/UNG2 
                                     AV  commands/UPSCAL             
 
-                                                      S.html)       
-                                        E.html)                     
+                                                      S.md)       
+                                        E.md)                     
 
                                                       (UNGenerate t 
                                     o   (attribute from             
@@ -758,7 +758,7 @@ title: LANL  LaGriT
                                      Z                [ZQ](docs/com 
                                     ma                              
 
-                                                      nds/ZQ.html)  
+                                                      nds/ZQ.md)  
 
 
                                                       (depreciated, 
@@ -787,5 +787,5 @@ title: LANL  LaGriT
 
                                     ![](http://www.lanl.gov/images/tr 
                                                  
-                                    width="420" height="1"           
+                                    "420" "1"           
 

@@ -22,12 +22,12 @@ Images of GMV input and output
 
 [Initial point
 distribution](image/rotatept1.gif)[![](image/rotatept1_tn.gif)"112"
-height="87"](image/rotatept1.gif)
+"87"](image/rotatept1.gif)
 
 [rotation in
 xy-plane](image/rotatept2.gif)[![](image/rotatept2_tn.gif)"112"
-height="87"](image/rotatept2.gif)
+"87"](image/rotatept2.gif)
 
 [rotation in xy-plane and away from
 z-axis![](image/rotatept3_tn.gif)"112"
-height="87"](image/rotatept3.gif)
+"87"](image/rotatept3.gif)

@@ -13,7 +13,7 @@ Examples of:   
 > **createpts/brick/xyz**/21,5,41/0.,0.,0./1.,1.,1./1 1 1\
 > create a retangular grid that captures the geometry of an interface in
 > the stair steps of a regular grid.
->       [description](description2a.html)\
+>       [description](description2a.md)\
 >      [input](../input_output/lagrit_input2a)\
->       [picture](../html/picture2.html)\
+>       [picture](../md/picture2.md)\
 >

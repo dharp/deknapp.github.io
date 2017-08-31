@@ -9,7 +9,7 @@ title: SMOOTH
 > **SMOOTH**
 
 The **smooth** command smooths 2D or 3D mesh objects. For adaptive
-smoothing see the**[radapt](RADAPT.html)** command. **smooth** takes a
+smoothing see the**[radapt](RADAPT.md)** command. **smooth** takes a
 2D or 3D mesh object and moves nodes, without changing the connectivity
 of the grid, in order to improve the aspect ratios and distribution of
 elements in the mesh.\
@@ -85,7 +85,7 @@ Hessian f(x,y,z)=x2+y2+z2. Can be used on hybrid 3D meshes and guards
 against mesh folding. Adaption to this function creates a uniform
 isotropic mesh.  The code variable **maxiter\_sm** (default=25) controls
 the maximum number of **mega** iterations.  The value of **maxiter\_sm**
-may be changed using the **[assign](ASSIGN.html)** command
+may be changed using the **[assign](ASSIGN.md)** command
 (**assign**///**maxiter\_sm**/10).  (Ref.: Randolph E. Bank and R. Kent
 Smith, "Mesh Smoothing Using A Posteriori Error Estimates", SIAM J. Num.
 Anal. tol. 34, Issue 3, pp. 979-997 (1997).)\

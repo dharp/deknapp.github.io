@@ -22,8 +22,8 @@ title: '\*arguments:'
 > Images of GMV output
 >
 > [![](image/2d_connect1a_tn.gif)"114"
-> height="89"](image/2d_connect1a.gif) [input
+> "89"](image/2d_connect1a.gif) [input
 > nodes](image/2d_connect1a.gif)     
 > [![](image/2d_connect1b_tn.gif)"112"
-> height="87"](image/2d_connect1b.gif) [output
+> "87"](image/2d_connect1b.gif) [output
 > mesh](image/2d_connect1b.gif)

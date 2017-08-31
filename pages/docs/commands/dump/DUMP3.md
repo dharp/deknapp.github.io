@@ -107,7 +107,7 @@ name:
     The stor file represents a sparse coefficient matrix and is used for
     solving PDE on a triangular or tetrahedral Delaunay mesh. The stor
     format is written for FEHM input and is described at this page:   
-    [FEHM STOR File Format](../../STOR_Form.html)\
+    [FEHM STOR File Format](../../STOR_Form.md)\
 
 \
 \

@@ -11,11 +11,11 @@ title: c
 A geometry consists of a set of surfaces and regions that are defined in
 terms of existing surfaces.  A name is associated with the geometry data
 and the default name is  -defaultgeom-.  A geometry may be named using
-the **[geometry/create](geom_create.html)** command which must precede
+the **[geometry/create](geom_create.md)** command which must precede
 the **surface**, **region**, and **mregion** commands that define this
 geometry.  A geometry may be associated with more than one mesh object. 
-**[cmo/geometry](commands/cmo/cmo_geom.html)** and
-**[cmo/constraint](commands/cmo/cmo_constraint.html)** command are used
+**[cmo/geometry](commands/cmo/cmo_geom.md)** and
+**[cmo/constraint](commands/cmo/cmo_constraint.md)** command are used
 to associate geometries with mesh objects.
 
 The data for a geometry are contained in a set of memory managed arrays

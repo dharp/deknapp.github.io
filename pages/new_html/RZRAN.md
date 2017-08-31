@@ -51,7 +51,7 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 > >    allowed values:\
 > >       all geometries: rmax.ge.rmin\
 > >       **rtz:** rmin1.ge.0, rmax2-rmin2.le.360\
-> >       **rtp**: rmin1.ge.0, rmin2.ge.0, rmax2.le.180,
+> >       **rtp**: rmin1.ge.0, rmin2.ge.0, rmax2.le.,
 > > rmax3-rmin3.le.360\
 > >     defaults: rmin=0, rmax=rmin
 > >
@@ -82,12 +82,12 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 > > **rzran** / **xyz** / .1 / 0 0 0 / 1 1 1 /\
 > >    random points with target spacing 0.1 in a 1x1x1 box
 > >
-> > **rzran**/ **rtz** / .1 /  0,0,0 / 1,180,360 / 2,3,4 / 0.2\
+> > **rzran**/ **rtz** / .1 /  0,0,0 / 1,,360 / 2,3,4 / 0.2\
 > >    random points with target spacing 0.1 in a cylinder\
 > >    of radius 1 centered at xyz=(2,3,4) and with an\
 > >    edge protection distance of 0.2
 > >
-> > **rzran/ rtp** / .5 /  5,0,0 / 5,180,360 /  , ,  /  / 98765 4321/\
+> > **rzran/ rtp** / .5 /  5,0,0 / 5,,360 /  , ,  /  / 98765 4321/\
 > >    random points with target spacing 0.5 on the surface\
 > >    of a sphere of radius 5 centered at the origin\
 > >    with new random seeds
@@ -100,7 +100,7 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 > > range for **rtz** and **rtp** geometries and so it simply truncates
 > > them to the allowed range if possible or aborts. Most importantly,
 > > angles are in degrees and theta for the rtp geometry runs from 0 to
-> > 180 degrees, with 0 degrees being the +z axis. It does know about
+> >  degrees, with 0 degrees being the +z axis. It does know about
 > > the angular periodicity and there should be only the "corner" point
 > > artifacts of, eg, the +x axis being the origin of phi (rtp) or theta
 > > (rtz) if a full 360 degrees for these two variables in their

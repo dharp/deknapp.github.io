@@ -72,8 +72,8 @@ Banner when LaGriT is started (eg Linux):\
  yn\_area, zn\_area The written file file\_root\_outside\_vor.area or  
  file\_name\_outside\_med.area is a list of 2D area vectors            
  (Ax\_i,Ay\_i,Az\_i) associated with each node.                        
- [https://lagrit.lanl.gov/docs/DUMP3.html                              
- dump/zone\_outside](https://lagrit.lanl.gov/docs/DUMP3.html%20dump/zo 
+ [https://lagrit.lanl.gov/docs/DUMP3.md                              
+ dump/zone\_outside](https://lagrit.lanl.gov/docs/DUMP3.md%20dump/zo 
  ne_outside)\                                                          
  #### []{#cmo__addatt__voronoi_varea__...cmo / addatt / voronoi\_vare 
  a / ...\                                                              
@@ -84,7 +84,7 @@ Banner when LaGriT is started (eg Linux):\
  done with the outside area for a 3D tetrahderal mesh. The call will   
  create vector components for each node and fill the node attributes   
  xn\_varea, yn\_varea, zn\_varea.                                      
- <https://lagrit.lanl.gov/docs/cmo_addatt.html>\                       
+ <https://lagrit.lanl.gov/docs/cmo_addatt.md>\                       
  #### []{#extract__surfmesh__...extract / surfmesh / ...\             
   {#extract-surfmesh-... style="font-family: Courier New,Courier,monos 
  pace;"                                                               
@@ -93,7 +93,7 @@ Banner when LaGriT is started (eg Linux):\
  mesh that occur on either side of output mesh face, idface0 and       
  idface1. Now copies user-created node-based attributes from source    
  mesh into extracted sink mesh.                                        
- <https://lagrit.lanl.gov/docs/EXTRACT1.html>\                         
+ <https://lagrit.lanl.gov/docs/EXTRACT1.md>\                         
  #### []{#addmesh__excavate__...addmesh / excavate / ... {#addmesh-ex 
  cavate-... style="font-family: Courier New,Courier,monospace;"       
 
@@ -111,8 +111,8 @@ Banner when LaGriT is started (eg Linux):\
  argument is given, the program will, after excavation, execute an     
  addmesh/append, and then a connect, to produce a fully connected mesh 
  with the surface (mesh2) inserted into the background (mesh1).        
- [https://lagrit.lanl.gov/docs/ADDMESH.html\                           
- ](https://lagrit.lanl.gov/docs/ADDMESH.html)                          
+ [https://lagrit.lanl.gov/docs/ADDMESH.md\                           
+ ](https://lagrit.lanl.gov/docs/ADDMESH.md)                          
  #### []{#interpolate__...interpolate / ...\                          
   {#interpolate-... style="font-family: Courier New,Courier,monospace; 
  "                                                                    
@@ -122,7 +122,7 @@ Banner when LaGriT is started (eg Linux):\
  for extreme small or large numbers where epsilon values are difficult 
  to evaluate correctly. Note, this changed test results for            
  interpolate, test/level01 results were updated for these              
- improvements. <https://lagrit.lanl.gov/docs/main_interpolate.html>\   
+ improvements. <https://lagrit.lanl.gov/docs/main_interpolate.md>\   
  \                                                                     
  intrp\_gtg.f\                                                         
  A bug was fixed in interpolation that would sometimes save a node id  
@@ -144,18 +144,18 @@ Banner when LaGriT is started (eg Linux):\
  statements written that are related to the inside triangle and        
  epsilon tests.\                                                       
  \                                                                     
- Substantial changes and additions to DUMP2.html which describes all   
+ Substantial changes and additions to DUMP2.md which describes all   
  the dump file\_types and include more descriptions of FEHM files.     
- DUMP3.html for dump/fehm now includes descriptions of FEHM files.     
- https://lagrit.lanl.gov/docs/DUMP2.html                               
- https://lagrit.lanl.gov/docs/DUMP3.html\                              
+ DUMP3.md for dump/fehm now includes descriptions of FEHM files.     
+ https://lagrit.lanl.gov/docs/DUMP2.md                               
+ https://lagrit.lanl.gov/docs/DUMP3.md\                              
  #### []{#read_...read /... {#read-... style="font-family: Courier Ne 
  w,Courier,monospace;"                                                
 
  Three token read implemented. Files are recognized based on their     
  suffix (AVS, GMV, ...) rather than requiring that the second token    
  specify the file type.\                                               
- <https://lagrit.lanl.gov/docs/READ.html>\                             
+ <https://lagrit.lanl.gov/docs/READ.md>\                             
  #### []{#dump_...dump /... {#dump-... style="font-family: Courier Ne 
  w,Courier,monospace;"                                                
 
@@ -163,14 +163,14 @@ Banner when LaGriT is started (eg Linux):\
  recognized based on their suffix rather than requiring that the       
  second token specify the file type. Two token write does not require  
  a MO name. The default MO is used.\                                   
- <https://lagrit.lanl.gov/docs/DUMP2.html>                             
+ <https://lagrit.lanl.gov/docs/DUMP2.md>                             
  #### []{#cmo__attribute_union__...cmo / attribute\_union / ...\      
   {#cmo-attribute_union-... style="font-family: Courier New,Courier,mo 
  nospace;"                                                            
 
  Change two meshes so they both share the same set of attributes       
  (taking the union of their sets of attributes)\                       
- <https://lagrit.lanl.gov/docs/cmo_att_derive.html>\                   
+ <https://lagrit.lanl.gov/docs/cmo_att_derive.md>\                   
  #### []{#compute__linear_extrapolate__...compute / linear\_extrapola 
  te / ...\                                                             
   {#compute-linear_extrapolate-... style="font-family: Courier New,Cou 
@@ -186,7 +186,7 @@ Banner when LaGriT is started (eg Linux):\
      \* Expand a mesh to fit a surface, by propogating the appropriate 
  spatial coordinate.\                                                  
      \* Compute the depth relative to a topographic surface to each    
- node of a mesh. <https://lagrit.lanl.gov/docs/COMPUTE.html>\          
+ node of a mesh. <https://lagrit.lanl.gov/docs/COMPUTE.md>\          
  #### []{#grid2grid_...grid2grid /... {#grid2grid-... style="font-fam 
  ily: Courier New,Courier,monospace;"                                 
 
@@ -203,7 +203,7 @@ Banner when LaGriT is started (eg Linux):\
  -   tree\_to\_fe    quadtree or octree grid to grid with no           
      parent-type elements.                                             
 
- <https://lagrit.lanl.gov/docs/GRID2GRID.html>\                        
+ <https://lagrit.lanl.gov/docs/GRID2GRID.md>\                        
  #### []{#dump__stor__...dump / stor / ...\                           
   {#dump-stor-... style="font-family: Courier New,Courier,monospace;" 
 
@@ -212,9 +212,9 @@ Banner when LaGriT is started (eg Linux):\
  coefficient value into the two nodes connected to the ij edge. The    
  vector ij\_coef will assign the j index value to node i so that one   
  can determine which edge is associated with the neative coefficient   
- that is assigned to nodes. <https://lagrit.lanl.gov/docs/DUMP2.html>\ 
+ that is assigned to nodes. <https://lagrit.lanl.gov/docs/DUMP2.md>\ 
  \                                                                     
- <https://lagrit.lanl.gov/docs/DUMP3.html>\                            
+ <https://lagrit.lanl.gov/docs/DUMP3.md>\                            
  \                                                                     
  Changes to include TranslateTetToZero for geometric calculations (not 
  sure it is really helping with some of our neg ccoef issues)\         
@@ -258,7 +258,7 @@ Banner when LaGriT is started (eg Linux):\
  w,Courier,monospace;"                                                
 
  Add option to pset/ / zone for user specified zone id number.\        
- <https://lagrit.lanl.gov/docs/PSET.html>\                             
+ <https://lagrit.lanl.gov/docs/PSET.md>\                             
  #### dump / {#dump style="font-family: Courier New,Courier,monospace; 
  "                                                                    
 
@@ -270,51 +270,51 @@ Banner when LaGriT is started (eg Linux):\
  coefs, graph, or all old syntax still works, but now code checks for  
  keywords after filename and cmo and sets options for the fehm and     
  stor routine calls The man pages are updated and corrected.           
- <https://lagrit.lanl.gov/docs/DUMP2.html>\                            
+ <https://lagrit.lanl.gov/docs/DUMP2.md>\                            
  #### []{#memory__...memory / ...\                                    
   {#memory-... style="font-family: monospace;"                        
 
  New options to print and check memory manager and report memory       
  usage. This superseeds old utilities mmprint, mmcheck, etc.           
- [https://lagrit.lanl.gov/docs/memory.html\                            
- ](https://lagrit.lanl.gov/docs/memory.html)                           
+ [https://lagrit.lanl.gov/docs/memory.md\                            
+ ](https://lagrit.lanl.gov/docs/memory.md)                           
  #### Manual Pages Modified:                                           
 
  ##### Manual Updates for Version 2.200                                
 
- lagrit.lanl.gov/docs/EXTRACT\_SURFMESH.html\                          
- lagrit.lanl.gov/docs/cmo\_addatt.html\                                
- lagrit.lanl.gov/docs/DUMP2.html\                                      
- lagrit.lanl.gov/docs/DUMP3.html\                                      
- lagrit.lanl.gov/docs/memory.html\                                     
- lagrit.lanl.gov/table.shtml\                                          
- lagrit.lanl.gov/docs/READ.html\                                       
- lagrit.lanl.gov/docs/CMO2.html\                                       
- lagrit.lanl.gov/docs/COMPUTE.html\                                    
- lagrit.lanl.gov/docs/FSET.html\                                       
- lagrit.lanl.gov/docs/GRID2GRID.html\                                  
- lagrit.lanl.gov/docs/READ.html\                                       
- lagrit.lanl.gov/docs/COMPUTE.html\                                    
- lagrit.lanl.gov/docs/FSET.html\                                       
- lagrit.lanl.gov/docs/GRID2GRID.html\                                  
- lagrit.lanl.gov/docs/ADDMESH.html\                                    
- lagrit.lanl.gov/docs/HEXTOTE.html\                                    
+ lagrit.lanl.gov/docs/EXTRACT\_SURFMESH.md\                          
+ lagrit.lanl.gov/docs/cmo\_addatt.md\                                
+ lagrit.lanl.gov/docs/DUMP2.md\                                      
+ lagrit.lanl.gov/docs/DUMP3.md\                                      
+ lagrit.lanl.gov/docs/memory.md\                                     
+ lagrit.lanl.gov/table.smd\                                          
+ lagrit.lanl.gov/docs/READ.md\                                       
+ lagrit.lanl.gov/docs/CMO2.md\                                       
+ lagrit.lanl.gov/docs/COMPUTE.md\                                    
+ lagrit.lanl.gov/docs/FSET.md\                                       
+ lagrit.lanl.gov/docs/GRID2GRID.md\                                  
+ lagrit.lanl.gov/docs/READ.md\                                       
+ lagrit.lanl.gov/docs/COMPUTE.md\                                    
+ lagrit.lanl.gov/docs/FSET.md\                                       
+ lagrit.lanl.gov/docs/GRID2GRID.md\                                  
+ lagrit.lanl.gov/docs/ADDMESH.md\                                    
+ lagrit.lanl.gov/docs/HEXTOTE.md\                                    
  \                                                                     
  ##### Manual Updates for Version 2.106                                
 
- lagrit.lanl.gov/docs/cmo\_att\_derive.html\                           
+ lagrit.lanl.gov/docs/cmo\_att\_derive.md\                           
  lagrit.lanl.gov/site.css\                                             
  lagrit.lanl.gov/xprint.css\                                           
- lagrit.lanl.gov/docs/COMPUTE.html\                                    
- lagrit.lanl.gov/docs/READ.html\                                       
+ lagrit.lanl.gov/docs/COMPUTE.md\                                    
+ lagrit.lanl.gov/docs/READ.md\                                       
  lagrit.lanl.gov/docs/buildsurf.lgi\                                   
- lagrit.lanl.gov/docs/read\_avs.html\                                  
- lagrit.lanl.gov/docs/read\_gmv.html\                                  
- lagrit.lanl.gov/docs/read\_gocad.html\                                
- lagrit.lanl.gov/docs/read\_lagrit.html\                               
- lagrit.lanl.gov/table.shtml\                                          
- lagrit.lanl.gov/publications.shtml\                                   
- http://lagrit.lanl.gov/release.shtml\                                 
+ lagrit.lanl.gov/docs/read\_avs.md\                                  
+ lagrit.lanl.gov/docs/read\_gmv.md\                                  
+ lagrit.lanl.gov/docs/read\_gocad.md\                                
+ lagrit.lanl.gov/docs/read\_lagrit.md\                               
+ lagrit.lanl.gov/table.smd\                                          
+ lagrit.lanl.gov/publications.smd\                                   
+ http://lagrit.lanl.gov/release.smd\                                 
  ### Test Cases Modified:                                              
 
  test/level01\                                                         

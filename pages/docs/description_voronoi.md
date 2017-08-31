@@ -37,7 +37,7 @@ Results from Example 1:\
 
 [source hex and sink tri grids](../images/vor1.gif)\
 [![](../images/map03_sink_TN.GIF)"97"
-height="75"](../images/vor1.gif)
+"75"](../images/vor1.gif)
 
 > The objective is to test the ability of **interpolate** to find the
 > nearest node in a quad grid and copy imt values to sink quad grid.
@@ -46,7 +46,7 @@ height="75"](../images/vor1.gif)
 
 [source and sink quad grids](../images/vor_rand.gif)\
 [![](../images/vor_rand_TN.GIF)"97"
-height="75"](../images/vor_rand.gif)
+"75"](../images/vor_rand.gif)
 
 > The objective is to test the ability of **interpolate** to find the
 > nearest node in a tet sphere and copy to a 2D triangle sphere surface.
@@ -57,15 +57,15 @@ height="75"](../images/vor_rand.gif)
 
 [Source 3D tet grid](../images/vor_sphere_src.gif)\
 [![](../images/vor_sphere_src_TN.GIF)"97"
-height="75"](../mages/vor_sphere_src.gif)
+"75"](../mages/vor_sphere_src.gif)
 
 [Sink 2D tri grid](../images/vor_sphere_cut.gif)\
 [![](../images/vor_sphere_cut_TN.GIF)"97"
-height="75"](../images/vor_sphere_cut.gif)
+"75"](../images/vor_sphere_cut.gif)
 
 \
 \
 \
 \
-[Back to main page.](commands/main_interpolate.html#DEMOS)\
+[Back to main page.](commands/main_interpolate.md#DEMOS)\
 \

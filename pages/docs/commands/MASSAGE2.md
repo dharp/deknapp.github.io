@@ -74,7 +74,7 @@ title: MASSAGE2
 > **min\_scale** is the minimum length scale of the mesh (the minimum
 > desired edge length).\
 > \
-> See [**MASSAGE**](MASSAGE.html "MASSAGE") for other arguments.\
+> See [**MASSAGE**](MASSAGE.md "MASSAGE") for other arguments.\
 >
 > EXAMPLE:
 >

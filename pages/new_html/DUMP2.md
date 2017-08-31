@@ -118,7 +118,7 @@ to be written.  The default is **ascii**.
 **dump/recolor**/file\_name
 
 This command writes the existing **colormap** to the specified file. 
-(See **[colormap](http://lagrit.lanl.gov/new_html/COLORMAP.html)**
+(See **[colormap](http://lagrit.lanl.gov/new_md/COLORMAP.md)**
 command)
 
 **dump/elem\_adj\_node**/file\_name/mo\_name
@@ -138,10 +138,10 @@ elem\_number number\_of\_adjacent\_elem e1 e2 ... en  
 **dump/gmv**/file-name/\[mesh-object\]/\[**ascii**  **binary**\]
 
 Write a file to be read by the graphics program
-[GMV](http://laws.lanl.gov/XCM/gmv/GMVHome.html).  The defaults are
+[GMV](http://laws.lanl.gov/XCM/gmv/GMVHome.md).  The defaults are
 binary and current mesh object.
 
-[**dump/fehm**/file\_name/\[cmo\_name\[**scalarvectorbotharea\_scalararea\_vectorarea\_both**\]/\[**delatt,keepatt**\]](http://lagrit.lanl.gov/new_html/DUMP3.html)\
+[**dump/fehm**/file\_name/\[cmo\_name\[**scalarvectorbotharea\_scalararea\_vectorarea\_both**\]/\[**delatt,keepatt**\]](http://lagrit.lanl.gov/new_md/DUMP3.md)\
 
 Write out a series of files for the FEHM flow and transport code. The
 file\_name is the file root name for:\
@@ -182,7 +182,7 @@ attributes)\
 
 \
 [Click here for
-demos](http://lagrit.lanl.gov/new_html/demos/dump/test/html/main_dump.html)
+demos](http://lagrit.lanl.gov/new_md/demos/dump/test/md/main_dump.md)
 
 \
 \

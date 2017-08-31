@@ -14,7 +14,7 @@ title: LANL  LaGriT
 
 
 
-![](images/lagrit2.jpg)"180" height="120"
+"" ""
 LaGriT Registration and Download
 --------------------------------
 
@@ -52,7 +52,7 @@ at Sandia National Laboratories (gdsjaar @ sandia.gov).
 
 -   ExodusII 6 - from http://sourceforge.net/projects/exodusii/files/\
     See also https://github.com/gsjaardema/seacas\#exodus
--   HDF5 - from https://www.hdfgroup.org/downloads/index.html
+-   HDF5 - from https://www.hdfgroup.org/downloads/index.md
 -   NetCDF-4.3 - from
     http://www.unidata.ucar.edu/downloads/netcdf/index.jsp
 -   zlib-1.2.8 - from http://www.zlib.net/

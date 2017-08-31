@@ -7,7 +7,7 @@ title: 4
 >  
 > **4. Divide the enclosing volumes into regions**
 
-The[**region**](REGION.html) command is used to divide the enclosing
+The[**region**](REGION.md) command is used to divide the enclosing
 volume into regions. The directional operators **lt**, **le**, **gt**,
 **** and **ge** are applied to previously defined surfaces according to
 the following rules.
@@ -50,4 +50,4 @@ defines the enclosing volume in region and mregion commands. For
 example, the regions *top* and *bottom* are enclosed by the surface
 *cube*
 
-![](Image224.gif)"344" height="239"
+![](Image224.gif)"344" "239"

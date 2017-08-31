@@ -16,7 +16,7 @@ title: LANL  LaGriT
 
 
                Semiconductor Examples            
- width="160" height="1"            ----------------------            
+ "160" "1"            ----------------------            
 
                                     Click on picture to expand        
 
@@ -29,8 +29,8 @@ title: LANL  LaGriT
                                      1](images/len1.jpg)"225" 
                                         2](images/len2.jpg)"2 
                                     25"                              
-                                     height="225"](images/len1_expa 
-                                    nd  height="225"](images/len2_e 
+                                     "225"](images/len1_expa 
+                                    nd  "225"](images/len2_e 
                                     xpand                            
                                      .jpg)                           
                                         .jpg)                        
@@ -38,8 +38,8 @@ title: LANL  LaGriT
 
 
 
-                                     [View input desk](semi.html)    
-                                        [View input desk](semi1.html 
+                                     [View input desk](semi.md)    
+                                        [View input desk](semi1.md 
                                     )                                
                                     +-------------------------------- 
                                     ---+----------------------------- 
@@ -53,7 +53,7 @@ title: LANL  LaGriT
                                      5"                              
 
 
-                                     height="225"](images/sn.mos3d_ 
+                                     "225"](images/sn.mos3d_ 
                                     ex                               
 
                                      pand.jpg)                       
@@ -62,7 +62,7 @@ title: LANL  LaGriT
 
 
 
-                                     [View input desk](semi2.html)   
+                                     [View input desk](semi2.md)   
 
 
                                     +-------------------------------- 
@@ -71,7 +71,7 @@ title: LANL  LaGriT
 
                                     ![](http://www.lanl.gov/images/tr 
                                                  
-                                    width="420" height="1"           
+                                    "420" "1"           
 
 
 

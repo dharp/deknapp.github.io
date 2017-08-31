@@ -14,27 +14,27 @@ points into a tetrahedral mesh:\
 
 \* eliminate coincident or nearly coincident points\
 \* 1,0,0 means consider all points\
-**[filter](commands/FILTER.html)/1,0,0/**\
+**[filter](commands/FILTER.md)/1,0,0/**\
 \* rayend points are set to invisible (21 is the code for invisible)\
 \* they were used as end points of the rays in the regnpts command\
-**[cmo](commands/cmo/cmo_setatt.html)/setatt//itp/pset,get,rayend/21/**\
+**[cmo](commands/cmo/cmo_setatt.md)/setatt//itp/pset,get,rayend/21/**\
 \* assign material colors to the points\
 \* identify points that are on material interfaces\
 \* identify constrained points\
-**[setpts](commands/SETPTS.html)**\
+**[setpts](commands/SETPTS.md)**\
 \* connect the points into a Delaunay tetrahedral mesh\
 \* do not connect across material interfaces - add points if necessary
 to resolve material interfaces\
-**[connect](commands/CONNECT1.html)**\
+**[connect](commands/CONNECT1.md)**\
 \* set element (tetrahedral) color\
 \* spawn child points at material interfaces\
-**[settets](commands/SETTETS.html)**\
+**[settets](commands/SETTETS.md)**\
 \* dump mesh to some output form\
 **dump**/**gmv**/filename\
 \* terminate processing\
-**[finish](commands/FINISH.html)**
+**[finish](commands/FINISH.md)**
 
-![](new_html/Image229.gif)"452" height="411"
+![](new_md/Image229.gif)"452" "411"
 
 The complete input for the tutorial is:\
  

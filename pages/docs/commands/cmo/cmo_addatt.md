@@ -25,7 +25,7 @@ cmo/addatt
 > For the general form, the first two parameters, mo\_name/att\_name are
 > required. All other parameters will resort to default settings if not
 > included on the command line. See the
-> **[modatt](http://lagrit.lanl.gov/docs/cmo_modatt.html)** command for
+> **[modatt](http://lagrit.lanl.gov/docs/cmo_modatt.md)** command for
 > details on these parameters.
 >
 > The keyword syntax uses the fourth token on the command line to define
@@ -83,11 +83,11 @@ cmo/addatt
 > > **area\_normal**: creates element vector attribute att\_v\_name and
 > > fills with the x,y,z components of the area normal for each face.
 > > The new attribute is
-> > [nelements](http://lagrit.lanl.gov/docs/meshobject.html#nelements)
+> > [nelements](http://lagrit.lanl.gov/docs/meshobject.md#nelements)
 > > in length, type is
-> > [vdouble](http://lagrit.lanl.gov/docs/meshobject.html#type), and
+> > [vdouble](http://lagrit.lanl.gov/docs/meshobject.md#type), and
 > > rank is
-> > [vector](http://lagrit.lanl.gov/docs/meshobject.html#vector).
+> > [vector](http://lagrit.lanl.gov/docs/meshobject.md#vector).
 > > normal\_type choices include **xyz, rtz**, and **rtp**. The
 > > area\_normal is a vector perpendicular to the triangle face with
 > > length equal to the area of the triangle. Currently implemented for
@@ -109,13 +109,13 @@ cmo/addatt
 > > **voronoi\_volume** : creates a node attribute nnodes in length and
 > > type VDOUBLE. Currently implemented for a tetrahedral mesh by
 > > calling the build stor function to form the Voronoi bounding area
-> > for each node. (See more in [dump/stor](../dump/DUMP3.html).)
+> > for each node. (See more in [dump/stor](../dump/DUMP3.md).)
 > >
 > > **hybrid\_volume**: creates a node attribute `nnodes` in length and
 > > of type `VDOUBLE` which contains the volume of each hybrid
 > > median-Voronoi control volume. This is currently implemented for a
 > > tetrahedral mesh by calling the build stor function with the
-> > `hybrid` option. See [dump/stor](../dump/DUMP3.html) for details on
+> > `hybrid` option. See [dump/stor](../dump/DUMP3.md) for details on
 > > what hybrid median-Voronoi volumes are. Currently this option is
 > > only available for 3D tetrahedral meshes.
 > >
@@ -170,7 +170,7 @@ cmo/addatt
 > > Note: Dihedral angle calculations is supported for tri, quad, tet,
 > > pyrimide, prism, hex.\
 > > Note: Solid angle calculation is only supported for tet elements.\
-> > See also the command **[quality](../QUALITY.html)** for adding
+> > See also the command **[quality](../QUALITY.md)** for adding
 > > attributes such as element aspect ratio(quality/aratio) and edge
 > > length ratio (quality/edge\_ratio), minimum edge length (quality/
 > > edge\_min) and maximum edge length (quality/edge\_max).
@@ -201,7 +201,7 @@ cmo/addatt
 > > The synthetic node normal calculations are only supported for mesh
 > > objects of type line, tri and quad. If one wants to compute the
 > > normals to, for example, the outside nodes of a hex or tet mesh, one
-> > must first [extract](../EXTRACT1.html) a surface mesh and then
+> > must first [extract](../EXTRACT1.md) a surface mesh and then
 > > compute the normals to the surface mesh. The synthetic normal is
 > > computed by computing the normal to all elements incident upon a
 > > node and then taking the weighted average of all the normals. The

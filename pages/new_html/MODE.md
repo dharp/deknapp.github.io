@@ -35,9 +35,9 @@ title: FIELD
 > > **mode/recon**/**adaption**
 > >
 > > > Setting this mode will determine the criterion used to
-> > > [reconnect](RECON.html) the mesh.  The default mode is
+> > > [reconnect](RECON.md) the mesh.  The default mode is
 > > > **delaunay** and setting mode to **delaunay** will cause recon to
-> > > attempt to create a [delaunay mesh](CONNECT1.html).  Setting mode
+> > > attempt to create a [delaunay mesh](CONNECT1.md).  Setting mode
 > > > to **geom** will reconnect to increase inscribed radii of
 > > > elements.  Setting mode to adaption will reconnect to reduce
 > > > solution error.  Field\_name must be set with the
@@ -54,7 +54,7 @@ title: FIELD
 >
 > > **mode**/**adaption\_field**/solution\
 > > **mode**/**recon**/**adaption**
-> > All optimization including **[massage](MASSAGE.html)** commands that
+> > All optimization including **[massage](MASSAGE.md)** commands that
 > > follow will be performed to reduce error in the user defined field
 > > solution.
 >

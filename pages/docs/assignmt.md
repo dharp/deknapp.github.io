@@ -8,8 +8,8 @@ Generator: Microsoft Word 98
 > **5. Assign material types to the regions**
 
 Assign materials to regions using
-the[**mregion**](commands/MREGION.html) command. This command has
-similar syntax to the **[region](commands/REGION.html)** command except
+the[**mregion**](commands/MREGION.md) command. This command has
+similar syntax to the **[region](commands/REGION.md)** command except
 that the interface should not be assigned to any material region. To
 assign two materials, *mattop* and *matbot,* to the regions *top* and
 *bottom:*\
@@ -18,4 +18,4 @@ assign two materials, *mattop* and *matbot,* to the regions *top* and
 **mregion/**mattop**/ le** cube **and gt** cutplane **/**\
 **mregion/**matbot/ **le** cube **and lt** cutplan**e /**
 
-![](new_html/Image225.gif)"317" height="239"
+![](new_md/Image225.gif)"317" "239"

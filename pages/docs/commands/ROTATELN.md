@@ -37,7 +37,7 @@ EXAMPLE:
 > \* input.cylrot use rotateln and trans to move cylinder\
 > \* create a cylinder centered around  x=.5,z=.5, radius = .1\
 > \* the cylinder is aligned parallel to the y-axis.\
-> \* inside a box of width =2 , length=2 ,height=1\
+> \* inside a box of width =2 , length=2 ,1\
 > \* the regions are air for the cylinder - solid outside the cyl.\
 > \* points are spread by surrounding the whole object with\
 > \* a cylinder shell of points and then creating rays between\
@@ -73,4 +73,4 @@ EXAMPLE:
 > settets\
 > dump/gmv/gmv.cylrot/3dmesh\
 > finish
-> [click here for image](../new_html/image/cylrot.gif)
+> [click here for image](../new_md/image/cylrot.gif)

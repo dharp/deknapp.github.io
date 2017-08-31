@@ -17,7 +17,7 @@ title: MERGE
 > > neighbors or because this merge is disallowed by the merge tables.
 > > Merging may trigger other merges by the reconnection step that
 > > follows the merge.\
-> > The command [massage](MASSAGE.html) may be used to merge nodes
+> > The command [massage](MASSAGE.md) may be used to merge nodes
 > > together based on the edge distance separating the nodes.
 
 > FORMAT:

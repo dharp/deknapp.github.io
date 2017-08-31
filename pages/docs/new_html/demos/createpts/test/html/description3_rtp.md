@@ -22,5 +22,5 @@ title: '\*arguments:'
 > Images of GMV output
 >
 > > [![](image/image3tn.gif)"116"
-> > height="138"](./image/image3.gif) [spherical
+> > "138"](./image/image3.gif) [spherical
 > > geometry](image/image3.gif)

@@ -17,7 +17,7 @@ cmo/addatt
 > For the general form, the first two parameters, mo\_name/att\_name are
 > required. All other parameters will resort to default settings if not
 > included on the command line. See the
-> **[modatt](cmo_modatt.html)**command for details on these parameters.
+> **[modatt](cmo_modatt.md)**command for details on these parameters.
 >
 > The keyword syntax uses the fourth token on the command line to define
 > the type of attribute to create. The syntax for each keyword is
@@ -44,9 +44,9 @@ cmo/addatt
 >
 > > **area\_normal**: creates vector attribute att\_v\_name and fills
 > > with the x,y,z components of the area normal for each face. The new
-> > attribute is [nelements](meshobject.html#nelements)in length, type
-> > is [VDOUBLE](meshobject.html#type), and rank is
-> > [vector](meshobject.html#vector). normal\_type choices include
+> > attribute is [nelements](meshobject.md#nelements)in length, type
+> > is [VDOUBLE](meshobject.md#type), and rank is
+> > [vector](meshobject.md#vector). normal\_type choices include
 > > **xyz, rtz**, and **rtp**. The area\_normal is a vector
 > > perpendicular to the triangle face with length equal to the area of
 > > the triangle. Currently implemented for **xyz** on triangles only.

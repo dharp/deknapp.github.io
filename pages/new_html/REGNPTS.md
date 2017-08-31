@@ -79,4 +79,4 @@ title: REGNPTS
 > between pairs of elements, one from each point set.\
 >  
 >
-> [Click here for demos](demos/regnpts/test/html/main_regnpts.html)
+> [Click here for demos](demos/regnpts/test/md/main_regnpts.md)

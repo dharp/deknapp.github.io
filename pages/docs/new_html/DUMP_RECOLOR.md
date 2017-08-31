@@ -6,7 +6,7 @@ title: DUMP
 
 **DUMP\_RECOLOR**
 
-This command is similar to the regular [dump](DUMP2.html) command except
+This command is similar to the regular [dump](DUMP2.md) command except
 that the mesh object is recolored before being dumped.  There are two
 options specific to this version.  If **restore** is specified  (the
 default), the original itetclr and imt1 values are restored, leaving the

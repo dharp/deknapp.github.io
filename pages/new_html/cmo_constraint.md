@@ -12,7 +12,7 @@ GENERATOR: 'Mozilla/4.7 \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 > table ( nconbnd, icontrab) are copied from the source mesh object to
 > the sink mesh object.  Since nconbnd and icontab are mesh object
 > attributes, they must be explicity copied if a new mesh is to use an
-> existing geometry.  [See III.A](meshobject.html)  for a description of
+> existing geometry.  [See III.A](meshobject.md)  for a description of
 > nconbnd and incontab.
 
 \

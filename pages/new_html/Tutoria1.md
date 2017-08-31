@@ -13,22 +13,22 @@ Generator: Microsoft Word 98
 > LaGriT command language are:\
 >  
 >
-> 1.[Define mesh objects.](definemo.html)[](definemo.html)
+> 1.[Define mesh objects.](definemo.md)[](definemo.md)
 >
-> 2.[Define an enclosing volume](defineev.html).
+> 2.[Define an enclosing volume](defineev.md).
 >
-> 3.[Define interior interfaces.](DEFINEII.html)
+> 3.[Define interior interfaces.](DEFINEII.md)
 >
 > 4.[Divide the enclosing volume into
-> regions.](dividereg.html)[](dividereg.html)
+> regions.](dividereg.md)[](dividereg.md)
 >
-> 5\. [Assign material types to the regions.](assignmt.html)
+> 5\. [Assign material types to the regions.](assignmt.md)
 >
 > 6.[Distribute points within the
-> volume.](distributep.html)[](distributep.html)
+> volume.](distributep.md)[](distributep.md)
 >
 > 7\. [Connect the points into
-> tetrahedra](%20%20%20%20connecttet.html%20%20%20%20%20%20%20%20%20%20%20)[](%20%20%20%20connecttet.html%20%20%20%20%20%20%20%20%20%20%20)\
+> tetrahedra](%20%20%20%20connecttet.md%20%20%20%20%20%20%20%20%20%20%20)[](%20%20%20%20connecttet.md%20%20%20%20%20%20%20%20%20%20%20)\
 >  
 >
 > Detailed descriptions of the LaGriT commands are given in Section II.

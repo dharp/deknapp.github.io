@@ -26,8 +26,8 @@ usually used to separate sets of parameters.
 integer values which refer to actual sequential point numbers or they
 can have the character- string values:
 
-**[pset](commands/PSET.html)**, **get**, name where name has been
-defined by a previous **[pset](commands/PSET.html)** command.\
+**[pset](commands/PSET.md)**, **get**, name where name has been
+defined by a previous **[pset](commands/PSET.md)** command.\
 The triplet: 1, 0, 0 refers to all points.\
 The triplet: 0, 0, 0 refers to the set of points defined in the last
 geometry command.
@@ -57,8 +57,8 @@ first and third point determine the second vector. By curling the
 fingers of the right hand from the first vector toward the second
 vector, the right thumb will point in the direction of the normal.\
 
-![](new_html/demos/2d_connect/test/html/image/Image230.jpg)"189"
-height="148"
+![](new_md/demos/2d_connect/test/md/image/Image230.jpg)"189"
+"148"
 
 10\. To separate commands on the same line use a semicolon (;).\
 11. Three coordinate systems are used.
@@ -75,5 +75,5 @@ xy-plane measured from the positive x-axis toward the positive y-axis,
 **t** (theta) is the angle measured from the positive z-axis to the
 positive y axis.
 
-![](new_html/demos/2d_connect/test/html/image/Image231.jpg)"411"
-height="264"
+![](new_md/demos/2d_connect/test/md/image/Image231.jpg)"411"
+"264"

@@ -12,7 +12,7 @@ title: BOUNDARY
 > > nodes lying on the specified surface(s), it sets the specified node
 > > based attribute to the specified value. Optionally boundary will
 > > call the user supplied subroutine set\_user\_bounds [(see IV.
-> > e.8)](../miscell.html)
+> > e.8)](../miscell.md)
 >
 > FORMAT:
 >

@@ -22,7 +22,7 @@ Generator: Microsoft Word 98
 > > > ntets                        integer number of elements in mesh
 > > > object (input)\
 > > > xtetwd                    array of eltset membership information
-> > > (input) see [See III.a](meshobject.html)
+> > > (input) see [See III.a](meshobject.md)
 >
 > **pntlimc,pntlimn** return an array of node numbers where the nodes
 > belong to the **pset** given in the argument list. On return the array
@@ -37,9 +37,9 @@ that is filled on output\
 mpno                     integer number of nodes in pset\_name (output)\
 npoints                  integer number of nodes in mesh object (input)\
 isetwd                   array of pset membership information [See
-III.a](meshobject.html)\
+III.a](meshobject.md)\
 itp1                       array of point types [See
-III.a](meshobject.html)
+III.a](meshobject.md)
 
 \
 **pntlimn**(ifirst,ilast,istride,ipmary,mpno,npoints,isetwd,itp1)
@@ -51,6 +51,6 @@ that is filled on output\
 mpno                     integer number of nodes in pset\_name (output)\
 npoints                  integer number of nodes in mesh object (input)\
 isetwd                   array of pset membership information [See
-III.a](meshobject.html)\
+III.a](meshobject.md)\
 itp1                       array of point types [See
-III.a](meshobject.html)
+III.a](meshobject.md)

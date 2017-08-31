@@ -321,7 +321,7 @@ INTERPOLATE
 >
 >   --------------------------------------------------------------- --------------------------------------------------------------------- ------------------------------------------------------------------
 >   ![VORONOI from quad grid](image/vor_rand.gif)"200"\     ![MAP from element to element.](image/map03_view.gif)"200"\   ![CONTINUOUS from triangles](image/con02_sink.gif)"200"\
->   [Example 1: interpolate / voronoi](description_voronoi.html)\   [Example 2: interpolate / map](description_map.html)\                 [Example 3: interpolate / continuous](description_cont.html)\
+>   [Example 1: interpolate / voronoi](description_voronoi.md)\   [Example 2: interpolate / map](description_map.md)\                 [Example 3: interpolate / continuous](description_cont.md)\
 >   Copy nearest source node value to sink point                    Copy source element value to enclosed sink point                      Interpolate source element vertices to sink point
 >   --------------------------------------------------------------- --------------------------------------------------------------------- ------------------------------------------------------------------
 >

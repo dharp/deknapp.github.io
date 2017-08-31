@@ -10,16 +10,16 @@ title: createpts
 >
 > > Createpts is a wrapper for all the 'rz' type commands. This command
 > > adds points to the mesh.\
-> > **[createpts/](CRTPTSRZ.html)xyzrtzrtpline**\
-> > **[createpts/brick](CRTPTBRICK.html)**\
-> > **[createpts/sphere](cresphere.html)**\
-> > **[createpts/random](CRTPTRZRAN.html)**\
-> > **[createpts/vector](CRTPTRZV_LG.html)**\
-> > **[createpts/voronoi](createpts_voronoi.html)**\
-> > **[createpts/median](createpts_median.html)**\
-> > **[createpts/amr](CREATEPTSAMR.html)**
+> > **[createpts/](CRTPTSRZ.md)xyzrtzrtpline**\
+> > **[createpts/brick](CRTPTBRICK.md)**\
+> > **[createpts/sphere](cresphere.md)**\
+> > **[createpts/random](CRTPTRZRAN.md)**\
+> > **[createpts/vector](CRTPTRZV_LG.md)**\
+> > **[createpts/voronoi](createpts_voronoi.md)**\
+> > **[createpts/median](createpts_median.md)**\
+> > **[createpts/amr](CREATEPTSAMR.md)**
 >
 > \
 >  
 >
-> [Click here for demos](demos/createpts/test/html/main_createpts.html)
+> [Click here for demos](demos/createpts/test/md/main_createpts.md)

@@ -13,9 +13,9 @@ GENERATOR: 'Mozilla/4.7 \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 > > includes number of surfaces, regions, material regions, current
 > > geometry name, and definitions of active surfaces, regions and
 > > material regions. cmo\_name and geometry\_name must have been
-> > previously created.  [See III. E](../../geometries.html) for a
+> > previously created.  [See III. E](../../geometries.md) for a
 > > discussion of geometry.  The
-> > **[cmo/constraint](cmo_constraint.html)**command might also be
+> > **[cmo/constraint](cmo_constraint.md)**command might also be
 > > required.
 
 > EXAMPLES:

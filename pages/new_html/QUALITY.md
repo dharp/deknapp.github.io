@@ -90,4 +90,4 @@ EXAMPLES:
  \
  
 
-[Click here for demos](demos/quality_pcc/test/html/main_qual.html)
+[Click here for demos](demos/quality_pcc/test/md/main_qual.md)

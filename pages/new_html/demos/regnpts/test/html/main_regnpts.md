@@ -7,6 +7,6 @@ title: '\*arguments:'
 >
 > > > The objective is to test the **regnpts** command.\
 > > >  \
-> > > [Example 1](description_regnpts.html)
+> > > [Example 1](description_regnpts.md)
 > > > [![](image/regnpts1_tn.gif)"114"
-> > > height="89"](description_regnpts.html)
+> > > "89"](description_regnpts.md)

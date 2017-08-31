@@ -110,11 +110,11 @@ by the following algorithm:
 \* For the point being considered, p, find the nearest sheet triangle
 and the closest point, q, to p that lies on that triangle.
 
-\* Construct the vector![](Image255.gif)"10" height="15", from q
+\* Construct the vector![](Image255.gif)"10" "15", from q
 to p.
 
 \* Construct the outward normal to the
-triangle, ![](Image256.gif)"9" height="12". The outward normal
+triangle, ![](Image256.gif)"9" "12". The outward normal
 is constructed using the right hand rule and the order of the points in
 the sheet. Sheets may be specified as quad Mesh Object (i.e. a 2
 dimensional array of points containing the coordinates of the corners of
@@ -125,20 +125,20 @@ points (i,j), (i+1,j), (i+1,j+1) gives the direction of the normal for
 all triangles created from the quad.
 
 \* If ![](Image255.gif)"10"
-height="15"\* ![](Image256.gif)"9" height="12"&lt; 0 then the
+"15"\* ![](Image256.gif)"9" "12"&lt; 0 then the
 point is inside. If ![](Image255.gif)"10"
-height="15"\* ![](Image256.gif)"9" height="12"&gt;0 the point
+"15"\* ![](Image256.gif)"9" "12"&gt;0 the point
 is outside. If ![](Image255.gif)"10"
-height="15"![](Image256.gif)"9" height="12"\* n = 0, and if p
+"15"![](Image256.gif)"9" "12"\* n = 0, and if p
 is on the triangle then p=q and p in on the triangle.
 
 \* If ![](Image255.gif)"10"
-height="15"\*![](Image256.gif)"9" height="12" = 0 and p is not
+"15"\*![](Image256.gif)"9" "12" = 0 and p is not
 on the triangle then p is outside.
 
-![](Image257.gif)"203" height="206"
+![](Image257.gif)"203" "206"
 
 One implication of this definition is that the concept of shadows cast
 by open sheets no longer is valid. Sheets may be considered to extend to
 the boundary of the geometry.\
-![](Image259.gif)"341" height="247"
+![](Image259.gif)"341" "247"

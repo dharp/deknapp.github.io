@@ -3,9 +3,9 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
  [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#EXAMPLE) [![](../images/arrow3.gif)"30"
-height="30"](utilities.html) [![](../images/arrow4.gif)"30"
-height="30"](linking.html)
+"30"](mstkla.md#EXAMPLE) [![](../images/arrow3.gif)"30"
+"30"](utilities.md) [![](../images/arrow4.gif)"30"
+"30"](linking.md)
 
 /\*\
 ==========================================================================\
@@ -193,6 +193,6 @@ print info \*/***\
  
 
  [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#EXAMPLE) [![](../images/arrow3.gif)"30"
-height="30"](utilities.html) [![](../images/arrow4.gif)"30"
-height="30"](linking.html)
+"30"](mstkla.md#EXAMPLE) [![](../images/arrow3.gif)"30"
+"30"](utilities.md) [![](../images/arrow4.gif)"30"
+"30"](linking.md)

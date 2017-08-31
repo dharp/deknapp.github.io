@@ -53,7 +53,7 @@ title: 8
 > > region called mregion\_name.
 > >
 > > Any of the memory managed geometry arrays can be accessed using
-> > [mmfindbk,](memmang.html) for example:\
+> > [mmfindbk,](memmang.md) for example:\
 > >           character\*32 pointer (ipcsall, csall)\
 > >           call mmfindbk('csall', geom\_name,ipcsall,length,ierror)\
 > >           where geom\_name has been retrieved from the mesh object

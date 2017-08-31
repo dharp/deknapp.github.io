@@ -16,7 +16,7 @@ title: LANL  LaGriT
 
 
                Hybrid Examples                   
- width="160" height="1"            ---------------                   
+ "160" "1"            ---------------                   
 
                                     Click on picture to expand        
 
@@ -29,8 +29,8 @@ title: LANL  LaGriT
                                      5"                              
                                         25"                          
 
-                                     height="225"](images/hybrid_ex 
-                                    pa  height="225"](images/hybrid 
+                                     "225"](images/hybrid_ex 
+                                    pa  "225"](images/hybrid 
                                     1_exp                            
                                      nd.jpg)                         
                                         and.jpg)                     
@@ -38,7 +38,7 @@ title: LANL  LaGriT
 
 
 
-                                     [View input desk](hybrid1.html) 
+                                     [View input desk](hybrid1.md) 
 
 
                                     +-------------------------------- 
@@ -50,8 +50,8 @@ title: LANL  LaGriT
                                      225"                            
                                         "225"                        
 
-                                     height="225"](images/snapfile_ 
-                                    ex  height="225"](images/hex_ma 
+                                     "225"](images/snapfile_ 
+                                    ex  "225"](images/hex_ma 
                                     jit_e                            
                                      pand.jpg)                       
                                         xpand.jpg)                   
@@ -59,7 +59,7 @@ title: LANL  LaGriT
 
 
 
-                                     [View input desk](hybrid2.html) 
+                                     [View input desk](hybrid2.md) 
 
 
                                     +-------------------------------- 
@@ -68,7 +68,7 @@ title: LANL  LaGriT
 
                                     ![](http://www.lanl.gov/images/tr 
                                                  
-                                    width="420" height="1"           
+                                    "420" "1"           
 
 
 

@@ -7,9 +7,9 @@ title: '\*arguments:'
 >
 > > > The objective is to test the **rotatept** command.\
 > > >  \
-> > > [Example 1](description_rotatept.html)
+> > > [Example 1](description_rotatept.md)
 > > > [![](image/rotatept1_tn.gif)"112"
-> > > height="87"](description_rotatept.html)
+> > > "87"](description_rotatept.md)
 
 \
 \
@@ -17,4 +17,4 @@ title: '\*arguments:'
 \
 \
 
-[Next Demo](../../../demos/triangulate/html/main_tri1.html)
+[Next Demo](../../../demos/triangulate/md/main_tri1.md)

@@ -1,7 +1,7 @@
 ---
 Author: Jan Wills
 GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
-title: 'edges.html'
+title: 'edges.md'
 ---
 
  
@@ -17,7 +17,7 @@ title: 'edges.html'
 >
 >      For the edge between nodes 1 and 2, we have
 >
-> > ![](new_html/image5.jpg)"129" height="55"
+> > ![](new_md/image5.jpg)"129" "55"
 >
 >      Criteria:
 >
@@ -54,4 +54,4 @@ title: 'edges.html'
 > > a large but finite value of lambda/dx thus indicating a good
 > > discretization.
 > >
-> > > ![](new_html/image33.jpg)"167" height="55"
+> > > ![](new_md/image33.jpg)"167" "55"

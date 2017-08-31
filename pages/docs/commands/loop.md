@@ -91,4 +91,4 @@ EXAMPLES:
 >  \
 > Modify IO flags of three attributes in three different mesh objects.
 
-[](../demos/trans/test/html/main_trans.html)
+[](../demos/trans/test/md/main_trans.md)

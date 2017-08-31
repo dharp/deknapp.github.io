@@ -25,4 +25,4 @@ title: '\*arguments:'
 > Images of GMV output
 >
 > [![](image/image5tn.gif)"141"
-> height="166"](image/image5.gif)[image.gif](image/image5.gif)
+> "166"](image/image5.gif)[image.gif](image/image5.gif)

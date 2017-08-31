@@ -21,8 +21,8 @@ title: '\*arguments:'
 > Images of GMV output
 
   ------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------
-  [mesh1](image/addmesh_intersect/addmesh_mesh1.gif)[![](addmesh_mesh1_tn.gif)"120"   [mesh2](image/addmesh_intersect/addmesh_mesh2.gif)[![](addmesh_mesh2_tn.gif)"122"   [mesh3](image/addmesh_intersect/add_inter.gif)[![](add_inter_tn.gif)"151"
-  height="93"](image/addmesh_intersect/addmesh_mesh1.gif)\                                  height="102"](image/addmesh_intersect/addmesh_mesh2.gif)\                                 height="107"](image/addmesh_intersect/add_inter.gif)\
+  [mesh1](image/addmesh_intersect/addmesh_mesh1.gif)[![](addmesh_mesh1_tn.gif)""   [mesh2](image/addmesh_intersect/addmesh_mesh2.gif)[![](addmesh_mesh2_tn.gif)"122"   [mesh3](image/addmesh_intersect/add_inter.gif)[![](add_inter_tn.gif)"151"
+  "93"](image/addmesh_intersect/addmesh_mesh1.gif)\                                  "102"](image/addmesh_intersect/addmesh_mesh2.gif)\                                 "107"](image/addmesh_intersect/add_inter.gif)\
    \                                                                                          \                                                                                          \
    \                                                                                          \                                                                                          \
    \                                                                                          \                                                                                          \

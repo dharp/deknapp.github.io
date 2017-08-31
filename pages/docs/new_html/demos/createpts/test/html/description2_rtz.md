@@ -22,5 +22,5 @@ title: '\*arguments:'
 > Output Image
 >
 > > [![](image/image2tn.gif)"116"
-> > height="138"](image/image2.gif) [cylindrical
+> > "138"](image/image2.gif) [cylindrical
 > > grid](image/image2.gif)

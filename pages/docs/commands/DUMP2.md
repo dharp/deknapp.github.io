@@ -91,7 +91,7 @@ pri in CHAD format. Writes attributes imt and itp.
 
 Will output a single file with node list x,y,z values and element
 connectivity list in FEHM format. Files are written in FEHM format and
-are described [by clicking here for details.](dump/DUMP3.html)\
+are described [by clicking here for details.](dump/DUMP3.md)\
 The **coord** file is one of a set of files written when the **fehm**
 file type is called.\
 
@@ -140,7 +140,7 @@ file2 ... filen) the format of the file is written in AVS UCD cell
 attribute format. The first column is the global cell number, the second
 column is the local face number.\
 [Click here for more details on options and files that are
-written.](EXODUS.html)\
+written.](EXODUS.md)\
 
 \
 \
@@ -159,7 +159,7 @@ outside voronoi or median areas.\
 The stor file will be written in ASCII format with scalar coefficient
 values with compression of area coefficient list and indices.\
 [Click here for more details on the files and
-options.](dump/DUMP3.html) \
+options.](dump/DUMP3.md) \
 \
 The file\_name is used to form the names of the following 7 files:\
 
@@ -201,7 +201,7 @@ definitions and surface, names, types and definitions.\
 \
 
 Write a file to be read by the graphics program
-[GMV](http://laws.lanl.gov/XCM/gmv/GMVHome.html).  The defaults are
+[GMV](http://laws.lanl.gov/XCM/gmv/GMVHome.md).  The defaults are
 binary and current mesh object.  NOTE:  For LaGriT versions dated after
 October 1999, use    **cmo**/**setatt**//**ipolydat**/**no**   to reduce
 file size. This command will keep the polygon data from being written to
@@ -212,7 +212,7 @@ GMV files.\
 \
 
 Write a gocad TSURF file. See [GOCAD
-TSURF](http://www.connectflow.com/geovisage/User/Formats/GocadTsurf.html). \
+TSURF](http://www.connectflow.com/geovisage/User/Formats/GocadTsurf.md). \
 
 **dump / lagrit** /file\_name/\[cmo\_name\]/ \[**ascii**  **binary**[\]
 ]{style="font-family: monospace;"\
@@ -230,7 +230,7 @@ type is binary.\
 \
 
 This command writes the existing **colormap** to the specified file. 
-(See **[colormap](COLORMAP.html)** command)\
+(See **[colormap](COLORMAP.md)** command)\
 
 \
 **dump / stl** /file\_name\
@@ -262,8 +262,8 @@ algorithm and will result in larger files and may take longer to run.\
 The **stor** file is one of a set of files written when the **fehm**
 file type is called.\
 \
-[Click here for further explanation of options.](dump/DUMP3.html)\
-[Click here for the STOR file format.](../STOR_Form.html)\
+[Click here for further explanation of options.](dump/DUMP3.md)\
+[Click here for the STOR file format.](../STOR_Form.md)\
 \
 
 \
@@ -300,7 +300,7 @@ outside nodes can be created with the **keepatt\_voronoi** or
 \
 Files are written in FEHM format and are described in the
 [dump/fehm]{style="font-weight: bold;" command [by clicking here for
-details.](dump/DUMP3.html)\
+details.](dump/DUMP3.md)\
 \
 The file\_name is used to create names for the following 5 files:\
 [file\_name]{style="font-style: italic;"\_material.zone - node imt
@@ -327,13 +327,13 @@ imt\_value \]  \
 Will output only one file with name
 [file\_name]{style="font-style: italic;"\_material.zone. It is written
 in FEHM zone format and are described [by clicking here for
-details.](dump/DUMP3.html)\
+details.](dump/DUMP3.md)\
 file\_name\_**material**.**zone** is node list for each integer material
 (imt) value. If the optional fifth argument is specified as an integer,
 then a node list file is written only listing the nodes with the value
 specified by imt\_value.\
 ([For options to output PSET's as ZONE/ZONN files see:
-pset/zone](PSET.html))\
+pset/zone](PSET.md))\
 The **zone\_imt** file is one of a set of files written when the
 **fehm** file type is called.\
 
@@ -405,7 +405,7 @@ default and the minmax options for outside nodes.\
 These **zone\_outside** files are part of a set of files written when
 the **zone** or **fehm** file type is called. The fehm zone format and
 descriptions are  [in the **dump/fehm** command
-details.](dump/DUMP3.html)\
+details.](dump/DUMP3.md)\
 
 \
 \
@@ -473,7 +473,7 @@ face sets are imported from file1, file2, ..., filen.\
 \
 
 \
-[Click here for demos](../main_dump.html)
+[Click here for demos](../main_dump.md)
 
 \
 

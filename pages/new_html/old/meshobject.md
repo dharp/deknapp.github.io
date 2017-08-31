@@ -27,8 +27,8 @@ maintained by LaGriT; may be set and maintained by the user)\
 **mbndry** (integer -- value signifying that if the node number is
 greater that mbndry then the node is a boundary node) -- (default
 16000000) (must be greater than 48\*nnodes and may be reset by
-**[connect](CONNECT1.html)**) (for an example of usage see [Section
-III.d](meshobjcon.html#mbndry))\
+**[connect](CONNECT1.md)**) (for an example of usage see [Section
+III.d](meshobjcon.md#mbndry))\
 **ndimensions\_topo** (integer -- topological dimensionality,1, 2 or 3,
 i.e. a non-planar surface would have ndimensions\_topo = 2 and
 ndimensions\_geom = 3.)\
@@ -44,7 +44,7 @@ edges of the element, for 3D use the number of faces of the element.--(
 value dependent on type of mesh; e.g. for tetrahedral mesh the value
 will be 4))\
 **isetwd** (integer array containing pset membership information, see
-**[pset](PSET.html)** command definition)\
+**[pset](PSET.md)** command definition)\
 **ialias** (integer array of alternate node numbers, i.e. for merged
 points)\
 **imt1** (integer array of node material)\
@@ -93,7 +93,7 @@ is established by the **settets** command.\
 **xic**, **yic**, **zic** (real arrays of node coordinates)\
 **itetclr** (integer array of element material)\
 **itettyp** (element shape)  (for an example of usage see [Section
-III.d](meshobjcon.html#itettyp))
+III.d](meshobjcon.md#itettyp))
 
  
 
@@ -111,56 +111,56 @@ III.d](meshobjcon.html#itettyp))
   ifelmply   10      polygon
   ---------- ------- ----------------
 
-**[See supported element types.](supported.html)**
+**[See supported element types.](supported.md)**
 
 **xtetwd** (real array containing eltset membership information, see
 eltset command definition )\
 **itetoff** (index into itet array for an element)  (for an example of
-usage see [Section III.d](meshobjcon.html#itetoff))\
+usage see [Section III.d](meshobjcon.md#itetoff))\
 **jtetoff** (index into jtet array for an element)  (for an example of
-usage see [Section III.d](meshobjcon.html#jtetoff))\
+usage see [Section III.d](meshobjcon.md#jtetoff))\
 **itet** (integer array of node vertices for each element)  (for an
-example of usage see [Section III.d](meshobjcon.html#itet))\
+example of usage see [Section III.d](meshobjcon.md#itet))\
 **jtet** (integer array of element connectivity)  (for an example of
-usage see [Section III.d](meshobjcon.html#jtet))\
+usage see [Section III.d](meshobjcon.md#jtet))\
 **ipolydat** (character default **yes**) flag to
-**[dump/gmv](DUMP2.html)**to output polygon data\
+**[dump/gmv](DUMP2.md)**to output polygon data\
 **vor2d ** (character default **yes**) flag to
-**[dump/gmv](DUMP2.html)** to output voronoi cells and median mesh cells
+**[dump/gmv](DUMP2.md)** to output voronoi cells and median mesh cells
 for 2D meshes.\
-**vor3d ** (character default **no**) flag to **[dump/gmv](DUMP2.html)**
+**vor3d ** (character default **no**) flag to **[dump/gmv](DUMP2.md)**
 to output voronoi cells and median mesh cells for 3D meshes.\
 **epsilon** (real) value of machine epsilon which will be calculated by
 the code.\
 **epsilonl** (real) value of smallest edge that the code can distinguish
-will be set internally by the code (see [setsize](SETSIZE.html)).\
+will be set internally by the code (see [setsize](SETSIZE.md)).\
 **epsilona** (real) value of smallest area that the code can distinguish
 will be set internally by the code.\
 **epsilonv** (real) value of smallest volume that the code can
 distinguish will be set internally by the code.\
 **ipointi** (integer) node number of the first node of the last set of
-nodes generated, used by  the 0,0,0 **[pset](PSET.html)** syntax\
+nodes generated, used by  the 0,0,0 **[pset](PSET.md)** syntax\
 **ipointj**(integer) node number of the last node of the last set of
-nodes generated, used by  the 0,0,0 **[pset](PSET.html)** syntax\
+nodes generated, used by  the 0,0,0 **[pset](PSET.md)** syntax\
 **idebug** (integer) debug flag values greater than 0 produce increasing
 levels of output.\
 **itypconv\_sm** (integer)\
 **maxiter\_sm** (integer default 25) number of smoothing iterations in
-the [smooth](SMOOTH.html)and [radapt](RADAPT.html) routines.\
+the [smooth](SMOOTH.md)and [radapt](RADAPT.md) routines.\
 **tolconv\_sm** (real)\
 **nnfreq** (integer default 1) flag to control reconnection after
-[refine](REFINE.html) - set to zero to turn off reconnection.\
+[refine](REFINE.md) - set to zero to turn off reconnection.\
 **ivoronoi** (integer default 1) flag to control reconnection criterion
 :
 
 +1 means restore delaunay\
 -2 means improve geometric quality of the elements\
 +2 means adaptive reconnection with user supplied routine (see
-[recon)](RECON.html)\
+[recon)](RECON.md)\
 +5 means disable all reconnection
 
 **iopt2to2** (integer default 2) flag to contol boundary flips during
-reconnection (see [recon)](RECON.html):
+reconnection (see [recon)](RECON.md):
 
 0=exterior boundaries\
 1=interfaces\
@@ -173,32 +173,32 @@ reconnection (see [recon)](RECON.html):
 **presname** (character default pic) Name of pressure attribute.\
 **enername** (character default eic) Name of energy attribute.\
 **xmin** (real default 1) minimum x coordinate of nodes in mesh set by
-[setsize](SETSIZE.html))\
+[setsize](SETSIZE.md))\
 **xmax** (real default 1) maximum x coordinate of nodes in mesh set by
-[setsize](SETSIZE.html))\
+[setsize](SETSIZE.md))\
 **ymin** (real default 1) minimum y coordinate of nodes in mesh set
-by[setsize](SETSIZE.html))\
+by[setsize](SETSIZE.md))\
 **ymax** (real default 1) maximum y coordinate of nodes in mesh set by
-[setsize](SETSIZE.html))\
+[setsize](SETSIZE.md))\
 **zmin** (real default 1) minimum z coordinate of nodes in mesh set by
-[setsize](SETSIZE.html))\
+[setsize](SETSIZE.md))\
 **zmax** (real default 1) maximum z coordinate of nodes in mesh set by
-[setsize](SETSIZE.html))\
+[setsize](SETSIZE.md))\
 **kdtree\_level** (integer default 0) resolution level
-of[kdtree](kdtree.html)-- 0 means terminal nodes contain 1 member.\
+of[kdtree](kdtree.md)-- 0 means terminal nodes contain 1 member.\
 **max\_number\_of\_sets** (integer default 32) number
-of[pset](PSET.html)and [eltsets](ELTSET2.html) allowed - currently
+of[pset](PSET.md)and [eltsets](ELTSET2.md) allowed - currently
 restricted to 32.\
 **number\_of\_psets** (integer) number of defined psets in the mesh.\
 **number\_of\_eltsets** (integer) number of defined eltsets in the
 mesh.\
 **geom\_name** (character default -defaultgeom-) name of geometry
-associated with this mesh.  (see [geom)](cmo_geom.html)
+associated with this mesh.  (see [geom)](cmo_geom.md)
 
  
 
 The current state of a mesh object can be displayed by the
-[**cmo/status**](cmo_status.html)command\
+[**cmo/status**](cmo_status.md)command\
 Note: Many commands and the cmo\_get\_info subroutine accept **itp** as
 equivalent to **itp1; icr** to **icr1, isn** to **isn1**; **imt** to
 **imt**1. The user should never add an attribute whose name is
@@ -206,12 +206,12 @@ equivalent to **itp1; icr** to **icr1, isn** to **isn1**; **imt** to
  
 
 The default Mesh Object can be expanded by adding user defined
-attributes (see [**cmo**/**addatt**](cmo_addatt.html)).
+attributes (see [**cmo**/**addatt**](cmo_addatt.md)).
 
  
 
 The value of parameters can be changed by the cmo/setatt command.\
-(e.g. **[cmo/setatt/](cmo_setatt.html)**/epsilonl/1.d-9)
+(e.g. **[cmo/setatt/](cmo_setatt.md)**/epsilonl/1.d-9)
 
 LaGriT will add attributes to the mesh object in certain instances. For
 example, if there are any constrained surfaces, reflect, virtual or

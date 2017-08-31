@@ -170,7 +170,7 @@ Output ExodusII file using **facesets**:\
 The ExodusII file is written as a binary file and can be read by various
 visualization software such as GMV and Paraview. For documentation on
 the ExodusII API visit
-<http://gsjaardema.github.io/seacas/html/index.html>\
+<http://gsjaardema.github.io/seacas/md/index.md>\
 The mesh written to the ExodusII binary file with the following mesh
 object information. (The Exodus utility ncdump is used to convert the
 binary to ASCII file shown here).\

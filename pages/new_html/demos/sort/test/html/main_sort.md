@@ -7,6 +7,6 @@ title: '\*arguments:'
 >
 > > > The objective is to test the **sort** command.\
 > > >  \
-> > > [Example 1](description_sort.html)
+> > > [Example 1](description_sort.md)
 > > > [![](image/sort_tn.gif)"110"
-> > > height="86"](description_sort.html)
+> > > "86"](description_sort.md)

@@ -83,24 +83,24 @@ GENERATOR: 'Mozilla/4.7C-SGI \[en\] (X11; I; IRIX64 6.5 IP30) \[Netscape\]'
 TEST EXAMPLES:
 
 \
-Test file for sheetij: [LaGriT\_input00](new_html/lagrit_input00)\
-Test data for sheetij: [test\_data](new_html/test_data)
+Test file for sheetij: [LaGriT\_input00](new_md/lagrit_input00)\
+Test data for sheetij: [test\_data](new_md/test_data)
 
-![Quad sheet](new_html/image/zall_200w.GIF)"200" height="200"\
+![Quad sheet](new_md/image/zall_200w.GIF)"200" "200"\
 \* read ascii elevations into quad sheet\
 cmo create cmo1\
 read sheetij test\_data /5,4 /0.0,0.0 &\
 / 5.0,5.0 / ascii
 
-![Quad sheet with xflip](new_html/image/zall_xflip_200w.GIF)"200"
-height="200"\
+![Quad sheet with xflip](new_md/image/zall_xflip_200w.GIF)"200"
+"200"\
 \* read ascii elevations and flip x\
 cmo create cmo1\
 read sheetij test\_data /5,4 /0.0,0.0 &\
 / 5.0,5.0 / xflip, ascii
 
 ![Quad sheet with xy
-flip](new_html/image/zall_xyflip_200w.GIF)"200" height="200"\
+flip](new_md/image/zall_xyflip_200w.GIF)"200" "200"\
 \* read ascii elevations and flip xy\
 cmo create cmo1\
 read sheetij test\_data /5,4 /0.0,0.0 &\
@@ -111,15 +111,15 @@ Test file for binary sheetij: [lagrit\_input01](lagrit_input01)\
 Binary test file not included.
 
 ![Quad sheet from binary
-file](new_html/image/binsurf_200w.GIF)"200" height="200"\
+file](new_md/image/binsurf_200w.GIF)"200" "200"\
 \* read binary elevations\
 cmo create cmo1\
 read sheetij qbog50\_l.float /31,21 &\
 / 0.0, 0.0 / 50.0,50.0 / binary / float
 
 ![Quad sheet from binary
-file](new_html/image/view_binsurf_subset_200w.GIF)"200"
-height="200"\
+file](new_md/image/view_binsurf_subset_200w.GIF)"200"
+"200"\
 \* read binary elevations and subset along ij\
 cmo create cmo1a\
 read sheetij qbog50\_l.float /31,21/ 0. 0./ 50.0,50.0 &\

@@ -18,21 +18,21 @@ title: READ
 > > be used, but no guarantees are made about their capabilities. goCad
 > > format is supported only for reading TSURF files.\
 > >
-> > **[read/avs](../read_avs.html)**\
-> > **[read/LaGriT](../read_lagrit.html)**\
-> > **[read/gmv](../read_gmv.html)**\
-> > **[read/gocad](../read_gocad.html)**\
-> > **[read/iges\_grid](../read_iges_grid.html)**\
-> > **[read/ngp](../read_ngp.html)**\
-> > **[read/vrml](../read_vrml.html)**\
-> > **[read/datex](../read_datex.html)**\
-> > **[read sheetij](../read_sheetij.html)**\
-> > **[read/gmvfreeformat](../read_freeformat.html)**\
+> > **[read/avs](../read_avs.md)**\
+> > **[read/LaGriT](../read_lagrit.md)**\
+> > **[read/gmv](../read_gmv.md)**\
+> > **[read/gocad](../read_gocad.md)**\
+> > **[read/iges\_grid](../read_iges_grid.md)**\
+> > **[read/ngp](../read_ngp.md)**\
+> > **[read/vrml](../read_vrml.md)**\
+> > **[read/datex](../read_datex.md)**\
+> > **[read sheetij](../read_sheetij.md)**\
+> > **[read/gmvfreeformat](../read_freeformat.md)**\
 > > **[read/zonezonn\
-> > ](../read_fehm_zone.html)**
+> > ](../read_fehm_zone.md)**
 > >
 > > Note: To read tabular data (spreadsheet style x,y,z nodes or
-> > attributes) see: [cmo/readatt/...](cmo/cmo_readatt.html)
+> > attributes) see: [cmo/readatt/...](cmo/cmo_readatt.md)
 >
 > EXAMPLES:
 >
@@ -52,4 +52,4 @@ title: READ
 \
 \
 [\
-](../read_fehm_zone.html)
+](../read_fehm_zone.md)

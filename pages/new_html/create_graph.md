@@ -10,7 +10,7 @@ CREATE\_GRAPH
 > For details of METIS algorithms and descriptions of the third command
 > line argument see:\
 > [http://www-users.cs.umn.edu/\~karypis/metis](http://www-users.cs.umn.edu/~karypic/metis)\
-> See [METIS](metis.html)documentation for description of graph format.\
+> See [METIS](metis.md)documentation for description of graph format.\
 > The default name of the attributes that are created are different
 > depending on which option (metis or lagrit) is used.
 > create\_graph / metis / \[node  dual\] / \[nxadj\] / \[nadjncy\]\
@@ -31,7 +31,7 @@ LIMITATIONS
 > METIS. In order to utilize the METIS functions one must download the
 > METIS package, build the METIS libraries on your local system and link
 > them with the LAGriT libraries. See instructions in documentation of
-> the [metis](metis.html) command.
+> the [metis](metis.md) command.
 
 FORMAT:
 

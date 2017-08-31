@@ -51,7 +51,7 @@ title: 'PSET (Point Set)'
 > > **geom/rtp**/ forms a pset of nodes within the sphere, sperical
 > > shell or sperical section given by radius r1 to r2, and angles theta
 > > t1 to t2 and angles phi p1 to p2.  [See chapter II, A.
-> > Conventions](../conventions.html) for an explanation of angles theta
+> > Conventions](../conventions.md) for an explanation of angles theta
 > > and phi.\
 > > **region**/region name/ifirst,ilast,istride\
 > > **mregion**/mregion name/ifirst,ilast,istride will return all nodes
@@ -70,7 +70,7 @@ title: 'PSET (Point Set)'
 **constraints** forms a pset of nodes having the specified number of
 constraints.  The node's **icr** value is used as an index to the
 **icontab** attribute which gives the number of constraints.  [See
-chapter III, A](../meshobject.html) for an explanation of the
+chapter III, A](../meshobject.md) for an explanation of the
 **icontab** entries.
 
 FORMAT:
@@ -188,4 +188,4 @@ of surfaces s1 and s2 and give the name spseta to these nodes.\
 ( normally the set of nodes that lie on 3  constrained surfaces --
 surfaces of type **reflect** or **intrcons**)
 
-[Click here for demos](../demos/pset/html/main_pset.html)
+[Click here for demos](../demos/pset/md/main_pset.md)

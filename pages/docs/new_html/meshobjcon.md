@@ -17,7 +17,7 @@ specified in a well-defined order; hence when one references the 'second
 facet' of an element, one references a pre-defined set of points.
 Consider a tetrahedral element, with nodes labeled as in the diagram:
 
-![](Image232.gif)"196" height="188"
+![](Image232.gif)"196" "188"
 
  The points are oriented so that the triple product  I1I2 . I2I3 x I2I4 
 is positive, and the volume of the tet is one-sixth of the triple
@@ -43,7 +43,7 @@ local facets are defined as follows:
   ----- ---- ----
 
 > > Similarly, local facets and local edges are defined for all element
-> > types.  (see [supported element types](supported.html))
+> > types.  (see [supported element types](supported.md))
 
 > > > []{#itettyp**itettyp(it)** gives the element type of element
 > > > **it.**\

@@ -22,5 +22,5 @@ title: '\*arguments:'
 > Images of GMV output
 >
 >   [![](image/random_tn.gif)"114"
-> height="89"](image/random.gif) [randomized points](image/random.gif)
+> "89"](image/random.gif) [randomized points](image/random.gif)
 >

@@ -10,7 +10,7 @@ GENERATOR: 'Mozilla/4.7 \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
  
 
          **createpts/sphere**/8/5/162/1.0,0.5/0.,0.,0./1,0.,0.\
-              [description](description3a.html)\
+              [description](description3a.md)\
                [input](../input_output/lagrit_input3a)\
               [picture](../image/image3a.gif)
 

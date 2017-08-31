@@ -3,9 +3,9 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
 [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#typedefs) [![](../images/arrow3.gif)"30"
-height="30"](parent-child.html) [![](../images/arrow4.gif)"30"
-height="30"](Mesh.html)
+"30"](mstkla.md#typedefs) [![](../images/arrow3.gif)"30"
+"30"](parent-child.md) [![](../images/arrow4.gif)"30"
+"30"](Mesh.md)
 
 ------------------------------------------------------------------------
 
@@ -71,6 +71,6 @@ Geometric model entity types are:
  
 
  [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#typedefs) [![](../images/arrow3.gif)"30"
-height="30"](parent-child.html) [![](../images/arrow4.gif)"30"
-height="30"](Mesh.html)
+"30"](mstkla.md#typedefs) [![](../images/arrow3.gif)"30"
+"30"](parent-child.md) [![](../images/arrow4.gif)"30"
+"30"](Mesh.md)

@@ -16,7 +16,7 @@ title: LANL  LaGriT
 
 
                Pictures Created by Tinka Gammel  
- width="160" height="1"            --------------------------------  
+ "160" "1"            --------------------------------  
 
                                     +-------------------------------- 
                                     ---+----------------------------- 
@@ -27,7 +27,7 @@ title: LANL  LaGriT
                                      ="225"                          
                                         a  short metallic line used  
                                     in                               
-                                     height="175"                   
+                                     "175"                   
                                         the gradient-weighted finite 
 
 
@@ -63,7 +63,7 @@ title: LANL  LaGriT
                                      h="225"                         
                                         curvature grain boundary mot 
                                     ion.                             
-                                     height="175"                   
+                                     "175"                   
 
 
                                      b                               
@@ -78,7 +78,7 @@ title: LANL  LaGriT
                                      h="225"                         
                                         orientation dependent grain  
 
-                                     height="175"                   
+                                     "175"                   
                                         boundary energy is used. Not 
                                     e                                
                                      c                               
@@ -100,7 +100,7 @@ title: LANL  LaGriT
                                         curvature motion (grains mee 
                                     ting                             
 
-                                        at triple lines with 120 deg 
+                                        at triple lines with  deg 
                                     ree                              
 
                                         angles, etc), whereasthe     
@@ -129,7 +129,7 @@ title: LANL  LaGriT
                                      ="225"                          
                                         grain boundary energy betwee 
                                     n                                
-                                     height="175"                   
+                                     "175"                   
                                         grains 3 and 4 of Figure 1.  
                                     The                              
 
@@ -207,7 +207,7 @@ title: LANL  LaGriT
 
                                     ![](http://www.lanl.gov/images/tr 
                                                  
-                                    width="420" height="1"           
+                                    "420" "1"           
 
 
 

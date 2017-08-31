@@ -7,14 +7,14 @@ Generator: Microsoft Word 98
 
 > **3. Define interior interfaces**
 
-Interfaces are defined with the **[surface](commands/SURFACE.html)**
+Interfaces are defined with the **[surface](commands/SURFACE.md)**
 command. In this case the boundary type is **intrface**. If the command
 defines a volume (e.g. box, cylinder) then the interface is the surface
 of the volume defined. If the command defines a plane or sheet then the
 interface is the plane or sheet. It is important to remember that planes
 are infinite and that the order of points specifying the plane
 determines a normal to the plane in the usual right-hand-rule sense
-([see Section II.a.9](conventions.html)). This direction is important in
+([see Section II.a.9](conventions.md)). This direction is important in
 determining regions. In order to divide the unit cube defined above in
 half vertically, define a plane by:
 
@@ -22,7 +22,7 @@ half vertically, define a plane by:
 
 The normal to this plane points in the positive z direction.
 
-![](new_html/Image222.gif)"326" height="249"
+![](new_md/Image222.gif)"326" "249"
 
 Interfaces must not be coincident with reflective boundaries. For
 example to embed a rectangle inside a cube, it is necessary to extend
@@ -33,5 +33,5 @@ and interface surfaces:
 
 **surface**/rect **/intrface/box**/-0.1,0.5,0.2/1.1,0.6,0.5/
 
-![](new_html/Image223.gif)"273" height="272"\
+![](new_md/Image223.gif)"273" "272"\
  \

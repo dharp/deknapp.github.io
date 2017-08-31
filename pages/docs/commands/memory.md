@@ -21,7 +21,7 @@ real blocks(real is implemented as real\*8). Each memory block is
 preceeded by a header and terminated by a trailer. Different platforms
 will have different values for integer and real word lengths. LaGriT
 developers read more on LaGriT memory management at **[Memory
-Manager](../memmang.html)**\
+Manager](../memmang.md)**\
 \
 \
 The following memory keywords are recognized:\

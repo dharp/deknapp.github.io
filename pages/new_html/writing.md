@@ -32,7 +32,7 @@ elseif (cmsgin(1).eq. 'my\_comnd')
 
   x           call my\_routine(nwds,imsgin,xmsgin,cmsgin,msgtyp,ierr1)\
 The subroutine my\_routine should set ierr1 to zero if the command is
-processed successfully and should use the [cmo](meshob.html) interface
+processed successfully and should use the [cmo](meshob.md) interface
 routines to access the components of the Mesh Object that it needs, for
 example:
 

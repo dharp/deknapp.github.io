@@ -75,7 +75,7 @@ EXAMPLES:
 \
 LINKS:
 
-> [Click here for demos](demos/hextotet/test/html/main_hextet.html)
+> [Click here for demos](demos/hextotet/test/md/main_hextet.md)
 
 \
 \

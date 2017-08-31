@@ -3,9 +3,9 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
 [![](../images/arrow2.gif)"30"
-height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MSTKLA_Init) [![](../images/arrow3.gif)"30"
-height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/prelim.html) [![](../images/arrow4.gif)"30"
-height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.html)
+"30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.md#MSTKLA_Init) [![](../images/arrow3.gif)"30"
+"30"](http://www.ees.lanl.gov/staff/rao/mstkla/prelim.md) [![](../images/arrow4.gif)"30"
+"30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.md)
 
 ------------------------------------------------------------------------
 
@@ -62,7 +62,7 @@ the default mesh object. If not the given cmo is made is active and the
 mesh object is\
 initialized from that.
 
-![](../images/note1.gif)"31" height="32"This implies that
+![](../images/note1.gif)"31" "32"This implies that
 sometime in the middle of a LaGriT subroutine, one can call a C routine
 which initializes a mesh object and then uses the functionality of
 MSTKLA!! (Cool!)
@@ -80,7 +80,7 @@ Make a particular mesh object active
 
 Delete a particular mesh object.
 
-![](../images/note1.gif)"31" height="32"\*\* NOT YET IMPLEMENTED
+![](../images/note1.gif)"31" "32"\*\* NOT YET IMPLEMENTED
 \*\* WILL BE IN SOON
 
 ------------------------------------------------------------------------
@@ -88,14 +88,14 @@ Delete a particular mesh object.
 *void* **MESH\_WriteToFile**(*PMeshObj* mesh, *char* \*filename, *char*
 \*format, *int* iotype);
 
-![](../images/note1.gif)"31" height="32"\*\* NOT YET IMPLEMENTED
+![](../images/note1.gif)"31" "32"\*\* NOT YET IMPLEMENTED
 \*\* WILL BE IN SOON \*\*
 
 ------------------------------------------------------------------------
 
 *PMeshObj* **MESH\_Duplicate**(*PMeshObj* mesh);
 
-![](../images/note1.gif)"31" height="32"\*\* NOT YET IMPLEMENTED
+![](../images/note1.gif)"31" "32"\*\* NOT YET IMPLEMENTED
 \*\*
 
 ------------------------------------------------------------------------
@@ -104,7 +104,7 @@ Delete a particular mesh object.
 
 Number of vertices (nodes) in the mesh.
 
-![](../images/bullet12.gif)"27" height="31"\*\*\* IMPORTANT
+![](../images/bullet12.gif)"27" "31"\*\*\* IMPORTANT
 \*\*\*\
 This count may include deleted vertices, parent vertices and other\
 types of vertices that should be ignored. So when looping through\
@@ -117,7 +117,7 @@ by checking if MV\_Type returns VIGNORE or VDELETED.
 
 Number of regions (elements) in the mesh.
 
-![](../images/bullet12.gif)"27" height="31"\*\*\* IMPORTANT
+![](../images/bullet12.gif)"27" "31"\*\*\* IMPORTANT
 \*\*\*\
 This count may include deleted regions. While looping through the\
 regions of a mesh, one should check if the region is to be ignored\
@@ -166,7 +166,7 @@ information is not needed and call this routine automatically.
 
 Increment all the node lists.
 
-![](../images/note1.gif)"31" height="32"(\*\* NOT FULLY TESTED
+![](../images/note1.gif)"31" "32"(\*\* NOT FULLY TESTED
 \*\*)
 
 ------------------------------------------------------------------------
@@ -176,7 +176,7 @@ Increment all the node lists.
 
 Increment all the element lists.
 
-![](../images/note1.gif)"31" height="32"(\*\* NOT FULLY TESTED
+![](../images/note1.gif)"31" "32"(\*\* NOT FULLY TESTED
 \*\*)
 
 ------------------------------------------------------------------------
@@ -186,10 +186,10 @@ Increment all the element lists.
 
 Compress all the element lists.
 
-![](../images/note1.gif)"31" height="32"\*\*\* NOT YET
+![](../images/note1.gif)"31" "32"\*\*\* NOT YET
 IMPLEMENTED \*\*\*
 
-![](../images/bullet12.gif)"27" height="31"\*\*\* IMPORTANT !!!
+![](../images/bullet12.gif)"27" "31"\*\*\* IMPORTANT !!!
 \*\*\*
 
 There is one side effect of compression of lists. If one is storing a\
@@ -205,7 +205,7 @@ think they are.
 
 Compress all the element lists.  \*\*\* NOT YET IMPLEMENTED \*\*\*
 
-![](../images/bullet12.gif)"27" height="31"\*\*\* IMPORTANT !!!
+![](../images/bullet12.gif)"27" "31"\*\*\* IMPORTANT !!!
 \*\*\*
 
 There is one side effect of compression of lists. If one is storing a\
@@ -217,6 +217,6 @@ elements you think they are.\
  
 
 [![](../images/arrow2.gif)"30"
-height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MSTKLA_Init) [![](../images/arrow3.gif)"30"
-height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/prelim.html) [![](../images/arrow4.gif)"30"
-height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.html)
+"30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.md#MSTKLA_Init) [![](../images/arrow3.gif)"30"
+"30"](http://www.ees.lanl.gov/staff/rao/mstkla/prelim.md) [![](../images/arrow4.gif)"30"
+"30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.md)

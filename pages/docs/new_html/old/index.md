@@ -20,19 +20,19 @@ title: LaGriT CodeLaGriT Manual
 
 ------------------------------------------------------------------------
 
-> ![](bl_pin.gif)"21" height="21"**[LaGriT
-> Pictures](picturesweek.html)**
+> ![](bl_pin.gif)"21" "21"**[LaGriT
+> Pictures](picturesweek.md)**
 
-> ![](bl_pin.gif)"21" height="21"**[What is
-> LaGriT?](whatisx3d.html)**
+> ![](bl_pin.gif)"21" "21"**[What is
+> LaGriT?](whatisx3d.md)**
 >
-> ![](bl_pin.gif)"21" height="21"**[Features](LaGriT-vg1.htm)**
+> ![](bl_pin.gif)"21" "21"**[Features](LaGriT-vg1.htm)**
 >
-> ![](bl_pin.gif)"21" height="21"**User's Guide and Release
+> ![](bl_pin.gif)"21" "21"**User's Guide and Release
 > Notes**\
 >  
 >
-> **[On-Line-Manual](new_html/Document2.html)**
+> **[On-Line-Manual](new_md/Document2.md)**
 >
 > **[Release Notes October 1999 (PDF)](release_notes7.doc.pdf)**
 >
@@ -53,50 +53,50 @@ title: LaGriT CodeLaGriT Manual
 > **[Release Notes Fall 2003(PDF)](release_notes12.pdf)**
 >
 > \
-> ![](bl_pin.gif)"21" height="21"**[LaGriT Development
-> Team](x3d_team.html)**
+> ![](bl_pin.gif)"21" "21"**[LaGriT Development
+> Team](x3d_team.md)**
 >
 > ![](bl_pin.gif)"21"
-> height="21"**[Publications](publication.html)**
+> "21"**[Publications](publication.md)**
 >
-> ![](bl_pin.gif)"21" height="21"**[LaGriT Fact
+> ![](bl_pin.gif)"21" "21"**[LaGriT Fact
 > Sheet](lagrit.pdf)**
 >
-> ![](bl_pin.gif)"21" height="21"**LaGriT Graphics Examples**
+> ![](bl_pin.gif)"21" "21"**LaGriT Graphics Examples**
 >
-> **[Grid examples](examples.html)**
+> **[Grid examples](examples.md)**
 >
 > **[Download sample decks  ](examples.tar)(click on right mouse button
 > to download**
 >
-> ![](bl_pin.gif)"21" height="21"**Application Areas that use
+> ![](bl_pin.gif)"21" "21"**Application Areas that use
 > LaGriT**
 >
 > > **[ER, NTS, YMP(Yucca
 > > Mountain)](http://www.ees.lanl.gov/EES5/geomesh/catalogue)**\
 > > **[Grain Growth in Materials Microstructure
-> > Evolution](http://www.t12.lanl.gov/home/grain3d/index.html)**
+> > Evolution](http://www.t12.lanl.gov/home/grain3d/index.md)**
 >
 > \
-> ![](bl_pin.gif)"21" height="21"**[GMV General Mesh
-> Viewer](http://laws.lanl.gov/XCM/gmv/GMVHome.html) (A 3-D
+> ![](bl_pin.gif)"21" "21"**[GMV General Mesh
+> Viewer](http://laws.lanl.gov/XCM/gmv/GMVHome.md) (A 3-D
 > visualization tool designed to view simulation data from any type of
 > structured or unstructured mesh).**\
 >  
 >
-> ![](bl_pin.gif)"21" height="21"**[MSTKLA - Mesh ToolKit
+> ![](bl_pin.gif)"21" "21"**[MSTKLA - Mesh ToolKit
 > interface to LaGriT](http://www.ees.lanl.gov/staff/rao/mstkla/)**
 >
 > ![](bl_pin.gif)"21"
-> height="21"**[LASETUP](x3dsetup/x3dsetup.html) (A GUI for generating
+> "21"**[LASETUP](x3dsetup/x3dsetup.md) (A GUI for generating
 > geometries, i.e. surface, region and mregion commands)**
 >
-> ![](bl_pin.gif)"21" height="21"**[Team
-> Only](closed/teamonly.html)**
+> ![](bl_pin.gif)"21" "21"**[Team
+> Only](closed/teamonly.md)**
 >
-> ![](bl_pin.gif)"21" height="21"**[LaGriT Licensing,
+> ![](bl_pin.gif)"21" "21"**[LaGriT Licensing,
 > Distribution, and
-> Installation](http://ees-www.lanl.gov/EES5/geomesh/lic_agreement/lic_instructions.html)
+> Installation](http://ees-www.lanl.gov/EES5/geomesh/lic_agreement/lic_instructions.md)
 > (available in USA only to SRC member companies, member universities
 > and  internal Laboratory employees who are working on projects that
 > will utilize LaGriT.)**\
@@ -109,7 +109,7 @@ title: LaGriT CodeLaGriT Manual
 > ***NOTICE: Information from this server resides on a computer system
 > funded by the U.S.Department of Energy. Anyone using this system
 > consents to monitoring of this use by system or security personnel.
-> For [conditions of use see.](conditions_of_use.html)***
+> For [conditions of use see.](conditions_of_use.md)***
 >
 > ------------------------------------------------------------------------
 >
@@ -120,5 +120,5 @@ title: LaGriT CodeLaGriT Manual
 > Energy](http://www.energy.gov)**\
 > **          [Los Alamos National
 > Laboratory](http://www.lanl.gov/worldview) [Copyright © UC
-> 1999](http://www.lanl.gov/Misc/copyright.html)
-> [Disclaimer](http://www.lanl.gov/Misc/disclaimer.html)**
+> 1999](http://www.lanl.gov/Misc/copyright.md)
+> [Disclaimer](http://www.lanl.gov/Misc/disclaimer.md)**

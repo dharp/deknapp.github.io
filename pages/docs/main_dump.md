@@ -8,6 +8,6 @@ title: '\*arguments:'
 > > > The objective is to test the **dump** command for various file
 > > > format options.\
 > > >  \
-> > > [Example 1](description_dump.html)
+> > > [Example 1](description_dump.md)
 > > > [![](../images/output_tn.gif)"114"
-> > > height="89"](description_dump.html)
+> > > "89"](description_dump.md)

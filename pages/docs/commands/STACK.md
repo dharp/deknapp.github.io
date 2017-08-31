@@ -182,6 +182,6 @@ EXAMPLES:
 \
 LINKS:
 
-> [Simple Examples for stack](../stack_demo.html)\
+> [Simple Examples for stack](../stack_demo.md)\
 > \
-> [Advanced Examples for stack](../stack_demo2.html)
+> [Advanced Examples for stack](../stack_demo2.md)

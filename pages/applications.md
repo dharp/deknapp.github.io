@@ -12,12 +12,12 @@ description:
 title: LANL  LaGriT 
 ---
 
-![](images/lagrit2.jpg)"180" height="120"
+"" ""
 LaGriT Applications
 -------------------
 
 \
-Visit [meshing.lanl.gov](http://meshing.lanl.gov/proj/index.shtml) for
+Visit [meshing.lanl.gov](http://meshing.lanl.gov/proj/index.smd) for
 exmaples of Mesh applications in Geological Applications: Porous Flow,
 Hydrology, CO2, oil and gas, Crustal Deformation, Hydrothermal Systems,
 and more. The following are graphics and software output formats used
@@ -30,9 +30,9 @@ with LaGriT and may be obtained from their respective sources.
 -   [AVS](http://www.avs.com) (commercial)
 -   [ParaView (free)](http://www.paraview.org)
 -   [GMV (General Mesh
-    Viewer)](http://www.generalmeshviewer.com/GMVHome.html)\
+    Viewer)](http://www.generalmeshviewer.com/GMVHome.md)\
 -   [Tecplot](http://www.tecplot.com) (commercial)
--   [VISIT](https://computing.llnl.gov/vis/visit.shtml) (free)
+-   [VISIT](https://computing.llnl.gov/vis/visit.smd) (free)
 
 \
 \
@@ -40,7 +40,7 @@ with LaGriT and may be obtained from their respective sources.
 
 -   [GRIDDER - a simple grid generation tool for creating orthogonal
     quadralateral and hexahedral
-    grids.](https://meshing.lanl.gov/gridder/gridder.html)\
+    grids.](https://meshing.lanl.gov/gridder/gridder.md)\
 
             GRIDDER open source LA-CC-15-082
             https://github.com/lanl/gridder
@@ -48,13 +48,13 @@ with LaGriT and may be obtained from their respective sources.
     \
 
 -   [MSTKLA - Mesh ToolKit using the functionality of
-    LaGriT](mstkla/index.html)\
+    LaGriT](mstkla/index.md)\
 
             MSTK open source LA-CC-04-010
             https://github.com/MeshToolkit/MSTK
 
 -   [LASETUP - interface for generating and viewing LaGriT
-    geometries.](lasetup.shtml)\
+    geometries.](lasetup.smd)\
 
 \
 \
@@ -76,5 +76,5 @@ Trademark is owned by the University of California\
 NOTICE: Information from this server resides on a computer system funded
 by the U.S.Department of Energy. Anyone using this system consents to
 monitoring of this use by system or security personnel. See [conditions
-of use.](http://www.lanl.gov/copyright.shtml)*
+of use.](http://www.lanl.gov/copyright.smd)*
 

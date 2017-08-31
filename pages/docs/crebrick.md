@@ -12,5 +12,5 @@ Examples of:   
 > **createpts/brick/xyz**/5,3,4/0,0,0/1,1,1/1,1,1/1,0,0/1.5,1.1\
 > Distribute points using the xyz coordinate system using coordinates as
 > end points.  Ratio zoning in x-direction.\
->       [description and input](crebrickdes1.html)\
->      [picture](brickpic1.html)
+>       [description and input](crebrickdes1.md)\
+>      [picture](brickpic1.md)

@@ -20,7 +20,7 @@ title: COMPUTE
 > > node based floating point attribute,\
 > > distance\_field\_attribute in mo\_sink. The computation is
 > > accelerated by using the
-> > [kdtree](kdtree.html "KDTREE search algorighm") search\
+> > [kdtree](kdtree.md "KDTREE search algorighm") search\
 > > algorithm.\
 > > \
 > > signed\_distance\_field - keyword for signed distance field
@@ -29,7 +29,7 @@ title: COMPUTE
 > > result in the node based floating        \
 > > point attribute, distance\_field\_attribute in mo\_sink. The
 > > computation is accelerated by using the      \
-> > [kdtree](kdtree.html "KDTREE search algorighm") search algorithm.
+> > [kdtree](kdtree.md "KDTREE search algorighm") search algorithm.
 > > Using this option the mo\_source MUST be either a triangle or quad
 > > surface        \
 > > mesh object. If the surfaces form a topologically closed volume then
@@ -37,7 +37,7 @@ title: COMPUTE
 > > direction of the surface normal vector. Negative is 'below' the
 > > surface. If the surface is not a closed        \
 > > volume, then the assumptions described in the
-> > [surface](SURFACE.html) command are used to determine what is above
+> > [surface](SURFACE.md) command are used to determine what is above
 > >    \
 > > and what is below the surface.\
 > >
@@ -89,13 +89,13 @@ title: COMPUTE
 > > surface and main meshes.\
 > >
 > > Other places to look for modules that compute some standard mesh
-> > attributes include, [quality](QUALITY.html "Mesh Quality"), which
+> > attributes include, [quality](QUALITY.md "Mesh Quality"), which
 > > will\
 > > compute aspect ratio and volume,
-> > [cmo/addatt](cmo/cmo_addatt.html "Add Attribute"), which will
+> > [cmo/addatt](cmo/cmo_addatt.md "Add Attribute"), which will
 > > compute normal vectors, dihedral angles, solid\
 > > angles, meadian points, Voronoi points and more. User functions can
-> > be computed with the [math](MATH.html "Math Functions") module.
+> > be computed with the [math](MATH.md "Math Functions") module.
 >
 > **FORMAT**:\
 >    
@@ -123,7 +123,7 @@ title: COMPUTE
 >  <div align="left">                                                    
 >                                                                        
 >  ![Example: distance\_field](../distance_field_01.png)"300"     
->  height="300"                                                         
+>  "300"                                                         
 >                                                                        
 >                                                                  
 > +-----------------------------------------------------------------------+
@@ -149,10 +149,10 @@ title: COMPUTE
 >  ![signed distance                      *                             
 >  field](../../images/distance_fiel      * Create some of the necessar 
 >  d_02.png)"300"              y parts                           
->  height="300"\                         *                             
+>  "300"\                         *                             
 >                                         cmo / create / mo_tet         
 >                                         createpts/random/rtp/.1/1,0,0 
->                                     /1,180,360////.02                 
+>                                     /1,,360////.02                 
 >                                         connect                       
 >                                         resetpts / itp                
 >                                         *                             

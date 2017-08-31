@@ -9,7 +9,7 @@ title: 3
 > **getptyp(**point\_type\_name,point\_type,ierror)
 >
 > > This routine converts point type names to point types.\
-> > [See III.a](meshobject.html)for a list of point types, names and
+> > [See III.a](meshobject.md)for a list of point types, names and
 > > meanings\
 > > point\_type\_name            name of point type (character\*32)\
 > > point\_type                       value of point type (integer)
@@ -20,7 +20,7 @@ title: 3
 > > corresponding to each child point i, if point i is a child point.
 > > Ordinary points are their own parents.  The first three arguments
 > > are usually mesh object attributes described in [Section
-> > III.a](meshobject.html)\
+> > III.a](meshobject.md)\
 > > npoints                        input number of nodes (integer)\
 > > itp1                             input array of point types (integer
 > > array)\
@@ -34,7 +34,7 @@ title: 3
 > This routine sets, or's in, or and's in (depending on iopt2) a 1 in
 > the array pointed to by ipitp2 for each point that fits the criterion
 > specified by ioptitp. ioptitp uses the point types as defined in
-> [Section III.a ](meshobject.html)  and ipitp1is the pointer to the
+> [Section III.a ](meshobject.md)  and ipitp1is the pointer to the
 > integer array of point types.\
 > A zero is set, or'd or and'd otherwise.
 >

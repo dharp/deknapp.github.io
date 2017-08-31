@@ -9,8 +9,8 @@ title: Semiconductor
 
 
 
-![](http://www.lanl.gov/images/xtr width="160"
-height="1"
+![](http://www.lanl.gov/images/xtr "160"
+"1"
 \*input.hybrid\
 \* this deck will create a hybrid grid using addmesh\
 \* create tet grid first\
@@ -97,12 +97,12 @@ finish
 
  
 
-![](http://www.lanl.gov/images/xtr width="420"
-height="1"
+![](http://www.lanl.gov/images/xtr "420"
+"1"
 
-[Return to LaGriT Home Page](index.shtml)
+[Return to LaGriT Home Page](index.smd)
 
-![](http://www.lanl.gov/images/xtr width="160"
-height="1"
+![](http://www.lanl.gov/images/xtr "160"
+"1"
 
 

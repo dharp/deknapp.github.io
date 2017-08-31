@@ -14,20 +14,20 @@ title: LANL  LaGriT
 
 
 
-![](images/lagrit2.jpg)"180" height="120"
+"" ""
 Release Notes
 -------------
 
 -   [Release Notes 2009 to
-    Current](release_notes/lagrit_release_notes_V3.200.html)
+    Current](release_notes/lagrit_release_notes_V3.200.md)
 -   [Release Notes LaGriT V3.100 November
-    2012](release_notes/lagrit_release_notes_V3.100.html)
+    2012](release_notes/lagrit_release_notes_V3.100.md)
 -   [Release Notes LaGriT V3.000 August
-    2011](release_notes/lagrit_release_notes_V3.00.html)
+    2011](release_notes/lagrit_release_notes_V3.00.md)
 -   [Release Notes LaGriT V2.100
-    07/08/2009](release_notes/lagrit_release_notes_090708.html)
+    07/08/2009](release_notes/lagrit_release_notes_090708.md)
 -   [Release Notes LaGriT V2.004
-    10/21/2008](release_notes/lagrit_release_notes_081021.html)
+    10/21/2008](release_notes/lagrit_release_notes_081021.md)
 -   [Release Notes Winter 2005(PDF)](pdfs/release_notes15.pdf)
 -   [Release Notes Fall 2005(PDF)](pdfs/release_notes14.pdf)
 -   [Release Notes Summer 2004(PDF)](pdfs/release_notes13.pdf)

@@ -9,12 +9,12 @@ title: Semiconductor
 
 
 
-![](http://www.lanl.gov/images/xtr width="160"
-height="1"
+![](http://www.lanl.gov/images/xtr "160"
+"1"
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
 \* Read avs files\
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
-cmo/create/exterior/60/120/3/2/3/3/3/\
+cmo/create/exterior/60//3/2/3/3/3/\
 read/avs/exterior.avs/exterior/1/1/0/\
 \*\
 cmo/create/sigas/500/500/3/2/3/3/3/\
@@ -72,12 +72,12 @@ finish
 
  
 
-![](http://www.lanl.gov/images/xtr width="420"
-height="1"
+![](http://www.lanl.gov/images/xtr "420"
+"1"
 
-[Return to LaGriT Home Page](index.shtml)
+[Return to LaGriT Home Page](index.smd)
 
-![](http://www.lanl.gov/images/xtr width="160"
-height="1"
+![](http://www.lanl.gov/images/xtr "160"
+"1"
 
 

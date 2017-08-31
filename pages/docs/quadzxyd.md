@@ -14,8 +14,8 @@ GENERATOR: 'Mozilla/4.7 \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 >          /1.0 2. 10.0 /0. 2. 10.0 /\
 > Define an arbitrary, logical hexahedron of points in xz plane.
 >
-> >        [description](quadxyzdes1.html)\
-> >        [input](quadxyzin1.html)\
+> >        [description](quadxyzdes1.md)\
+> >        [input](quadxyzin1.md)\
 > >        [picture](quadxyz1.gif)
 >
 > **quadxyz**/5 25 7/ 0. 0. 0. /1. 0. 0. /1. .0 10. /0. .0 10. /0. 2.0
@@ -24,6 +24,6 @@ GENERATOR: 'Mozilla/4.7 \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 > Define an arbitrary, logical hexahedron of points in xy plane\
 >  
 >
-> >      [description](quadxyzdes2.html)\
-> >       [input](quadxyzin2.html)\
+> >      [description](quadxyzdes2.md)\
+> >       [input](quadxyzin2.md)\
 > >       [picture](quadxyz2.gif)

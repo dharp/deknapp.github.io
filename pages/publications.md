@@ -14,7 +14,7 @@ title: LANL  LaGriT
 
 
 
-![](images/lagrit2.jpg)"180" height="120"
+"" ""
 LaGriT Related Publications
 ---------------------------
 
@@ -58,8 +58,8 @@ Zhang,Y, Person, M, Rupp, J, Ellett, K, Celia, MA, Gable, CW, Bowen, B,
 Evans, J, Bandilla, K, Mozley, P, Dewers, T, Elliot, T, [Hydrogeologic
 Controls on Induced Seismicity in Crystalline Basement Rocks Due to
 Fluid Injection into Basal Reservoirs,
-Groundwater](http://onlinelibrary.wiley.com/doi/10.1111/gwat.12071/full),
-Vol 51, Iss. 4, 525538, July/August 2013, DOI: 10.1111/gwat.12071.
+Groundwater](http://onlinelibrary.wiley.com/doi/10.1111/gwat.71/full),
+Vol 51, Iss. 4, 525538, July/August 2013, DOI: 10.1111/gwat.71.
 
 **Year 2012:**
 
@@ -72,8 +72,8 @@ DOI:10.1007/s10596-012-9307-1.
 Person, M, Hofstra, A, Sweetkind, D, Stone, W, Cohen, D, Gable, C,
 Banerjee, A, [Analytical and numerical models of hydrothermal fluid flow
 at fault
-intersections](http://onlinelibrary.wiley.com/doi/10.1111/gfl.12002/full),
-Geofluids, Vol 12, iss. 4, 312-326, 2012, DOI:10.1111/gfl.12002.
+intersections](http://onlinelibrary.wiley.com/doi/10.1111/gfl.02/full),
+Geofluids, Vol 12, iss. 4, 312-326, 2012, DOI:10.1111/gfl.02.
 
 Person, M, Butler, D, Gable, CW, Villamil, T, Wavrek, D, Schelling, D,
 Hydrodynamic stagnation zones: A new play concept for the Llanos Basin,
@@ -182,7 +182,7 @@ stratigraphy](./pdfs/2008_j_hydrology_zhang_gable.pdf "View abstract and other d
 
 Zhang, Y ; Person, M ; Gable, CW, [Representative hydraulic conductivity
 of hydrogeologic units: Insights from an experimental
-stratigraphy](https://oppie.lanl.gov/oppie/service?url_ver=Z39.88-2004&rft_id=info:lanl-repo/oppie&svc_val_fmt=http://oppie.lanl.gov/openurl/oppie.html&svc_id=info:lanl-repo/svc/oppie/full-rec&svc.oparam1=info:lanl-repo/isi/000247151900006&svc.oparam2=info:lanl-repo/svc/getDIDL&svc.oparam3=%28%22gable%20cw%22%29%20AND%20pubDate:2007&svc.oparam4=0&svc.oparam5=1&svc.oparam6=score%20desc&svc.oparam7=LANL&svc.oparam8=&svc.oparam9= "View abstract and other details"){.strong
+stratigraphy](https://oppie.lanl.gov/oppie/service?url_ver=Z39.88-2004&rft_id=info:lanl-repo/oppie&svc_val_fmt=http://oppie.lanl.gov/openurl/oppie.md&svc_id=info:lanl-repo/svc/oppie/full-rec&svc.oparam1=info:lanl-repo/isi/000247151900006&svc.oparam2=info:lanl-repo/svc/getDIDL&svc.oparam3=%28%22gable%20cw%22%29%20AND%20pubDate:2007&svc.oparam4=0&svc.oparam5=1&svc.oparam6=score%20desc&svc.oparam7=LANL&svc.oparam8=&svc.oparam9= "View abstract and other details"){.strong
 , JOURNAL OF HYDROLOGY (JUN 10 2007) Vol.339, iss.1-2, p.65-78
 
 **Year 2005:**
@@ -274,7 +274,7 @@ Conserving Smoothing for Piecewise Linear Curves, Surfaces and Triple
 Lines](pdfs/volume_kuprat.pdf)", LA-UR-00-5004, October 2000.
 
 Michael Murphy, David M. Mount, [Carl
-Gable](http://ees-www.lanl.gov/EES5/bio_ees5/Gable.html)  "[A
+Gable](http://ees-www.lanl.gov/EES5/bio_ees5/Gable.md)  "[A
 Point-Placement Strategy for Conforming Delaunay
 Tetahedralization](pdfs/conformingDT.pdf)" LA-UR 99-3868. 11th Annual
 SIAM-ACM Symposium on Discrete Algorithms (SODA 2000) January, 2000 San
@@ -314,7 +314,7 @@ Computational Field Simulations, M. Cross  (ed.), International Society
 of Grid Generation  (ISBN 0-9651627), pp. 589-598, May 1998.
 
 Michael Murphy, Carl W. Gable, "[Strategies for Nonobtuse Boundary
-Delaunay Triangulations](http://citeseer.ist.psu.edu/321240.html)",
+Delaunay Triangulations](http://citeseer.ist.psu.edu/321240.md)",
 Transactions, 7th International Meshing Roundtable '98, Dearborn
 Michigan, 309-320, 1998, LAUR-98-3949.
 
@@ -355,7 +355,7 @@ Illinois, October 20-22, 1997
 
 Carl W. Gable, Harold Trease and Terry Cherry, "[Automated Grid
 Generation From Models of Complex Geologic Structure and
-Stratigraphy](http://ees5-www.lanl.gov/EES5/Publications/GridGeneration.html),"
+Stratigraphy](http://ees5-www.lanl.gov/EES5/Publications/GridGeneration.md),"
 Santa Barbara: National Center for Geographic Information and Analysis,
 proceedings paper LA-UR-96-1083, 1996.
 

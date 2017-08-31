@@ -7,6 +7,6 @@ title: '\*arguments:'
 >
 > > > The objective is to test the **quality** command.\
 > > >  \
-> > > [Example 1](description_qual.html)
+> > > [Example 1](description_qual.md)
 > > > [![](image/qual1_tn.gif)"114"
-> > > height="89"](description_qual.html)
+> > > "89"](description_qual.md)

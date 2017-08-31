@@ -3,9 +3,9 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
  [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#parent-child) [![](../images/arrow3.gif)"30"
-height="30"](mstkla.html) [![](../images/arrow4.gif)"30"
-height="30"](prelim.html) 
+"30"](mstkla.md#parent-child) [![](../images/arrow3.gif)"30"
+"30"](mstkla.md) [![](../images/arrow4.gif)"30"
+"30"](prelim.md) 
 
 ------------------------------------------------------------------------
 
@@ -43,6 +43,6 @@ return child nodes. *Lastly, if the entity is not on an interface, it is
 its own parent or its own child.*
 
 [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#parent-child) [![](../images/arrow3.gif)"30"
-height="30"](mstkla.html) [![](../images/arrow4.gif)"30"
-height="30"](prelim.html)
+"30"](mstkla.md#parent-child) [![](../images/arrow3.gif)"30"
+"30"](mstkla.md) [![](../images/arrow4.gif)"30"
+"30"](prelim.md)

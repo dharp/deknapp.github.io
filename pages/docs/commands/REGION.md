@@ -42,7 +42,7 @@ title: REGION
 > > > input stream takes precedence.
 > > > Defining a  region will cause the information associated with this
 > > > material region to be stored under the name of the
-> > > [geometry](../geometries.html)of the current mesh object. 
+> > > [geometry](../geometries.md)of the current mesh object. 
 > > > Releasing the  region will remove this information.
 >
 > FORMAT:

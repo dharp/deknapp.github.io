@@ -14,7 +14,7 @@ title: LANL  LaGriT
 
 
 
-![](images/lagrit2.jpg)"180" height="120"
+"" ""
 X3dsetup Requirements
 ---------------------
 
@@ -58,7 +58,7 @@ include files:
 
 If you don't have OpenGL and are the adventurous type, you can get and
 compile [Brian Paul's Mesa
-library](http://www.ssec.wisc.edu/~billh/bp/Mesa30.html), to which you
+library](http://www.ssec.wisc.edu/~billh/bp/Mesa30.md), to which you
 can link rather than to OpenGL.
 
 Since Mesa doesn't support hardware even if it's on your machine, the

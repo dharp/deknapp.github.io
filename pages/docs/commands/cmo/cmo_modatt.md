@@ -43,7 +43,7 @@ GENERATOR: 'Mozilla/4.75 \[en\] (X11; U; IRIX 6.5 IP32) \[Netscape\]'
 
   **linear** -          Linear interpolation  - this is the default
 
-   **user** -           User provides a subroutine named user\_interpolate ([see IV. e.8](../../miscell.html))
+   **user** -           User provides a subroutine named user\_interpolate ([see IV. e.8](../../miscell.md))
 
   **log** -             Logarithmic interpolation
 

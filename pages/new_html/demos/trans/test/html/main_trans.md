@@ -7,6 +7,6 @@ title: '\*arguments:'
 >
 > > > The objective is to test the **trans** command.\
 > > >  \
-> > > [Example 1](description_trans.html)
+> > > [Example 1](description_trans.md)
 > > > [![](image/trans2_tn.gif)"114"
-> > > height="89"](description_trans.html)
+> > > "89"](description_trans.md)

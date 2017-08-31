@@ -18,16 +18,16 @@ title: READ
 > > be used, but no guarantees are made about their capabilities. GoCad
 > > format is supported only for reading TSURF files.\
 > >
-> > **[read/avs](read_avs.html)**\
-> > **[read/lagrit](read_lagrit.html)**\
-> > **[read/gmv](read_gmv.html)**\
-> > **[read/gocad](read_gocad.html)**\
-> > **[read/iges\_grid](read_iges_grid.html)**\
-> > **[read/ngp](read_ngp.html)**\
-> > **[read/vrml](read_vrml.html)**\
-> > **[read/datex](read_datex.html)**\
-> > **[read sheetij](read_sheetij.html)**\
-> > **[read/gmvfreeformat](read_freeformat.html)**
+> > **[read/avs](read_avs.md)**\
+> > **[read/lagrit](read_lagrit.md)**\
+> > **[read/gmv](read_gmv.md)**\
+> > **[read/gocad](read_gocad.md)**\
+> > **[read/iges\_grid](read_iges_grid.md)**\
+> > **[read/ngp](read_ngp.md)**\
+> > **[read/vrml](read_vrml.md)**\
+> > **[read/datex](read_datex.md)**\
+> > **[read sheetij](read_sheetij.md)**\
+> > **[read/gmvfreeformat](read_freeformat.md)**
 >
 > EXAMPLE:
 >

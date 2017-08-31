@@ -22,7 +22,7 @@ title: '\*arguments:'
 >  
 >
 >   ------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
->   [![](image/output_nodes_tn.gif)"114" height="89"](image/output_nodes.gif) [input nodes](image/output_nodes.gif)   [![](image/output_connect_tn.gif)"114" height="89"](image/output_connect.gif) [output mesh](image/output_connect.gif)
+>   [![](image/output_nodes_tn.gif)"114" "89"](image/output_nodes.gif) [input nodes](image/output_nodes.gif)   [![](image/output_connect_tn.gif)"114" "89"](image/output_connect.gif) [output mesh](image/output_connect.gif)
 >   ------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
 >
 >

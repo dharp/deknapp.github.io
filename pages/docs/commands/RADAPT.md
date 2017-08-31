@@ -134,8 +134,8 @@ title: RADAPT
 >
 > > To demonstrate adaptive smoothing using **mega**, examples are
 > > available which use the files
-> > [fadpt\_boron.f](../../new_html/fadpt_boron.f),[input.boron.3dtet](../../new_html/input.boron.3dtet),[input.boron.3dhex](../../new_html/input.boron.3dhex),[fadpt\_gyro.f](../../new_html/fadpt_gyro.f),
-> > [input.gyro.3dtet](../../new_html/input.gyro.3dtet),[input.gyro.3dhex](../../new_html/input.gyro.3dhex).
+> > [fadpt\_boron.f](../../new_md/fadpt_boron.f),[input.boron.3dtet](../../new_md/input.boron.3dtet),[input.boron.3dhex](../../new_md/input.boron.3dhex),[fadpt\_gyro.f](../../new_md/fadpt_gyro.f),
+> > [input.gyro.3dtet](../../new_md/input.gyro.3dtet),[input.gyro.3dhex](../../new_md/input.gyro.3dhex).
 
 > > 1\. Boron density function fadpt\_boron.f. Load the file fadpt\_boron.f
 > > ahead of the **LaGriT** libraries; this will cause the default fadpt

@@ -1,19 +1,19 @@
 import os, sys, re
 
-def filter_file(infile_name):
+def filter_file(infile_name, no_list):
     outfile_name = infile_name[:-3] + '_temp.md'
     with open(infile_name, 'r') as infile, open(outfile_name, 'w') as outfile:
 	data = infile.read()
-    #    data = re.sub(r'\{*?\}', '', data)
-        data = data.replace('ansparent.gif){.strut','')
+        for no in no_list:
+            data = data.replace('html','md')
         outfile.write(data)
 
 dr = '/home/nknapp/deknapp.github.io/pages/'
-
+no_list = ["![](images/lagrit2.jpg)", "180", "=120", "120"]
 for root, drs, fles in os.walk(dr):
     for fle in fles:
         if ".md" in fle and "temp" not in fle:
-            filter_file(os.path.join(root, fle))
+            filter_file(os.path.join(root, fle), no_list)
 
 for root, drs, fles in os.walk(dr):
     for fle in fles:

@@ -14,7 +14,7 @@ title: LANL  LaGriT
 
 
 
-![](images/lagrit2.jpg)"180" height="120"
+"" ""
 LaGriT Code Development Team
 ----------------------------
 

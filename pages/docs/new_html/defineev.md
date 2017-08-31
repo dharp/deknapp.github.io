@@ -7,7 +7,7 @@ Generator: Microsoft Word 98
 
 > **2. Define an enclosing volume**
 
-Define an enclosing volume using the[**surface**](SURFACE.html) command.
+Define an enclosing volume using the[**surface**](SURFACE.md) command.
 Since we are defining an exterior boundary, the boundary type is
 **reflect**. The next item of information needed is the geometry of the
 volume; some common geometry types are **box**, **cylinder**,
@@ -24,7 +24,7 @@ enclosing volumes are:
 
 **surface**/cube/**reflect**/**box**/0.0,0.0,0.0/1.0,1.0,1.0/
 
-![](Image219.gif)"237" height="211"
+![](Image219.gif)"237" "211"
 
 \* cylinder whose axis is the x axis with radius 1 and height 1
 
@@ -34,5 +34,5 @@ enclosing volumes are:
 
 **surface/end2/reflect/plane**/1.,0.,0./1.,0.,1./1.,1.,1./
 
-![](Image220.gif)"225" height="177"![](Image221.gif)"238"
-height="247"
+![](Image220.gif)"225" "177"![](Image221.gif)"238"
+"247"

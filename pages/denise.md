@@ -16,14 +16,14 @@ title: LANL  LaGriT
 
 
                Pictures Created By Denise George 
- width="160" height="1"            --------------------------------- 
+ "160" "1"            --------------------------------- 
 
                                     ![](images/nist.jpg)"495"  
-                                    height="385"                     
+                                    "385"                     
 
                                     ![](http://www.lanl.gov/images/tr 
                                                  
-                                    width="420" height="1"           
+                                    "420" "1"           
 
 
 

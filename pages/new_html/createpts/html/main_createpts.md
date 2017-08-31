@@ -23,7 +23,7 @@ title: '\*arguments:'
 > >  
 > >
 > >   ------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------
-> >   [example 1](description1.html)   rectangular[![](image/image1tn.gif)"112" height="87"](description1.html)   [example 2](description2.html)   cylindrical[![](image/image2tn.gif)"116" height="138"](description2.html)   [example 3](description3.html)  spherical\
-> >                                                                                                                                                                                                                                            [![](image/image3tn.gif)"159" height="156"](description3.html)
+> >   [example 1](description1.md)   rectangular[![](image/image1tn.gif)"112" "87"](description1.md)   [example 2](description2.md)   cylindrical[![](image/image2tn.gif)"116" "138"](description2.md)   [example 3](description3.md)  spherical\
+> >                                                                                                                                                                                                                                            [![](image/image3tn.gif)"159" "156"](description3.md)
 > >   ------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------
 > >

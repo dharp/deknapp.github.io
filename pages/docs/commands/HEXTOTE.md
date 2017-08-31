@@ -10,7 +10,7 @@ HEXTOTET
 --------
 
             IMPORTANT NOTE: This command, while still recognized, is
-officially unsupported. Please see [grid2grid](GRID2GRID.html) instead.\
+officially unsupported. Please see [grid2grid](GRID2GRID.md) instead.\
 \
 
 > The **hextotet** command creates a tetrahedral grid from 3D grids. In
@@ -79,7 +79,7 @@ EXAMPLES:
 \
 LINKS:
 
-> [Click here for demos](../demos/hextotet/test/html/main_hextet.html)
+> [Click here for demos](../demos/hextotet/test/md/main_hextet.md)
 
 \
 \

@@ -11,6 +11,6 @@ title: '\*arguments:'
 > > mesh that  satisfies the Delaunay criterion using the **connect**
 > > command.\
 > >  \
-> > [example 1](description1.html)   Yucca Mountain\
+> > [example 1](description1.md)   Yucca Mountain\
 > > [![](image/2d_connect1b_tn.gif)"114"
-> > height="89"](description1.html)
+> > "89"](description1.md)

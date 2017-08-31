@@ -4,7 +4,7 @@ title: MSTKLA Online Manual
 ---
 
 ![](../images/construction24.gif)"249"
-height="87"![](../images/construc6.gif)"248" height="166"
+"87"![](../images/construc6.gif)"248" "166"
 
 ------------------------------------------------------------------------
 
@@ -17,26 +17,26 @@ height="87"![](../images/construc6.gif)"248" height="166"
 **DIRECT LINKS**
 
 [![](../images/model.gif)"142"
-height="24"](Geom.html) [![](../images/mesh.gif)"143"
-height="26"](Mesh.html) [![](../images/utilities.gif)"143"
-height="25"](utilities.html) [![](../images/attributes.gif)"145"
-height="26"](MeshAttributes.html)
+"24"](Geom.md) [![](../images/mesh.gif)"143"
+"26"](Mesh.md) [![](../images/utilities.gif)"143"
+"25"](utilities.md) [![](../images/attributes.gif)"145"
+"26"](MeshAttributes.md)
 
 [![](../images/modelenty.gif)"144"
-height="24"](GeomEntity.html) [![](../images/modelregn.gif)"141"
-height="25"](GeomRegion.html) [![](../images/modelface.gif)"143"
-height="26"](GeomFace.html) [![](../images/modeledge.gif)"143"
-height="25"](GeomEdge.html) [![](../images/modelvert.gif)"142"
-height="24"](GeomVertex.html)
+"24"](GeomEntity.md) [![](../images/modelregn.gif)"141"
+"25"](GeomRegion.md) [![](../images/modelface.gif)"143"
+"26"](GeomFace.md) [![](../images/modeledge.gif)"143"
+"25"](GeomEdge.md) [![](../images/modelvert.gif)"142"
+"24"](GeomVertex.md)
 
 [![](../images/genregn.gif)"145"
-height="25"](GenRegion.html) [![](../images/meshregn.gif)"143"
-height="25"](MeshRegion.html) [![](../images/meshface.gif)"143"
-height="26"](MeshFace.html) [![](../images/meshedge.gif)"143"
-height="25"](MeshEdge.html) [![](../images/meshvert.gif)"143"
-height="25"](MeshVertex.html)
+"25"](GenRegion.md) [![](../images/meshregn.gif)"143"
+"25"](MeshRegion.md) [![](../images/meshface.gif)"143"
+"26"](MeshFace.md) [![](../images/meshedge.gif)"143"
+"25"](MeshEdge.md) [![](../images/meshvert.gif)"143"
+"25"](MeshVertex.md)
 
-[![](../images/trivia.gif)"144" height="25"](trivia.html)
+[![](../images/trivia.gif)"144" "25"](trivia.md)
 
 ------------------------------------------------------------------------
 
@@ -91,7 +91,7 @@ Classification information can be queried from MSTKLA if it is
 available. In particular, in LaGriT, only ***external faces*** (what
 LaGriT calls ***"reflective" boundaries***) and ***internal faces or
 interfaces*** created with the option ***"intrcons"*** in the
-***[surface](http://www.t12.lanl.gov/~lagrit/new_html/SURFACE.html)***
+***[surface](http://www.t12.lanl.gov/~lagrit/new_md/SURFACE.md)***
 command have the information required to retrieve full classification
 information. Full classification information includes the ***type*** of
 geometric model entity the mesh entity is classified on, the ***ID of
@@ -121,14 +121,14 @@ guarantee it.\
  
 
 []{#parent-childAlso see **[Parent-Child Node (Vertex)
-Issues](http://www.ees.lanl.gov/staff/rao/mstkla/parent-child.html)**\
+Issues](http://www.ees.lanl.gov/staff/rao/mstkla/parent-child.md)**\
 
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
 \
-[]{#typedefs[TYPEDEFS](http://www.ees.lanl.gov/staff/rao/mstkla/prelim.html) 
+[]{#typedefs[TYPEDEFS](http://www.ees.lanl.gov/staff/rao/mstkla/prelim.md) 
 
 ------------------------------------------------------------------------
 
@@ -155,22 +155,22 @@ Initialize the mesh toolkit.
 **MESH OPERATORS:**\
  \
  []{#MESH OBJECT:[MESH
-OBJECT:](http://www.ees.lanl.gov/staff/rao/mstkla/Mesh.html)
+OBJECT:](http://www.ees.lanl.gov/staff/rao/mstkla/Mesh.md)
 
  []{#MESH REGION:[MESH
-REGION:](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.html)
+REGION:](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.md)
 
  []{#MESH FACE:[MESH
-FACE:](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.html)
+FACE:](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.md)
 
  []{#MESH EDGE:[MESH
-EDGE:](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.html)
+EDGE:](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.md)
 
  []{#MESH VERTEX:[MESH
-VERTEX:](http://www.ees.lanl.gov/staff/rao/mstkla/MeshVertex.html)\
+VERTEX:](http://www.ees.lanl.gov/staff/rao/mstkla/MeshVertex.md)\
  \
  []{#GENERIC MESH REGION QUERIES:[GENERIC MESH REGION
-QUERIES:](http://www.ees.lanl.gov/staff/rao/mstkla/GenRegion.html)\
+QUERIES:](http://www.ees.lanl.gov/staff/rao/mstkla/GenRegion.md)\
 
 ------------------------------------------------------------------------
 
@@ -191,22 +191,22 @@ Initialize the geometric model interface.
 **MODEL OPERATORS:**
 
  []{#GEOMETRIC MODEL:[GEOMETRIC
-MODEL:](http://www.ees.lanl.gov/staff/rao/mstkla/Geom.html)
+MODEL:](http://www.ees.lanl.gov/staff/rao/mstkla/Geom.md)
 
  []{#MODEL ENTITY:[MODEL
-ENTITY:](http://www.ees.lanl.gov/staff/rao/mstkla/GeomEntity.html)
+ENTITY:](http://www.ees.lanl.gov/staff/rao/mstkla/GeomEntity.md)
 
  []{#MODEL REGION:[MODEL
-REGION:](http://www.ees.lanl.gov/staff/rao/mstkla/GeomRegion.html)
+REGION:](http://www.ees.lanl.gov/staff/rao/mstkla/GeomRegion.md)
 
  []{#MODEL FACE:[MODEL
-FACE:](http://www.ees.lanl.gov/staff/rao/mstkla/GeomFace.html)
+FACE:](http://www.ees.lanl.gov/staff/rao/mstkla/GeomFace.md)
 
  []{#MODEL EDGE:[MODEL
-EDGE:](http://www.ees.lanl.gov/staff/rao/mstkla/GeomEdge.html)
+EDGE:](http://www.ees.lanl.gov/staff/rao/mstkla/GeomEdge.md)
 
  []{#MODEL VERTEX[MODEL
-VERTEX](http://www.ees.lanl.gov/staff/rao/mstkla/GeomVertex.html)
+VERTEX](http://www.ees.lanl.gov/staff/rao/mstkla/GeomVertex.md)
 ---&gt; Not implemented fully\
  
 
@@ -217,14 +217,14 @@ VERTEX](http://www.ees.lanl.gov/staff/rao/mstkla/GeomVertex.html)
 ------------------------------------------------------------------------
 
 \
-[]{#UTILITIES:**[UTILITIES:](http://www.ees.lanl.gov/staff/rao/mstkla/utilities.html)**
+[]{#UTILITIES:**[UTILITIES:](http://www.ees.lanl.gov/staff/rao/mstkla/utilities.md)**
 
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
 []{#EXAMPLE**[EXAMPLE OF PROGRAMMING WITH
-MSTKLA](http://www.ees.lanl.gov/staff/rao/mstkla/example.html)**\
+MSTKLA](http://www.ees.lanl.gov/staff/rao/mstkla/example.md)**\
  
 
 ------------------------------------------------------------------------
@@ -232,4 +232,4 @@ MSTKLA](http://www.ees.lanl.gov/staff/rao/mstkla/example.html)**\
 ------------------------------------------------------------------------
 
 []{#EXECUTABLE**[LIBRARIES, INCLUDE FILES AND CREATING AN
-EXECUTABLE](http://www.ees.lanl.gov/staff/rao/mstkla/linking.html)**
+EXECUTABLE](http://www.ees.lanl.gov/staff/rao/mstkla/linking.md)**

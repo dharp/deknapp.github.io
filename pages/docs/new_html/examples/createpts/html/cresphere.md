@@ -43,4 +43,4 @@ FORMAT:
 **rzs/**itype/nr,npt,xirad,xorad/xcen,ycen,zcen/iz/irat,rz/\
  
 
-[EXAMPLES:](/usr/people/janw/lagrit_test_case/createpts/test/html/example3.html)
+[EXAMPLES:](/usr/people/janw/lagrit_test_case/createpts/test/md/example3.md)

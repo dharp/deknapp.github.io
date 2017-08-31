@@ -9,6 +9,6 @@ title: '\*arguments:'
 > > mesh that  satisfies the Delaunay criterion using the **connect**
 > > command.\
 > >  \
-> > [Example 1](description_2dconn.html)\
+> > [Example 1](description_2dconn.md)\
 > > [![](image/2d_connect2_tn.gif)"114"
-> > height="89"](description_2dconn.html)
+> > "89"](description_2dconn.md)

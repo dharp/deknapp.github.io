@@ -3,9 +3,9 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
 [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#MESH%20VERTEX:) [![](../images/arrow3.gif)"30"
-height="30"](MeshEdge.html) [![](../images/arrow4.gif)"30"
-height="30"](GenRegion.html)
+"30"](mstkla.md#MESH%20VERTEX:) [![](../images/arrow3.gif)"30"
+"30"](MeshEdge.md) [![](../images/arrow4.gif)"30"
+"30"](GenRegion.md)
 
  
 
@@ -30,7 +30,7 @@ one\
 includes "*mstkla.h*". The specific names (which are pretty much the
 strings\
 that are used in LaGriT) are given in *mstkla\_types.h* (See [MSTKLA
-typedefs](prelim.html))
+typedefs](prelim.md))
 
 'persist' must be 0 for temporary atts and 1 for permanent attribs
 
@@ -97,12 +97,12 @@ For example one can use **MR\_GetAttVal** operator to get the value of
 an\
 attribute for a given element or use **MR\_SetAttVal** to set it.
 
-See attribute operators for[Mesh Vertices](MeshVertex.html#MV-Attribs),
-[Mesh Regions](MeshRegion.html#MR-Attribs) and [Mesh
-Faces](MeshFace.html#MF-Attribs)\
+See attribute operators for[Mesh Vertices](MeshVertex.md#MV-Attribs),
+[Mesh Regions](MeshRegion.md#MR-Attribs) and [Mesh
+Faces](MeshFace.md#MF-Attribs)\
  
 
 [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#MESH%20VERTEX:) [![](../images/arrow3.gif)"30"
-height="30"](MeshEdge.html) [![](../images/arrow4.gif)"30"
-height="30"](GenRegion.html)
+"30"](mstkla.md#MESH%20VERTEX:) [![](../images/arrow3.gif)"30"
+"30"](MeshEdge.md) [![](../images/arrow4.gif)"30"
+"30"](GenRegion.md)

@@ -3,9 +3,9 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
 [![](../images/arrow2.gif)"30"
-height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20FACE:) [![](../images/arrow3.gif)"30"
-height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.html) [![](../images/arrow4.gif)"30"
-height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.html)
+"30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.md#MESH%20FACE:) [![](../images/arrow3.gif)"30"
+"30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.md) [![](../images/arrow4.gif)"30"
+"30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.md)
 
 ------------------------------------------------------------------------
 
@@ -26,7 +26,7 @@ operator.
 
 *int* **MF\_Number**(*PMeshObj* mesh, *PMeshFace* f);
 
-![](../images/note1.gif)"31" height="32"\*\* This will return 0
+![](../images/note1.gif)"31" "32"\*\* This will return 0
 for now since I haven't yet decided on a good\
 \*\* way to assign a unique number to the (virtual) faces of the mesh.
 
@@ -38,7 +38,7 @@ Free the data structure associated with this face created on the fly.\
 (There is an operator for creation but I cannot yet imagine needing to\
 make that a publicly available operator).
 
-![](../images/bullet12.gif)"27" height="31"\*\* IMPORTANT \*\*\
+![](../images/bullet12.gif)"27" "31"\*\* IMPORTANT \*\*\
 MF\_Delete will not remove any connections in the mesh. It just\
 destroys the temporary data structure used to store the face info
 
@@ -61,7 +61,7 @@ The parents of all vertices of the face are obtained and a new\
 *void* **MF\_Children**(*PMeshObj* mesh, *PMeshFace* pf, *int* \*nfc,
 *PMeshFace* \*\*fc);
 
-![](../images/note1.gif)"31" height="32"\*\*\* NOT YET
+![](../images/note1.gif)"31" "32"\*\*\* NOT YET
 IMPLEMENTED \*\*\*
 
 Child vertices of the face are found and appropriate combinations of
@@ -109,7 +109,7 @@ child vertices. If a vertex is not on an non-manifold boundary\
 *PMeshVert* **MF\_VerticesOrd**(*PMeshObj* mesh, *PMeshFace* f, *int*
 \*nfv, *PMeshVert*ex \*\*fverts);
 
-![](../images/note1.gif)"31" height="32"\*\* NOT YET IMPLEMENTED
+![](../images/note1.gif)"31" "32"\*\* NOT YET IMPLEMENTED
 \*\*
 
 Return the vertices of the mesh face. The vertices are ordered such\
@@ -145,7 +145,7 @@ face will return a region only on its side of the interface. If a\
 "child" face constructed from interior nodes and child nodes on an\
 interface, both regions connected to it are returned.
 
-![](../images/bullet12.gif)"27" height="31"\*\* IMPORTANT \*\*
+![](../images/bullet12.gif)"27" "31"\*\* IMPORTANT \*\*
 
 Since MESH\_BldUpAdj builds explicit upward adjacency information, this\
 routine does not require a seed region to be provided.
@@ -173,7 +173,7 @@ filled on succesful completion. Arrays are returned in pval, integer in\
 ival and real number in rval (I don't think lagrit supports character\
 attributes)
 
-![](../images/bullet12.gif)"27" height="31" Will only work for
+![](../images/bullet12.gif)"27" "31" Will only work for
 surface meshes
 
 ------------------------------------------------------------------------
@@ -191,10 +191,10 @@ for\
 now.....
 
  \
-![](../images/bullet12.gif)"27" height="31" Will only work for
+![](../images/bullet12.gif)"27" "31" Will only work for
 surface meshes
 
 [![](../images/arrow2.gif)"30"
-height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20FACE:) [![](../images/arrow3.gif)"30"
-height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.html) [![](../images/arrow4.gif)"30"
-height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.html)
+"30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.md#MESH%20FACE:) [![](../images/arrow3.gif)"30"
+"30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.md) [![](../images/arrow4.gif)"30"
+"30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.md)

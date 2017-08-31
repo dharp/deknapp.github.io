@@ -5,32 +5,32 @@ GENERATOR: 'Mozilla/4.7C-SGI \[en\] (X11; I; IRIX64 6.5 IP30) \[Netscape\]'
 
  LaGriT Pictures
 
-> > > ![](bl_pin.gif)"21" height="21"[Mesh for scanning
+> > > ![](bl_pin.gif)"21" "21"[Mesh for scanning
 > > > microscopy
-> > > simulation](http://www.t12.lanl.gov/~lagrit/denise.html)
+> > > simulation](http://www.t12.lanl.gov/~lagrit/denise.md)
 > > >
-> > > ![](bl_pin.gif)"21" height="21"[Tetrahedral LaGriT
-> > > mesh](tinka's.html)
+> > > ![](bl_pin.gif)"21" "21"[Tetrahedral LaGriT
+> > > mesh](tinka's.md)
 > > >
-> > > ![](bl_pin.gif)"21" height="21"[Finite Element
-> > > Calculation](pictures.html)
+> > > ![](bl_pin.gif)"21" "21"[Finite Element
+> > > Calculation](pictures.md)
 > > >
-> > > ![](bl_pin.gif)"21" height="21"[Laplacian
-> > > smoothing](tee.html)
+> > > ![](bl_pin.gif)"21" "21"[Laplacian
+> > > smoothing](tee.md)
 > > >
-> > > ![](bl_pin.gif)"21" height="21"[Biological
+> > > ![](bl_pin.gif)"21" "21"[Biological
 > > > Structures](biology.pdf)
 > > >
-> > > ![](bl_pin.gif)"21" height="21"Movie - Grain growth in
+> > > ![](bl_pin.gif)"21" "21"Movie - Grain growth in
 > > > large cube [gif animation (5MB)](99.gif)
 > > >
-> > > ![](bl_pin.gif)"21" height="21"Movie - Grain growth with
+> > > ![](bl_pin.gif)"21" "21"Movie - Grain growth with
 > > > temperature-dependent mobility [gif animation (5MB)](tmap-a.gif)
 > > >
-> > > ![](bl_pin.gif)"21" height="21"Movie - Grain growth in
+> > > ![](bl_pin.gif)"21" "21"Movie - Grain growth in
 > > > line to bamboo [gif animation (1.5MB)](tmap.gif)
 > > >
-> > > ![](bl_pin.gif)"21" height="21"Movie - GMMFE (Graph
+> > > ![](bl_pin.gif)"21" "21"Movie - GMMFE (Graph
 > > > Massage w/ Moving Finite Elements)\
 > > >       Shallow Water Equations -- Evolving Adaptive Grid\
 > > >     [gif animation (4MB)](vertgridshort_swe_10-3.gif)\
@@ -40,7 +40,7 @@ GENERATOR: 'Mozilla/4.7C-SGI \[en\] (X11; I; IRIX64 6.5 IP30) \[Netscape\]'
 > > >      Shallow Water Equations -- Alternate view of water height\
 > > >     [gif animation (3MB)](backsideshort_swe_10-3.gif)
 > > >
-> > > ![](bl_pin.gif)"21" height="21"Movie - GMMFE (Graph
+> > > ![](bl_pin.gif)"21" "21"Movie - GMMFE (Graph
 > > > Massage w/ Moving Finite Elements)\
 > > >       Rotating Hump -- Evolving Adaptive Grid\
 > > >     [gif animation (6MB)](vertgrid_rotation_10-4.gif) [gif
@@ -49,7 +49,7 @@ GENERATOR: 'Mozilla/4.7C-SGI \[en\] (X11; I; IRIX64 6.5 IP30) \[Netscape\]'
 > > >     [gif animation (3MB)](side_rotation_10-4.gif)  [gif animation
 > > > (0.3 MB)](sideshort_rotation_10-4.gif)
 > > >
-> > > ![](bl_pin.gif)"21" height="21"Movie - Graph Massage for
+> > > ![](bl_pin.gif)"21" "21"Movie - Graph Massage for
 > > > the shear flow (x,y)'=(-xy,0).\
 > > >       Evolving Triangular Grid with Graph Massage\
 > > >     [gif animation (6MB)](gmtri_shear.gif) [gif animation (0.6
@@ -61,7 +61,7 @@ GENERATOR: 'Mozilla/4.7C-SGI \[en\] (X11; I; IRIX64 6.5 IP30) \[Netscape\]'
 > > >     [gif animation (3MB)](nogmquad_shear.gif)  [gif animation (0.3
 > > > MB)](nogmquadshort_shear.gif)
 > > >
-> > > ![](bl_pin.gif)"21" height="21"Movie - Dendrite
+> > > ![](bl_pin.gif)"21" "21"Movie - Dendrite
 > > > formation.\
 > > >       Dendrite surface with grid - adaptive refine used to
 > > > maintain grid\

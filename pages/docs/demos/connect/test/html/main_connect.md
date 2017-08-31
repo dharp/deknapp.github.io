@@ -9,6 +9,6 @@ title: '\*arguments:'
 > > that  satisfies the Delaunay criterion using the **connect**
 > > command.\
 > >  \
-> > [Example 1](description_connect.html)\
+> > [Example 1](description_connect.md)\
 > > [![](image/output_connect_tn.gif)"114"
-> > height="89"](description_connect.html)
+> > "89"](description_connect.md)

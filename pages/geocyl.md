@@ -9,12 +9,12 @@ title: Geometry
 
 
 
-![](http://www.lanl.gov/images/xtr width="160"
-height="1"
+![](http://www.lanl.gov/images/xtr "160"
+"1"
 \* input.cylrot use rotateln and trans to move cylinder\
 \* create a cylinder centered around x=.5,z=.5, radius = .1\
 \* the cylinder is aligned parallel to the y-axis.\
-\* inside a box of width =2 , length=2 ,height=1\
+\* inside a box of width =2 , length=2 ,1\
 \* the regions are air for the cylinder - solid outside the cyl.\
 \* points are spread by surrounding the whole object with\
 \* a cylinder shell of points and then creating rays between\
@@ -61,12 +61,12 @@ finish
 
  
 
-![](http://www.lanl.gov/images/xtr width="420"
-height="1"
+![](http://www.lanl.gov/images/xtr "420"
+"1"
 
-[Return to LaGriT Home Page](index.shtml)
+[Return to LaGriT Home Page](index.smd)
 
-![](http://www.lanl.gov/images/xtr width="160"
-height="1"
+![](http://www.lanl.gov/images/xtr "160"
+"1"
 
 

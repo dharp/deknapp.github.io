@@ -3,9 +3,9 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
 [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#GMTKLA_Init) [![](../images/arrow3.gif)"30"
-height="30"](GenRegion.html) [![](../images/arrow4.gif)"30"
-height="30"](GeomEntity.html)
+"30"](mstkla.md#GMTKLA_Init) [![](../images/arrow3.gif)"30"
+"30"](GenRegion.md) [![](../images/arrow4.gif)"30"
+"30"](GeomEntity.md)
 
 ------------------------------------------------------------------------
 
@@ -74,6 +74,6 @@ Get all the model regions
 Get all the model faces
 
 [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#GMTKLA_Init) [![](../images/arrow3.gif)"30"
-height="30"](GenRegion.html) [![](../images/arrow4.gif)"30"
-height="30"](GeomEntity.html)
+"30"](mstkla.md#GMTKLA_Init) [![](../images/arrow3.gif)"30"
+"30"](GenRegion.md) [![](../images/arrow4.gif)"30"
+"30"](GeomEntity.md)

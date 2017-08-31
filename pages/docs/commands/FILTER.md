@@ -19,7 +19,7 @@ title: FILTERKD and FILTER
 > > \
 > > Dudded nodes are not removed from the mesh object, but are ignored
 > > by many routines because of their dudded status. Use the command
-> > [[rmpoint/compress](RMPOINT.html) ]{style="font-weight: bold;" to
+> > [[rmpoint/compress](RMPOINT.md) ]{style="font-weight: bold;" to
 > > remove dudded nodes and update the mesh object.\
 > > \
 > > If the mesh object has connected elements, the itet values in the
@@ -82,7 +82,7 @@ title: FILTERKD and FILTER
 > > > number of elements above and below an element (in numerical order)
 > > > to search. The default is 10.\
 > > > For more on **filter/element** see [filter/element
-> > > details.](FILTER_element.html)
+> > > details.](FILTER_element.md)
 >
 >  EXAMPLES:\
 >

@@ -7,9 +7,9 @@ title: '\*arguments:'
 >
 > > > The objective is to test the **hextotet** command.\
 > > >  \
-> > > [Example 1](description_hextet.html)
+> > > [Example 1](description_hextet.md)
 > > > [![](image/output_tet_tn.gif)"114"
-> > > height="89"](description_hextet.html)
+> > > "89"](description_hextet.md)
 
 \
 \
@@ -17,4 +17,4 @@ title: '\*arguments:'
 \
 \
 
-[Next Demo](../../../demos/pset/html/main_pset1.html)
+[Next Demo](../../../demos/pset/md/main_pset1.md)

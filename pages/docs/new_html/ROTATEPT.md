@@ -23,4 +23,4 @@ xcen,ycen,zcen/theta/phi\
  \
  
 
-[Click here for demos](demos/rotatept/test/html/main_rotatept.html)
+[Click here for demos](demos/rotatept/test/md/main_rotatept.md)

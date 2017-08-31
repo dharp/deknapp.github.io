@@ -16,8 +16,8 @@ title: RECON
 > > flip connections based on the in-sphere test (the circumsphere of a
 > > tetrahedral element should contain no other nodes). Additional
 > > flipping criteria are available. The Minimum Error Gradient Adaption
-> > ([mega](RADAPT.html)) can be invoked by changing the value of the
-> > code variable [ivoronoi](meshobject.html)
+> > ([mega](RADAPT.md)) can be invoked by changing the value of the
+> > code variable [ivoronoi](meshobject.md)
 > > (**cmo/setatt**//ivoronoi/-2). The effect of this option is to
 > > generate well shaped elements; however the grid will not be
 > > Delaunay. If the user has a function to used for adaptive
@@ -40,7 +40,7 @@ title: RECON
 > >
 > > **recon** will by default reconnect across interface edges.  To
 > > restrict reconnection to interior faces and exterior boundary faces,
-> > set [iopt2to2](meshobject.html) to 0 (**cmo/setatt**//iopt2to2/0)
+> > set [iopt2to2](meshobject.md) to 0 (**cmo/setatt**//iopt2to2/0)
 >
 > FORMAT:
 >
@@ -69,7 +69,7 @@ title: RECON
 > >  \
 > >  
 >
-> [Click here for demos](demos/2d_recon/test/html/main_2d_recon.html)
+> [Click here for demos](demos/2d_recon/test/md/main_2d_recon.md)
 >
 > >  
 

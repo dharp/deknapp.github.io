@@ -22,4 +22,4 @@ title: '\*arguments:'
 > Output Image
 >
 > [![](image/image2tn.gif)"116"
-> height="138"](image/image2.gif)[image2.gif](image/image2.gif)
+> "138"](image/image2.gif)[image2.gif](image/image2.gif)

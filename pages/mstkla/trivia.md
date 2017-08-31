@@ -3,7 +3,7 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
 [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#MODEL%20ENTITY:)
+"30"](mstkla.md#MODEL%20ENTITY:)
 
 **Trivia**
 

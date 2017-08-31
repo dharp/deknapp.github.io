@@ -10,7 +10,7 @@ REFINE
 > The **refine** command is used to create more elements. The method in
 > which these new elements are formed is based on the refine\_option
 > chosen. The refine criteria used in these methods are defined in the
-> [Grid Refinement](http://lagrit.lanl.gov/new_html/REFINE1.html)
+> [Grid Refinement](http://lagrit.lanl.gov/new_md/REFINE1.md)
 > Section.
 
 \

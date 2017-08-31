@@ -12,20 +12,20 @@ Examples of:   
 > createpts/xyz/5,3,4/0,0,0/1,1,1/1,1,1/1,0,0/1.5,1.1\
 > Distribute points using the xyz coordinate system using coordinates as
 > end points.  Ratio zoning in x-direction.\
->          [description](createptsdes1.html)\
+>          [description](createptsdes1.md)\
 >          [input](input.createptsxyz)\
 >          [picture](createptsxyz.gif)
 >
 > createpts/rtz/4,6,11/0,0,0/3,45,10/1,0, 1/\
 > Distribute points in the rtz cylindrical coordinate system.
 >
->         [description](createptsdes2.html)\
+>         [description](createptsdes2.md)\
 >         [input](input.createptscyl)\
 >         [picture](createptscyl.gif)
 >
 > createpts/rtp/2,6,11/0,0,0/1,45,360/1,1,1\
 > Distribute points in the rtp spherical coordinate system\
->         [description](createptsdes3.html)\
+>         [description](createptsdes3.md)\
 >         [input](input.createptssp)\
 >         [picture](createptsph.gif)
 

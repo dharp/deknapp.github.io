@@ -25,14 +25,14 @@ Images of GMV input and output
 > output log file.
 
 [Input geometry ![](image/rivara1_tn.gif)"114"
-height="89"](image/rivara1.gif)
+"89"](image/rivara1.gif)
 
 [Output geometry](image/rivara2.gif)
 
 [(view A)![](image/rivara2_tn.gif)"114"
-height="89"](image/rivara2.gif)
+"89"](image/rivara2.gif)
 
 [Output geometry](image/rivara3.gif)
 
 [(view B)![](image/rivara3_tn.gif)"114"
-height="89"](image/rivara3.gif)
+"89"](image/rivara3.gif)

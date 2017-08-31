@@ -9,8 +9,8 @@ title: Online Manual
 
 
 
-![](http://www.lanl.gov/images/xtr width="160"
-height="1"
+![](http://www.lanl.gov/images/xtr "160"
+"1"
 Online Manual
 =============
 
@@ -18,30 +18,30 @@ Online Manual
 
 ### **I.  INTRODUCTION**
 
-> A. [LaGriT](docs/LaGriT.html)\
-> B. [Tutorial](docs/Tutoria1.html)
+> A. [LaGriT](docs/LaGriT.md)\
+> B. [Tutorial](docs/Tutoria1.md)
 
 ### II.  LaGriT COMMANDS
 
-> A. [Conventions](docs/conventions.html)\
-> B. [Alphabetic listing of LaGriT commands](commands.shtml)\
-> C. [LaGriT commands by Category](commands_cat.shtml)
+> A. [Conventions](docs/conventions.md)\
+> B. [Alphabetic listing of LaGriT commands](commands.smd)\
+> C. [LaGriT commands by Category](commands_cat.smd)
 
 ### III. MESH OBJECTS
 
-> A. [Mesh Object Definition](docs/meshobject.html)\
-> B.[Command Interface](docs/commandi.html)\
-> C. [Fortran Interface](docs/fortran.html)\
-> D. [Mesh Object Connectivity](docs/meshobjcon.html)\
-> E. [Geometries](docs/geometries.html)
+> A. [Mesh Object Definition](docs/meshobject.md)\
+> B.[Command Interface](docs/commandi.md)\
+> C. [Fortran Interface](docs/fortran.md)\
+> D. [Mesh Object Connectivity](docs/meshobjcon.md)\
+> E. [Geometries](docs/geometries.md)
 
 ### IV.  INTERFACING USER ROUTINES TO LaGriT
 
->  A. [Building an Executable and Running LaGriT](docs/build.html)\
->  B. [Issuing Commands from a User Program](docs/issuing.html)\
->  C. [Writing User Commands](docs/writing.html)\
->  D. [Accessing the Mesh Object](docs/accessing.html)\
->  E.  [Utility Subroutines](util.shtml)
+>  A. [Building an Executable and Running LaGriT](docs/build.md)\
+>  B. [Issuing Commands from a User Program](docs/issuing.md)\
+>  C. [Writing User Commands](docs/writing.md)\
+>  D. [Accessing the Mesh Object](docs/accessing.md)\
+>  E.  [Utility Subroutines](util.smd)
 
 > > <div align="left">
 > >
@@ -49,17 +49,17 @@ Online Manual
 
 ### V.  ERRORS
 
-A. [Errors in parsing or executing commands](docs/errors.html#parse).\
-B.  [Out of memory errors.](docs/errors.html#memory)\
-C.  [Fatal memory management errors](docs/errors.html#panic) (PANIC!)
+A. [Errors in parsing or executing commands](docs/errors.md#parse).\
+B.  [Out of memory errors.](docs/errors.md#memory)\
+C.  [Fatal memory management errors](docs/errors.md#panic) (PANIC!)
 ###  
 
-### [LaGriT REFERENCES](docs/References.html)
+### [LaGriT REFERENCES](docs/References.md)
 
-![](http://www.lanl.gov/images/xtr width="420"
-height="1"
+![](http://www.lanl.gov/images/xtr "420"
+"1"
 
-[Return to LaGriT Home Page](index.shtml)
+[Return to LaGriT Home Page](index.smd)
 
  
 

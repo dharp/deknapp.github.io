@@ -81,7 +81,7 @@ title: 'read / zone  zonn'
 > >     <blank line>
 > >
 > > \
-> > Note also that the [PSET](http://lagrit.lanl.gov/docs/PSET.html)
+> > Note also that the [PSET](http://lagrit.lanl.gov/docs/PSET.md)
 > > command will output files in the FEHM zone file format.\
 > > \
 

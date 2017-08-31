@@ -32,4 +32,4 @@ nodes\
 coordinates of the nodes in the **pset** named **mypset.**\
  
 
-[](new_html/demos/pset/test/html/main_pset.html)
+[](new_md/demos/pset/test/md/main_pset.md)

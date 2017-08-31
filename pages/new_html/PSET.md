@@ -30,7 +30,7 @@ title: PSET
 > > height z1 to z2.\
 > > **geom/rtp**/ forms a pset of nodes within the sphere, sperical
 > > shell or sperical section given by r1 to r2, and angles t1 to t2 and
-> > p1 to p2.  [See chapter II, A. Conventions](conventions.html) for an
+> > p1 to p2.  [See chapter II, A. Conventions](conventions.md) for an
 > > explanation of angles theta and phi.\
 > > **surface** identifies nodes on the specified surface.  Keyword
 > > surface names have the following meaning:
@@ -43,7 +43,7 @@ title: PSET
 **constraints** forms a pset of nodes having the specified number of
 constraints.  The node's **icr** value is used as an index to the
 **icontab** attribute which gives the number of constraints.  [See
-chapter III, A](meshobject.html) for an explanation of the **icontab**
+chapter III, A](meshobject.md) for an explanation of the **icontab**
 entries.
 
 FORMAT:
@@ -132,4 +132,4 @@ of surfaces s1 and s2 and give the name spseta to these nodes.\
 ( normally the set of nodes that lie on 3  constrained surfaces --
 surfaces of type **reflect** or **intrcons**)
 
-[Click here for demos](../docs/demos/pset/html/main_pset.html)
+[Click here for demos](../docs/demos/pset/md/main_pset.md)

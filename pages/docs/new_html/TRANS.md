@@ -38,4 +38,4 @@ The points in the **pset** mypoints will be moved 2 in the positive x
 direction and 2 in the positive y direction.\
  
 
-[Click here for demos](../demos/trans/test/html/main_trans.html)
+[Click here for demos](../demos/trans/test/md/main_trans.md)

@@ -20,4 +20,4 @@ title: '\*arguments:'
 > including binary)
 >
 > > [Input geometry ![](../images/output_tn.gif)"114"
-> > height="89"](../images/output.gif)
+> > "89"](../images/output.gif)

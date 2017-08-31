@@ -16,7 +16,7 @@ title: LANL  LaGriT
 
 
                LaGriT Licensing, Distribution, a 
- width="160" height="1"            nd Installation                   
+ "160" "1"            nd Installation                   
                                     --------------------------------- 
                                     ---------------                   
 
@@ -36,7 +36,7 @@ title: LANL  LaGriT
 
                                     1\. A signed version of the [soft 
                                     ware license agreement](licensing 
-                                    .shtml)                           
+                                    .smd)                           
                                     sent to:                          
 
                                     NOTE: Read it carefully to be     
@@ -76,7 +76,7 @@ title: LANL  LaGriT
 
                                     ![](http://www.lanl.gov/images/tr 
                                                  
-                                    width="420" height="1"           
+                                    "420" "1"           
 
 
 

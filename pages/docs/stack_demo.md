@@ -19,8 +19,8 @@ GENERATOR: 'Mozilla/4.75 \[en\] (X11; U; IRIX 6.5 IP32) \[Netscape\]'
 ----------------
 
 \
-![](simple_stack.gif)"400" height="300"\
-![](simple_tet.gif)"400" height="300"
+![](simple_stack.gif)"400" "300"\
+![](simple_tet.gif)"400" "300"
 
 `*******************************************************************`\
 `* Example 1`\
@@ -89,7 +89,7 @@ GENERATOR: 'Mozilla/4.75 \[en\] (X11; U; IRIX 6.5 IP32) \[Netscape\]'
 **stack/layers  with material colors reversed**
 -----------------------------------------------
 
-![](simple_tet_clr2.gif)"400" height="300"\
+![](simple_tet_clr2.gif)"400" "300"\
 Material 1 (green) is now the top unit. Material 2 (purple) is middle
 and 1 (red) is bottom.\
 The unit value was changed from above example on the command line:\
@@ -119,8 +119,8 @@ The unit value was changed from above example on the command line:\
 stack/layers to hex to tet, with buffered interfaces
 ----------------------------------------------------
 
-![](../images/hex_buffers.jpg)"400" height="300"\
-![](../images/hex_buffers.jpg)"400" height="300"\
+![](../images/hex_buffers.jpg)"400" "300"\
+![](../images/hex_buffers.jpg)"400" "300"\
  \
  \
  \
@@ -208,10 +208,10 @@ stack/layers to hex to tet, with buffered interfaces
 **trilayer to tet with truncating surface and unit refinement**
 ---------------------------------------------------------------
 
-![](../images/tet_trunc_refine.jpg)"400" height="300"
+![](../images/tet_trunc_refine.jpg)"400" "300"
 -------------------------------------------------------------
 
-![](../images/tet_trunc_refine_exp.jpg)"400" height="300"\
+![](../images/tet_trunc_refine_exp.jpg)"400" "300"\
  \
  \
  \

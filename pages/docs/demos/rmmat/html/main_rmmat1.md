@@ -7,6 +7,6 @@ title: '\*arguments:'
 >
 > > > The objective is to test the **rmmat** command.\
 > > >  \
-> > > [Example 1](description_rmmat.html)
+> > > [Example 1](description_rmmat.md)
 > > > [![](image/rmmat4_tn.gif)"114"
-> > > height="89"](description_rmmat.html)
+> > > "89"](description_rmmat.md)

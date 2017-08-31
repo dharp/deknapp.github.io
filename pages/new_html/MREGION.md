@@ -51,7 +51,7 @@ interior points.
 
 Defining a material region will cause the information associated with
 this material region to be stored under the name of
-the[geometry](geometries.html)of the current mesh object.  Releasing the
+the[geometry](geometries.md)of the current mesh object.  Releasing the
 material region will remove this information.\
  
 

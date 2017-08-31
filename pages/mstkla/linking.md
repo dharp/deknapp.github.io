@@ -3,8 +3,8 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
 [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#EXECUTABLE) [![](../images/arrow3.gif)"30"
-height="30"](example.html)
+"30"](mstkla.md#EXECUTABLE) [![](../images/arrow3.gif)"30"
+"30"](example.md)
 
 ------------------------------------------------------------------------
 
@@ -97,5 +97,5 @@ library interdependencies creep in) is\
  
 
  [![](../images/arrow2.gif)"30"
-height="30"](mstkla.html#EXECUTABLE) [![](../images/arrow3.gif)"30"
-height="30"](utilities.html)
+"30"](mstkla.md#EXECUTABLE) [![](../images/arrow3.gif)"30"
+"30"](utilities.md)

@@ -7,6 +7,6 @@ title: '\*arguments:'
 >
 > > > The objective is to test the **pset** command.\
 > > >  \
-> > > [Example 1](description_pset.html)
+> > > [Example 1](description_pset.md)
 > > > [![](image/pset2_tn.gif)"114"
-> > > height="89"](description_pset.html)
+> > > "89"](description_pset.md)

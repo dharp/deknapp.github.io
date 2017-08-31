@@ -19,7 +19,7 @@ cmo/addatt
 > For the general form ,the first two parameters, mo\_name/att\_name are
 > required. All other parameters will resort to default settings if not
 > included on the command line. See the
-> **[modatt](cmo_modatt.html)**command for details on these parameters.\
+> **[modatt](cmo_modatt.md)**command for details on these parameters.\
 > \
 > The keyword syntax uses the fourth token on the command line to define
 > the type of attribute to create. The syntax for each keyword is

@@ -14,7 +14,7 @@ title: LANL  LaGriT
 
 
 
-![](images/lagrit2.jpg)"180" height="120"
+"" ""
 Lasetup
 -------
 
@@ -34,7 +34,7 @@ buffered, available on your machine. You can find out what is available
 by running xdpyinfo. Also the X server must be running the GLX
 extension. Extensions are listed near the top of the output of xdpyinfo.
 
-[lasetup Requirements](lasetup_require.shtml)
+[lasetup Requirements](lasetup_require.smd)
 
 [lasetup User's Manual(ps)](lasetupdoc.ps)
 

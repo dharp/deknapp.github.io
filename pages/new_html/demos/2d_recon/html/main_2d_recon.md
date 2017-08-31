@@ -13,6 +13,6 @@ title: '\*arguments:'
 > > Delaunay\
 > > criterion and has improved element shapes.\
 > > \
-> > [Example 1](description_2drecon.html)   reconnect a mesh\
+> > [Example 1](description_2drecon.md)   reconnect a mesh\
 > > [![](image/image1_tn.gif)"144"
-> > height="144"](description_2drecon.html)
+> > "144"](description_2drecon.md)

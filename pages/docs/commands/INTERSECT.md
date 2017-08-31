@@ -23,7 +23,7 @@ title: INTERSECT
 > > and loop\_id. **intersect** will create a temporary sort key and use
 > > that to reorder the elements, so there is no need to use your own
 > > sort key. For more details on the sorting and on the created element
-> > attributes, please see [sort](SORT.html).
+> > attributes, please see [sort](SORT.md).
 
 > **FORMAT**:
 >

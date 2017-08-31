@@ -9,7 +9,7 @@ title: RMMAT
 > > This routine is used to remove points that are of a specified
 > > material type.  Elements with the specified material types are
 > > flagged by setting the element material type negative.  After using
-> > **rmmat**, **[rmpoints/](RMPOINT.html)**compress will delete
+> > **rmmat**, **[rmpoints/](RMPOINT.md)**compress will delete
 > > elements whose material type is negative and the dudded nodes.
 >
 >   **FORMAT**
@@ -37,6 +37,6 @@ title: RMMAT
 > >  \
 > >  
 >
-> [Click here for demos](../demos/rmmat/test/html/main_rmmat.html)
+> [Click here for demos](../demos/rmmat/test/md/main_rmmat.md)
 >
 > >

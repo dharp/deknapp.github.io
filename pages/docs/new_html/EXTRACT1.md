@@ -21,7 +21,7 @@ title: EXTRACT
 > > the material(s) bounding the interface. region1, \[region2\]are the
 > > material numbers or the material region (mregion) names whose
 > > interface is to be extracted. Use **-all-** to extract from all
-> > interfaces. The **[pset](conventions.html)** syntax can be used to
+> > interfaces. The **[pset](conventions.md)** syntax can be used to
 > > limit the action of the extract with the interface and network
 > > options only. The other options ignore pset.  The output 2D mesh
 > > object is cmoout; the input 3D mesh object is cmoin.
@@ -35,7 +35,7 @@ title: EXTRACT
 > > meshes (tet, pyr, pri, hex or hybrid).
 > >
 > > The surfmesh option is described by following the link:
-> > **[extract/surfmesh.](EXTRACT_SURFMESH.html)**
+> > **[extract/surfmesh.](EXTRACT_SURFMESH.md)**
 > >
 > > The output MO will be oriented such that the outward normal of the
 > > plane that defines the surface will point in the same direction as

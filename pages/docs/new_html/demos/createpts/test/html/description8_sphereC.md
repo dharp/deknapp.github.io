@@ -24,6 +24,6 @@ title: '\*arguments:'
 > Images of GMV output
 >
 >   [![](image/image8tn.gif)"156"
-> height="153"](image/image8a.gif) [View A](image/image8a.gif)     
+> "153"](image/image8a.gif) [View A](image/image8a.gif)     
 > [![](image/image8btn.gif)"170"
-> height="160"](image/image8b.gif) [View B](image/image8b.gif)
+> "160"](image/image8b.gif) [View B](image/image8b.gif)

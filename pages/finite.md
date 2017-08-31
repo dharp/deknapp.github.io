@@ -16,17 +16,17 @@ title: LANL  LaGriT
 
 
                Pictures Created by Tinka Gammel  
- width="160" height="1"            --------------------------------  
+ "160" "1"            --------------------------------  
 
                                     ![](images/snap.jpg)"495"  
-                                    height="600"                     
+                                    "600"                     
 
                                     ![](images/snap1.jpg)"495" 
-                                    height="600"                     
+                                    "600"                     
 
                                     ![](http://www.lanl.gov/images/tr 
                                                  
-                                    width="420" height="1"           
+                                    "420" "1"           
 
 
 

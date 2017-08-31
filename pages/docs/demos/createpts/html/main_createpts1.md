@@ -22,73 +22,73 @@ title: '\*arguments:'
 
  
 
-[Example 3](description3_rtp.html)
+[Example 3](description3_rtp.md)
 
 **createpts/rtp**
 
 spherical[![](image/image3tn.gif)"159"
-height="156"](description3_rtp.html)
+"156"](description3_rtp.md)
 
-[Example 4](description4_brick.html)
+[Example 4](description4_brick.md)
 
 **createpts/brick/xyz**
 
 material interface[![](image/image4tn.gif)"168"
-height="158"](description4_brick.html)
+"158"](description4_brick.md)
 
-[Example 2](description2_rtz.html)
+[Example 2](description2_rtz.md)
 
 **createpts/rtz**
 
 (cylindrical)[![](image/image2tn.gif)"116"
-height="138"](description2_rtz.html)
+"138"](description2_rtz.md)
 
-[Example 1 ](description1_xyz.html)
+[Example 1 ](description1_xyz.md)
 
 **createpts/xyz**
 
 (rectangular)[![](image/image1tn.gif)"112"
-height="87"](description1_xyz.html)
+"87"](description1_xyz.md)
 
-[Example 5](description5_sphere.html)
+[Example 5](description5_sphere.md)
 
 **createpts/sphere/diamond**
 
 partial sphere using region
 boundaries[![](image/image5tn.gif)"141"
-height="166"](description5_sphere.html)
+"166"](description5_sphere.md)
 
-[Example 6](description6_sphereB.html)
+[Example 6](description6_sphereB.md)
 
 **createpts/sphere**
 
 full sphere using region boundaries[![](image/image6tn.gif)"171"
-height="161"](description6_sphereB.html)
+"161"](description6_sphereB.md)
 
 \
  \
  
 
-[Example 7](description7_brickB.html)
+[Example 7](description7_brickB.md)
 
 **createpts/brick/xyz**
 
 brick mesh[![](image/image7tn.gif)"164"
-height="167"](description7_brickB.html)
+"167"](description7_brickB.md)
 
-[Example 8](description8_sphereC.html)
+[Example 8](description8_sphereC.md)
 
 **createpts/sphere**
 
 gridding a sphere, including
 materials[![](image/image8tn.gif)"156"
-height="153"](description8_sphereC.html)
+"153"](description8_sphereC.md)
 
-[Example 9](description9_random.html)
+[Example 9](description9_random.md)
 
 **createpts/random/xyz**
 
 random points[![](image/random_tn.gif)"114"
-height="89"](description9_random.html)
+"89"](description9_random.md)
 
-         [Next Demo](../../../demos%0A/hextotet/html/main_hextet1.html)
+         [Next Demo](../../../demos%0A/hextotet/md/main_hextet1.md)

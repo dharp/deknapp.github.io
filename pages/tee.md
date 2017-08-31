@@ -16,7 +16,7 @@ title: LANL  LaGriT
 
 
                Grain Evolution in a T-Junction   
- width="160" height="1"            -------------------------------   
+ "160" "1"            -------------------------------   
 
                                     #### by Tinka Gammel              
 
@@ -62,8 +62,8 @@ title: LANL  LaGriT
                                      5"                              
                                         5"                           
 
-                                     height="175"                   
-                                        height="175"                
+                                     "175"                   
+                                        "175"                
 
 
 
@@ -80,8 +80,8 @@ title: LANL  LaGriT
                                      5"                              
                                         5"                           
 
-                                     height="175"                   
-                                        height="175"                
+                                     "175"                   
+                                        "175"                
 
 
 
@@ -98,8 +98,8 @@ title: LANL  LaGriT
                                      5"                              
                                         5"                           
 
-                                     height="175"                   
-                                        height="175"                
+                                     "175"                   
+                                        "175"                
 
 
 
@@ -116,8 +116,8 @@ title: LANL  LaGriT
                                      5"                              
                                         5"                           
 
-                                     height="175"                   
-                                        height="175"                
+                                     "175"                   
+                                        "175"                
 
 
 
@@ -134,8 +134,8 @@ title: LANL  LaGriT
                                      5"                              
                                         5"                           
 
-                                     height="175"                   
-                                        height="175"                
+                                     "175"                   
+                                        "175"                
 
 
 
@@ -152,7 +152,7 @@ title: LANL  LaGriT
                                      5"                              
 
 
-                                     height="175"                   
+                                     "175"                   
 
 
 
@@ -177,7 +177,7 @@ title: LANL  LaGriT
 
                                     ![](images/tee0200gr.jpg)" 
                                     500"                              
-                                    height="500"                     
+                                    "500"                     
 
                                     Laplacian smoothing can reduce    
                                     the artificial roughness which is 
@@ -210,7 +210,7 @@ title: LANL  LaGriT
 
                                     ![](images/tee0200_lap.jpg){width 
                                     ="500"                            
-                                    height="500"                     
+                                    "500"                     
 
                                     LaGriT's "graphmassage"           
                                     capability can then be used to    
@@ -225,7 +225,7 @@ title: LANL  LaGriT
 
                                     ![](images/tee0200_lap_mas.jpg){w 
                                     idth="500"                        
-                                    height="500"                     
+                                    "500"                     
 
                                     Using LaGriT's "graphmassage"     
                                     without first smoothing the       
@@ -249,11 +249,11 @@ title: LANL  LaGriT
 
                                     ![](images/tee0200_mas.jpg){width 
                                     ="500"                            
-                                    height="500"                     
+                                    "500"                     
 
                                     ![](http://www.lanl.gov/images/tr 
                                                  
-                                    width="420" height="1"           
+                                    "420" "1"           
 
 
 

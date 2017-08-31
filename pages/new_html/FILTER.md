@@ -28,7 +28,7 @@ title: FILTER
 > > (ifirst,ilast,istride) in order for this command to work properly.
 > > Dudded points (itp=21) can be removed from the mesh object by
 > > calling
-> > [[rmpoint/compress](RMPOINT.html).]{style="font-weight: bold;"\
+> > [[rmpoint/compress](RMPOINT.md).]{style="font-weight: bold;"\
 > > \
 > > **Element Mode:**\
 > > Search a mesh object for duplicate elements. A duplicate element is

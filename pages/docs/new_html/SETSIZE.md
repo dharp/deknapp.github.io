@@ -11,10 +11,10 @@ title: SETSIZE
 > > 'real' points (dudded and merged points will be ignored).  It also
 > > sets epsilon, epsilona and epsilonv as follows:  setsize is called
 > > internally by LaGriT commands that add nodes to the
-> > mesh;**[copypts](COPYPTS.html)**,**[createpts](createpts.html)**,
-> > **[regpnts](REGNPTS.html)**,
-> > **[recon](RECON.html)**,**[scale](SCALE.html)**,
-> > **[translate](TRANS.html)**\
+> > mesh;**[copypts](COPYPTS.md)**,**[createpts](createpts.md)**,
+> > **[regpnts](REGNPTS.md)**,
+> > **[recon](RECON.md)**,**[scale](SCALE.md)**,
+> > **[translate](TRANS.md)**\
 > > epsilonv=abs(xmax-xmin)\*abs(ymax-ymin)\*abs(zmax-zmin)\*epsilonr\*1000.\
 > > epsilona=((xmax-xmin)\*\*2+(ymax-ymin)\*\*2+(zmax-zmin)\*\*2)\*epsilonr\*1000.\
 > > epsilonr is set at initialization time by:
@@ -31,14 +31,14 @@ title: SETSIZE
 
 where the values of 'one' and 'two' are obtained from the include file
 'consts.h'.\
-The command**[cmo/printatt](cmo_printatt.html)**can be used to view any
+The command**[cmo/printatt](cmo_printatt.md)**can be used to view any
 of these cmo attributes:\
 e.g. **cmo/printatt**//**xmax**\
 The programmer interface is the subroutine setsize (see Section e.7)\
 The variables epsilonl, epsilona and epsilonv are mesh object
 attributes; hence they may be different for all meshes in a given run. 
 epsilona, epsilonv and epsilon1 may be set by the user with the
-**[cmo/setatt](cmo_setatt.html)** command.  They also will be written to
+**[cmo/setatt](cmo_setatt.md)** command.  They also will be written to
 lagrit dumps and subsequently will be read in at restart. The variables
 in consts.h (epsilon and epsilonr) are machine and run dependent. They
 are not written to lagrit dumps and there is only one copy per run.\

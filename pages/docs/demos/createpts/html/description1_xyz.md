@@ -19,7 +19,7 @@ title: '\*arguments:'
 > Images of GMV output
 >
 > > [![](image/image1tn.gif)"112"
-> > height="87"](image/image1.gif)[rectangular grid](image/image1.gif)\
+> > "87"](image/image1.gif)[rectangular grid](image/image1.gif)\
 > >  \
 > >  
 >

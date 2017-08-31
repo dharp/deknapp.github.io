@@ -14,20 +14,20 @@ title: createpts
 > > Createpts is a wrapper for all the 'rz' type commands found
 > > elsewhere in the documentation.\
 > > \
-> > **[createpts/](createpts/CRTPTSRZ.html)xyzrtzrtpline**\
-> > **[createpts/brick](createpts/CRTPTBRICK.html)**\
-> > **[createpts/interp](createpts/createpts_interp.html)**\
-> > **[createpts/sphere](createpts/cresphere.html)**\
-> > **[createpts/random](createpts/CRTPTRZRAN.html)**\
-> > **[createpts/vector](createpts/CRTPTRZV_LG.html)**\
-> > **[createpts/voronoi](createpts/createpts_voronoi.html)**\
-> > **[createpts/median](createpts/createpts_median.html)**\
-> > **[createpts/amr](createpts/CREATEPTSAMR.html)**
+> > **[createpts/](createpts/CRTPTSRZ.md)xyzrtzrtpline**\
+> > **[createpts/brick](createpts/CRTPTBRICK.md)**\
+> > **[createpts/interp](createpts/createpts_interp.md)**\
+> > **[createpts/sphere](createpts/cresphere.md)**\
+> > **[createpts/random](createpts/CRTPTRZRAN.md)**\
+> > **[createpts/vector](createpts/CRTPTRZV_LG.md)**\
+> > **[createpts/voronoi](createpts/createpts_voronoi.md)**\
+> > **[createpts/median](createpts/createpts_median.md)**\
+> > **[createpts/amr](createpts/CREATEPTSAMR.md)**
 >
 > \
 >  
 >
 > [Click here for
-> demos](../demos/createpts/test/html/main_createpts.html)
+> demos](../demos/createpts/test/md/main_createpts.md)
 
 \

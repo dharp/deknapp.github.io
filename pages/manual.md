@@ -20,24 +20,24 @@ Online Manual
 ### **I.  INTRODUCTION**          
 
 -   A. [LaGriT and                
-PyLaGriT](docs/lagrit.html)   
+PyLaGriT](docs/lagrit.md)   
 -   B. [Tutorial](docs/Tutorial.s 
-html)                             
+md)                             
 -   C. [Examples and Simple       
-Demos](docs/demos/index.html) 
+Demos](docs/demos/index.md) 
 
 ### II.  LaGriT COMMANDS          
 
 -   A.                            
 [Conventions](docs/convention 
-s.html)                           
+s.md)                           
 -   B. [Alphabetic listing of     
 LaGriT                        
-commands](commands.shtml)     
+commands](commands.smd)     
 -   C. [LaGriT commands by        
-Category](commands_cat.shtml) 
+Category](commands_cat.smd) 
 -   D. [Table of LaGriT           
-Commands](table.shtml)        
+Commands](table.smd)        
 
 ### III. MESH OBJECTS             
 
@@ -45,53 +45,53 @@ Commands](table.shtml)
 Definition](docs/meshobject.h 
 tml)                              
 -   B.[Command                    
-Interface](docs/commandi.html 
+Interface](docs/commandi.md 
 )                                 
 -   C. [Fortran                   
-Interface](docs/fortran.html) 
+Interface](docs/fortran.md) 
 -   D. [Mesh Object               
 Connectivity](docs/meshobjcon 
-.html)                            
+.md)                            
 -   E.                            
 [Geometries](docs/geometries. 
-html)                             
+md)                             
 
 ### IV.  INTERFACING USER ROUTINE 
 S TO LaGriT                       
 
 -   A. [Building an Executable    
 and Running                   
-LaGriT](docs/build.html)      
+LaGriT](docs/build.md)      
 -   B. [Issuing Commands from a   
 User                          
-Program](docs/issuing.html)   
+Program](docs/issuing.md)   
 -   C. [Writing User              
-Commands](docs/writing.html)  
+Commands](docs/writing.md)  
 
 -   D. [Accessing the Mesh        
-Object](docs/accessing.html)  
+Object](docs/accessing.md)  
 
 -   E.  [Utility                  
-Subroutines](util.shtml)      
+Subroutines](util.smd)      
 
 ### V.  ERRORS                    
 
 -   A. [Errors in parsing or      
 executing                     
-commands](docs/errors.html#pa 
+commands](docs/errors.md#pa 
 rse).                             
 -   B.  [Out of memory            
-errors.](docs/errors.html#mem 
+errors.](docs/errors.md#mem 
 ory)                              
 -   C.  [Fatal memory management  
-errors](docs/errors.html#pani 
+errors](docs/errors.md#pani 
 c)                                
 (PANIC!)                      
 
 \                                 
 \                                 
 ###  [**LaGriT REFERENCES**](docs 
-/References.html)                 
+/References.md)                 
 
 \                                 
 ###  [**Download lagrit.lanl.gov  
@@ -103,6 +103,6 @@ hub.com/lanl/LaGriT)
 \                                 
 ![](http://www.lanl.gov/images/tr 
              
-width="420" height="1"           
+"420" "1"           
 
 

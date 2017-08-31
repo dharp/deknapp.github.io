@@ -18,22 +18,22 @@ Input
 Images of GMV input and output
 
 [Output geometry ![](image/output_tet_tn.gif)"114"
-height="89"](image/output_tet.gif)
+"89"](image/output_tet.gif)
 
 [Input geometry ![](image/input_hex_tn.gif)"114"
-height="89"](image/input_hex.gif)
+"89"](image/input_hex.gif)
 
-![](transparent.gif)"4" height="1"
+![](transparent.gif)"4" "1"
 
-![](transparent.gif)"46" height="1"
+![](transparent.gif)"46" "1"
 
-![](transparent.gif)"128" height="1"
+![](transparent.gif)"128" "1"
 
-![](transparent.gif)"33" height="1"
+![](transparent.gif)"33" "1"
 
-![](transparent.gif)"128" height="1"
+![](transparent.gif)"128" "1"
 
-![](transparent.gif)"517" height="1"
+![](transparent.gif)"517" "1"
 
 > > [](image/input_hex.gif)
 > >

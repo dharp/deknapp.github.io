@@ -60,7 +60,7 @@ NOTES:
 >
 > There is an analog to this code that creates the volume enclosed by
 > the surface as opposed to the surface itself. It is called
-> **[extrude.](extrude.html)**
+> **[extrude.](extrude.md)**
 >
 > This code is a wrapper for **extrude**. There are plans to integrate
 > **bubble**'s functionality with **extrude** and to eliminate

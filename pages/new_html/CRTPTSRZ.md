@@ -23,7 +23,7 @@ title: RZ
 > > minimum and maximum coordinates are the triplets: radius from the
 > > center of the sphere axis, angle in the zy-plane measured from the
 > > positive z-axis and the angle in the xy-plane measured from the
-> > positive x-axis ([see II.a.11](conventions.html)). Note that the
+> > positive x-axis ([see II.a.11](conventions.md)). Note that the
 > > **rtz** always results in a (partial) cylinder of points centered
 > > around the z axis. Use the **rotateln** command to orient the
 > > cylinder. For example, to center the cylinder around the y axis,

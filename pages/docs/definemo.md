@@ -8,9 +8,9 @@ Generator: Microsoft Word 98
 > **1.  Define mesh objects**
 
 Define all Mesh Objects to be used in this problem using the
-[**cmo**/**create**](commands/cmo/cmo_create.html)command. The
-[**cmo**/**create**](commands/cmo/cmo_create.html)command establishes an
-empty Mesh Object data structure ([see Section III.a](meshobject.html)
+[**cmo**/**create**](commands/cmo/cmo_create.md)command. The
+[**cmo**/**create**](commands/cmo/cmo_create.md)command establishes an
+empty Mesh Object data structure ([see Section III.a](meshobject.md)
 for a description). For this example we will need only a single 3D Mesh
 Object:
 

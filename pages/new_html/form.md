@@ -11,7 +11,7 @@ the parameters listed here will be hard-wired into a wrapper script, and
 only the search string will be provided by the user. You can also
 hard-wire parameters using the `TYPE="hidden"` tag within a form. See
 one of the various overviews of how to write
-[Forms](http://www.ncsa.uiuc.edu/SDG/Software/Mosaic/Docs/fill-out-forms/overview.html)
+[Forms](http://www.ncsa.uiuc.edu/SDG/Software/Mosaic/Docs/fill-out-forms/overview.md)
 for more details.
 
 ------------------------------------------------------------------------
@@ -46,4 +46,4 @@ Bullet list (instead of numbered)
 
 ------------------------------------------------------------------------
 
-*Back to [htgrep FAQ](http://www.iam.unibe.ch/~scg/Src/Doc/htgrep.html)*
+*Back to [htgrep FAQ](http://www.iam.unibe.ch/~scg/Src/Doc/htgrep.md)*

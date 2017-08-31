@@ -16,7 +16,7 @@ title: LANL  LaGriT
 
 
                Hex Examples                      
- width="160" height="1"            ============                      
+ "160" "1"            ============                      
 
                                     Click on picture to expand        
 
@@ -38,7 +38,7 @@ title: LANL  LaGriT
                                      25"                             
 
 
-                                     height="225"](images/hex_xyz.j 
+                                     "225"](images/hex_xyz.j 
                                     pg                               
 
                                      )                               
@@ -47,7 +47,7 @@ title: LANL  LaGriT
 
 
 
-                                     [View input desk](hex1.html)    
+                                     [View input desk](hex1.md)    
 
 
                                     +-------------------------------- 
@@ -68,8 +68,8 @@ title: LANL  LaGriT
                                      25"                             
                                         25"                          
 
-                                     height="225"](images/hex_rtz.j 
-                                    pg  height="225"](images/hex_rt 
+                                     "225"](images/hex_rtz.j 
+                                    pg  "225"](images/hex_rt 
                                     p.jpg                            
                                      )                               
                                         )                            
@@ -77,7 +77,7 @@ title: LANL  LaGriT
 
 
 
-                                     [View input desk](hex2.html)    
+                                     [View input desk](hex2.md)    
                                         [View input                  
 
 
@@ -89,7 +89,7 @@ title: LANL  LaGriT
 
                                     ![](http://www.lanl.gov/images/tr 
                                                  
-                                    width="420" height="1"           
+                                    "420" "1"           
 
 
 
