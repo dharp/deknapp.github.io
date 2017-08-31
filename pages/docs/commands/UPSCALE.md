@@ -181,7 +181,7 @@ UPSCALE
 > > nodes on cell boundaries only once. Images showing the source and
 > > sink points are shown below.
 > >
-> > +-----------------------------------+-----------------------------------+
+> > 
 > >  Example 1:                         Example 2:                        
 > >                                                                       
 > >  > cmo/setatt/cmo\_src/ival/1,0,0/  > cmo/setatt/cmo\_src/ival/1,0,0/ 
@@ -216,7 +216,7 @@ UPSCALE
 > >  > the number of nodes used if                                        
 > >  > there are duplicatate Voronoi                                      
 > >  > boundary points.                                                   
-> > +-----------------------------------+-----------------------------------+
+> > 
 > >      cmo/setatt/COARSE_MO/idebug 6      cmo/setatt/COARSE_MO/idebug 6 
 > >      upscale/sum/COARSE_MO,icount/      upscale/sum/COARSE_MO,icount/ 
 > >  1,0,0/FINE_MO/imt keepatt          1,0,0/FINE_MO/imt/single keepatt  
@@ -350,7 +350,7 @@ UPSCALE
 > >                                                                       
 > >                                         icount sum =       1221       
 > >                                                                       
-> > +-----------------------------------+-----------------------------------+
+> > 
 > >
 > > EXAMPLE 2 IMAGES: These images show the 10 numbered sink points and
 > > the 1221 source points. In this example all source points have an

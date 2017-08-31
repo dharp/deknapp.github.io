@@ -16,6 +16,7 @@ dr = '/home/nknapp/deknapp.github.io/pages/'
 
 for root, drs, fles in os.walk(dr):
     for fle in fles:
-        if ".md" in fle:
+        if "_temp.md" in fle:
             name = os.path.join(root, fle)
-            filter_file(name, "+-----------------------------------+-----------------------------------+")
+            os.system('mv ' + name + ' ' + name.split('_temp')[0] + '.md')
+

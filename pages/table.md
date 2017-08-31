@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-+-----------------------------------+-----------------------------------+
+
  ![](http://www.lanl.gov/images/tr  <div class="wide_tbl">            
  ansparent.gif){.strut                                                
  width="160" height="1"}            ### Table of LaGriT Commands      
@@ -788,4 +788,4 @@ title: LANL  LaGriT
                                     ![](http://www.lanl.gov/images/tr 
                                     ansparent.gif){.strut             
                                     width="420" height="1"}           
-+-----------------------------------+-----------------------------------+
+

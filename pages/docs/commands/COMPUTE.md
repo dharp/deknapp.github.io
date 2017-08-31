@@ -145,7 +145,7 @@ title: COMPUTE
 >
 > </div>
 >
-> +-----------------------------------+-----------------------------------+
+> 
 >  ![signed distance                      *                             
 >  field](../../images/distance_fiel      * Create some of the necessar 
 >  d_02.png){width="300"              y parts                           
@@ -217,7 +217,7 @@ title: COMPUTE
 >                                         finish                        
 >                                                                       
 >                                     \                                 
-> +-----------------------------------+-----------------------------------+
+> 
 >
 > :  **Example: signed\_distance\_field**
 >

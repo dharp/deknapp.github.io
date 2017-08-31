@@ -46,16 +46,16 @@ and constraints.  A node will not be moved if the result is an inverted
 element. The following controls may be supplied:\
  
 
-+-----------------------------------+-----------------------------------+
+
  > rlxwt default(0.5)               > weight for underrelaxed         
                                     > Laplacian smothing              
-+-----------------------------------+-----------------------------------+
+
  > ntimes default(5)                > number of smoothing iterations  
-+-----------------------------------+-----------------------------------+
+
  > nwttry default(3)                > number of attempts to not       
                                     > tangle the mesh by halving the  
                                     > smoothing weight.               
-+-----------------------------------+-----------------------------------+
+
  > useisn default(1)                > 1 means interface nodes are     
                                     > smoothed based alonga           
                                     > multimaterial edge with all the 
@@ -63,12 +63,12 @@ element. The following controls may be supplied:\
                                     > node. 0 means interface nodes   
                                     > are smoothed based on all       
                                     > interface neighbors             
-+-----------------------------------+-----------------------------------+
+
  > extrnbr default(**inclusive**)   > **inclusive** means do not      
                                     > restrict neighbors \            
                                     > **exclusive** means restrict    
                                     > neighbors to nodes in pset      
-+-----------------------------------+-----------------------------------+
+
 
  5. **aspect**---Adjusts node positions such that the aspect ratio of
 the elements is improved.  The default damage tolerance for

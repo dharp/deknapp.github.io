@@ -14,7 +14,7 @@ title: LANL  LaGriT
 
 <div id="content-org">
 
-+-----------------------------------+-----------------------------------+
+
                                     LaGriT Examples                   
                                     ---------------                   
 
@@ -169,6 +169,6 @@ title: LANL  LaGriT
                                     ![](http://www.lanl.gov/images/tr 
                                     ansparent.gif){.strut             
                                     width="420" height="1"}           
-+-----------------------------------+-----------------------------------+
+
 
 </div>

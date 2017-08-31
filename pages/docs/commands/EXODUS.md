@@ -72,7 +72,7 @@ format.\
 The first column is the global cell number, the second column is the
 local face number.\
 
-+-----------------------------------+-----------------------------------+
+
  File output\_1\_bottom.faceset:    File output\_1\_bottom.faceset:   
      0 0 0 2 0                          0 0 0 2 0                     
      00002  1  1                        00002  1  1                   
@@ -82,7 +82,7 @@ local face number.\
         5  1                               3  2                       
         7  1                               4  2                       
         8  1                               6  2                       
-+-----------------------------------+-----------------------------------+
+
 
 This is the LaGriT screen/logfile output during ExodusII output using
 faceset files:

@@ -14,7 +14,7 @@ title: LANL  LaGriT
 
 <div id="content-org">
 
-+-----------------------------------+-----------------------------------+
+
  ansparent.gif){.strut              Hybrid Examples                   
  width="160" height="1"}            ---------------                   
 
@@ -69,6 +69,6 @@ title: LANL  LaGriT
                                     ![](http://www.lanl.gov/images/tr 
                                     ansparent.gif){.strut             
                                     width="420" height="1"}           
-+-----------------------------------+-----------------------------------+
+
 
 </div>
