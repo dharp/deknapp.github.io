@@ -15,21 +15,21 @@ title: LANL  LaGriT
 
 
 
- ansparent.gif){.strut              Geometry Examples                 
- width="160" height="1"}            -----------------                 
+               Geometry Examples                 
+ width="160" height="1"            -----------------                 
 
                                     Click on picture to expand        
 
                                     +-------------------------------- 
                                     ---+----------------------------- 
                                     ------+                           
-                                     [![](images/boxtilt.jpg){width= 
+                                     [![](images/boxtilt.jpg) 
                                     "2                               
 
                                      25"                             
 
 
-                                     height="225"}](images/boxtilt_e 
+                                     height="225"](images/boxtilt_e 
                                     xp                               
 
                                      and.jpg)                        
@@ -45,12 +45,12 @@ title: LANL  LaGriT
                                     ---+----------------------------- 
                                     ------+                           
                                      [![](images/sn.sphere.jpg){widt 
-                                    h=  [![](images/hex.jpg){width=" 
+                                    h=  [![](images/hex.jpg)" 
                                     225"                             
                                      "225"                           
-                                        height="225"}](images/hex_ex 
+                                        height="225"](images/hex_ex 
                                     pand.                            
-                                     height="225"}](images/sn.sphere 
+                                     height="225"](images/sn.sphere 
                                     _e  jpg)                         
 
                                      xpand.jpg)                      
@@ -71,8 +71,8 @@ title: LANL  LaGriT
                                      225"                            
                                         "                            
 
-                                     height="225"}](images/cylinder_ 
-                                    ex  height="225"}](images/coord_ 
+                                     height="225"](images/cylinder_ 
+                                    ex  height="225"](images/coord_ 
                                     expan                            
                                      pand.jpg)                       
                                         d.jpg)                       
@@ -88,8 +88,8 @@ title: LANL  LaGriT
                                     ------+                           
 
                                     ![](http://www.lanl.gov/images/tr 
-                                    ansparent.gif){.strut             
-                                    width="420" height="1"}           
+                                                 
+                                    width="420" height="1"           
 
 
 

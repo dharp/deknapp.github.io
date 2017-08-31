@@ -8,5 +8,5 @@ title: '\*arguments:'
 > > > The objective is to test the **negative\_aij / rivara** command.\
 > > >  \
 > > > [Example 1](description_rivara.html)
-> > > [![](image/rivara2_tn.gif){width="114"
-> > > height="89"}](description_rivara.html)
+> > > [![](image/rivara2_tn.gif)"114"
+> > > height="89"](description_rivara.html)

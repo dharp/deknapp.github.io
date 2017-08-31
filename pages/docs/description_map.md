@@ -44,16 +44,16 @@ Results from Example 2:\
 > The right image shows the result of using the **tiemin** option.
 
 [source and sink grids](../images/view_map01.gif)\
-[![](../images/view_map01_TN.GIF){width="45"
-height="45"}](../images/view_map01.gif)
+[![](../images/view_map01_TN.GIF)"45"
+height="45"](../images/view_map01.gif)
 
 [tiebreaker tiemax](../images/map01_max.gif)\
-[![](../images/map01_max_TN.GIF){width="45"
-height="45"}](../images/map01_max.gif)
+[![](../images/map01_max_TN.GIF)"45"
+height="45"](../images/map01_max.gif)
 
 [tiebreaker tiemin](../images/map01_min.gif)\
-[![](../images/map01_min_TN.GIF){width="45"
-height="45"}](../images/map01_min.gif)
+[![](../images/map01_min_TN.GIF)"45"
+height="45"](../images/map01_min.gif)
 
 > Demo 2 shows how the flag option is used for points outside the source
 > grid. The sink grid has been translated so that part of the grid lies
@@ -71,16 +71,16 @@ height="45"}](../images/map01_min.gif)
 > attribute name of source values to be used for the flagged points.
 
 [source and sink grids](../images/view_map02.gif)\
-[![](../images/view_map02_TN.GIF){width="45"
-height="45"}](../images/view_map02.gif)
+[![](../images/view_map02_TN.GIF)"45"
+height="45"](../images/view_map02.gif)
 
 [flag with plus1](../images/map02_plus1.gif)\
-[![](../images/map02_plus1_TN.GIF){width="45"
-height="45"}](../images/map02_plus1.gif)
+[![](../images/map02_plus1_TN.GIF)"45"
+height="45"](../images/map02_plus1.gif)
 
 [flag with nearest](../images/map02_nearest.gif)\
-[![](../images/map02_nearest_TN.GIF){width="45"
-height="45"}](../images/map02_nearest.gif)
+[![](../images/map02_nearest_TN.GIF)"45"
+height="45"](../images/map02_nearest.gif)
 
 > Demo 3 shows how to map values from source elements to sink elements
 > (centroid point). Image on the left shows the hex source grid colored
@@ -91,16 +91,16 @@ height="45"}](../images/map02_nearest.gif)
 > the nine materials exploded for better viewing.
 
 [Source hex grid](../images/map03_src.gif)\
-[![](../images/map03_src_TN.GIF){width="97"
-height="75"}](../images/map03_src.gif)
+[![](../images/map03_src_TN.GIF)"97"
+height="75"](../images/map03_src.gif)
 
 [Sink and Source grids](../images/map03_view.gif)\
-[![](../images/map03_view_TN.GIF){width="97"
-height="75"}](../images/map03_view.gif)
+[![](../images/map03_view_TN.GIF)"97"
+height="75"](../images/map03_view.gif)
 
 [Sink tet grid](../images/map03_sink.gif)\
-[![](../images/map03_sink_TN.GIF){width="97"
-height="75"}](../images/map03_sink.gif)
+[![](../images/map03_sink_TN.GIF)"97"
+height="75"](../images/map03_sink.gif)
 
 \
 \

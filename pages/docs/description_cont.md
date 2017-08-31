@@ -42,12 +42,12 @@ Results from Example 3:\
 > values written to node attribute called xval.
 
 [source and sink grids](../images/con01_src.gif)\
-[![](../images/con01_src_TN.GIF){width="97"
-height="75"}](../images/con01_src.gif)
+[![](../images/con01_src_TN.GIF)"97"
+height="75"](../images/con01_src.gif)
 
 [sink hex element](../images/con01_sink.gif)\
-[![](../images/con01_sink_TN.GIF){width="45"
-height="45"}](../images/con01_sink.gif)
+[![](../images/con01_sink_TN.GIF)"45"
+height="45"](../images/con01_sink.gif)
 
 > The objective is use the **continuous** method to interpolate node
 > values from a triangle grid to a high resolution quad grid.\
@@ -59,12 +59,12 @@ height="45"}](../images/con01_sink.gif)
 > source grid. These nodes are flagged with the dark red values.
 
 [Source triangle grid](../images/con02_src.gif)\
-[![](../images/con02_src_TN.GIF){width="97"
-height="75"}](../images/con02_src.gif)
+[![](../images/con02_src_TN.GIF)"97"
+height="75"](../images/con02_src.gif)
 
 [Final sink quad grid](../images/con02_sink.gif)\
-[![](../images/con02_sink_TN.GIF){width="97"
-height="75"}](../images/con02_sink.gif)
+[![](../images/con02_sink_TN.GIF)"97"
+height="75"](../images/con02_sink.gif)
 
 \
 \

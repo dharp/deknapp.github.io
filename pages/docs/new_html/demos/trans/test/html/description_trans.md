@@ -18,9 +18,9 @@ Example 1: test using trans to modify two point distributions.\
 Images of GMV input and output
 
 [Initial point
-distribution](image/trans1.gif)[![](image/trans1_tn.gif){width="114"
-height="89"}](image/trans1.gif)
+distribution](image/trans1.gif)[![](image/trans1_tn.gif)"114"
+height="89"](image/trans1.gif)
 
 [translation along
-z-axis](image/trans2.gif)[![](image/trans2_tn.gif){width="114"
-height="89"}](image/trans2.gif)
+z-axis](image/trans2.gif)[![](image/trans2_tn.gif)"114"
+height="89"](image/trans2.gif)

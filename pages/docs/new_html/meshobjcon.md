@@ -17,7 +17,7 @@ specified in a well-defined order; hence when one references the 'second
 facet' of an element, one references a pre-defined set of points.
 Consider a tetrahedral element, with nodes labeled as in the diagram:
 
-![](Image232.gif){width="196" height="188"}
+![](Image232.gif)"196" height="188"
 
  The points are oriented so that the triple product  I1I2 . I2I3 x I2I4 
 is positive, and the volume of the tet is one-sixth of the triple
@@ -45,11 +45,11 @@ local facets are defined as follows:
 > > Similarly, local facets and local edges are defined for all element
 > > types.  (see [supported element types](supported.html))
 
-> > > []{#itettyp}**itettyp(it)** gives the element type of element
+> > > []{#itettyp**itettyp(it)** gives the element type of element
 > > > **it.**\
-> > > []{#itetoff}**itetoff(it)** gives the offset to the first node in
+> > > []{#itetoff**itetoff(it)** gives the offset to the first node in
 > > > element **it.**\
-> > > []{#itet}**itet(itetoff(it)+j)** gives the jth node of element
+> > > []{#itet**itet(itetoff(it)+j)** gives the jth node of element
 > > > **it.**\
 > > > **nelmnen(itettyp(it))** gives the number of nodes of element
 > > > **it.**\
@@ -111,7 +111,7 @@ local facets are defined as follows:
 > > >        enddo\
 > > >      enddo
 > > >
-> > > []{#jtet}**jtet(jtetoff(it)+j)** gives the element number and
+> > > []{#jtet**jtet(jtetoff(it)+j)** gives the element number and
 > > > local facet number of the neighbor to element **it**, facet
 > > > **j**.\
 > > > To loop to find all face neighbors of elements **** ( **jt** is
@@ -121,7 +121,7 @@ local facets are defined as follows:
 > > > then **jtet** (**jtetoff(it)** + **if**) = **nef\_cmo \***
 > > > (**jt-**1)+**jf,** where **nef\_cmo i**s the number of faces per
 > > > element. Similarily, **jtet** (**jtetoff(jt)** + **jf**) =
-> > > **nef\_cmo \*** (**it** -1) **** + **if []{#mbndry}(mbndry** is
+> > > **nef\_cmo \*** (**it** -1) **** + **if []{#mbndry(mbndry** is
 > > > the value added to **jtet** if element **it** is on a boundary or
 > > > interface; the **jtet** value of an element **it** with facet
 > > > **j** on an exterior boundary will be exactly **mbndry;** the

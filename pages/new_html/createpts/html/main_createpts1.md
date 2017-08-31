@@ -18,6 +18,6 @@ title: '\*arguments:'
 > >
 > >   ------------------------------------------------------------------------ ------------------------------------------------------------------------
 > >   [example 1](description4.html)  material interface\                      [example 2](description7.html)  brick mesh\
-> >   [![](image/image4tn.gif){width="168" height="158"}](description4.html)   [![](image/image7tn.gif){width="164" height="167"}](description7.html)
+> >   [![](image/image4tn.gif)"168" height="158"](description4.html)   [![](image/image7tn.gif)"164" height="167"](description7.html)
 > >   ------------------------------------------------------------------------ ------------------------------------------------------------------------
 > >

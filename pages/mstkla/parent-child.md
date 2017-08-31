@@ -2,10 +2,10 @@
 GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
- [![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html#parent-child) [![](../images/arrow3.gif){width="30"
-height="30"}](mstkla.html) [![](../images/arrow4.gif){width="30"
-height="30"}](prelim.html) 
+ [![](../images/arrow2.gif)"30"
+height="30"](mstkla.html#parent-child) [![](../images/arrow3.gif)"30"
+height="30"](mstkla.html) [![](../images/arrow4.gif)"30"
+height="30"](prelim.html) 
 
 ------------------------------------------------------------------------
 
@@ -42,7 +42,7 @@ return parent nodes and child faces and edges on an interface will
 return child nodes. *Lastly, if the entity is not on an interface, it is
 its own parent or its own child.*
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html#parent-child) [![](../images/arrow3.gif){width="30"
-height="30"}](mstkla.html) [![](../images/arrow4.gif){width="30"
-height="30"}](prelim.html)
+[![](../images/arrow2.gif)"30"
+height="30"](mstkla.html#parent-child) [![](../images/arrow3.gif)"30"
+height="30"](mstkla.html) [![](../images/arrow4.gif)"30"
+height="30"](prelim.html)

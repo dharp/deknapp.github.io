@@ -28,39 +28,39 @@ title: EXTRACT
 > > faces, i.e., the color of elements that existed on each side of a
 > > face in the original mesh. The convention is that the normal points
 > > into the larger material id (itetclr) material.
-> > [itetclr0]{style="font-weight: bold;"} indicates the color of the
+> > [itetclr0]{style="font-weight: bold;" indicates the color of the
 > > elements on smaller itetclr value side (the inside) of the face
 > > normal (0 if the face is on an external boundary) and
-> > [itetclr1]{style="font-weight: bold;"} indicates the color of the
+> > [itetclr1]{style="font-weight: bold;" indicates the color of the
 > > elements on the outside of the normal. The attributes **idelem0**
 > > and **idelem1** record the element numbers of the input mesh that
 > > produced the lower dimensional output mesh. The attributes
-> > [idface0]{style="font-weight: bold;"} and
-> > [idface1]{style="font-weight: bold;"} record the local face number
+> > [idface0]{style="font-weight: bold;" and
+> > [idface1]{style="font-weight: bold;" record the local face number
 > > of the input mesh objects.\
 > > [\
-> >                    ]{style="font-family: monospace;"}\
+> >                    ]{style="font-family: monospace;"\
 > > [                   ------&gt;
-> > normal]{style="font-family: monospace;"}\
-> > [                   ]{style="font-family: monospace;"}\
+> > normal]{style="font-family: monospace;"\
+> > [                   ]{style="font-family: monospace;"\
 > > [       itetclr = 1    itetclr =
-> > 2]{style="font-family: monospace;"}\
+> > 2]{style="font-family: monospace;"\
 > > [      itetclr0 = 1   itetclr1 = 2\
 > >       element\# = 1   element\# = 2\
 > >       idelem0  = 1   idelem1  =
-> > 2]{style="font-family: monospace;"}\
+> > 2]{style="font-family: monospace;"\
 > > \
-> > A node attribute, [idnode0]{style="font-weight: bold;"}, records the
+> > A node attribute, [idnode0]{style="font-weight: bold;", records the
 > > node number of the input mesh object node.\
 > > \
 > > In addition another element attribute called[ facecol
-> > ]{style="font-weight: bold;"}is added to the elements of the new
-> > mesh. The [facecol ]{style="font-weight: bold;"}attribute is a model
+> > ]{style="font-weight: bold;"is added to the elements of the new
+> > mesh. The [facecol ]{style="font-weight: bold;"attribute is a model
 > > face number constructed from the
-> > [itetclr0]{style="font-weight: bold;"} and
-> > [itetclr1]{style="font-weight: bold;"} attributes. The way the
-> > [facecol]{style="font-weight: bold;"}  attribute is constructed does
-> > not guarantee that the same [facecol]{style="font-weight: bold;"}
+> > [itetclr0]{style="font-weight: bold;" and
+> > [itetclr1]{style="font-weight: bold;" attributes. The way the
+> > [facecol]{style="font-weight: bold;"  attribute is constructed does
+> > not guarantee that the same [facecol]{style="font-weight: bold;"
 > > value will not be given to two disjoint patches of mesh faces.
 > >
 > > If the keyword **external** is supplied, only the exterior surface
@@ -70,15 +70,15 @@ title: EXTRACT
 > >
 > > The itp array of the input mesh object must be correctly set prior
 > > to calling
-> > [extract]{style="font-family: Courier New,Courier,monospace;"}. To
+> > [extract]{style="font-family: Courier New,Courier,monospace;". To
 > > insure itp is correctly set a call to
-> > [resetpts/itp]{style="font-family: Courier New,Courier,monospace;"}
+> > [resetpts/itp]{style="font-family: Courier New,Courier,monospace;"
 > > may be required.\
 > >
 > \
 >      FORMAT:
 >
 >       
-> [extract/surfmesh/1,0,0/]{style="font-family: Courier New,Courier,monospace;"}cmo\_out/\[cmo\_in\]/\[external\]
+> [extract/surfmesh/1,0,0/]{style="font-family: Courier New,Courier,monospace;"cmo\_out/\[cmo\_in\]/\[external\]
 
 \

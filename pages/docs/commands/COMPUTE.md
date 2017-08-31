@@ -44,31 +44,31 @@ title: COMPUTE
 > > linear\_transform - keyword for an extrapolation from an attribute
 > > value in a surface onto every node of\
 > > a 3D mesh.
-> > []{style="font-family: Courier New,Courier,monospace;"}[Given a 3D
+> > []{style="font-family: Courier New,Courier,monospace;"[Given a 3D
 > > mesh and a 2D surface, this command will extrapolate a scalar value
 > > from that surface\
 > > onto every point of the mesh. This can be used to (for
-> > example):]{style="font-family: serif;"}[\
-> > ]{style="font-family: serif;"}
+> > example):]{style="font-family: serif;"[\
+> > ]{style="font-family: serif;"
 > >
 > > -   [Propogate head values from a surface onto all nodes of a
-> >     mesh.]{style="font-family: serif;"}
+> >     mesh.]{style="font-family: serif;"
 > > -   [Expand a mesh to fit a surface, by propogating the
-> >     appropriate]{style="font-family: serif;"}[ spatial
-> >     coordinate.]{style="font-family: serif;"}
+> >     appropriate]{style="font-family: serif;"[ spatial
+> >     coordinate.]{style="font-family: serif;"
 > > -   [Compute the depth relative to a topographic surface to each
 > >     node of a mesh.\
-> >     ]{style="font-family: serif;"}
+> >     ]{style="font-family: serif;"
 > >
 > > This is highly dependant on the spatial relation between the mesh
 > > and the surface - values from the\
 > > surface are extrapolated "downward" into the mesh in the direction
 > > specified in the command. The\
 > > direction specified in the command must be one of
-> > [\[zposznegyposynegxposxneg\]]{style="font-family: Courier New,Courier,monospace;"}.
+> > [\[zposznegyposynegxposxneg\]]{style="font-family: Courier New,Courier,monospace;".
 > > For example,\
 > > specifing
-> > [zpos]{style="font-family: Courier New,Courier,monospace;"} will
+> > [zpos]{style="font-family: Courier New,Courier,monospace;" will
 > > result in the upper (positive\
 > > z-axis) side of the mesh having attribute values conforming exactly
 > > to those on the surface, while the\
@@ -77,13 +77,13 @@ title: COMPUTE
 > > having attribute values distributed linearly between the two
 > > extremes. If a direction is not specified,\
 > > it will default to
-> > [zpos]{style="font-family: Courier New,Courier,monospace;"}. If an
+> > [zpos]{style="font-family: Courier New,Courier,monospace;". If an
 > > attribute is not specified, it will default to the spatial attribute
 > > appropriate\
 > > to the chosen direction (i.e. if the direction is
-> > [yneg]{style="font-family: Courier New,Courier,monospace;"}, the
+> > [yneg]{style="font-family: Courier New,Courier,monospace;", the
 > > attribute will default to
-> > [yic]{style="font-family: Courier New,Courier,monospace;"}, the
+> > [yic]{style="font-family: Courier New,Courier,monospace;", the
 > > y-coordinate of\
 > > each node.) The attribute chosen must already exist in both the
 > > surface and main meshes.\
@@ -122,8 +122,8 @@ title: COMPUTE
 > +-----------------------------------------------------------------------+
 >  <div align="left">                                                    
 >                                                                        
->  ![Example: distance\_field](../distance_field_01.png){width="300"     
->  height="300"}                                                         
+>  ![Example: distance\_field](../distance_field_01.png)"300"     
+>  height="300"                                                         
 >                                                                        
 >                                                                  
 > +-----------------------------------------------------------------------+
@@ -148,8 +148,8 @@ title: COMPUTE
 > 
 >  ![signed distance                      *                             
 >  field](../../images/distance_fiel      * Create some of the necessar 
->  d_02.png){width="300"              y parts                           
->  height="300"}\                         *                             
+>  d_02.png)"300"              y parts                           
+>  height="300"\                         *                             
 >                                         cmo / create / mo_tet         
 >                                         createpts/random/rtp/.1/1,0,0 
 >                                     /1,180,360////.02                 

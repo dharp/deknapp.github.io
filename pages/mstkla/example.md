@@ -2,10 +2,10 @@
 GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
- [![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html#EXAMPLE) [![](../images/arrow3.gif){width="30"
-height="30"}](utilities.html) [![](../images/arrow4.gif){width="30"
-height="30"}](linking.html)
+ [![](../images/arrow2.gif)"30"
+height="30"](mstkla.html#EXAMPLE) [![](../images/arrow3.gif)"30"
+height="30"](utilities.html) [![](../images/arrow4.gif)"30"
+height="30"](linking.html)
 
 /\*\
 ==========================================================================\
@@ -69,8 +69,8 @@ file \*/***\
     for (j = 0; j &lt; nrf; j++) {\
       fprintf(stderr,"Face %-d  Dir %-d Type %-d\\n",\
        GF\_Number(rflist\[j\]),rfside\[j\],GF\_Type(rflist\[j\]));\
-    }\
-  }
+    \
+  
 
   for (i = 0; i &lt; ngr; i++)\
     GR\_Delete(grlist\[i\]);\
@@ -125,7 +125,7 @@ of***\
       fprintf(stderr,"V%-d \[ G\* (order %1d) ---  %lf %lf %lf\\n",\
        MV\_Number(mesh,vert),MV\_GMtype(mesh,vert),\
        xyz\[0\],xyz\[1\],xyz\[2\]);\
-  }
+  
 
   fprintf(stderr,"\\n\\n");
 
@@ -159,7 +159,7 @@ GEnt\_Number(gent));\
     for (j = 0; j &lt; nrv; j++)\
       fprintf(stderr,"%d  ", MV\_Number(mesh,rverts\[j\]));\
     fprintf(stderr,"\\n");\
-  }\
+  \
  
 
   ***/\* Loop through the regions of the mesh and print the face
@@ -182,17 +182,17 @@ neighbor info \*/***
       if (oreg) { ***/\* a region exists on the other side of face,
 print info \*/***\
          fprintf(stderr,"R%-d ",MR\_Number(mesh,oreg));\
-      }\
-    }\
+      \
+    \
     fprintf(stderr,"\\n");\
-  }\
+  \
  
 
-}\
+\
  \
  
 
- [![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html#EXAMPLE) [![](../images/arrow3.gif){width="30"
-height="30"}](utilities.html) [![](../images/arrow4.gif){width="30"
-height="30"}](linking.html)
+ [![](../images/arrow2.gif)"30"
+height="30"](mstkla.html#EXAMPLE) [![](../images/arrow3.gif)"30"
+height="30"](utilities.html) [![](../images/arrow4.gif)"30"
+height="30"](linking.html)

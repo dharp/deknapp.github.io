@@ -9,8 +9,8 @@ title: Conditions of Use
 
 
 
-![](http://www.lanl.gov/images/xtransparent.gif){.strut width="160"
-height="1"}
+![](http://www.lanl.gov/images/xtr width="160"
+height="1"
  
 
 Conditions of Use
@@ -171,12 +171,12 @@ identify\
 
  
 
-![](http://www.lanl.gov/images/xtransparent.gif){.strut width="420"
-height="1"}
+![](http://www.lanl.gov/images/xtr width="420"
+height="1"
 
 [Return to LaGriT Home Page](index.shtml)
 
-![](http://www.lanl.gov/images/xtransparent.gif){.strut width="160"
-height="1"}
+![](http://www.lanl.gov/images/xtr width="160"
+height="1"
 
 

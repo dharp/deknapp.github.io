@@ -18,19 +18,19 @@ Example 1: test using triangulate to create a 2d mesh.\
 Images of GMV input and output
 
 [Concave point distribution with crude
-triangulation](image/triang1.gif)[![](image/triang1_tn.gif){width="110"
-height="86"}](image/triang1.gif)
+triangulation](image/triang1.gif)[![](image/triang1_tn.gif)"110"
+height="86"](image/triang1.gif)
 
-[Refinement](image/triang2.gif)[![](image/triang2_tn.gif){width="114"
-height="89"}](image/triang2.gif)
+[Refinement](image/triang2.gif)[![](image/triang2_tn.gif)"114"
+height="89"](image/triang2.gif)
 
 [Smoothing and further
-refinement](image/triang3.gif)[![](image/triang3_tn.gif){width="110"
-height="86"}](image/triang3.gif)
+refinement](image/triang3.gif)[![](image/triang3_tn.gif)"110"
+height="86"](image/triang3.gif)
 
 [Smoothing and
-recon/0](image/picture4.gif)[![](image/triang4_tn.gif){width="114"
-height="89"}](image/picture4.gif)
+recon/0](image/picture4.gif)[![](image/triang4_tn.gif)"114"
+height="89"](image/picture4.gif)
 
-[recon/1](image/picture5.gif)[![](image/triang5_tn.gif){width="114"
-height="89"}](image/picture5.gif)
+[recon/1](image/picture5.gif)[![](image/triang5_tn.gif)"114"
+height="89"](image/picture5.gif)

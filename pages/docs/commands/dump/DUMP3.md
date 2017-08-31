@@ -15,33 +15,33 @@ The simplest command line with root file\_name and cmo\_name will assume
 the most common options and will write an ASCII compressed stor file
 with scalar area coefficients. If an option is not valid, the program
 will continue but use a valid default setting. Both
-**[dump/fehm]{style="font-family: Courier New,Courier,monospace;"}** and
+**[dump/fehm]{style="font-family: Courier New,Courier,monospace;"** and
 **dump/stor** use the same set of optional settings after the required
-[file\_name]{style="font-family: Courier New,Courier,monospace;"}. \
+[file\_name]{style="font-family: Courier New,Courier,monospace;". \
 \
 Though the syntax for both are the same, with command
-[stor]{style="font-weight: bold;"}, only the stor file is written. With
-command [fehm]{style="font-weight: bold;"}, the full set of 7 FEHM files
+[stor]{style="font-weight: bold;", only the stor file is written. With
+command [fehm]{style="font-weight: bold;", the full set of 7 FEHM files
 are written. The full set of fehm files will look like the following,
-where "[file\_name]{style="font-style: italic;"}" is the root of each
+where "[file\_name]{style="font-style: italic;"" is the root of each
 name:
 
 
     file_name.fehmn              file_name_interface.zone      file_name_outside_vor.area     
     file_name_material.zone      file_name_multi_mat.zone      file_name_outside.zone       file_name.stor
 
-1.  **[file\_name]{style="font-style: italic;"}.fehmn** is a list of
+1.  **[file\_name]{style="font-style: italic;".fehmn** is a list of
     mesh object node x,y,z values and element connectivity list in ASCII
     FEHM format (also dump/coord/... command).
-2.  [file\_name]{style="font-style: italic; font-weight: bold;"}[\_material.zone]{style="font-weight: bold;"}
+2.  [file\_name]{style="font-style: italic; font-weight: bold;"[\_material.zone]{style="font-weight: bold;"
     is node list for each integer material (imt) value (also
     dump/zone\_imt/... command).
-3.  [file\_name]{style="font-style: italic; font-weight: bold;"}[\_interface.zone]{style="font-weight: bold;"}
+3.  [file\_name]{style="font-style: italic; font-weight: bold;"[\_interface.zone]{style="font-weight: bold;"
     is output of FEHM zone format files of nodes along an interface
     where interface is defined as a node to node connection where the
     integer attribute imt changes. Note this file will have 0 length if
     there is only one material.
-4.  [file\_name]{style="font-style: italic; font-weight: bold;"}[\_multi\_mat.zone]{style="font-weight: bold;"}
+4.  [file\_name]{style="font-style: italic; font-weight: bold;"[\_multi\_mat.zone]{style="font-weight: bold;"
     is output of FEHM zone format files of multi-material connections,
     where multi-material is defined as a node to node connection where
     the integer attribute imt changes. Each list consists of a header
@@ -53,7 +53,7 @@ name:
     the connected node on other side of material interface. The lists
     are sorted by the first node. Note this file will have 0 length if
     there is only one material.
-5.  [file\_name]{style="font-style: italic; font-weight: bold;"}[\_outside.zone]{style="font-weight: bold;"}
+5.  [file\_name]{style="font-style: italic; font-weight: bold;"[\_outside.zone]{style="font-weight: bold;"
     is a list of each node associated with each of six possible outside
     areas.\
     The outside zones are defined as 6 possible external boundaries for
@@ -75,22 +75,22 @@ name:
     zone list. For example, in an orthogonal cube aligned with the
     coordinate axes, a corner node can belong to 3 zone lists (e.g.
     front\_s, top and left\_w lists). If
-    [delatt]{style="font-weight: bold;"} (default) is specified, these
+    [delatt]{style="font-weight: bold;" (default) is specified, these
     attributes are deleted after the zone file is written and the mesh
     object remains unchanged. (also dump/zone\_outside/... command).
-6.  [file\_name]{style="font-style: italic; font-weight: bold;"}[\_outside\_vor.area]{style="font-weight: bold;"}
+6.  [file\_name]{style="font-style: italic; font-weight: bold;"[\_outside\_vor.area]{style="font-weight: bold;"
     (default) or
-    [file\_name]{style="font-style: italic; font-weight: bold;"}[\_outside\_med.area]{style="font-weight: bold;"}
+    [file\_name]{style="font-style: italic; font-weight: bold;"[\_outside\_med.area]{style="font-weight: bold;"
     is written after the outside zone nodes are identified and a list of
     2D area or 1D length vectors (Ax\_i,Ay\_i,Az\_i) associated with
     each and listed the same order as zones and nodes in the file
-    [file\_name]{style="font-style: italic;"}\_outside.zone.\
-    If the keyword [keepatt\_voronoi]{style="font-weight: bold;"} is
+    [file\_name]{style="font-style: italic;"\_outside.zone.\
+    If the keyword [keepatt\_voronoi]{style="font-weight: bold;" is
     specified, three node attributes (xn\_varea, yn\_varea, zn\_varea)
     are added and they contain the vector area associated with the
     voronoi areas for each of the nodes located on their external
     triangles.\
-    If the keyword [keepatt\_median]{style="font-weight: bold;"} is
+    If the keyword [keepatt\_median]{style="font-weight: bold;" is
     specified, three node attributes (xn\_marea, yn\_marea, zn\_marea)
     are added and they contain the vector area associated with the
     median area for each of the nodes located on their external
@@ -99,7 +99,7 @@ name:
     input mesh are 2D triangles, the median length of external edges
     incident upon a node are written. (also dump/zone\_outside/...
     command)
-7.  [file\_name]{style="font-style: italic; font-weight: bold;"}[.stor]{style="font-weight: bold;"}
+7.  [file\_name]{style="font-style: italic; font-weight: bold;"[.stor]{style="font-weight: bold;"
     is output of FEHM format file with geometric coefficient matrix,
     these are the Voronoi (control volume) area and volume associated
     with each node and the sparce matrix structure Default format is
@@ -195,14 +195,14 @@ CMO Attribute OPTIONS:
 >   **keepatt**\              Used for the outside zone file, six node attributes are created (top, bottom, left\_w, right\_e,back\_n, front\_s) which are assigned values according to the direction of the octant of their normal vector. \
 >   \                           
 >
->   NOTE: ccoef, ij\_ccoef\   When the \_astor or \_gstor compression algorithms are invoked by default or by using the [all]{style="font-family: Courier New,Courier,monospace;"} or [graph keywords, ]{style="font-family: Courier New,Courier,monospace;"}[two new attributes]{style="font-family: Times New Roman,Times,serif;"} are created, ccoef and ij\_ccoef, if and only if there are some negative area coefficients. Since the area coefficients are really edge based quantities but we only have access to node and element quantities, the following convention is used.\
+>   NOTE: ccoef, ij\_ccoef\   When the \_astor or \_gstor compression algorithms are invoked by default or by using the [all]{style="font-family: Courier New,Courier,monospace;" or [graph keywords, ]{style="font-family: Courier New,Courier,monospace;"[two new attributes]{style="font-family: Times New Roman,Times,serif;" are created, ccoef and ij\_ccoef, if and only if there are some negative area coefficients. Since the area coefficients are really edge based quantities but we only have access to node and element quantities, the following convention is used.\
 >                             \
 >                             If any area coefficient is negative the integer node array ij\_ccoef and real node array ccoef are created.\
 >                             If no area coefficients are negative the arrays are not created.\
 >                             If the area coefficient A\_ij, between nodes i and j is negative then\
->                             [ccoef(i)    = ccoef(j) = A\_ij]{style="font-family: Courier New,Courier,monospace;"}\
->                             [ij\_ccoef(i) = j]{style="font-family: Courier New,Courier,monospace;"}\
->                             [ij\_ccoef(j) = i]{style="font-family: Courier New,Courier,monospace;"}\
+>                             [ccoef(i)    = ccoef(j) = A\_ij]{style="font-family: Courier New,Courier,monospace;"\
+>                             [ij\_ccoef(i) = j]{style="font-family: Courier New,Courier,monospace;"\
+>                             [ij\_ccoef(j) = i]{style="font-family: Courier New,Courier,monospace;"\
 >                             \
 >                             All connections with area coefficients &gt;= 0 are set to zero.\
 >                             \

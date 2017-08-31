@@ -19,5 +19,5 @@ title: '\*arguments:'
 > Images of GMV input (the output consists of several file formats
 > including binary)
 >
-> > [Input geometry ![](../images/output_tn.gif){width="114"
-> > height="89"}](../images/output.gif)
+> > [Input geometry ![](../images/output_tn.gif)"114"
+> > height="89"](../images/output.gif)

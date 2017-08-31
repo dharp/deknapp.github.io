@@ -40,7 +40,7 @@ commands will place points in the unit cube.\
 
 **pset/rayend/seq/1,0,0/**
 
-![](Image226.gif){width="283" height="208"}
+![](Image226.gif)"283" height="208"
 
 \* create rays between points in *rayend* and the plane below the cube
 
@@ -58,7 +58,7 @@ commands will place points in the unit cube.\
 
 **regnpts**/top/3/**pset**,**get**,rayend/**xyz**/0.,0.,-.1/0.,1.,-.1/1.,1.,-.1/0,0/
 
-![](Image227.gif){width="342" height="270"}
+![](Image227.gif)"342" height="270"
 
 \* distribute 4 points along these rays in the region *bottom*
 
@@ -76,7 +76,7 @@ commands will place points in the unit cube.\
 
 **regnpts**/bottom/4/**pset**,**get**,rayend/**xyz**/0.,0.,-.1/0.,1.,-.1/1.,1.,-.1/1,.6/
 
-![](Image228.gif){width="347" height="308"}
+![](Image228.gif)"347" height="308"
 
 Other versions of the **regnpts** are appropriate for cylindrical and
 spherical geometries. For cylindrical geometries the **createpts**

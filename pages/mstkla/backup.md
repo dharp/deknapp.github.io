@@ -2,9 +2,9 @@
 GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html)         ![](../images/arrow3.gif){width="30"
-height="30"}         ![](../images/arrow4.gif){width="30" height="30"}
+[![](../images/arrow2.gif)"30"
+height="30"](mstkla.html)         ![](../images/arrow3.gif)"30"
+height="30"         ![](../images/arrow4.gif)"30" height="30"
 
 ****
 
@@ -46,7 +46,7 @@ the default mesh object. If not the given cmo is made is active and the
 mesh object is\
 initialized from that.
 
-![](../images/note1.gif){width="31" height="32"}This implies that
+![](../images/note1.gif)"31" height="32"This implies that
 sometime in the middle of a LaGriT subroutine, one can call a C routine
 which initializes a mesh object and then uses the functionality of
 MSTKLA!! (Cool!)
@@ -64,7 +64,7 @@ Make a particular mesh object active
 
 Delete a particular mesh object.
 
-![](../images/note1.gif){width="31" height="32"}\*\* NOT YET IMPLEMENTED
+![](../images/note1.gif)"31" height="32"\*\* NOT YET IMPLEMENTED
 \*\* WILL BE IN SOON
 
 ------------------------------------------------------------------------
@@ -72,14 +72,14 @@ Delete a particular mesh object.
 *void* **MESH\_WriteToFile**(*PMeshObj* mesh, *char* \*filename, *char*
 \*format, *int* iotype);
 
-![](../images/note1.gif){width="31" height="32"}\*\* NOT YET IMPLEMENTED
+![](../images/note1.gif)"31" height="32"\*\* NOT YET IMPLEMENTED
 \*\* WILL BE IN SOON \*\*
 
 ------------------------------------------------------------------------
 
 *PMeshObj* **MESH\_Duplicate**(*PMeshObj* mesh);
 
-![](../images/note1.gif){width="31" height="32"}\*\* NOT YET IMPLEMENTED
+![](../images/note1.gif)"31" height="32"\*\* NOT YET IMPLEMENTED
 \*\*
 
 ------------------------------------------------------------------------
@@ -88,7 +88,7 @@ Delete a particular mesh object.
 
 Number of vertices (nodes) in the mesh.
 
-![](bullet12.gif){width="27" height="31"}\*\*\* IMPORTANT \*\*\*\
+![](bullet12.gif)"27" height="31"\*\*\* IMPORTANT \*\*\*\
 This count may include deleted vertices, parent vertices and other\
 types of vertices that should be ignored. So when looping through\
 vertices of a mesh, one should check if the vertex is to be ignored.
@@ -99,7 +99,7 @@ vertices of a mesh, one should check if the vertex is to be ignored.
 
 Number of regions (elements) in the mesh.
 
-![](bullet12.gif){width="27" height="31"}\*\*\* IMPORTANT \*\*\*\
+![](bullet12.gif)"27" height="31"\*\*\* IMPORTANT \*\*\*\
 This count may include deleted regions. While looping through the\
 regions of a mesh, one should check if the region is to be ignored.
 
@@ -146,7 +146,7 @@ information is not needed and call this routine automatically.
 
 Increment all the node lists.
 
-![](../images/note1.gif){width="31" height="32"}(\*\* NOT FULLY TESTED
+![](../images/note1.gif)"31" height="32"(\*\* NOT FULLY TESTED
 \*\*)
 
 ------------------------------------------------------------------------
@@ -156,7 +156,7 @@ Increment all the node lists.
 
 Increment all the element lists.
 
-![](../images/note1.gif){width="31" height="32"}(\*\* NOT FULLY TESTED
+![](../images/note1.gif)"31" height="32"(\*\* NOT FULLY TESTED
 \*\*)
 
 ------------------------------------------------------------------------
@@ -166,10 +166,10 @@ Increment all the element lists.
 
 Compress all the element lists.
 
-![](../images/note1.gif){width="31" height="32"}\*\*\* NOT YET
+![](../images/note1.gif)"31" height="32"\*\*\* NOT YET
 IMPLEMENTED \*\*\*
 
-![](bullet12.gif){width="27" height="31"}\*\*\* IMPORTANT !!! \*\*\*
+![](bullet12.gif)"27" height="31"\*\*\* IMPORTANT !!! \*\*\*
 
 There is one side effect of compression of lists. If one is storing a\
 list of node numbers or PMeshVerts (which for the LaGriT interface are\
@@ -184,7 +184,7 @@ think they are.
 
 Compress all the element lists.  \*\*\* NOT YET IMPLEMENTED \*\*\*
 
-![](bullet12.gif){width="27" height="31"}\*\*\* IMPORTANT !!! \*\*\*
+![](bullet12.gif)"27" height="31"\*\*\* IMPORTANT !!! \*\*\*
 
 There is one side effect of compression of lists. If one is storing a\
 list of element numbers or PMeshRegns (which for the LaGriT interface\
@@ -239,21 +239,21 @@ Coordinates of mesh vertex
 
 *int* **MV\_IsParent**(*PMeshObj* mesh, *PMeshVert* v);
 
-![](../images/note1.gif){width="31" height="32"}A vertex not on an
+![](../images/note1.gif)"31" height="32"A vertex not on an
 interface is its own parent - return value will be 1
 
 ------------------------------------------------------------------------
 
 *int* **MV\_IsChild**(*PMeshObj* mesh, *PMeshVert* v);
 
-![](../images/note1.gif){width="31" height="32"}A vertex not on an
+![](../images/note1.gif)"31" height="32"A vertex not on an
 interface is its own child - return value will be 1
 
 ------------------------------------------------------------------------
 
 *PMeshVert* **MV\_Parent**(*PMeshObj* mesh, *PMeshVert* v);
 
-![](../images/note1.gif){width="31" height="32"}For a vertex not on an
+![](../images/note1.gif)"31" height="32"For a vertex not on an
 interface, the vertex itself is returned
 
 ------------------------------------------------------------------------
@@ -261,7 +261,7 @@ interface, the vertex itself is returned
 *void* **MV\_Children**(*PMeshVert* mesh, *PMeshVert* v, *int* \*nvc,
 *PMeshVert* \*\*vc)
 
-![](../images/note1.gif){width="31" height="32"}For a vertex not on an
+![](../images/note1.gif)"31" height="32"For a vertex not on an
 interface, a 1 item array with the vertex\
 pointer itself is returned and nvc = 1\
  \
@@ -285,7 +285,7 @@ up of the child vertex 'v' and any other child vertex it is connected\
 to. Note that vertices on 2-manifold (single material) boundaries and\
 in the interior can be considered a parent or a child as required.
 
-![](bullet12.gif){width="27" height="31"}\*\*\* IMPORTANT \*\*\*\
+![](bullet12.gif)"27" height="31"\*\*\* IMPORTANT \*\*\*\
 When finished with the list of edges, call ME\_Delete on each of the\
 edges and free the vedges list. This is important since the MeshEdge\
 data structures are created on the fly and the MESH object does not\
@@ -297,7 +297,7 @@ keep track of them.\
 *void* **MV\_Faces**(*PMeshObj* mesh, *PMeshVert* v, *int* \*nvf,
 *PMeshFace* \*\*vfaces);
 
-![](../images/note1.gif){width="31" height="32"}\*\* NOT YET TESTED \*\*
+![](../images/note1.gif)"31" height="32"\*\* NOT YET TESTED \*\*
 
 List of mesh faces connected to vertex. For this routine to work\
 properly, one must call MESH\_BldAdj first. If not the routine will\
@@ -306,7 +306,7 @@ just return 0.
 The behavior of the operator for parent and child vertices is the same\
 as it is for MV\_Edges.
 
-![](bullet12.gif){width="27" height="31"}\*\*\* IMPORTANT \*\*\*\
+![](bullet12.gif)"27" height="31"\*\*\* IMPORTANT \*\*\*\
 When finished with the list of faces, call MF\_Delete on each of the\
 faces and free the vfaces list. This is important since the MeshFace\
 data structures are created on the fly and the MESH object does not\
@@ -367,7 +367,7 @@ Free the data structure associated with this edge created on the fly.\
 (There is an operator for creation but I cannot yet imagine needing to\
 make that a publicly available operator).
 
-![](bullet12.gif){width="27" height="31"}\*\* IMPORTANT \*\*\
+![](bullet12.gif)"27" height="31"\*\* IMPORTANT \*\*\
 ME\_Delete will not remove any connections in the mesh. It just destroys
 the\
 temporary data structure used to store the edge info
@@ -390,7 +390,7 @@ edge is constructed from them.
 *void* ME\_Children(*PMeshObj* mesh, *PMeshEdge* pe, *int* \*nec,
 *PMeshEdge* \*\*ec);
 
-![](../images/note1.gif){width="31" height="32"}\*\*\* NOT YET
+![](../images/note1.gif)"31" height="32"\*\*\* NOT YET
 IMPLEMENTED \*\*\*
 
 Child vertices of the face are found and appropriate combinations of
@@ -461,7 +461,7 @@ before this operator can be called usefully.
 The behavior of this operator for child and parent edges is similar to\
 that of MV\_Regions.
 
-![](bullet12.gif){width="27" height="31"}\*\* IMPORTANT \*\*
+![](bullet12.gif)"27" height="31"\*\* IMPORTANT \*\*
 
 Since MESH\_BldUpAdj builds explicit upward adjacency information, this\
 routine does not require a seed region to be provided. Also, this\
@@ -498,7 +498,7 @@ operator.
 
 *int* **MF\_Number**(*PMeshObj* mesh, *PMeshFace* f);
 
-![](../images/note1.gif){width="31" height="32"}\*\* This will return 0
+![](../images/note1.gif)"31" height="32"\*\* This will return 0
 for now since I haven't yet decided on a good\
 \*\* way to assign a unique number to the (virtual) faces of the mesh.
 
@@ -510,7 +510,7 @@ Free the data structure associated with this face created on the fly.\
 (There is an operator for creation but I cannot yet imagine needing to\
 make that a publicly available operator).
 
-![](bullet12.gif){width="27" height="31"}\*\* IMPORTANT \*\*\
+![](bullet12.gif)"27" height="31"\*\* IMPORTANT \*\*\
 MF\_Delete will not remove any connections in the mesh. It just\
 destroys the temporary data structure used to store the face info
 
@@ -533,7 +533,7 @@ The parents of all vertices of the face are obtained and a new\
 *void* **MF\_Children**(*PMeshObj* mesh, *PMeshFace* pf, *int* \*nfc,
 *PMeshFace* \*\*fc);
 
-![](../images/note1.gif){width="31" height="32"}\*\*\* NOT YET
+![](../images/note1.gif)"31" height="32"\*\*\* NOT YET
 IMPLEMENTED \*\*\*
 
 Child vertices of the face are found and appropriate combinations of
@@ -582,7 +582,7 @@ child vertices. If a vertex is not on an non-manifold boundary\
 *PMeshVert* **MF\_VerticesOrd**(*PMeshObj* mesh, *PMeshFace* f, *int*
 \*nfv, *PMeshVert*ex \*fverts);
 
-![](../images/note1.gif){width="31" height="32"}\*\* NOT YET IMPLEMENTED
+![](../images/note1.gif)"31" height="32"\*\* NOT YET IMPLEMENTED
 \*\*
 
 Return the vertices of the mesh face. The vertices are ordered such\
@@ -618,7 +618,7 @@ face will return a region only on its side of the interface. If a\
 "child" face constructed from interior nodes and child nodes on an\
 interface, both regions connected to it are returned.
 
-![](bullet12.gif){width="27" height="31"}\*\* IMPORTANT \*\*
+![](bullet12.gif)"27" height="31"\*\* IMPORTANT \*\*
 
 Since MESH\_BldUpAdj builds explicit upward adjacency information, this\
 routine does not require a seed region to be provided.**
@@ -675,7 +675,7 @@ List of vertices of a mesh region**
 *void* **MR\_VerticesE**(*PMeshObj* mesh, *PMeshRegn* r, *PMeshEdge* e,
 *PMeshVert* \*rverts);
 
-![](../images/note1.gif){width="31" height="32"}THIS OPERATOR IS
+![](../images/note1.gif)"31" height="32"THIS OPERATOR IS
 APPLICABLE ONLY TO TETS
 
 Return the vertices of the given tet w.r.t to the given edge. The\
@@ -696,7 +696,7 @@ where v2k1 is the vector from v2 to k1, etc.**
 *void* **MR\_VerticesLocE**(*PMeshObj* mesh, *PMeshRegn* r, *int* enum,
 *PMeshVert* \*rverts);
 
-![](../images/note1.gif){width="31" height="32"}THIS OPERATOR IS
+![](../images/note1.gif)"31" height="32"THIS OPERATOR IS
 APPLICABLE ONLY TO TETS
 
 Same as MR\_VerticesE (above) but the edge is specified by a local edge\
@@ -974,6 +974,6 @@ boundary of a region, an edge is on the boundary of a face, a vertex\
 is on the boundary of a region)\
  
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html)         ![](../images/arrow3.gif){width="30"
-height="30"}         ![](../images/arrow4.gif){width="30" height="30"}
+[![](../images/arrow2.gif)"30"
+height="30"](mstkla.html)         ![](../images/arrow3.gif)"30"
+height="30"         ![](../images/arrow4.gif)"30" height="30"

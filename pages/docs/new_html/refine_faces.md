@@ -10,7 +10,7 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 > we have\
 >  
 >
-> > ![](image1.jpg){width="154" height="111"}
+> > ![](image1.jpg)"154" height="111"
 >
 >   where A is the area of the face.
 >

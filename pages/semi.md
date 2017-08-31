@@ -9,8 +9,8 @@ title: Semiconductor
 
 
 
-![](http://www.lanl.gov/images/xtransparent.gif){.strut width="160"
-height="1"}
+![](http://www.lanl.gov/images/xtr width="160"
+height="1"
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
 \* Read avs files\
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
@@ -77,12 +77,12 @@ finish
 
  
 
-![](http://www.lanl.gov/images/xtransparent.gif){.strut width="420"
-height="1"}
+![](http://www.lanl.gov/images/xtr width="420"
+height="1"
 
 [Return to LaGriT Home Page](index.shtml)
 
-![](http://www.lanl.gov/images/xtransparent.gif){.strut width="160"
-height="1"}
+![](http://www.lanl.gov/images/xtr width="160"
+height="1"
 
 

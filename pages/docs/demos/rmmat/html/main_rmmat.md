@@ -8,8 +8,8 @@ title: '\*arguments:'
 > > > The objective is to test the **rmmat** command.\
 > > >  \
 > > > [Example 1](description_rmmat.html)
-> > > [![](image/rmmat4_tn.gif){width="114"
-> > > height="89"}](description_rmmat.html)
+> > > [![](image/rmmat4_tn.gif)"114"
+> > > height="89"](description_rmmat.html)
 
 \
 \

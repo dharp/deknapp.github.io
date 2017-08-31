@@ -19,8 +19,8 @@ title: '\*arguments:'
 > \
 > Images of GMV output
 >
-> > [![](image/image6tn.gif){width="171"
-> > height="161"}](image/image6.gif) [sphere-points](image/image6.gif)
+> > [![](image/image6tn.gif)"171"
+> > height="161"](image/image6.gif) [sphere-points](image/image6.gif)
 >
 > \
 >  

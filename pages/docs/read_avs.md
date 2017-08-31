@@ -14,7 +14,7 @@ GENERATOR: 'Mozilla/4.72 \[en\] (X11; U; Linux 2.2.14-5.0 i686) \[Netscape\]'
 > > **read**/filename.\[inpavs\]/cmo\_name\
 > > \
 > > [Note that the filename is case-sensitive, though the extension
-> > itself is not.]{style="font-family: Times New Roman,Times;"}\
+> > itself is not.]{style="font-family: Times New Roman,Times;"\
 >
 > LONG FORMAT:
 >
@@ -32,7 +32,7 @@ GENERATOR: 'Mozilla/4.72 \[en\] (X11; U; Linux 2.2.14-5.0 i686) \[Netscape\]'
 >  EXAMPLES:
 >
 > > **read**/**avs**/file1/cmo1\
-> > **read/avs**[/file2//1/1/0]{style="font-family: monospace;"}   
+> > **read/avs**[/file2//1/1/0]{style="font-family: monospace;"   
 > > (skip attribute data)\
 > >                                       (mesh object must already
 > > exist)

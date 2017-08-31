@@ -9,8 +9,8 @@ title: 'FILTER/ELEMENT'
 > **FILTER/ELEMENT**
 >
 > > **FORMAT**:
-> > **filter**/[element]{style="font-weight: bold;"}/\[search\_range\]/\[**nodelete**
-> >  [delete]{style="font-weight: bold;"}\]\
+> > **filter**/[element]{style="font-weight: bold;"/\[search\_range\]/\[**nodelete**
+> >  [delete]{style="font-weight: bold;"\]\
 >
 > > Search a mesh object for duplicate elements. A duplicate element is
 > > defined as having the exact same set of nodes in the element
@@ -42,7 +42,7 @@ value of its master.\
 > > Element 1,2 itetclr = 1\
 > > Element 3,4 itetclr = 2\
 > > then after:\
-> > [filter]{style="font-weight: bold;"}/[element]{style="font-weight: bold;"}/10/[nodelete   ]{style="font-weight: bold;"}                                                  \
+> > [filter]{style="font-weight: bold;"/[element]{style="font-weight: bold;"/10/[nodelete   ]{style="font-weight: bold;"                                                  \
 > > \
 > > Maximum material id max(itetclr)          =         
 > > 2                         \
@@ -105,8 +105,8 @@ value of its master.\
 > > sorted so that elements that are physically close to each other will
 > > be close to each other in the element list.\
 > > \
-> > The [search\_range]{style="font-family: monospace;"} can be set by
-> > the user. Setting [search\_range]{style="font-family: monospace;"}
+> > The [search\_range]{style="font-family: monospace;" can be set by
+> > the user. Setting [search\_range]{style="font-family: monospace;"
 > > to a number larger than the number of elements will cause all
 > > elements to be searched.\
 > > \
@@ -116,7 +116,7 @@ value of its master.\
 > > \
 > > The default behavior is to not delete the duplicate elements. 
 > > However the duplicate elements will be deleted from the mesh if the
-> > parameter [delete ]{style="font-weight: bold;"}is specified.\
+> > parameter [delete ]{style="font-weight: bold;"is specified.\
 > > \
 > > In general if you are merging together two meshes and then want to
 > > delete duplicate elements the commands might be:\
@@ -125,44 +125,44 @@ value of its master.\
 > > **addmesh /** merge / cmohex / cmohex1 / cmohex2\
 > > \* Create an attribute with the median x,y,z coordinate of each
 > > element\
-> > [createpts]{style="font-weight: bold;"} / [median\
-> > ]{style="font-weight: bold;"}\* Sort and reorder the elements based
+> > [createpts]{style="font-weight: bold;" / [median\
+> > ]{style="font-weight: bold;"\* Sort and reorder the elements based
 > > on the median points. This will insure that elements that occupy
 > > the\
 > > \* same location will have element numbers near one another.\
-> > [sort]{style="font-weight: bold;"} / -def- /
-> > [index]{style="font-weight: bold;"} /
-> > [ascending]{style="font-weight: bold;"} / ikey / xmed ymed zmed\
-> > [reorder]{style="font-weight: bold;"}/ -def- /ikey\
+> > [sort]{style="font-weight: bold;" / -def- /
+> > [index]{style="font-weight: bold;" /
+> > [ascending]{style="font-weight: bold;" / ikey / xmed ymed zmed\
+> > [reorder]{style="font-weight: bold;"/ -def- /ikey\
 > > \* Filter and remove duplicate nodes.\
-> > [filter]{style="font-weight: bold;"} / 1 0 0\
-> > [rmpoint]{style="font-weight: bold;"} / [compress\
-> > ]{style="font-weight: bold;"}\* Filter and remove duplicate
+> > [filter]{style="font-weight: bold;" / 1 0 0\
+> > [rmpoint]{style="font-weight: bold;" / [compress\
+> > ]{style="font-weight: bold;"\* Filter and remove duplicate
 > > elements.\
-> > [filter]{style="font-weight: bold;"} /
-> > [element]{style="font-weight: bold;"} / /
-> > [delete]{style="font-weight: bold;"}\
+> > [filter]{style="font-weight: bold;" /
+> > [element]{style="font-weight: bold;" / /
+> > [delete]{style="font-weight: bold;"\
 > > \
 
  EXAMPLES:\
 
 > \
-> **filter** / [element]{style="font-weight: bold;"}\
+> **filter** / [element]{style="font-weight: bold;"\
 > Filter all elements and set itetclr of duplicates to max(itetclr) + 1.
 > Assign values to iclr1 and iclr2 arrays.\
 > \
-> **filter** / [element]{style="font-weight: bold;"} / /
-> [nodelete]{style="font-weight: bold;"}\
+> **filter** / [element]{style="font-weight: bold;" / /
+> [nodelete]{style="font-weight: bold;"\
 > Filter elements and set itetclr of duplicates to max(itetclr) + 1.
 > Assign values to iclr1 and iclr2 arrays.\
 > \
-> **filter** / [element]{style="font-weight: bold;"} / /
-> [delete]{style="font-weight: bold;"}\
+> **filter** / [element]{style="font-weight: bold;" / /
+> [delete]{style="font-weight: bold;"\
 > Filter elements and delete duplicate elements. Assign values to iclr1
 > and iclr2 arrays.\
 > \
-> **filter** / [element]{style="font-weight: bold;"} / 1e20 /
-> [delete]{style="font-weight: bold;"}\
+> **filter** / [element]{style="font-weight: bold;" / 1e20 /
+> [delete]{style="font-weight: bold;"\
 > Filter all elements (assuming there are less than 1e20)  with an
 > exhaustive search and delete duplicate elements. Assign values to
 > iclr1 and iclr2 arrays.\

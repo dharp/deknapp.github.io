@@ -363,7 +363,7 @@ UPSCALE
 > >   Source points all equal to 1,\                                                                                        Source points colored by associated\                                                                                Source points colored by number of duplicate\
 > >   Sink points colored by upscaled value.                                                                                sink node id, attribute pt\_gtg.                                                                                    cell boundaries, attribute dups\_gtg.
 > >
-> >   [![LaGriT Finite Element Mesh](../../images/upscale_ex2_imt_TN.PNG){width="300"}](../../images/upscale_ex2_imt.png)   [![LaGriT Finite Element Mesh](../../images/upscale_ex2_id_TN.PNG){width="300"}](../../images/upscale_ex2_id.png)   [![LaGriT Finite Element Mesh](../../images/upscale_ex2_dups_TN.PNG){width="300"}](../../images/upscale_ex2_dups.png)
+> >   [![LaGriT Finite Element Mesh](../../images/upscale_ex2_imt_TN.PNG)"300"](../../images/upscale_ex2_imt.png)   [![LaGriT Finite Element Mesh](../../images/upscale_ex2_id_TN.PNG)"300"](../../images/upscale_ex2_id.png)   [![LaGriT Finite Element Mesh](../../images/upscale_ex2_dups_TN.PNG)"300"](../../images/upscale_ex2_dups.png)
 > >   --------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------
 > >
 > > \

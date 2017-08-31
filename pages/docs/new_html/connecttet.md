@@ -34,7 +34,7 @@ to resolve material interfaces\
 \* terminate processing\
 **[finish](FINISH.html)**
 
-![](Image229.gif){width="452" height="411"}
+![](Image229.gif)"452" height="411"
 
 The complete input for the tutorial is:\
  

@@ -50,4 +50,4 @@ defines the enclosing volume in region and mregion commands. For
 example, the regions *top* and *bottom* are enclosed by the surface
 *cube*
 
-![](new_html/Image224.gif){width="344" height="239"}
+![](new_html/Image224.gif)"344" height="239"

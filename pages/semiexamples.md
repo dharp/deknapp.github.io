@@ -15,8 +15,8 @@ title: LANL  LaGriT
 
 
 
- ansparent.gif){.strut              Semiconductor Examples            
- width="160" height="1"}            ----------------------            
+               Semiconductor Examples            
+ width="160" height="1"            ----------------------            
 
                                     Click on picture to expand        
 
@@ -26,11 +26,11 @@ title: LANL  LaGriT
                                      [![Semiconductor Example        
                                         [![Semiconductor Example     
 
-                                     1](images/len1.jpg){width="225" 
-                                        2](images/len2.jpg){width="2 
+                                     1](images/len1.jpg)"225" 
+                                        2](images/len2.jpg)"2 
                                     25"                              
-                                     height="225"}](images/len1_expa 
-                                    nd  height="225"}](images/len2_e 
+                                     height="225"](images/len1_expa 
+                                    nd  height="225"](images/len2_e 
                                     xpand                            
                                      .jpg)                           
                                         .jpg)                        
@@ -47,13 +47,13 @@ title: LANL  LaGriT
                                      [![Semiconductor Example        
                                                                      
 
-                                     3](images/sn.mos3d.jpg){width=" 
+                                     3](images/sn.mos3d.jpg)" 
                                     22                               
 
                                      5"                              
 
 
-                                     height="225"}](images/sn.mos3d_ 
+                                     height="225"](images/sn.mos3d_ 
                                     ex                               
 
                                      pand.jpg)                       
@@ -70,8 +70,8 @@ title: LANL  LaGriT
                                     ------+                           
 
                                     ![](http://www.lanl.gov/images/tr 
-                                    ansparent.gif){.strut             
-                                    width="420" height="1"}           
+                                                 
+                                    width="420" height="1"           
 
 
 

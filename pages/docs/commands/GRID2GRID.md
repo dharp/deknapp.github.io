@@ -32,7 +32,7 @@ must be specified.
 > **prismtotet14**   prism to 14 tets, four new points (1 + 3 faces).\
 > **prismtotet18**   prism to 18 tets, six new points (1 + 5 faces).\
 > **hextotet24**   hex to 24 tets, seven new points (1 + 6 faces).\
-> [tree\_to\_fe]{style="font-weight: bold;"}   quadtree or octree grid
+> [tree\_to\_fe]{style="font-weight: bold;"   quadtree or octree grid
 > to grid with no parent-type elements.\
 
 \
@@ -46,12 +46,12 @@ is given, it will be used at the sink mesh, and the\
 \
 ****EXAMPLES:
 
-> **grid2grid / hextotet24 ** [/  ]{style="font-family: serif;"}cmo\_tet
+> **grid2grid / hextotet24 ** [/  ]{style="font-family: serif;"cmo\_tet
 > / cmo\_hex
 > Convert each hex element in cmo\_hex to 24 tets and name the new grid
 > cmo\_tet.
 > \
-> **grid2grid / quadtotri4** [/  new\_mesh]{style="font-family: serif;"}
+> **grid2grid / quadtotri4** [/  new\_mesh]{style="font-family: serif;"
 > No source mesh is given, so the current mesh object (which is a quad
 > mesh) will have every quad converted into 4 triangles, and saved as
 > new\_mesh.

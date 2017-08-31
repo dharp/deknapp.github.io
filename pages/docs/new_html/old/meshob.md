@@ -14,7 +14,7 @@ title: 2
 > >   ierror      error return - 0 if no errors
 > >   ----------- -------------------------------
 > >
-> []{#cmo_get_intinfo}**cmo\_get\_intinfo(**ioption,cmo\_name,iout,lout,itype,ierror)
+> []{#cmo_get_intinfo**cmo\_get\_intinfo(**ioption,cmo\_name,iout,lout,itype,ierror)
 >
 > > Get values of scalar attribute of the mesh object.\
 > > **ioption ** is the name of the mesh object attribute whose value is
@@ -40,7 +40,7 @@ title: 2
 > >   ierror      return flag (0= no errors)
 > >   ----------- ------------------------------------------------
 > >
-> []{#cmo_get_info}**cmo\_get\_info**(ioption, cmo\_name, iout, lout,
+> []{#cmo_get_info**cmo\_get\_info**(ioption, cmo\_name, iout, lout,
 > itype, ierror)
 >
 > > Return pointer to array attributes.\
@@ -69,7 +69,7 @@ title: 2
 > >   ierror                return flag (0= no errors)
 > >   --------------------- -------------------------------------------------------
 > >
-> []{#cmo_set_info}**cmo\_set\_info**(ioption,cmo\_name,data,lin,itype,ierror)
+> []{#cmo_set_info**cmo\_set\_info**(ioption,cmo\_name,data,lin,itype,ierror)
 >
 > Set values of integer  attribute of the mesh object.
 >
@@ -81,12 +81,12 @@ title: 2
 >   itype       type of attribute (1)
 >   ----------- -----------------------------------------
 >
-> []{#cmo_get_name}**cmo\_get\_name**(cmo\_name,ierror)
+> []{#cmo_get_name**cmo\_get\_name**(cmo\_name,ierror)
 >
 > > Get the name of the current mesh object.\
 > > cmo\_name                         name of current mesh object
 >
-> []{#cmo_set_name}**cmo\_set\_name**(cmo\_name,ierror)
+> []{#cmo_set_name**cmo\_set\_name**(cmo\_name,ierror)
 >
 > > Set the name of the current mesh object.
 
@@ -98,7 +98,7 @@ title: 2
 > > cmo\_get\_intinfo('number\_of\_attributes').
 >
 > \
-> []{#cmo_newlen}**cmo\_newlen**(cmo\_name,ierror)
+> []{#cmo_newlen**cmo\_newlen**(cmo\_name,ierror)
 >
 > > Adjust memory associated with mesh object. Must be called whenever
 > > the size of the mesh is adjusted in order to provide memory to the
@@ -113,7 +113,7 @@ title: 2
 > >   ierror       error return - 0 if no errors
 > >   ------------ -------------------------------
 > >
-> []{#cmo_get_attinfo}**cmo\_get\_attinfo** (ioption, cmo\_name, iout,
+> []{#cmo_get_attinfo**cmo\_get\_attinfo** (ioption, cmo\_name, iout,
 > rout, cout, ipout, lout,itype, ierror)\
 > Retrieve a mesh object value,  the attribute type will determine what
 > is returned.
@@ -140,7 +140,7 @@ title: 2
 > >   ierror      return flag (0 = no errors)
 > >   ----------- -------------------------------
 > >
-> []{#cmo_set_attinfo}**cmo\_set\_attinfo**(ioption,cmo\_name,idata,rdata,cdata,type\_data,ierror)\
+> []{#cmo_set_attinfo**cmo\_set\_attinfo**(ioption,cmo\_name,idata,rdata,cdata,type\_data,ierror)\
 > Set mesh object attribute values for integer, real or character
 > attributes.
 >
@@ -153,7 +153,7 @@ title: 2
 > >   ierror               return flag (0 = no errors)
 > >   -------------------- ------------------------------------------------
 > >
-> []{#cmo_get_attparam}**cmo\_get\_attparam**(ioption,cmo\_name,index,ctype,crank,clen,cinter,cpers,cio,ierror)\
+> []{#cmo_get_attparam**cmo\_get\_attparam**(ioption,cmo\_name,index,ctype,crank,clen,cinter,cpers,cio,ierror)\
 > Return attribute definition:
 >
 > >  

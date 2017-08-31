@@ -8,5 +8,5 @@ title: '\*arguments:'
 > > > The objective is to test the **hextotet** command.\
 > > >  \
 > > > [Example 1](description_hextet.html)
-> > > [![](image/output_tet_tn.gif){width="114"
-> > > height="89"}](description_hextet.html)
+> > > [![](image/output_tet_tn.gif)"114"
+> > > height="89"](description_hextet.html)

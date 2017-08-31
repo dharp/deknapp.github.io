@@ -7,7 +7,7 @@ title: 'LaGriT V2.004 Release Notes, 10/21/2008'
 <div id="header">
 
 [![LaGriT
-Banner](https://lagrit.lanl.gov/images/lagrit1.jpg)](https://ancho.lanl.gov/lagrit/){#logo}
+Banner](https://lagrit.lanl.gov/images/lagrit1.jpg)](https://ancho.lanl.gov/lagrit/){#logo
 
 ------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Banner](https://lagrit.lanl.gov/images/lagrit1.jpg)](https://ancho.lanl.gov/lagr
 
 Banner when LaGriT is started (eg Linux):\
 
-``` {wrap=""}
+``` {wrap=""
 *               *    Program:  LaGriT V2.200   Linux m32      *                 
 *               *    date_compile: 2010/11/22                 *     
 ```
@@ -53,14 +53,14 @@ Banner when LaGriT is started (eg Linux):\
  -   [grid2grid /...](#grid2grid_...)                                  
  -   [dump / stor / ...](#dump__stor__...)                             
  -   [pset /...](#pset_...)                                            
- -   [memory / ...](#memory__...)[]{style="font-weight: bold;"}        
+ -   [memory / ...](#memory__...)[]{style="font-weight: bold;"        
 
  --------------------------------------------------------------------- 
  ---                                                                   
 
- #### []{#dump__zone_outside__...}dump / zone\_outside / ...\          
+ #### []{#dump__zone_outside__...dump / zone\_outside / ...\          
   {#dump-zone_outside-... style="font-family: Courier New,Courier,mono 
- space;"}                                                              
+ space;"                                                              
 
  Changed FEHM outside area calculation to default to Voronoi area      
  associated with nodes of a 3D tetrahedral mesh instead of computing   
@@ -75,27 +75,27 @@ Banner when LaGriT is started (eg Linux):\
  [https://lagrit.lanl.gov/docs/DUMP3.html                              
  dump/zone\_outside](https://lagrit.lanl.gov/docs/DUMP3.html%20dump/zo 
  ne_outside)\                                                          
- #### []{#cmo__addatt__voronoi_varea__...}cmo / addatt / voronoi\_vare 
+ #### []{#cmo__addatt__voronoi_varea__...cmo / addatt / voronoi\_vare 
  a / ...\                                                              
   {#cmo-addatt-voronoi_varea-... style="font-family: Courier New,Couri 
- er,monospace;"}                                                       
+ er,monospace;"                                                       
 
  This module will do the same voronoi calculation on triangles as is   
  done with the outside area for a 3D tetrahderal mesh. The call will   
  create vector components for each node and fill the node attributes   
  xn\_varea, yn\_varea, zn\_varea.                                      
  <https://lagrit.lanl.gov/docs/cmo_addatt.html>\                       
- #### []{#extract__surfmesh__...}extract / surfmesh / ...\             
+ #### []{#extract__surfmesh__...extract / surfmesh / ...\             
   {#extract-surfmesh-... style="font-family: Courier New,Courier,monos 
- pace;"}                                                               
+ pace;"                                                               
 
  Now creates attributes to hold element local face numbers of 3D input 
  mesh that occur on either side of output mesh face, idface0 and       
  idface1. Now copies user-created node-based attributes from source    
  mesh into extracted sink mesh.                                        
  <https://lagrit.lanl.gov/docs/EXTRACT1.html>\                         
- #### []{#addmesh__excavate__...}addmesh / excavate / ... {#addmesh-ex 
- cavate-... style="font-family: Courier New,Courier,monospace;"}       
+ #### []{#addmesh__excavate__...addmesh / excavate / ... {#addmesh-ex 
+ cavate-... style="font-family: Courier New,Courier,monospace;"       
 
  excavate - remove nodes and elements if they fall with the            
  circumsphere of triangles on the input mesh.\                         
@@ -113,9 +113,9 @@ Banner when LaGriT is started (eg Linux):\
  with the surface (mesh2) inserted into the background (mesh1).        
  [https://lagrit.lanl.gov/docs/ADDMESH.html\                           
  ](https://lagrit.lanl.gov/docs/ADDMESH.html)                          
- #### []{#interpolate__...}interpolate / ...\                          
+ #### []{#interpolate__...interpolate / ...\                          
   {#interpolate-... style="font-family: Courier New,Courier,monospace; 
- "}                                                                    
+ "                                                                    
 
  Changed interpolate to "find" more points on edges this will permit   
  nodes to find a nearest edge or point and be "inside" the triangle    
@@ -149,32 +149,32 @@ Banner when LaGriT is started (eg Linux):\
  DUMP3.html for dump/fehm now includes descriptions of FEHM files.     
  https://lagrit.lanl.gov/docs/DUMP2.html                               
  https://lagrit.lanl.gov/docs/DUMP3.html\                              
- #### []{#read_...}read /... {#read-... style="font-family: Courier Ne 
- w,Courier,monospace;"}                                                
+ #### []{#read_...read /... {#read-... style="font-family: Courier Ne 
+ w,Courier,monospace;"                                                
 
  Three token read implemented. Files are recognized based on their     
  suffix (AVS, GMV, ...) rather than requiring that the second token    
  specify the file type.\                                               
  <https://lagrit.lanl.gov/docs/READ.html>\                             
- #### []{#dump_...}dump /... {#dump-... style="font-family: Courier Ne 
- w,Courier,monospace;"}                                                
+ #### []{#dump_...dump /... {#dump-... style="font-family: Courier Ne 
+ w,Courier,monospace;"                                                
 
  Two and three token dump implemented. Files types (AVS, GMV, ...) are 
  recognized based on their suffix rather than requiring that the       
  second token specify the file type. Two token write does not require  
  a MO name. The default MO is used.\                                   
  <https://lagrit.lanl.gov/docs/DUMP2.html>                             
- #### []{#cmo__attribute_union__...}cmo / attribute\_union / ...\      
+ #### []{#cmo__attribute_union__...cmo / attribute\_union / ...\      
   {#cmo-attribute_union-... style="font-family: Courier New,Courier,mo 
- nospace;"}                                                            
+ nospace;"                                                            
 
  Change two meshes so they both share the same set of attributes       
  (taking the union of their sets of attributes)\                       
  <https://lagrit.lanl.gov/docs/cmo_att_derive.html>\                   
- #### []{#compute__linear_extrapolate__...}compute / linear\_extrapola 
+ #### []{#compute__linear_extrapolate__...compute / linear\_extrapola 
  te / ...\                                                             
   {#compute-linear_extrapolate-... style="font-family: Courier New,Cou 
- rier,monospace;"}                                                     
+ rier,monospace;"                                                     
 
  linear\_extrapolate - keyword for an extrapolation from an attribute  
  value in a surface onto every node of a 3D mesh. Given a 3D mesh and  
@@ -187,8 +187,8 @@ Banner when LaGriT is started (eg Linux):\
  spatial coordinate.\                                                  
      \* Compute the depth relative to a topographic surface to each    
  node of a mesh. <https://lagrit.lanl.gov/docs/COMPUTE.html>\          
- #### []{#grid2grid_...}grid2grid /... {#grid2grid-... style="font-fam 
- ily: Courier New,Courier,monospace;"}                                 
+ #### []{#grid2grid_...grid2grid /... {#grid2grid-... style="font-fam 
+ ily: Courier New,Courier,monospace;"                                 
 
  grid2grid wrapper for hextotet. Use to convert:\                      
  -   quadtotri2    quad to 2 triangles, no new points.                 
@@ -204,8 +204,8 @@ Banner when LaGriT is started (eg Linux):\
      parent-type elements.                                             
 
  <https://lagrit.lanl.gov/docs/GRID2GRID.html>\                        
- #### []{#dump__stor__...}dump / stor / ...\                           
-  {#dump-stor-... style="font-family: Courier New,Courier,monospace;"} 
+ #### []{#dump__stor__...dump / stor / ...\                           
+  {#dump-stor-... style="font-family: Courier New,Courier,monospace;" 
 
  anothermatbld3d\_wrapper.f\                                           
  Create two new node vectors, ccoef, ij\_ccoef Put the negative ij     
@@ -254,13 +254,13 @@ Banner when LaGriT is started (eg Linux):\
  calls to matbld use matbld3d\_stor for compress options none and      
  coefs use anothermatbld3d\_wrapper for compress options all and graph 
  Note anothermatbld3d\_wrapper can write only scalar coef values\      
- #### []{#pset_...}pset /... {#pset-... style="font-family: Courier Ne 
- w,Courier,monospace;"}                                                
+ #### []{#pset_...pset /... {#pset-... style="font-family: Courier Ne 
+ w,Courier,monospace;"                                                
 
  Add option to pset/ / zone for user specified zone id number.\        
  <https://lagrit.lanl.gov/docs/PSET.html>\                             
  #### dump / {#dump style="font-family: Courier New,Courier,monospace; 
- "}                                                                    
+ "                                                                    
 
  writedump.f\                                                          
  declare implicit none and initialize variables add comments to        
@@ -271,8 +271,8 @@ Banner when LaGriT is started (eg Linux):\
  keywords after filename and cmo and sets options for the fehm and     
  stor routine calls The man pages are updated and corrected.           
  <https://lagrit.lanl.gov/docs/DUMP2.html>\                            
- #### []{#memory__...}memory / ...\                                    
-  {#memory-... style="font-family: monospace;"}                        
+ #### []{#memory__...memory / ...\                                    
+  {#memory-... style="font-family: monospace;"                        
 
  New options to print and check memory manager and report memory       
  usage. This superseeds old utilities mmprint, mmcheck, etc.           

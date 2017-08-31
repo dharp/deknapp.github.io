@@ -21,5 +21,5 @@ title: '\*arguments:'
 >
 > Images of GMV output
 >
-> > [![](image/image1tn.gif){width="112" height="87"} rectangular
+> > [![](image/image1tn.gif)"112" height="87" rectangular
 > > grid](image/image1.gif)

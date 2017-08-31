@@ -2,10 +2,10 @@
 GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html#typedefs) [![](../images/arrow3.gif){width="30"
-height="30"}](parent-child.html) [![](../images/arrow4.gif){width="30"
-height="30"}](Mesh.html)
+[![](../images/arrow2.gif)"30"
+height="30"](mstkla.html#typedefs) [![](../images/arrow3.gif)"30"
+height="30"](parent-child.html) [![](../images/arrow4.gif)"30"
+height="30"](Mesh.html)
 
 ------------------------------------------------------------------------
 
@@ -70,7 +70,7 @@ Geometric model entity types are:
 * GType* geomtype;\
  
 
- [![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html#typedefs) [![](../images/arrow3.gif){width="30"
-height="30"}](parent-child.html) [![](../images/arrow4.gif){width="30"
-height="30"}](Mesh.html)
+ [![](../images/arrow2.gif)"30"
+height="30"](mstkla.html#typedefs) [![](../images/arrow3.gif)"30"
+height="30"](parent-child.html) [![](../images/arrow4.gif)"30"
+height="30"](Mesh.html)

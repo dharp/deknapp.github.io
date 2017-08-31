@@ -24,7 +24,7 @@ enclosing volumes are:
 
 **surface**/cube/**reflect**/**box**/0.0,0.0,0.0/1.0,1.0,1.0/
 
-![](new_html/Image219.gif){width="237" height="212"}
+![](new_html/Image219.gif)"237" height="212"
 
 \* cylinder whose axis is the x axis with radius 1 and height 1
 
@@ -34,5 +34,5 @@ enclosing volumes are:
 
 **surface/end2/reflect/plane**/1.,0.,0./1.,0.,1./1.,1.,1./
 
-![](new_html/Image220.gif){width="228"
-height="178"}![](new_html/Image221.gif){width="238" height="247"}
+![](new_html/Image220.gif)"228"
+height="178"![](new_html/Image221.gif)"238" height="247"

@@ -9,8 +9,8 @@ title: Geometry
 
 
 
-![](http://www.lanl.gov/images/xtransparent.gif){.strut width="160"
-height="1"}
+![](http://www.lanl.gov/images/xtr width="160"
+height="1"
 \* input.coordsys\
 \* input.coordsys\
 \*create a cylinder parallel to the y-axis inside a box\
@@ -50,12 +50,12 @@ finish
 
  
 
-![](http://www.lanl.gov/images/xtransparent.gif){.strut width="420"
-height="1"}
+![](http://www.lanl.gov/images/xtr width="420"
+height="1"
 
 [Return to LaGriT Home Page](index.shtml)
 
-![](http://www.lanl.gov/images/xtransparent.gif){.strut width="160"
-height="1"}
+![](http://www.lanl.gov/images/xtr width="160"
+height="1"
 
 

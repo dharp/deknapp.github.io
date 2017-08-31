@@ -2,10 +2,10 @@
 GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html#GMTKLA_Init) [![](../images/arrow3.gif){width="30"
-height="30"}](GenRegion.html) [![](../images/arrow4.gif){width="30"
-height="30"}](GeomEntity.html)
+[![](../images/arrow2.gif)"30"
+height="30"](mstkla.html#GMTKLA_Init) [![](../images/arrow3.gif)"30"
+height="30"](GenRegion.html) [![](../images/arrow4.gif)"30"
+height="30"](GeomEntity.html)
 
 ------------------------------------------------------------------------
 
@@ -73,7 +73,7 @@ Get all the model regions
 
 Get all the model faces
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html#GMTKLA_Init) [![](../images/arrow3.gif){width="30"
-height="30"}](GenRegion.html) [![](../images/arrow4.gif){width="30"
-height="30"}](GeomEntity.html)
+[![](../images/arrow2.gif)"30"
+height="30"](mstkla.html#GMTKLA_Init) [![](../images/arrow3.gif)"30"
+height="30"](GenRegion.html) [![](../images/arrow4.gif)"30"
+height="30"](GeomEntity.html)

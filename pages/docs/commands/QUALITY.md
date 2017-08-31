@@ -8,7 +8,7 @@ title: 'QUALITY - compute and report mesh quality measures'
 
 > **QUALITY**
 >
-> > [quality]{style="font-weight: bold;"} provides a collection of mesh
+> > [quality]{style="font-weight: bold;" provides a collection of mesh
 > > quality measures
 
  \

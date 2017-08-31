@@ -6,7 +6,7 @@ title: 'LaGriT V2.004 Release Notes, 10/21/2008'
 
 <div id="header">
 
-[![](lagrit_release_notes_081021_files/lagrit-logo.jpg)](https://ancho.lanl.gov/lagrit/){#logo}
+[![](lagrit_release_notes_081021_files/lagrit-logo.jpg)](https://ancho.lanl.gov/lagrit/){#logo
 
 ------------------------------------------------------------------------
 
@@ -25,7 +25,7 @@ title: 'LaGriT V2.004 Release Notes, 10/21/2008'
 10/21/08:
 ---------
 
-### **[[]{.time}](https://ancho.lanl.gov/lagrit/trac/changeset/77%3Aa230c6aa1ef4)Version 2.004 Release**
+### **[[]{.time](https://ancho.lanl.gov/lagrit/trac/changeset/77%3Aa230c6aa1ef4)Version 2.004 Release**
 
 09/12/08:
 ---------
@@ -46,19 +46,19 @@ Message:
  Files: 
 
 :   -   [lagrit.lanl.gov/docs/BOUNDARY\_C.html](https://ancho.lanl.gov/lagrit/trac/browser/lagrit.lanl.gov/docs/BOUNDARY_C.html?rev=72%3A427e4b85dbdb "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/72%3A427e4b85dbdb#file0 "Show differences"))
     -   [lagrit.lanl.gov/docs/EXTRACT\_SURFMESH.html](https://ancho.lanl.gov/lagrit/trac/browser/lagrit.lanl.gov/docs/EXTRACT_SURFMESH.html?rev=72%3A427e4b85dbdb "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/72%3A427e4b85dbdb#file1 "Show differences"))
     -   [src/boundary\_components.f](https://ancho.lanl.gov/lagrit/trac/browser/src/boundary_components.f?rev=72%3A427e4b85dbdb "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([5 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/72%3A427e4b85dbdb#file2 "Show differences"))
     -   [src/extract\_surfmesh.f](https://ancho.lanl.gov/lagrit/trac/browser/src/extract_surfmesh.f?rev=72%3A427e4b85dbdb "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([11 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/72%3A427e4b85dbdb#file3 "Show differences"))
     -   [src/resetpts.f](https://ancho.lanl.gov/lagrit/trac/browser/src/resetpts.f?rev=72%3A427e4b85dbdb "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([2 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/72%3A427e4b85dbdb#file4 "Show differences"))
 
 <div id="legend">
@@ -77,10 +77,10 @@ crash when passed an empty mesh object.\
 
 Files:
 -   [src/filter.f](https://ancho.lanl.gov/lagrit/trac/browser/src/filter.f?rev=71%3A5c8406e8de14 "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/71%3A5c8406e8de14#file0 "Show differences"))
 -   [src/rmmat.f](https://ancho.lanl.gov/lagrit/trac/browser/src/rmmat.f?rev=71%3A5c8406e8de14 "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([3 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/71%3A5c8406e8de14#file1 "Show differences"))
 -   \
 
@@ -92,22 +92,22 @@ Minor changes to documentation pages.\
 
 Files:
 -   [lagrit.lanl.gov/docs/CONNECT1.html](https://ancho.lanl.gov/lagrit/trac/browser/lagrit.lanl.gov/docs/CONNECT1.html?rev=70%3Acc165a78f4ee "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/70%3Acc165a78f4ee#file0 "Show differences"))
 -   [lagrit.lanl.gov/docs/OFFSETSURF.html](https://ancho.lanl.gov/lagrit/trac/browser/lagrit.lanl.gov/docs/OFFSETSURF.html?rev=70%3Acc165a78f4ee "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/70%3Acc165a78f4ee#file1 "Show differences"))
 -   [lagrit.lanl.gov/docs/QUALITY\_sliver\_cap\_needle\_wedge.html](https://ancho.lanl.gov/lagrit/trac/browser/lagrit.lanl.gov/docs/QUALITY_sliver_cap_needle_wedge.html?rev=70%3Acc165a78f4ee "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/70%3Acc165a78f4ee#file2 "Show differences"))
 -   [lagrit.lanl.gov/docs/REFINE.html](https://ancho.lanl.gov/lagrit/trac/browser/lagrit.lanl.gov/docs/REFINE.html?rev=70%3Acc165a78f4ee "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/70%3Acc165a78f4ee#file3 "Show differences"))
 -   [src/dumptecplot\_hybrid.f](https://ancho.lanl.gov/lagrit/trac/browser/src/dumptecplot_hybrid.f?rev=70%3Acc165a78f4ee "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/70%3Acc165a78f4ee#file4 "Show differences"))
 -   [src/offsetsurf.f](https://ancho.lanl.gov/lagrit/trac/browser/src/offsetsurf.f?rev=70%3Acc165a78f4ee "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([9 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/70%3Acc165a78f4ee#file5 "Show differences"))
 
 \
@@ -132,17 +132,17 @@ cmo / readatt / mo\_name / etc...\
 
 Files:
 -   [src/dumpavs.f](https://ancho.lanl.gov/lagrit/trac/browser/src/dumpavs.f?rev=69%3A9cd5c898d5e4 "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([8 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/69%3A9cd5c898d5e4#file0 "Show differences"))
 -   [src/writedump.f](https://ancho.lanl.gov/lagrit/trac/browser/src/writedump.f?rev=69%3A9cd5c898d5e4 "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([5 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/69%3A9cd5c898d5e4#file1 "Show differences"))
 
 \
 06/11/08:
 ---------
 
-[[]{.time}](https://ancho.lanl.gov/lagrit/trac/changeset/68%3Afb1f221839b1)\
+[[]{.time](https://ancho.lanl.gov/lagrit/trac/changeset/68%3Afb1f221839b1)\
 Timestamp:
 06/11/08 16:08:01 (4 months ago)
 Message:
@@ -151,7 +151,7 @@ was to wrong error flag variable.\
 
 Files:
 -   [src/interp\_lg.f](https://ancho.lanl.gov/lagrit/trac/browser/src/interp_lg.f?rev=68%3Afb1f221839b1 "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/68%3Afb1f221839b1#file0 "Show differences"))
 
 \
@@ -167,7 +167,7 @@ Message:
  Files: 
 
 :   -   [src/control\_command\_lg.f](https://ancho.lanl.gov/lagrit/trac/browser/src/control_command_lg.f?rev=66%3A479e73cf7d3e "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/66%3A479e73cf7d3e#file0 "Show differences"))
 
 \
@@ -192,46 +192,46 @@ Message:
  Files: 
 
 :   -   [bin/buildbin](https://ancho.lanl.gov/lagrit/trac/browser/bin/buildbin?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/bin/buildbin "Show differences"))
     -   [bin/lagrit\_lin\_g](https://ancho.lanl.gov/lagrit/trac/browser/bin/lagrit_lin_g?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/bin/lagrit_lin_g "Show differences"))
     -   [bin/lagrit\_lin\_o](https://ancho.lanl.gov/lagrit/trac/browser/bin/lagrit_lin_o?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/bin/lagrit_lin_o "Show differences"))
     -   [bin/lagrit\_mac\_g](https://ancho.lanl.gov/lagrit/trac/browser/bin/lagrit_mac_g?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/bin/lagrit_mac_g "Show differences"))
     -   [bin/lagrit\_mac\_o](https://ancho.lanl.gov/lagrit/trac/browser/bin/lagrit_mac_o?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/bin/lagrit_mac_o "Show differences"))
     -   [bin/lagrit\_sun\_g](https://ancho.lanl.gov/lagrit/trac/browser/bin/lagrit_sun_g?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/bin/lagrit_sun_g "Show differences"))
     -   [bin/lagrit\_sun\_o](https://ancho.lanl.gov/lagrit/trac/browser/bin/lagrit_sun_o?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/bin/lagrit_sun_o "Show differences"))
     -   [lib/lagrit\_lin\_g.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_lin_g.a?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/lib/lagrit_lin_g.a "Show differences"))
     -   [lib/lagrit\_lin\_o.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_lin_o.a?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/lib/lagrit_lin_o.a "Show differences"))
     -   [lib/lagrit\_mac\_g.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_mac_g.a?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/lib/lagrit_mac_g.a "Show differences"))
     -   [lib/lagrit\_mac\_o.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_mac_o.a?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/lib/lagrit_mac_o.a "Show differences"))
     -   [lib/lagrit\_sun\_g.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_sun_g.a?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/lib/lagrit_sun_g.a "Show differences"))
     -   [lib/lagrit\_sun\_o.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_sun_o.a?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/lib/lagrit_sun_o.a "Show differences"))
     -   [test/level01/check\_test.py](https://ancho.lanl.gov/lagrit/trac/browser/test/level01/check_test.py?rev=65%3A684a123422c7 "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/65%3A684a123422c7/test/level01/check_test.py "Show differences"))
 
 :   \
@@ -253,16 +253,16 @@ for a mesh object (such as quad) and this caused code to crash.\
 
 Files:
 -   [src/offsetsurf.f](https://ancho.lanl.gov/lagrit/trac/browser/src/offsetsurf.f?rev=48%3A1a8051c0661a "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([5 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/48%3A1a8051c0661a#file0 "Show differences"))
 -   [src/sphere1.f](https://ancho.lanl.gov/lagrit/trac/browser/src/sphere1.f?rev=48%3A1a8051c0661a "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/48%3A1a8051c0661a#file1 "Show differences"))
 
 04/30/08:
 ---------
 
-[[]{.time}](https://ancho.lanl.gov/lagrit/trac/changeset/47%3Aded381465e6b)\
+[[]{.time](https://ancho.lanl.gov/lagrit/trac/changeset/47%3Aded381465e6b)\
 \
 Timestamp:
 :   04/30/08 12:33:36 (6 months ago)
@@ -280,7 +280,7 @@ Message:
  Files: 
 
 :   -   [src/dumptecplot\_hybrid.f](https://ancho.lanl.gov/lagrit/trac/browser/src/dumptecplot_hybrid.f?rev=47%3Aded381465e6b "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([10 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/47%3Aded381465e6b#file0 "Show differences")
 
 <div id="legend">
@@ -306,22 +306,22 @@ Message:
  Files: 
 
 :   -   [lib/lagrit\_lin\_g.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_lin_g.a?rev=31%3A04bcb5deb3ea "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/31%3A04bcb5deb3ea/lib/lagrit_lin_g.a "Show differences"))
     -   [lib/lagrit\_lin\_o.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_lin_o.a?rev=31%3A04bcb5deb3ea "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/31%3A04bcb5deb3ea/lib/lagrit_lin_o.a "Show differences"))
     -   [lib/lagrit\_mac\_g.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_mac_g.a?rev=31%3A04bcb5deb3ea "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/31%3A04bcb5deb3ea/lib/lagrit_mac_g.a "Show differences"))
     -   [lib/lagrit\_mac\_o.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_mac_o.a?rev=31%3A04bcb5deb3ea "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/31%3A04bcb5deb3ea/lib/lagrit_mac_o.a "Show differences"))
     -   [lib/lagrit\_sun\_g.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_sun_g.a?rev=31%3A04bcb5deb3ea "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/31%3A04bcb5deb3ea/lib/lagrit_sun_g.a "Show differences"))
     -   [lib/lagrit\_sun\_o.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_sun_o.a?rev=31%3A04bcb5deb3ea "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/31%3A04bcb5deb3ea/lib/lagrit_sun_o.a "Show differences"))
 
 \
@@ -339,22 +339,22 @@ Message:
  Files: 
 
 :   -   [lib/lagrit\_lin\_g.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_lin_g.a?rev=31%3A04bcb5deb3ea "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/31%3A04bcb5deb3ea/lib/lagrit_lin_g.a "Show differences"))
     -   [lib/lagrit\_lin\_o.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_lin_o.a?rev=31%3A04bcb5deb3ea "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/31%3A04bcb5deb3ea/lib/lagrit_lin_o.a "Show differences"))
     -   [lib/lagrit\_mac\_g.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_mac_g.a?rev=31%3A04bcb5deb3ea "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/31%3A04bcb5deb3ea/lib/lagrit_mac_g.a "Show differences"))
     -   [lib/lagrit\_mac\_o.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_mac_o.a?rev=31%3A04bcb5deb3ea "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/31%3A04bcb5deb3ea/lib/lagrit_mac_o.a "Show differences"))
     -   [lib/lagrit\_sun\_g.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_sun_g.a?rev=31%3A04bcb5deb3ea "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/31%3A04bcb5deb3ea/lib/lagrit_sun_g.a "Show differences"))
     -   [lib/lagrit\_sun\_o.a](https://ancho.lanl.gov/lagrit/trac/browser/lib/lagrit_sun_o.a?rev=31%3A04bcb5deb3ea "Show entry in browser")
-        [(modified)]{.comment} ([view
+        [(modified)]{.comment ([view
         diffs](https://ancho.lanl.gov/lagrit/trac/changeset/31%3A04bcb5deb3ea/lib/lagrit_sun_o.a "Show differences"))
 
 Added 00README with instructions to run tests Saved old version V2.001\
@@ -386,7 +386,7 @@ Message:
  Files: 
 
 :   -   [src/Makefile](https://ancho.lanl.gov/lagrit/trac/browser/src/Makefile?rev=40%3A27593993b117 "Show entry in browser")
-        [(added)]{.comment}
+        [(added)]{.comment
     -   [src/Makefile.depends](https://ancho.lanl.gov/lagrit/trac/browser/src/Makefile.depends?rev=40%3A27593993b117 "Show entry in browser")
 
 <!-- -->
@@ -402,7 +402,7 @@ Message:
  Files: 
 
 :   -   [src/buildbin](https://ancho.lanl.gov/lagrit/trac/browser/src/buildbin?rev=39%3A0c7fe06075d0 "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([6 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/39%3A0c7fe06075d0#file0 "Show differences"))
 
 <!-- -->
@@ -420,7 +420,7 @@ Message:
  Files: 
 
 :   -   [src/rmpoint.f](https://ancho.lanl.gov/lagrit/trac/browser/src/rmpoint.f?rev=37%3Ae47bed56f475 "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([4 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/37%3Ae47bed56f475#file0 "Show differences"))
 
 <!-- -->
@@ -437,7 +437,7 @@ Message:
  Files: 
 
 :   -   [src/cmo\_create\_cmo.f](https://ancho.lanl.gov/lagrit/trac/browser/src/cmo_create_cmo.f?rev=36%3A9367c60e5cb4 "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([4 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/36%3A9367c60e5cb4#file0 "Show differences"))
 
 <!-- -->
@@ -456,7 +456,7 @@ Message:
  Files: 
 
 :   -   [src/read\_fehm\_zone.f](https://ancho.lanl.gov/lagrit/trac/browser/src/read_fehm_zone.f?rev=33%3Ac5c23d52f93c "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/33%3Ac5c23d52f93c#file0 "Show differences"))
 
 <!-- -->
@@ -473,7 +473,7 @@ Message:
  Files: 
 
 :   -   [src/cmo\_setatt.f](https://ancho.lanl.gov/lagrit/trac/browser/src/cmo_setatt.f?rev=29%3A16b0a7f6385a "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([3 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/32%3Ad3b90dceed42#file0 "Show differences"))
 
 \
@@ -482,7 +482,7 @@ Message:
 04/03/08:
 ---------
 
-[[]{.time}](https://ancho.lanl.gov/lagrit/trac/changeset/29%3A16b0a7f6385a)\
+[[]{.time](https://ancho.lanl.gov/lagrit/trac/changeset/29%3A16b0a7f6385a)\
 Timestamp:
 :   04/03/08 12:09:14 (7 months ago)
 :   
@@ -496,7 +496,7 @@ Message:
  Files: 
 
 :   -   [src/cmo\_setatt.f](https://ancho.lanl.gov/lagrit/trac/browser/src/cmo_setatt.f?rev=29%3A16b0a7f6385a "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([3 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/29%3A16b0a7f6385a#file0 "Show differences"))
 
 \
@@ -512,14 +512,14 @@ Message:
  Files: 
 
 :   -   [lagrit.lanl.gov/docs/READ.html](https://ancho.lanl.gov/lagrit/trac/browser/lagrit.lanl.gov/docs/READ.html?rev=25%3A143a9305285d "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/25%3A143a9305285d#file0 "Show differences"))
     -   [lagrit.lanl.gov/docs/read\_fehm\_zone.html](https://ancho.lanl.gov/lagrit/trac/browser/lagrit.lanl.gov/docs/read_fehm_zone.html?rev=25%3A143a9305285d "Show entry in browser")
-        [(added)]{.comment}
+        [(added)]{.comment
     -   [src/read\_fehm\_zone.f](https://ancho.lanl.gov/lagrit/trac/browser/src/read_fehm_zone.f?rev=25%3A143a9305285d "Show entry in browser")
-        [(added)]{.comment}
+        [(added)]{.comment
     -   [src/readdump.f](https://ancho.lanl.gov/lagrit/trac/browser/src/readdump.f?rev=25%3A143a9305285d "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/25%3A143a9305285d#file3 "Show differences"))
 
 :   \
@@ -527,7 +527,7 @@ Message:
 01/30/08:
 ---------
 
-[[]{.time}](https://ancho.lanl.gov/lagrit/trac/changeset/24%3A7ea4eb8824e0)\
+[[]{.time](https://ancho.lanl.gov/lagrit/trac/changeset/24%3A7ea4eb8824e0)\
 Timestamp:
 :   01/30/08 10:25:28 (9 months ago)
 :   
@@ -543,7 +543,7 @@ Message:
  Files: 
 
 :   -   [src/cmo\_addatt.f](https://ancho.lanl.gov/lagrit/trac/browser/src/cmo_addatt.f?rev=24%3A7ea4eb8824e0 "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([7 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/24%3A7ea4eb8824e0#file0 "Show differences"))
 
 <div id="legend">
@@ -559,7 +559,7 @@ Message:
 01/25/08:
 ---------
 
-[[]{.time}](https://ancho.lanl.gov/lagrit/trac/changeset/21%3A0acfc0ed75df)\
+[[]{.time](https://ancho.lanl.gov/lagrit/trac/changeset/21%3A0acfc0ed75df)\
 Timestamp:
 :   01/25/08 14:42:43 (9 months ago)
 
@@ -579,7 +579,7 @@ Message:
  Files: 
 
 :   -   [src/rmpoint.f](https://ancho.lanl.gov/lagrit/trac/browser/src/rmpoint.f?rev=21%3A0acfc0ed75df "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([3 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/21%3A0acfc0ed75df#file0 "Show differences"))
 
 \
@@ -588,7 +588,7 @@ Message:
 01/22/08:
 ---------
 
-[[]{.time}](https://ancho.lanl.gov/lagrit/trac/changeset/20%3A1d3957a02d1f)
+[[]{.time](https://ancho.lanl.gov/lagrit/trac/changeset/20%3A1d3957a02d1f)
 Timestamp:
 01/22/08 14:45:22 (9 months ago)
 Message:
@@ -598,10 +598,10 @@ Changed name from 'program adrivgen' to 'program lagrit\_main'\
 
 Files:
 -   [lagrit.lanl.gov/docs/DEFINE.html](https://ancho.lanl.gov/lagrit/trac/browser/lagrit.lanl.gov/docs/DEFINE.html?rev=20%3A1d3957a02d1f "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/20%3A1d3957a02d1f#file0 "Show differences"))
 -   [src/lagrit\_main.f](https://ancho.lanl.gov/lagrit/trac/browser/src/lagrit_main.f?rev=20%3A1d3957a02d1f "Show entry in browser")
-    [(modified)]{.comment}
+    [(modified)]{.comment
     ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/20%3A1d3957a02d1f#file1 "Show differences"))
 
 \
@@ -621,7 +621,7 @@ Message:
  Files: 
 
 :   -   [src/cmo\_setatt.f](https://ancho.lanl.gov/lagrit/trac/browser/src/cmo_setatt.f?rev=19%3A0b384968dbf6 "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([3 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/19%3A0b384968dbf6#file0 "Show differences"))
 
 \
@@ -630,7 +630,7 @@ Message:
 01/17/08:
 ---------
 
-[[]{.time}](https://ancho.lanl.gov/lagrit/trac/changeset/18%3Aaed1a435b630)\
+[[]{.time](https://ancho.lanl.gov/lagrit/trac/changeset/18%3Aaed1a435b630)\
 Timestamp:
 :   01/17/08 08:03:46 (9 months ago)
 
@@ -647,16 +647,16 @@ Message:
  Files: 
 
 :   -   [src/anothermatbld3d\_wrapper.f](https://ancho.lanl.gov/lagrit/trac/browser/src/anothermatbld3d_wrapper.f?rev=18%3Aaed1a435b630 "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([3 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/18%3Aaed1a435b630#file0 "Show differences"))
     -   [src/matbld2d\_stor.f](https://ancho.lanl.gov/lagrit/trac/browser/src/matbld2d_stor.f?rev=18%3Aaed1a435b630 "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([1 diff](https://ancho.lanl.gov/lagrit/trac/changeset/18%3Aaed1a435b630#file1 "Show differences"))
     -   [src/matbld3d\_stor.f](https://ancho.lanl.gov/lagrit/trac/browser/src/matbld3d_stor.f?rev=18%3Aaed1a435b630 "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([4 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/18%3Aaed1a435b630#file2 "Show differences"))
     -   [src/voronoi\_stor.f](https://ancho.lanl.gov/lagrit/trac/browser/src/voronoi_stor.f?rev=18%3Aaed1a435b630 "Show entry in browser")
-        [(modified)]{.comment}
+        [(modified)]{.comment
         ([3 diffs](https://ancho.lanl.gov/lagrit/trac/changeset/18%3Aaed1a435b630#file3 "Show differences"))
 
 \
@@ -675,8 +675,8 @@ Message:
 ------------------------------------------------------------------------
 
 [![Trac
-Powered](lagrit_release_notes_081021_files/trac_logo_mini.png){width="107"
-height="30"}](http://trac.edgewall.org/){#tracpowered}
+Powered](lagrit_release_notes_081021_files/trac_logo_mini.png)"107"
+height="30"](http://trac.edgewall.org/){#tracpowered
 Powered by [**Trac 0.10.4**](https://ancho.lanl.gov/lagrit/trac/about)\
 By [Edgewall Software](http://www.edgewall.org/).
 

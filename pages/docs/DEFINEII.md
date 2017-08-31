@@ -22,7 +22,7 @@ half vertically, define a plane by:
 
 The normal to this plane points in the positive z direction.
 
-![](new_html/Image222.gif){width="326" height="249"}
+![](new_html/Image222.gif)"326" height="249"
 
 Interfaces must not be coincident with reflective boundaries. For
 example to embed a rectangle inside a cube, it is necessary to extend
@@ -33,5 +33,5 @@ and interface surfaces:
 
 **surface**/rect **/intrface/box**/-0.1,0.5,0.2/1.1,0.6,0.5/
 
-![](new_html/Image223.gif){width="273" height="272"}\
+![](new_html/Image223.gif)"273" height="272"\
  \

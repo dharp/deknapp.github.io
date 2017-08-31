@@ -17,7 +17,7 @@ title: 'edges.html'
 >
 >      For the edge between nodes 1 and 2, we have
 >
-> > ![](new_html/image5.jpg){width="129" height="55"}
+> > ![](new_html/image5.jpg)"129" height="55"
 >
 >      Criteria:
 >
@@ -54,4 +54,4 @@ title: 'edges.html'
 > > a large but finite value of lambda/dx thus indicating a good
 > > discretization.
 > >
-> > > ![](new_html/image33.jpg){width="167" height="55"}
+> > > ![](new_html/image33.jpg)"167" height="55"

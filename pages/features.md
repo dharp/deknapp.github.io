@@ -14,8 +14,8 @@ title: LANL  LaGriT
 
 
 
-![](http://www.lanl.gov/images/transparent.gif){.strut width="160"
-height="1"}
+![](http://www.lanl.gov/images/tr width="160"
+height="1"
 3D Grid Generation LaGriT
 -------------------------
 
@@ -29,8 +29,8 @@ Geometry \
 
  
 
-[![](images/trench4-0.jpg){width="225"
-height="175"}](images/trench4-0.jpg)
+[![](images/trench4-0.jpg)"225"
+height="175"](images/trench4-0.jpg)
 
  
 
@@ -41,8 +41,8 @@ Adaption \
 
  
 
-[![](images/trench4-4.jpg){width="225"
-height="175"}](images/trench4-4.jpg)
+[![](images/trench4-4.jpg)"225"
+height="175"](images/trench4-4.jpg)
 
  
 
@@ -54,8 +54,8 @@ Interface \
 
  
 
-[![](images/trench4-8.jpg){width="225"
-height="175"}](images/trench4-8.jpg)
+[![](images/trench4-8.jpg)"225"
+height="175"](images/trench4-8.jpg)
 
  
 
@@ -74,7 +74,7 @@ Applications \
 
 
 
-![](http://www.lanl.gov/images/transparent.gif){.strut width="420"
-height="1"}
+![](http://www.lanl.gov/images/tr width="420"
+height="1"
 
 

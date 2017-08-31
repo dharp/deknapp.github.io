@@ -27,10 +27,10 @@ title: '\*arguments:'
 > >  (image/addmesh_amr/ad  (image/addmesh_amr/ad  (view                 
 > >  dmesh_amr1_tn.gif){wi  dmesh_amr2_tn.gif){wi  1)](image/addmesh_amr 
 > >  dth="114"              dth="114"              /addmesh_amr3.gif)![] 
-> >  height="89"}](image/a  height="89"}](image/a  (image/addmesh_amr/ad 
+> >  height="89"](image/a  height="89"](image/a  (image/addmesh_amr/ad 
 > >  ddmesh_amr/addmesh_am  ddmesh_amr/addmesh_am  dmesh_amr3_tn.gif){wi 
 > >  r1.gif)                r2.gif)                dth="114"             
-> >                                                height="89"}          
+> >                                                height="89"          
 > > +-----------------------+-----------------------+-----------------------+
 > >  [](image/addmesh_amr/  [](image/addmesh_amr/                        
 > >  addmesh_amr4.gif)[com  addmesh_amr5.gif)[com                        
@@ -41,7 +41,7 @@ title: '\*arguments:'
 > >  ](image/addmesh_amr/a  ](image/addmesh_amr/a                        
 > >  ddmesh_amr4_tn.gif){w  ddmesh_amr5_tn.gif){w                        
 > >  idth="114"             idth="114"                                   
-> >  height="89"}](image/a  height="89"}](image/a                        
+> >  height="89"](image/a  height="89"](image/a                        
 > >  ddmesh_amr/addmesh_am  ddmesh_amr/addmesh_am                        
 > >  r4.gif)                r5.gif)                                      
 > > +-----------------------+-----------------------+-----------------------+

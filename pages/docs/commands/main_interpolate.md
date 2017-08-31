@@ -181,7 +181,7 @@ INTERPOLATE
 >  \
 >  
 >
-> []{#TABLE1}The following tables identify what combinations of methods,
+> []{#TABLE1The following tables identify what combinations of methods,
 > options, and element types are supported with the command
 > **interpolate**.
 >
@@ -317,10 +317,10 @@ INTERPOLATE
 > \
 > \
 >
-> []{#DEMOS}
+> []{#DEMOS
 >
 >   ------------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
->   [![VORONOI from quad grid](../../images/vor_rand.gif){width="97" height="75"}](../../images/vor_rand.gif)\   [![MAP from element to element.](../../images/map03_view.gif){width="97" height="75"}](../../images/map03_view.gif)\   [![CONTINUOUS from triangles](../../images/con02_sink.gif){width="97" height="75"}](../../images/con02_sink.gif)\
+>   [![VORONOI from quad grid](../../images/vor_rand.gif)"97" height="75"](../../images/vor_rand.gif)\   [![MAP from element to element.](../../images/map03_view.gif)"97" height="75"](../../images/map03_view.gif)\   [![CONTINUOUS from triangles](../../images/con02_sink.gif)"97" height="75"](../../images/con02_sink.gif)\
 >   [Example 1: interpolate / voronoi](../description_voronoi.html)\                                             [Example 2: interpolate / map](../description_map.html)\                                                               [Example 3: interpolate / continuous](../description_cont.html)\
 >   Copy nearest source node value to sink point                                                                 Copy source element value to enclosed sink point                                                                       Interpolate source element vertices to sink point
 >   ------------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------

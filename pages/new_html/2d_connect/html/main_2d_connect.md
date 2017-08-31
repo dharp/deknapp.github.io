@@ -12,5 +12,5 @@ title: '\*arguments:'
 > > command.\
 > >  \
 > > [example 1](description1.html)   Yucca Mountain\
-> > [![](image/2d_connect1b_tn.gif){width="114"
-> > height="89"}](description1.html)
+> > [![](image/2d_connect1b_tn.gif)"114"
+> > height="89"](description1.html)

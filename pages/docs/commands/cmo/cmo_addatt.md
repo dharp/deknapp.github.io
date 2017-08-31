@@ -186,17 +186,17 @@ cmo/addatt
 > > **xyz\_rtp**: create three node attributes and fill them with the
 > > node coordinate, x,y,z in spherical coordinates, r,theta,phi.
 > > Default values for the attribute, if not specified are, [c\_r,
-> > c\_theta, c\_phi]{.style1}.\
+> > c\_theta, c\_phi]{.style1.\
 > > **xyz\_rtz**: create three node attributes and fill them with the
 > > node coordinate, x,y,z in cylindrical coordinates, r,theta,z.
 > > Default values for the attribute, if not specified are, [c\_r,
-> > c\_theta, c\_z ]{.style1}.
+> > c\_theta, c\_z ]{.style1.
 > >
 > > **synth\_normal\_area** : create node attributes, [x\_n\_norm,
-> > y\_n\_norm, z\_n\_norm]{.style1}, and fill them with the area
+> > y\_n\_norm, z\_n\_norm]{.style1, and fill them with the area
 > > weighted normal of each node.\
 > > **synth\_normal\_angle** : create a node attributes, [x\_n\_norm,
-> > y\_n\_norm, z\_n\_norm]{.style1}, and fill them with the angle
+> > y\_n\_norm, z\_n\_norm]{.style1, and fill them with the angle
 > > weighted normal of each node.\
 > > The synthetic node normal calculations are only supported for mesh
 > > objects of type line, tri and quad. If one wants to compute the
@@ -208,18 +208,18 @@ cmo/addatt
 > > weight factor is based on area or incident angle depending upon
 > > which option is selected.
 > >
-> > **sumnode** : create an element attribute [att\_name\_elem]{.style1}
+> > **sumnode** : create an element attribute [att\_name\_elem]{.style1
 > > and fill it with the sum of the elements' node attribute,
-> > [att\_name\_node]{.style1}.\
-> > **avgnode** : create an element attribute [att\_name\_elem]{.style1}
+> > [att\_name\_node]{.style1.\
+> > **avgnode** : create an element attribute [att\_name\_elem]{.style1
 > > and fill it with the average of the elements' node attribute,
-> > [att\_name\_node]{.style1}.\
-> > **minnode** : create an element attribute [att\_name\_elem]{.style1}
+> > [att\_name\_node]{.style1.\
+> > **minnode** : create an element attribute [att\_name\_elem]{.style1
 > > and fill it with the minimum value of the elements' node attribute,
-> > [att\_name\_node]{.style1}.\
-> > **maxnode** : create an element attribute [att\_name\_elem]{.style1}
+> > [att\_name\_node]{.style1.\
+> > **maxnode** : create an element attribute [att\_name\_elem]{.style1
 > > and fill it with the maximum of the elements' node attribute,
-> > [att\_name\_node]{.style1}.\
+> > [att\_name\_node]{.style1.\
 > >
 > > **quad\_quality** : create element attributes `att_name_quality`,
 > > `att_name_regularity`, and `att_name_flag`. These three attributes
@@ -233,10 +233,10 @@ cmo/addatt
 > >
 > > 
 > >
-> > where [![](../../alpha.png)]{.equation} is a normalization constant
-> > and [![](../../h_max.png)]{.equation} is the longest length among
+> > where [![](../../alpha.png)]{.equation is a normalization constant
+> > and [![](../../h_max.png)]{.equation is the longest length among
 > > the four edges and the two diagonals. [ ![](../../h_s.png)
-> > ]{.equation} is defined as
+> > ]{.equation is defined as
 > >
 > > <div class="equation">
 > >
@@ -244,8 +244,8 @@ cmo/addatt
 > >
 > > 
 > >
-> > where [![](../../l_i.png)]{.equation} is the length of edge *i*.
-> > [![](../../s_min.png)]{.equation} is the minimum area of the four
+> > where [![](../../l_i.png)]{.equation is the length of edge *i*.
+> > [![](../../s_min.png)]{.equation is the minimum area of the four
 > > triangles that can be constructed by adding one or the other
 > > diagonal to the quad. This metric ranges from zero for poor quality
 > > quads to one for high quality quads. ![](../../quad_quality.jpg)
@@ -302,53 +302,53 @@ cmo/addatt
 > \
 > EXAMPLES:
 >
-> > [**cmo**/**addatt**/cmo/boron1/vdouble/scalar/nnodes]{.style1}
+> > [**cmo**/**addatt**/cmo/boron1/vdouble/scalar/nnodes]{.style1
 > > Create node attribute named boron1 with default interpolate (linear)
 > > and default persistence (temporary).
-> > [**cmo**/**addatt**/cmo/elem\_br/vdouble/scalar/nelements]{.style1}
+> > [**cmo**/**addatt**/cmo/elem\_br/vdouble/scalar/nelements]{.style1
 > > Create element attribute named elem\_br with default interpolate
 > > (linear) and default persistence (temporary).
 > > [**cmo/addatt/**-cmo-/boron2/vdouble/scalar/nnodes/asinh/permanent/gl/2.0
-> > ]{.style1}
+> > ]{.style1
 > > Create in the currently active mesh object a node attribute named
 > > boron2 and initialize it with value 2.0, set IO flages to gmv and
 > > LaGriT dumps, set interpolation method to asinh..
 > > [**cmo/addatt/**cmo1/boron3/vdouble/scalar/nnodes/user/temporary
-> > ]{.style1}
+> > ]{.style1
 > > Create temporary node attribute named boron3.
-> > [**cmo/addatt/-default-/**boron3 ]{.style1}
+> > [**cmo/addatt/-default-/**boron3 ]{.style1
 > > Create attribute named boron3 with default mesh object settings.
 > > [**cmo/addatt**/ cmotri / **area\_normal** / **xyz** / anorm
-> > ]{.style1}
+> > ]{.style1
 > > Create and fill element vector named anorm with the x,y,z components
 > > for area normals of each triangle.
 > > [**cmo/addatt**/ cmotri / **unit\_area\_normal** / **xyz** / n\_face
-> > ]{.style1}
+> > ]{.style1
 > > Create and fill element vector named n\_face with the x,y,z
 > > components for unit area normals of each triangle.
 > > [**cmo/addatt**/cmo1/ **scalar** / xnorm, ynorm, znorm / anorm
-> > ]{.style1}
+> > ]{.style1
 > > Create attributes xnorm, ynorm, znorm from the three components of
 > > the vector attribute anorm.
 > > [**cmo/addatt**/cmo1/ **vector** / vnorm /xnorm, ynorm, znorm
-> > ]{.style1}
+> > ]{.style1
 > > Create vector attribute vnorm from the three attributes xnorm,
 > > ynorm, znorm.
-> > [**cmo/addatt**/ cmotri / **area** / darea ]{.style1}
+> > [**cmo/addatt**/ cmotri / **area** / darea ]{.style1
 > > Create and fill attribute named darea with area of each triangle.\
-> > [**cmo/addatt**/ cmotet / **voronoi\_volume** / vor\_vol ]{.style1}
+> > [**cmo/addatt**/ cmotet / **voronoi\_volume** / vor\_vol ]{.style1
 > > Create and fill attribute named vor\_vol with Voronoi volume of each
 > > node in tetrahedral mesh.\
 > > [**cmo/addatt**/ cmotet / **hybrid\_volume** / hybrid\_vol
-> > ]{.style1}
+> > ]{.style1
 > > Create and fill an attribute named `hybrid_vol` with the hybrid
 > > median-Voronoi volume of each node in a tetrahedral mesh.\
 > > [**cmo/addatt**/ cmotri / **voronoi\_varea** / xvarea yvarea zvarea
-> > ]{.style1}
+> > ]{.style1
 > > Create and fill attributes xvarea, yvarea, and zvarea with xyz
 > > components of the Voronoi areas for each node in triangle mesh.\
 > > [**cmo/addatt**/ cmoquad / **quad\_quality** / quality regularity
-> > flag ]{.style1}
+> > flag ]{.style1
 > > Create attributes named `quality`, `regularity`, and `flag` with
 > > several quad quality measures (see above).
 > > [cmo / **addatt** / cmo / **ang\_mind** / ang\_mind\
@@ -365,7 +365,7 @@ cmo/addatt
 > > \
 > > cmo / **addatt** / cmo / **sumnode** / elem\_sum\_imt / imt\
 > > cmo / **addatt** / cmo / **maxnode** / elem\_max\_boron /
-> > boron]{.style1}\
+> > boron]{.style1\
 > > \
 > > \
 

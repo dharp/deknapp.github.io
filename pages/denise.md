@@ -15,15 +15,15 @@ title: LANL  LaGriT
 
 
 
- ansparent.gif){.strut              Pictures Created By Denise George 
- width="160" height="1"}            --------------------------------- 
+               Pictures Created By Denise George 
+ width="160" height="1"            --------------------------------- 
 
-                                    ![](images/nist.jpg){width="495"  
-                                    height="385"}                     
+                                    ![](images/nist.jpg)"495"  
+                                    height="385"                     
 
                                     ![](http://www.lanl.gov/images/tr 
-                                    ansparent.gif){.strut             
-                                    width="420" height="1"}           
+                                                 
+                                    width="420" height="1"           
 
 
 

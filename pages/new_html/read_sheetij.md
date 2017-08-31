@@ -86,19 +86,19 @@ TEST EXAMPLES:
 Test file for sheetij: [lagrit\_input00](lagrit_input00)\
 Test data for sheetij: [test\_data](test_data)
 
-![Quad sheet](image/zall_200w.GIF){width="200"}\
+![Quad sheet](image/zall_200w.GIF)"200"\
 \* read ascii elevations into quad sheet\
 cmo create cmo1\
 read sheetij test\_data /5,4 /0.0,0.0 &\
 / 5.0,5.0 / ascii
 
-![Quad sheet with xflip](image/zall_xflip_200w.GIF){width="200"}\
+![Quad sheet with xflip](image/zall_xflip_200w.GIF)"200"\
 \* read ascii elevations and flip x\
 cmo create cmo1\
 read sheetij test\_data /5,4 /0.0,0.0 &\
 / 5.0,5.0 / xflip, ascii
 
-![Quad sheet with xy flip](image/zall_xyflip_200w.GIF){width="200"}\
+![Quad sheet with xy flip](image/zall_xyflip_200w.GIF)"200"\
 \* read ascii elevations and flip xy\
 cmo create cmo1\
 read sheetij test\_data /5,4 /0.0,0.0 &\
@@ -108,14 +108,14 @@ read sheetij test\_data /5,4 /0.0,0.0 &\
 Test file for binary sheetij: [lagrit\_input01](lagrit_input01)\
 Binary test file not included.
 
-![Quad sheet from binary file](image/binsurf_200w.GIF){width="200"}\
+![Quad sheet from binary file](image/binsurf_200w.GIF)"200"\
 \* read binary elevations\
 cmo create cmo1\
 read sheetij qbog50\_l.float /31,21 &\
 / 0.0, 0.0 / 50.0,50.0 / binary / float
 
 ![Quad sheet from binary
-file](image/view_binsurf_subset_200w.GIF){width="200"}\
+file](image/view_binsurf_subset_200w.GIF)"200"\
 \* read binary elevations and subset along ij\
 cmo create cmo1a\
 read sheetij qbog50\_l.float /31,21/ 0. 0./ 50.0,50.0 &\

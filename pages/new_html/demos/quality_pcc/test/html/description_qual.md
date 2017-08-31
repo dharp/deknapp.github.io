@@ -17,18 +17,18 @@ Example 1: Check quality of various meshes
 
 Input
 
-[lagrit\_input\_qual1![](image/qual1_tn.gif){width="114"
-height="89"}](../input_output/lagrit_input_qual1)
+[lagrit\_input\_qual1![](image/qual1_tn.gif)"114"
+height="89"](../input_output/lagrit_input_qual1)
 
 > >  
 
-[lagrit\_input\_qual1skew![](image/qua11skew_tn.gif){width="114"
-height="89"}](../input_output/lagrit_input_qual1skew)
+[lagrit\_input\_qual1skew![](image/qua11skew_tn.gif)"114"
+height="89"](../input_output/lagrit_input_qual1skew)
 
 > >  
 
-[lagrit\_input\_qual2![](image/qual2_tn.gif){width="114"
-height="89"}](../input_output/lagrit_input_qual2)
+[lagrit\_input\_qual2![](image/qual2_tn.gif)"114"
+height="89"](../input_output/lagrit_input_qual2)
 
 > >  
 
@@ -40,22 +40,22 @@ Output
 >
 > [output\_qual2](../input_output/output_qual2)
 
-![](transparent.gif){width="10" height="1"}
+![](transparent.gif)"10" height="1"
 
-![](transparent.gif){width="10" height="1"}
+![](transparent.gif)"10" height="1"
 
-![](transparent.gif){width="30" height="1"}
+![](transparent.gif)"30" height="1"
 
-![](transparent.gif){width="135" height="1"}
+![](transparent.gif)"135" height="1"
 
-![](transparent.gif){width="25" height="1"}
+![](transparent.gif)"25" height="1"
 
-![](transparent.gif){width="150" height="1"}
+![](transparent.gif)"150" height="1"
 
-![](transparent.gif){width="45" height="1"}
+![](transparent.gif)"45" height="1"
 
-![](transparent.gif){width="200" height="1"}
+![](transparent.gif)"200" height="1"
 
-![](transparent.gif){width="5" height="1"}
+![](transparent.gif)"5" height="1"
 
-![](transparent.gif){width="252" height="1"}
+![](transparent.gif)"252" height="1"

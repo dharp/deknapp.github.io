@@ -18,4 +18,4 @@ assign two materials, *mattop* and *matbot,* to the regions *top* and
 **mregion/**mattop**/ le** cube **and gt** cutplane **/**\
 **mregion/**matbot/ **le** cube **and lt** cutplan**e /**
 
-![](new_html/Image225.gif){width="317" height="239"}
+![](new_html/Image225.gif)"317" height="239"

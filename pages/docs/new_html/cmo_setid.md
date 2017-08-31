@@ -2,7 +2,7 @@
 GENERATOR: 'Mozilla/4.75 \[en\] (X11; U; IRIX 6.5 IP32) \[Netscape\]'
 ---
 
-[]{#cmo/set_id}**cmo/set\_id**
+[]{#cmo/set_id**cmo/set\_id**
 
 > **cmo/set\_id** /mo\_name/ **both**  **node**  **element**
 > /\[attribute\_name1\]/\[attribute\_name2\]

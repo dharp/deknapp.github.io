@@ -33,11 +33,11 @@ title: 'QUALITY - compute and report mesh quality measures'
             a](../ima  ges/quali  ges/quali  ges/quali  ges/quali 
             ges/quali  ty_tet_sl  ty_tet_ca  ty_tet_ne  ty_tet_we 
             ty_tet_eq  iver.png)  p.png){wi  edle.png)  dge.png){ 
-            uilateral  {width="2  dth="200"  {width="2  width="20 
+            uilateral  "2  dth="200"  "2  width="20 
             .png){wid  00"        height="2  00"        0"        
-            th="200"   height="2  00"}\      height="2  height="2 
-            height="2  00"}\                 00"}\      00"}\     
-            00"}\                                                 
+            th="200"   height="2  00"\      height="2  height="2 
+            height="2  00"\                 00"\      00"\     
+            00"\                                                 
 +-----------+-----------+-----------+-----------+-----------+-----------+
  `Coordina      0 0 0       1  0      1   0       .1 -       1    
  tes            0 1 1    0.1         0       .1  0      0    0    
@@ -188,7 +188,7 @@ type elements.\
 
   ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------
   Tetrahedral mesh\                                                                                 Tet Mesh, Sliver Elements\                                                                 Tet Mesh, Cap Elements\                                                              Tet Mesh, Needle Elements\                                                                 Tet Mesh, Wedge Elements\
-  ![Tet Mesh, Random Point Distribution](/images/quality_tets_all.png){width="200" height="200"}\   ![Tet Mesh, Sliver Elements](/images/quality_tets_sliver.png){width="200" height="200"}\   ![Tet Mesh, Cap Elements](/images/quality_tets_cap.png){width="200" height="200"}\   ![Tet Mesh, Needle Elements](/images/quality_tets_needle.png){width="200" height="200"}\   ![Tet Mesh, Wedge Elements](/images/quality_tets_wedge.png){width="200" height="200"}\
+  ![Tet Mesh, Random Point Distribution](/images/quality_tets_all.png)"200" height="200"\   ![Tet Mesh, Sliver Elements](/images/quality_tets_sliver.png)"200" height="200"\   ![Tet Mesh, Cap Elements](/images/quality_tets_cap.png)"200" height="200"\   ![Tet Mesh, Needle Elements](/images/quality_tets_needle.png)"200" height="200"\   ![Tet Mesh, Wedge Elements](/images/quality_tets_wedge.png)"200" height="200"\
   ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------
 
 \

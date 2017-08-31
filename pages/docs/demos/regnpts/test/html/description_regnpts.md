@@ -19,13 +19,13 @@ Input
 Images of GMV input and output
 
 [Inner region edges and outer region
-nodes](image/regnpts1.gif)[![](image/regnpts1_tn.gif){width="114"
-height="89"}](image/regnpts1.gif)
+nodes](image/regnpts1.gif)[![](image/regnpts1_tn.gif)"114"
+height="89"](image/regnpts1.gif)
 
 [Outer region and inner region edges and
-nodes](image/regnpts3.gif)[![](image/regnpts3_tn.gif){width="114"
-height="89"}](image/regnpts3.gif)
+nodes](image/regnpts3.gif)[![](image/regnpts3_tn.gif)"114"
+height="89"](image/regnpts3.gif)
 
 [Inner region surface and outer region
-nodes](image/regnpts2.gif)[![](image/regnpts2_tn.gif){width="114"
-height="89"}](image/regnpts2.gif)
+nodes](image/regnpts2.gif)[![](image/regnpts2_tn.gif)"114"
+height="89"](image/regnpts2.gif)

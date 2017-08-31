@@ -23,8 +23,8 @@ cmo/attribute\_derive
 > \
 > EXAMPLES:
 >
-> > [**cmo**/**attribute\_derive**/cmo\_sink/cmo\_src]{.style1}
-> > [**cmo**/**attribute\_derive**/empty\_cmo]{.style1}\
+> > [**cmo**/**attribute\_derive**/cmo\_sink/cmo\_src]{.style1
+> > [**cmo**/**attribute\_derive**/empty\_cmo]{.style1\
 
 cmo/attribute\_union
 --------------------
@@ -36,7 +36,7 @@ cmo/attribute\_union
 > in the other mesh, and makes it so each mesh posesses the union of the
 > two sets of attributes. In particular, this is just a wrapper for the
 > above call - it executes
-> [attribute\_derive]{style="font-weight: bold;"} twice, once in each
+> [attribute\_derive]{style="font-weight: bold;" twice, once in each
 > direction.\
 > \
 > The command needs both meshes to be designated.
@@ -48,5 +48,5 @@ cmo/attribute\_union
 > \
 > EXAMPLES:
 >
-> > [**cmo**/**attribute\_derive**/cmo2/cmo1]{.style1}
-> > []{.style1}
+> > [**cmo**/**attribute\_derive**/cmo2/cmo1]{.style1
+> > []{.style1

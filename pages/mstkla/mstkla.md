@@ -3,8 +3,8 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 title: MSTKLA Online Manual
 ---
 
-![](../images/construction24.gif){width="249"
-height="87"}![](../images/construc6.gif){width="248" height="166"}
+![](../images/construction24.gif)"249"
+height="87"![](../images/construc6.gif)"248" height="166"
 
 ------------------------------------------------------------------------
 
@@ -16,28 +16,28 @@ height="87"}![](../images/construc6.gif){width="248" height="166"}
 
 **DIRECT LINKS**
 
-[![](../images/model.gif){width="142"
-height="24"}](http://www.ees.lanl.gov/staff/rao/mstkla/Geom.html) [![](../images/mesh.gif){width="143"
-height="26"}](http://www.ees.lanl.gov/staff/rao/mstkla/Mesh.html) [![](../images/utilities.gif){width="143"
-height="25"}](http://www.ees.lanl.gov/staff/rao/mstkla/utilities.html) [![](../images/attributes.gif){width="145"
-height="26"}](MeshAttributes.html)
+[![](../images/model.gif)"142"
+height="24"](http://www.ees.lanl.gov/staff/rao/mstkla/Geom.html) [![](../images/mesh.gif)"143"
+height="26"](http://www.ees.lanl.gov/staff/rao/mstkla/Mesh.html) [![](../images/utilities.gif)"143"
+height="25"](http://www.ees.lanl.gov/staff/rao/mstkla/utilities.html) [![](../images/attributes.gif)"145"
+height="26"](MeshAttributes.html)
 
-[![](../images/modelenty.gif){width="144"
-height="24"}](http://www.ees.lanl.gov/staff/rao/mstkla/GeomEntity.html) [![](../images/modelregn.gif){width="141"
-height="25"}](http://www.ees.lanl.gov/staff/rao/mstkla/GeomRegion.html) [![](../images/modelface.gif){width="143"
-height="26"}](http://www.ees.lanl.gov/staff/rao/mstkla/GeomFace.html) [![](../images/modeledge.gif){width="143"
-height="25"}](http://www.ees.lanl.gov/staff/rao/mstkla/GeomEdge.html) [![](../images/modelvert.gif){width="142"
-height="24"}](http://www.ees.lanl.gov/staff/rao/mstkla/GeomVertex.html)
+[![](../images/modelenty.gif)"144"
+height="24"](http://www.ees.lanl.gov/staff/rao/mstkla/GeomEntity.html) [![](../images/modelregn.gif)"141"
+height="25"](http://www.ees.lanl.gov/staff/rao/mstkla/GeomRegion.html) [![](../images/modelface.gif)"143"
+height="26"](http://www.ees.lanl.gov/staff/rao/mstkla/GeomFace.html) [![](../images/modeledge.gif)"143"
+height="25"](http://www.ees.lanl.gov/staff/rao/mstkla/GeomEdge.html) [![](../images/modelvert.gif)"142"
+height="24"](http://www.ees.lanl.gov/staff/rao/mstkla/GeomVertex.html)
 
-[![](../images/genregn.gif){width="145"
-height="25"}](http://www.ees.lanl.gov/staff/rao/mstkla/GenRegion.html) [![](../images/meshregn.gif){width="143"
-height="25"}](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.html) [![](../images/meshface.gif){width="143"
-height="26"}](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.html) [![](../images/meshedge.gif){width="143"
-height="25"}](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.html) [![](../images/meshvert.gif){width="143"
-height="25"}](http://www.ees.lanl.gov/staff/rao/mstkla/MeshVertex.html)
+[![](../images/genregn.gif)"145"
+height="25"](http://www.ees.lanl.gov/staff/rao/mstkla/GenRegion.html) [![](../images/meshregn.gif)"143"
+height="25"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.html) [![](../images/meshface.gif)"143"
+height="26"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.html) [![](../images/meshedge.gif)"143"
+height="25"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.html) [![](../images/meshvert.gif)"143"
+height="25"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshVertex.html)
 
-[![](../images/trivia.gif){width="144"
-height="25"}](http://www.ees.lanl.gov/staff/rao/mstkla/trivia.html)
+[![](../images/trivia.gif)"144"
+height="25"](http://www.ees.lanl.gov/staff/rao/mstkla/trivia.html)
 
 ------------------------------------------------------------------------
 
@@ -121,7 +121,7 @@ I will try hard to maintain this API constant but cannot absolutely
 guarantee it.\
  
 
-[]{#parent-child}Also see **[Parent-Child Node (Vertex)
+[]{#parent-childAlso see **[Parent-Child Node (Vertex)
 Issues](http://www.ees.lanl.gov/staff/rao/mstkla/parent-child.html)**\
 
 ------------------------------------------------------------------------
@@ -129,13 +129,13 @@ Issues](http://www.ees.lanl.gov/staff/rao/mstkla/parent-child.html)**\
 ------------------------------------------------------------------------
 
 \
-[]{#typedefs}[TYPEDEFS](http://www.ees.lanl.gov/staff/rao/mstkla/prelim.html) 
+[]{#typedefs[TYPEDEFS](http://www.ees.lanl.gov/staff/rao/mstkla/prelim.html) 
 
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
-[]{#MSTKLA_Init}**MSTKLA Interface Operators**\
+[]{#MSTKLA_Init**MSTKLA Interface Operators**\
 
 ------------------------------------------------------------------------
 
@@ -155,22 +155,22 @@ Initialize the mesh toolkit.
 \
 **MESH OPERATORS:**\
  \
- []{#MESH OBJECT:}[MESH
+ []{#MESH OBJECT:[MESH
 OBJECT:](http://www.ees.lanl.gov/staff/rao/mstkla/Mesh.html)
 
- []{#MESH REGION:}[MESH
+ []{#MESH REGION:[MESH
 REGION:](http://www.ees.lanl.gov/staff/rao/mstkla/MeshRegion.html)
 
- []{#MESH FACE:}[MESH
+ []{#MESH FACE:[MESH
 FACE:](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.html)
 
- []{#MESH EDGE:}[MESH
+ []{#MESH EDGE:[MESH
 EDGE:](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.html)
 
- []{#MESH VERTEX:}[MESH
+ []{#MESH VERTEX:[MESH
 VERTEX:](http://www.ees.lanl.gov/staff/rao/mstkla/MeshVertex.html)\
  \
- []{#GENERIC MESH REGION QUERIES:}[GENERIC MESH REGION
+ []{#GENERIC MESH REGION QUERIES:[GENERIC MESH REGION
 QUERIES:](http://www.ees.lanl.gov/staff/rao/mstkla/GenRegion.html)\
 
 ------------------------------------------------------------------------
@@ -180,7 +180,7 @@ QUERIES:](http://www.ees.lanl.gov/staff/rao/mstkla/GenRegion.html)\
 ------------------------------------------------------------------------
 
 \
-[]{#GMTKLA_Init}**GEOMETRIC MODEL INITIALIZATION:**
+[]{#GMTKLA_Init**GEOMETRIC MODEL INITIALIZATION:**
 
 *void* **GMTKLA\_Init**(*void*);
 
@@ -191,22 +191,22 @@ Initialize the geometric model interface.
 \
 **MODEL OPERATORS:**
 
- []{#GEOMETRIC MODEL:}[GEOMETRIC
+ []{#GEOMETRIC MODEL:[GEOMETRIC
 MODEL:](http://www.ees.lanl.gov/staff/rao/mstkla/Geom.html)
 
- []{#MODEL ENTITY:}[MODEL
+ []{#MODEL ENTITY:[MODEL
 ENTITY:](http://www.ees.lanl.gov/staff/rao/mstkla/GeomEntity.html)
 
- []{#MODEL REGION:}[MODEL
+ []{#MODEL REGION:[MODEL
 REGION:](http://www.ees.lanl.gov/staff/rao/mstkla/GeomRegion.html)
 
- []{#MODEL FACE:}[MODEL
+ []{#MODEL FACE:[MODEL
 FACE:](http://www.ees.lanl.gov/staff/rao/mstkla/GeomFace.html)
 
- []{#MODEL EDGE:}[MODEL
+ []{#MODEL EDGE:[MODEL
 EDGE:](http://www.ees.lanl.gov/staff/rao/mstkla/GeomEdge.html)
 
- []{#MODEL VERTEX}[MODEL
+ []{#MODEL VERTEX[MODEL
 VERTEX](http://www.ees.lanl.gov/staff/rao/mstkla/GeomVertex.html)
 ---&gt; Not implemented fully\
  
@@ -218,13 +218,13 @@ VERTEX](http://www.ees.lanl.gov/staff/rao/mstkla/GeomVertex.html)
 ------------------------------------------------------------------------
 
 \
-[]{#UTILITIES:}**[UTILITIES:](http://www.ees.lanl.gov/staff/rao/mstkla/utilities.html)**
+[]{#UTILITIES:**[UTILITIES:](http://www.ees.lanl.gov/staff/rao/mstkla/utilities.html)**
 
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
-[]{#EXAMPLE}**[EXAMPLE OF PROGRAMMING WITH
+[]{#EXAMPLE**[EXAMPLE OF PROGRAMMING WITH
 MSTKLA](http://www.ees.lanl.gov/staff/rao/mstkla/example.html)**\
  
 
@@ -232,5 +232,5 @@ MSTKLA](http://www.ees.lanl.gov/staff/rao/mstkla/example.html)**\
 
 ------------------------------------------------------------------------
 
-[]{#EXECUTABLE}**[LIBRARIES, INCLUDE FILES AND CREATING AN
+[]{#EXECUTABLE**[LIBRARIES, INCLUDE FILES AND CREATING AN
 EXECUTABLE](http://www.ees.lanl.gov/staff/rao/mstkla/linking.html)**

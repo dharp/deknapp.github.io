@@ -19,7 +19,7 @@ title: FILTERKD and FILTER
 > > \
 > > Dudded nodes are not removed from the mesh object, but are ignored
 > > by many routines because of their dudded status. Use the command
-> > [[rmpoint/compress](RMPOINT.html) ]{style="font-weight: bold;"} to
+> > [[rmpoint/compress](RMPOINT.html) ]{style="font-weight: bold;" to
 > > remove dudded nodes and update the mesh object.\
 > > \
 > > If the mesh object has connected elements, the itet values in the
@@ -63,8 +63,8 @@ title: FILTERKD and FILTER
 > > > and the node with either the **min** or **max** value is retained.
 > >
 > > \
-> > **filter**/[element]{style="font-weight: bold;"}/\[search\_range\]/
-> > \[**nodelete**  [delete]{style="font-weight: bold;"}\]
+> > **filter**/[element]{style="font-weight: bold;"/\[search\_range\]/
+> > \[**nodelete**  [delete]{style="font-weight: bold;"\]
 > >
 > > > [ Search a mesh object for duplicate elements. A duplicate element
 > > > is defined as having the exact same set of nodes in the element
@@ -77,7 +77,7 @@ title: FILTERKD and FILTER
 > > > master(retained)/duplicate(removed) elements and their original
 > > > material id (itetclr).  The option **nodelete**is the default and
 > > > elements are not removed. Use option **delete** to remove the
-> > > elements marked as duplicate. ]{style="font-family: times;"}\
+> > > elements marked as duplicate. ]{style="font-family: times;"\
 > > > The search\_range can be set by the user. This number limits the
 > > > number of elements above and below an element (in numerical order)
 > > > to search. The default is 10.\
@@ -96,8 +96,8 @@ title: FILTERKD and FILTER
 > > Filter all nodes and delete duplicates where epsilon tolerance is
 > > set by user to 1.e-3.\
 > > \
-> > **filterkd** / [pset]{style="font-weight: bold;"}
-> > [get]{style="font-weight: bold;"} point\_set\
+> > **filterkd** / [pset]{style="font-weight: bold;"
+> > [get]{style="font-weight: bold;" point\_set\
 > > Filter a subset of the nodes and delete duplicates with epsilon
 > > tolerance set automaticly.\
 > > \
@@ -110,13 +110,13 @@ title: FILTERKD and FILTER
 > > automaticly. When duplicate nodes are detected the imt attribute is
 > > examined and the node with minimum imt value is retained.\
 > > \
-> > **filter** / [element]{style="font-weight: bold;"} / /
-> > [nodelete]{style="font-weight: bold;"}\
+> > **filter** / [element]{style="font-weight: bold;" / /
+> > [nodelete]{style="font-weight: bold;"\
 > > Filter elements and set itetclr of duplicates to max(itetclr) + 1.
 > > Assign values to iclr1 and iclr2 arrays.\
 > > \
-> > **filter** / [element]{style="font-weight: bold;"} / 1e20 /
-> > [delete]{style="font-weight: bold;"}\
+> > **filter** / [element]{style="font-weight: bold;" / 1e20 /
+> > [delete]{style="font-weight: bold;"\
 > > Filter all elements (assuming there are less than 1e20)  with an
 > > exhaustive search and delete duplicate elements. Assign values to
 > > iclr1 and iclr2 arrays.\

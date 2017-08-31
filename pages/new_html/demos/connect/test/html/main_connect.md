@@ -10,5 +10,5 @@ title: '\*arguments:'
 > > command.\
 > >  \
 > > [Example 1](description_connect.html)\
-> > [![](image/output_connect_tn.gif){width="114"
-> > height="89"}](description_connect.html)
+> > [![](image/output_connect_tn.gif)"114"
+> > height="89"](description_connect.html)

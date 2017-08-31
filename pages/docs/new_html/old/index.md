@@ -20,15 +20,15 @@ title: LaGriT CodeLaGriT Manual
 
 ------------------------------------------------------------------------
 
-> ![](bl_pin.gif){width="21" height="21"}**[LaGriT
+> ![](bl_pin.gif)"21" height="21"**[LaGriT
 > Pictures](picturesweek.html)**
 
-> ![](bl_pin.gif){width="21" height="21"}**[What is
+> ![](bl_pin.gif)"21" height="21"**[What is
 > LaGriT?](whatisx3d.html)**
 >
-> ![](bl_pin.gif){width="21" height="21"}**[Features](LaGriT-vg1.htm)**
+> ![](bl_pin.gif)"21" height="21"**[Features](LaGriT-vg1.htm)**
 >
-> ![](bl_pin.gif){width="21" height="21"}**User's Guide and Release
+> ![](bl_pin.gif)"21" height="21"**User's Guide and Release
 > Notes**\
 >  
 >
@@ -53,23 +53,23 @@ title: LaGriT CodeLaGriT Manual
 > **[Release Notes Fall 2003(PDF)](release_notes12.pdf)**
 >
 > \
-> ![](bl_pin.gif){width="21" height="21"}**[LaGriT Development
+> ![](bl_pin.gif)"21" height="21"**[LaGriT Development
 > Team](x3d_team.html)**
 >
-> ![](bl_pin.gif){width="21"
-> height="21"}**[Publications](publication.html)**
+> ![](bl_pin.gif)"21"
+> height="21"**[Publications](publication.html)**
 >
-> ![](bl_pin.gif){width="21" height="21"}**[LaGriT Fact
+> ![](bl_pin.gif)"21" height="21"**[LaGriT Fact
 > Sheet](lagrit.pdf)**
 >
-> ![](bl_pin.gif){width="21" height="21"}**LaGriT Graphics Examples**
+> ![](bl_pin.gif)"21" height="21"**LaGriT Graphics Examples**
 >
 > **[Grid examples](examples.html)**
 >
 > **[Download sample decks  ](examples.tar)(click on right mouse button
 > to download**
 >
-> ![](bl_pin.gif){width="21" height="21"}**Application Areas that use
+> ![](bl_pin.gif)"21" height="21"**Application Areas that use
 > LaGriT**
 >
 > > **[ER, NTS, YMP(Yucca
@@ -78,23 +78,23 @@ title: LaGriT CodeLaGriT Manual
 > > Evolution](http://www.t12.lanl.gov/home/grain3d/index.html)**
 >
 > \
-> ![](bl_pin.gif){width="21" height="21"}**[GMV General Mesh
+> ![](bl_pin.gif)"21" height="21"**[GMV General Mesh
 > Viewer](http://laws.lanl.gov/XCM/gmv/GMVHome.html) (A 3-D
 > visualization tool designed to view simulation data from any type of
 > structured or unstructured mesh).**\
 >  
 >
-> ![](bl_pin.gif){width="21" height="21"}**[MSTKLA - Mesh ToolKit
+> ![](bl_pin.gif)"21" height="21"**[MSTKLA - Mesh ToolKit
 > interface to LaGriT](http://www.ees.lanl.gov/staff/rao/mstkla/)**
 >
-> ![](bl_pin.gif){width="21"
-> height="21"}**[LASETUP](x3dsetup/x3dsetup.html) (A GUI for generating
+> ![](bl_pin.gif)"21"
+> height="21"**[LASETUP](x3dsetup/x3dsetup.html) (A GUI for generating
 > geometries, i.e. surface, region and mregion commands)**
 >
-> ![](bl_pin.gif){width="21" height="21"}**[Team
+> ![](bl_pin.gif)"21" height="21"**[Team
 > Only](closed/teamonly.html)**
 >
-> ![](bl_pin.gif){width="21" height="21"}**[LaGriT Licensing,
+> ![](bl_pin.gif)"21" height="21"**[LaGriT Licensing,
 > Distribution, and
 > Installation](http://ees-www.lanl.gov/EES5/geomesh/lic_agreement/lic_instructions.html)
 > (available in USA only to SRC member companies, member universities

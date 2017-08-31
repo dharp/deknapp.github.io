@@ -2,10 +2,10 @@
 GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20REGION:) [![](../images/arrow3.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/Mesh.html) [![](../images/arrow4.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.html)
+[![](../images/arrow2.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20REGION:) [![](../images/arrow3.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/Mesh.html) [![](../images/arrow4.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.html)
 
  
 
@@ -51,7 +51,7 @@ List of vertices of a mesh region
 *void* **MR\_VerticesE**(*PMeshObj* mesh, *PMeshRegn* r, *PMeshEdge* e,
 *PMeshVert* \*rverts);
 
-![](../images/note1.gif){width="31" height="32"}**THIS OPERATOR IS
+![](../images/note1.gif)"31" height="32"**THIS OPERATOR IS
 APPLICABLE ONLY TO TETS**
 
 Return the vertices of the given tet w.r.t to the given edge. The\
@@ -72,7 +72,7 @@ where v2k1 is the vector from v2 to k1, etc.
 *void* **MR\_VerticesLocE**(*PMeshObj* mesh, *PMeshRegn* r, *int* enum,
 *PMeshVert* \*rverts);
 
-![](../images/note1.gif){width="31" height="32"}**THIS OPERATOR IS
+![](../images/note1.gif)"31" height="32"**THIS OPERATOR IS
 APPLICABLE ONLY TO TETS**
 
 Same as MR\_VerticesE (above) but the edge is specified by a local edge\
@@ -133,7 +133,7 @@ The local face numbering starts from 0 in C style.\
 ------------------------------------------------------------------------
 
 \
-[]{#MR-Attribs}*int* **MR\_GetAttVal**(*PMeshObj* mesh, *PMeshRegn* r,
+[]{#MR-Attribs*int* **MR\_GetAttVal**(*PMeshObj* mesh, *PMeshRegn* r,
 *char \**attname, *int \**ival,\
 *double \**rval, *char \**cval, *void \*\**pval, *AttType \**atype);
 
@@ -142,7 +142,7 @@ filled on succesful completion. Arrays are returned in pval, integer in\
 ival and real number in rval (I don't think lagrit supports character\
 attributes)
 
-![](../images/bullet12.gif){width="27" height="31"} Will only work for
+![](../images/bullet12.gif)"27" height="31" Will only work for
 solid meshes
 
 ------------------------------------------------------------------------
@@ -160,11 +160,11 @@ for\
 now.....
 
  \
-![](../images/bullet12.gif){width="27" height="31"} Will only work for
+![](../images/bullet12.gif)"27" height="31" Will only work for
 solid meshes\
  
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20REGION:) [![](../images/arrow3.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/Mesh.html) [![](../images/arrow4.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.html)
+[![](../images/arrow2.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20REGION:) [![](../images/arrow3.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/Mesh.html) [![](../images/arrow4.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.html)

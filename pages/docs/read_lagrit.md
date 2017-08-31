@@ -13,7 +13,7 @@ GENERATOR: 'Mozilla/4.72 \[en\] (X11; U; Linux 2.2.14-5.0 i686) \[Netscape\]'
 > > \
 > > [Note that the filename is case-sensitive, though the extension
 > > itself is not. When using the short format, the file will be read in
-> > ascii mode.]{style="font-family: Times New Roman,Times;"}\
+> > ascii mode.]{style="font-family: Times New Roman,Times;"\
 >
 > LONG FORMAT:
 >
@@ -26,7 +26,7 @@ GENERATOR: 'Mozilla/4.72 \[en\] (X11; U; Linux 2.2.14-5.0 i686) \[Netscape\]'
 >
 > EXAMPLES:
 >
-> > **read**[/]{style="font-family: monospace;"}**LaGriT**[/file1]{style="font-family: monospace;"}       
+> > **read**[/]{style="font-family: monospace;"**LaGriT**[/file1]{style="font-family: monospace;"       
 > > file1 will be read as ascii.  If the read fails to find the ascii
 > > check string, the file will be closed and reopened for a binary
 > > read.

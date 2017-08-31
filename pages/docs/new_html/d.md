@@ -16,10 +16,10 @@ specified in a well-defined order; hence when one references the 'second
 facet' of an element, one references a pre-defined set of points.
 Consider a tetrahedral element, with nodes labeled as in the diagram:
 
-![](Image232.gif){width="196" height="188"}
+![](Image232.gif)"196" height="188"
 
 The points are oriented so that the triple product
-![](Image233.gif){width="70" height="15"} is positive, and the volume of
+![](Image233.gif)"70" height="15" is positive, and the volume of
 the tet is one-sixth of the triple product. The local facets are defined
 as follows:
 

@@ -19,7 +19,7 @@ title: MASSAGE2
 >
 > **massage2** / file\_name / min\_scale / bisection\_length /
 > merge\_length / toldamage /
-> \[[tolroughness]{style="font-family: monospace;"}\] /
+> \[[tolroughness]{style="font-family: monospace;"\] /
 > \[ifirst,ilast,istride\]/\
 >    
 > \[**nosmooth**\]/\[**norecon**\]\[**strictmergelength**\]/\[**ignoremats**\]/\[**lite\]**/\[**checkaxy**\]/\[**semiexclusive**\]/**\[exclusive**\]

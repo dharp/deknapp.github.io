@@ -4,12 +4,12 @@ title: FEHM STOR File Format
 ---
 
 +-----------------------------------------------------------------------+
- **[FEHMN Stor File Format]{style="font-size: 22pt;"}**                
+ **[FEHMN Stor File Format]{style="font-size: 22pt;"**                
 
  --------------------------------------------------------------------- 
  ---                                                                   
 
- []{style="font-size: 12pt;"}                                          
+ []{style="font-size: 12pt;"                                          
 
  [       The sparse matrix data file is both an input and an output    
  file the FEHM application uses for storing or reading geometric       
@@ -19,7 +19,7 @@ title: FEHM STOR File Format
  ascii or binary (unformatted) mode.\                                  
  \                                                                     
  The stor file is written with "blocks" of information data in the     
- following format. ]{style="font-size: 12pt;"}                         
+ following format. ]{style="font-size: 12pt;"                         
 
  \                                                                     
  1\. ASCII Header consisting of 2 lines giving code version informatio 
@@ -72,7 +72,7 @@ title: FEHM STOR File Format
  be 'asci.' If it is binary, then characters 10-16 should be 'ieee'.\  
  \                                                                     
  Characters 14-17 should be labled as one of: [r4i4 r4i8 r8i4 r8i8     
- ]{.CODE}\                                                             
+ ]{.CODE\                                                             
  \                                                                     
  This signifies the number of bytes used for reals 'r' and integers    
  'i'. E.g., r8i4 means 8 byte reals, 4 byte integers.                  
@@ -84,7 +84,7 @@ title: FEHM STOR File Format
 
  The Parameter line contains 4 or 5 integer values:                    
  NUM\_WRITTEN\_COEFS, NEQ, NCOEF+NEQ+1, NUM\_AREA\_COEF, and           
- \[NCON\_MAX}. \[\] denotes the optional parameter:\                   
+ \[NCON\_MAX. \[\] denotes the optional parameter:\                   
  \                                                                     
  **NUM\_WRITTEN\_COEFS:** is the number of floating point entries      
  written in the .stor file. If compression is not used, then this is   
@@ -164,7 +164,7 @@ title: FEHM STOR File Format
  \                                                                     
  [ 1 2 3\                                                              
  2 3\                                                                  
- ]{.CODE}\                                                             
+ ]{.CODE\                                                             
  This would indicate: The first row has specified entries in the       
  first, second, and third columns (i.e, entries (1,1), (1,2) and (1,3) 
  are specified ; the second row has an entry specified in the second   
@@ -225,7 +225,7 @@ title: FEHM STOR File Format
 
  STOR File example nstor: No compression.                              
 
- []{.CODE}                                                             
+ []{.CODE                                                             
      fehmstor ascir8i4 LaGriT Sparse Matrix Voronoi Coefficients       
            08/14 10:23:54 20093-D Linear Diffusion Model (matbld3d_nst 
  or)                                                                   
@@ -285,7 +285,7 @@ title: FEHM STOR File Format
 
  STOR File example cstor: coef compression on, graph compression off.  
 
- []{.CODE}                                                             
+ []{.CODE                                                             
      fehmstor ascir8i4 LaGriT Sparse Matrix Voronoi Coefficients       
            08/13 15:40:06 20093-D Linear Diffusion Model (matbld3d_cst 
  or)                                                                   
@@ -326,7 +326,7 @@ title: FEHM STOR File Format
 
  STOR File example gstor: coef compression off, graph compression on.  
 
- [ ]{.CODE}                                                            
+ [ ]{.CODE                                                            
      fehmstor ascir8i4 LaGriT Sparse Matrix Voronoi Coefficients       
            08/13 15:40:06 20093-D Linear Diffusion Model (matbld3d_gst 
  or)                                                                   
@@ -371,7 +371,7 @@ title: FEHM STOR File Format
  STOR File example astor: Compress all, graph compression on and coef  
  compression on.                                                       
 
- [ ]{.CODE}                                                            
+ [ ]{.CODE                                                            
      fehmstor ascir8i4 LaGriT Sparse Matrix Voronoi Coefficients       
            08/13 15:40:06 20093-D Linear Diffusion Model (matbld3d_ast 
  or)                                                                   

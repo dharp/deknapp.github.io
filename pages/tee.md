@@ -15,8 +15,8 @@ title: LANL  LaGriT
 
 
 
- ansparent.gif){.strut              Grain Evolution in a T-Junction   
- width="160" height="1"}            -------------------------------   
+               Grain Evolution in a T-Junction   
+ width="160" height="1"            -------------------------------   
 
                                     #### by Tinka Gammel              
 
@@ -56,14 +56,14 @@ title: LANL  LaGriT
                                     +-------------------------------- 
                                     ---+----------------------------- 
                                     ------+                           
-                                     ![](images/tee0100.jpg){width=" 
+                                     ![](images/tee0100.jpg)" 
                                     22  ![](images/tee0200.jpg){widt 
                                     h="22                            
                                      5"                              
                                         5"                           
 
-                                     height="175"}                   
-                                        height="175"}                
+                                     height="175"                   
+                                        height="175"                
 
 
 
@@ -74,14 +74,14 @@ title: LANL  LaGriT
                                     +-------------------------------- 
                                     ---+----------------------------- 
                                     ------+                           
-                                     ![](images/tee0300.jpg){width=" 
+                                     ![](images/tee0300.jpg)" 
                                     22  ![](images/tee0400.jpg){widt 
                                     h="22                            
                                      5"                              
                                         5"                           
 
-                                     height="175"}                   
-                                        height="175"}                
+                                     height="175"                   
+                                        height="175"                
 
 
 
@@ -92,14 +92,14 @@ title: LANL  LaGriT
                                     +-------------------------------- 
                                     ---+----------------------------- 
                                     ------+                           
-                                     ![](images/tee0500.jpg){width=" 
+                                     ![](images/tee0500.jpg)" 
                                     22  ![](images/tee0600.jpg){widt 
                                     h="22                            
                                      5"                              
                                         5"                           
 
-                                     height="175"}                   
-                                        height="175"}                
+                                     height="175"                   
+                                        height="175"                
 
 
 
@@ -110,14 +110,14 @@ title: LANL  LaGriT
                                     +-------------------------------- 
                                     ---+----------------------------- 
                                     ------+                           
-                                     ![](images/tee0700.jpg){width=" 
+                                     ![](images/tee0700.jpg)" 
                                     22  ![](images/tee0800.jpg){widt 
                                     h="22                            
                                      5"                              
                                         5"                           
 
-                                     height="175"}                   
-                                        height="175"}                
+                                     height="175"                   
+                                        height="175"                
 
 
 
@@ -128,14 +128,14 @@ title: LANL  LaGriT
                                     +-------------------------------- 
                                     ---+----------------------------- 
                                     ------+                           
-                                     ![](images/tee0900.jpg){width=" 
+                                     ![](images/tee0900.jpg)" 
                                     22  ![](images/tee1000.jpg){widt 
                                     h="22                            
                                      5"                              
                                         5"                           
 
-                                     height="175"}                   
-                                        height="175"}                
+                                     height="175"                   
+                                        height="175"                
 
 
 
@@ -146,13 +146,13 @@ title: LANL  LaGriT
                                     +-------------------------------- 
                                     ---+----------------------------- 
                                     ------+                           
-                                     ![](images/tee1100.jpg){width=" 
+                                     ![](images/tee1100.jpg)" 
                                     22                               
 
                                      5"                              
 
 
-                                     height="175"}                   
+                                     height="175"                   
 
 
 
@@ -175,9 +175,9 @@ title: LANL  LaGriT
                                     and more nodes becomes            
                                     computationally expensive.        
 
-                                    ![](images/tee0200gr.jpg){width=" 
+                                    ![](images/tee0200gr.jpg)" 
                                     500"                              
-                                    height="500"}                     
+                                    height="500"                     
 
                                     Laplacian smoothing can reduce    
                                     the artificial roughness which is 
@@ -210,7 +210,7 @@ title: LANL  LaGriT
 
                                     ![](images/tee0200_lap.jpg){width 
                                     ="500"                            
-                                    height="500"}                     
+                                    height="500"                     
 
                                     LaGriT's "graphmassage"           
                                     capability can then be used to    
@@ -225,7 +225,7 @@ title: LANL  LaGriT
 
                                     ![](images/tee0200_lap_mas.jpg){w 
                                     idth="500"                        
-                                    height="500"}                     
+                                    height="500"                     
 
                                     Using LaGriT's "graphmassage"     
                                     without first smoothing the       
@@ -249,11 +249,11 @@ title: LANL  LaGriT
 
                                     ![](images/tee0200_mas.jpg){width 
                                     ="500"                            
-                                    height="500"}                     
+                                    height="500"                     
 
                                     ![](http://www.lanl.gov/images/tr 
-                                    ansparent.gif){.strut             
-                                    width="420" height="1"}           
+                                                 
+                                    width="420" height="1"           
 
 
 

@@ -8,5 +8,5 @@ title: '\*arguments:'
 > > > The objective is to test the **triangulate** command.\
 > > >  \
 > > > [Example 1](description_tri.html)
-> > > [![](image/triang4_tn.gif){width="114"
-> > > height="89"}](description_tri.html)
+> > > [![](image/triang4_tn.gif)"114"
+> > > height="89"](description_tri.html)

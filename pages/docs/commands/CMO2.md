@@ -27,11 +27,11 @@ keyword\_parameters\
 
 Give the sink mesh the same set of attributes as the source mesh (with
 unitialized values)\
-**[cmo/attribute\_derive](cmo/cmo_att_derive.html)**/[sink\_mo/\[src\_mo]{style="font-family: Courier;"}[\]]{style="font-family: Times;"}
+**[cmo/attribute\_derive](cmo/cmo_att_derive.html)**/[sink\_mo/\[src\_mo]{style="font-family: Courier;"[\]]{style="font-family: Times;"
 
 [Change two meshes so they both share the same set of attributes (taking
 the union of their sets of
-attributes)]{style="font-family: Times New Roman,Times;"}\
+attributes)]{style="font-family: Times New Roman,Times;"\
 **[cmo/attribute\_union](cmo/cmo_att_derive.html)**/mo\_name\_1/mo\_name\_2
 
 Shorten all memory managed arrays associated with mo\_name to their

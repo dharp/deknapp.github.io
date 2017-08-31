@@ -24,6 +24,6 @@ title: '\*arguments:'
 >
 > Images of GMV output
 >
-> [![](image/image1_tn.gif){width="144"
-> height="144"}](image/picture1.gif) [input and output
+> [![](image/image1_tn.gif)"144"
+> height="144"](image/picture1.gif) [input and output
 > meshes](image/picture1.gif)

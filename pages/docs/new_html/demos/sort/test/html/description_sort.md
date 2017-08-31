@@ -18,8 +18,8 @@ Example 1: test using sort.\
 Output Results:
 
 [Initial point
-distribution](image/sort.gif)[![](image/sort_tn.gif){width="110"
-height="83"}](image/sort.gif)
+distribution](image/sort.gif)[![](image/sort_tn.gif)"110"
+height="83"](image/sort.gif)
 
 [Output for **sort/bins**](sort_output2)
 

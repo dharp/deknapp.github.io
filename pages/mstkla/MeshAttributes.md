@@ -2,10 +2,10 @@
 GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html#MESH%20VERTEX:) [![](../images/arrow3.gif){width="30"
-height="30"}](MeshEdge.html) [![](../images/arrow4.gif){width="30"
-height="30"}](GenRegion.html)
+[![](../images/arrow2.gif)"30"
+height="30"](mstkla.html#MESH%20VERTEX:) [![](../images/arrow3.gif)"30"
+height="30"](MeshEdge.html) [![](../images/arrow4.gif)"30"
+height="30"](GenRegion.html)
 
  
 
@@ -102,7 +102,7 @@ See attribute operators for[Mesh Vertices](MeshVertex.html#MV-Attribs),
 Faces](MeshFace.html#MF-Attribs)\
  
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html#MESH%20VERTEX:) [![](../images/arrow3.gif){width="30"
-height="30"}](MeshEdge.html) [![](../images/arrow4.gif){width="30"
-height="30"}](GenRegion.html)
+[![](../images/arrow2.gif)"30"
+height="30"](mstkla.html#MESH%20VERTEX:) [![](../images/arrow3.gif)"30"
+height="30"](MeshEdge.html) [![](../images/arrow4.gif)"30"
+height="30"](GenRegion.html)

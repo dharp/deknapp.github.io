@@ -54,12 +54,12 @@ FORMAT:
 
 [quadxy\_example1](quadxy_example1.png)\
 [![LaGriT Finite Element
-Mesh](quadxy_example1_TN.PNG){width="300"}](quadxy_example1.png)
+Mesh](quadxy_example1_TN.PNG)"300"](quadxy_example1.png)
 
 [quadxy\_example2](quadxy_example2.png)\
 [![LaGriT Finite Element
-Mesh](quadxy_example2_TN.PNG){width="300"}](quadxy_example2.png)
+Mesh](quadxy_example2_TN.PNG)"300"](quadxy_example2.png)
 
 [quadxy\_example3](quadxy_example3.png)\
 [![LaGriT Finite Element
-Mesh](quadxy_example3_TN.PNG){width="300"}](quadxy_example3.png)
+Mesh](quadxy_example3_TN.PNG)"300"](quadxy_example3.png)

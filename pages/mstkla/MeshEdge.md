@@ -2,10 +2,10 @@
 GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20EDGE:) [![](../images/arrow3.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.html) [![](../images/arrow4.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/MeshVertex.html)
+[![](../images/arrow2.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20EDGE:) [![](../images/arrow3.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.html) [![](../images/arrow4.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshVertex.html)
 
 ------------------------------------------------------------------------
 
@@ -36,7 +36,7 @@ Free the data structure associated with this edge created on the fly.\
 (There is an operator for creation but I cannot yet imagine needing to\
 make that a publicly available operator).
 
-![](../images/bullet12.gif){width="27" height="31"}\*\* IMPORTANT \*\*\
+![](../images/bullet12.gif)"27" height="31"\*\* IMPORTANT \*\*\
 ME\_Delete will not remove any connections in the mesh. It just destroys
 the\
 temporary data structure used to store the edge info
@@ -59,7 +59,7 @@ edge is constructed from them.
 *void* **ME\_Children**(*PMeshObj* mesh, *PMeshEdge* pe, *int* \*nec,
 *PMeshEdge* \*\*ec);
 
-![](../images/note1.gif){width="31" height="32"}\*\*\* NOT YET
+![](../images/note1.gif)"31" height="32"\*\*\* NOT YET
 IMPLEMENTED \*\*\*
 
 Child vertices of the face are found and appropriate combinations of
@@ -106,7 +106,7 @@ If a vertex is not on an interface the vertex itself is returned.
 
 ------------------------------------------------------------------------
 
-![](../images/new1.gif){width="31" height="12"}*PMeshVert*
+![](../images/new1.gif)"31" height="12"*PMeshVert*
 **ME\_OtherVertex**(*PMeshObj* mesh, *PMeshEdge* e, *PMeshVert* v);
 
 Return the other vertex of the mesh edge (obviously the one that is not
@@ -138,7 +138,7 @@ before this operator can be called usefully.
 The behavior of this operator for child and parent edges is similar to\
 that of MV\_Regions.
 
-![](../images/bullet12.gif){width="27" height="31"}\*\* IMPORTANT \*\*
+![](../images/bullet12.gif)"27" height="31"\*\* IMPORTANT \*\*
 
 Since MESH\_BldUpAdj builds explicit upward adjacency information, this\
 routine does not require a seed region to be provided. Also, this\
@@ -156,7 +156,7 @@ vertex one of the edges vertices.\
  \
  
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20EDGE:) [![](../images/arrow3.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.html) [![](../images/arrow4.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/MeshVertex.html)
+[![](../images/arrow2.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20EDGE:) [![](../images/arrow3.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshFace.html) [![](../images/arrow4.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshVertex.html)

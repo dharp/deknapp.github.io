@@ -14,25 +14,25 @@ There is a default template for a Mesh Object composed of the following
 attributes:
 
 **name** (character\*32 -- mesh object name)\
-[]{#scalar}**scalar** (integer -- defined to have value 1)\
-[]{#vector}**vector** (integer -- defined to have value 3)\
-[]{#nnodes}**nnodes** (integer -- number of nodes in the mesh)\
-[]{#nelements}**nelements** (integer -- number of elements in the mesh,
+[]{#scalar**scalar** (integer -- defined to have value 1)\
+[]{#vector**vector** (integer -- defined to have value 3)\
+[]{#nnodes**nnodes** (integer -- number of nodes in the mesh)\
+[]{#nelements**nelements** (integer -- number of elements in the mesh,
 e.g. triangles, tetrahedra)\
 **nfaces** (integer -- number of unique topological facets in the mesh,
 e.g. number of edges in 2D or number of element faces in 3D) -- (not set
 or maintained by LaGriT; may be set and maintained by the user)\
 **nedges** (integer -- number of unique edges in mesh) -- (not set or
 maintained by LaGriT; may be set and maintained by the user)\
-[]{#mbndry}**mbndry** (integer -- value signifying that if the node
+[]{#mbndry**mbndry** (integer -- value signifying that if the node
 number is greater that mbndry then the node is a boundary node) --
 (default 16000000) (must be greater than 48\*nnodes and may be reset by
 **[connect](CONNECT1.html)**) (for an example of usage see [Section
 III.d](meshobjcon.html#mbndry))\
-[]{#ndimensions_topo}**ndimensions\_topo** (integer -- topological
+[]{#ndimensions_topo**ndimensions\_topo** (integer -- topological
 dimensionality,1, 2 or 3, i.e. a non-planar surface would have
 ndimensions\_topo = 2 and ndimensions\_geom = 3.)\
-[]{#ndimensions_geom}**ndimensions\_geom** (integer -- 1, 2 or 3 for
+[]{#ndimensions_geom**ndimensions\_geom** (integer -- 1, 2 or 3 for
 dimension of geometry) (default 3)\
 **nodes\_per\_element** (integer -- value dependent on type of mesh;
 e.g. for tetrahedral mesh the value will be 4)\
@@ -43,12 +43,12 @@ element (i.e. in 1D this number is always 2, for 2D use the number of
 edges of the element, for 3D use the number of faces of the element.--(
 value dependent on type of mesh; e.g. for tetrahedral mesh the value
 will be 4))\
-[]{#isetwd}**isetwd** (integer array containing pset membership
+[]{#isetwd**isetwd** (integer array containing pset membership
 information, see **[pset](PSET.html)** command definition)\
 **ialias** (integer array of alternate node numbers, i.e. for merged
 points)\
-[]{#imt1}**imt1** (integer array of node material)\
-[]{#itp1}**itp1** (integer array of node type if type &gt; 20 node will
+[]{#imt1**imt1** (integer array of node material)\
+[]{#itp1**itp1** (integer array of node type if type &gt; 20 node will
 be invisible)
 
  
@@ -77,10 +77,10 @@ be invisible)
   41           par    Parent node
   ------------ ------ ----------------------------------------------------------------
 
-[]{#icr1}**icr1** (integer array of constraint numbers for nodes; the
+[]{#icr1**icr1** (integer array of constraint numbers for nodes; the
 value of this array is an index into the **[icontab](#icontab)** table
 of node constraints described later in this section)\
-[]{#isn1}**isn1** (integer array of child, parent node correspondence)\
+[]{#isn1**isn1** (integer array of child, parent node correspondence)\
 Points on material interfaces are given point type 41 (parent). One
 child point is spawned for each material meeting at the parent point.
 The isn1 field of the parent point will contain the point number of the
@@ -90,9 +90,9 @@ contain the point number of the parent. The point types of the child
 points will be 2, 12, 13, 15 or 19 depending on whether the interface
 point is also on an exterior boundary. This parent, child relationship
 is established by the **settets** command.\
-[]{#xic}**xic**, **yic**, **zic** (real arrays of node coordinates)\
-[]{#itetclr}**itetclr** (integer array of element material)\
-[]{#itettyp}**itettyp** (element shape)  (for an example of usage see
+[]{#xic**xic**, **yic**, **zic** (real arrays of node coordinates)\
+[]{#itetclr**itetclr** (integer array of element material)\
+[]{#itettyp**itettyp** (element shape)  (for an example of usage see
 [Section III.d](meshobjcon.html#itettyp))
 
  
@@ -213,7 +213,7 @@ attributes (see [**cmo**/**addatt**](cmo_addatt.html)).
 The value of parameters can be changed by the cmo/setatt command.\
 (e.g. **[cmo/setatt/](cmo_setatt.html)**/epsilonl/1.d-9)
 
-[]{#icontab}LaGriT will add attributes to the mesh object in certain
+[]{#icontabLaGriT will add attributes to the mesh object in certain
 instances. For example, if there are any constrained surfaces, reflect,
 virtual or intrcons types, the following attributes are added to the
 mesh object:\
@@ -251,7 +251,7 @@ mesh object consists of the following items:
  
 
       name -               (character) Attribute name\
-      []{#type}type -                 (character) Attribute type\
+      []{#typetype -                 (character) Attribute type\
                                  INT- Integer\
                                  REAL - Real number\
                                  CHARACTER - character variable of

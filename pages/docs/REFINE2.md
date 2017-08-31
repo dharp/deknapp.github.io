@@ -48,7 +48,7 @@ title: 'REFINE1.html'
 >
 >      For the edge between nodes 1 and 2, we have
 >
-> ![](new_html/image5.jpg){width="129" height="55"}\
+> ![](new_html/image5.jpg)"129" height="55"\
 >      Criteria:
 >
 >      1) Junction: Refine if the edge field values straddle c.
@@ -80,7 +80,7 @@ title: 'REFINE1.html'
 >
 >      5) Lambda Refine: Refine if lambda/dx &lt; c. Where dx  is a
 > scale length (here taken to be the edge length)\
-> ![](new_html/image9.jpg){width="156" height="52"}
+> ![](new_html/image9.jpg)"156" height="52"
 
 > Generally lambda/dx is a quality measure of the discretization. A
 > larger value of usually indicates a better grid discretization.  There
@@ -94,7 +94,7 @@ title: 'REFINE1.html'
 > derefinement. For the tetrahedral face defined by nodes 1, 2, and 3,
 > we have
 >
-> ![](new_html/image1.jpg){width="154" height="111"}\
+> ![](new_html/image1.jpg)"154" height="111"\
 >  
 >
 >      where A is the area of the face.
@@ -165,7 +165,7 @@ title: 'REFINE1.html'
 
 >      III. Tets: Each tetrahedron is tested separately for refinement
 > or derefinement\
-> ![](new_html/image4.jpg){width="155" height="134"}\
+> ![](new_html/image4.jpg)"155" height="134"\
 >  \
 >  
 >

@@ -89,7 +89,7 @@ title: MASSAGE
 > BISECTION\_LENGTH, MERGE\_LENGTH, TOLDAMAGE, TOLROUGHNESS =.3, .1,
 > .01, .1
 >
-> If one of {BISECTION\_LENGTH, MERGE\_LENGTH} is omitted, the omitted
+> If one of {BISECTION\_LENGTH, MERGE\_LENGTH is omitted, the omitted
 > one will be set so that BISECTION\_LENGTH=3\*MERGE\_LENGTH.\
 > If they are both omitted, they will both be taken to be infinity.\
 > If TOLDAMAGE is not specified, no node annihilation will take place.\

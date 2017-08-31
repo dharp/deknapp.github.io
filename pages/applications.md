@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-![](images/lagrit2.jpg){width="180" height="120"}
+![](images/lagrit2.jpg)"180" height="120"
 LaGriT Applications
 -------------------
 

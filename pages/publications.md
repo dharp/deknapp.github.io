@@ -14,7 +14,7 @@ title: LANL  LaGriT
 
 
 
-![](images/lagrit2.jpg){width="180" height="120"}
+![](images/lagrit2.jpg)"180" height="120"
 LaGriT Related Publications
 ---------------------------
 
@@ -151,12 +151,12 @@ COMPUTERS & GEOSCIENCES 35:9, 1897-1906, 2009
 Stauffer, PH ; Vrugt, JA ; Turin, HJ ; Gable, CW ; Soll, WE, [Untangling
 Diffusion from Advection in Unsaturated Porous Media: Experimental Data,
 Modeling, and Parameter
-Uncertainty](./pdfs/2009_VZJ_stauffer_vrugt_turin_gable_soll.pdf "View abstract and other details"){.strong},
+Uncertainty](./pdfs/2009_VZJ_stauffer_vrugt_turin_gable_soll.pdf "View abstract and other details"){.strong,
 VADOSE ZONE JOURNAL (MAY 2009) Vol.8, iss.2, p.510-522
 
 Kuprat, AP ; Einstein, DR [An anisotropic scale-invariant unstructured
 mesh generator suitable for volumetric imaging
-data](./pdfs/09060114541116977--journals--00219991--v228i0003--619_aasumgsfvid.pdf "View abstract and other details"){.strong},
+data](./pdfs/09060114541116977--journals--00219991--v228i0003--619_aasumgsfvid.pdf "View abstract and other details"){.strong,
 JOURNAL OF COMPUTATIONAL PHYSICS (FEB 20 2009) Vol.228, iss.3, p.619-640
 
 **Year 2008:**
@@ -175,14 +175,14 @@ Pages: B08409 (16 pp.) Published: 08 2008 Aug. 2008
 
 Zhang, Y ; Gable, CW [Two-scale modeling of solute transport in an
 experimental
-stratigraphy](./pdfs/2008_j_hydrology_zhang_gable.pdf "View abstract and other details"){.strong}
+stratigraphy](./pdfs/2008_j_hydrology_zhang_gable.pdf "View abstract and other details"){.strong
 , JOURNAL OF HYDROLOGY (JAN 15 2008) Vol.348, iss.3-4, p.395-411
 
 **Year 2007:**
 
 Zhang, Y ; Person, M ; Gable, CW, [Representative hydraulic conductivity
 of hydrogeologic units: Insights from an experimental
-stratigraphy](https://oppie.lanl.gov/oppie/service?url_ver=Z39.88-2004&rft_id=info:lanl-repo/oppie&svc_val_fmt=http://oppie.lanl.gov/openurl/oppie.html&svc_id=info:lanl-repo/svc/oppie/full-rec&svc.oparam1=info:lanl-repo/isi/000247151900006&svc.oparam2=info:lanl-repo/svc/getDIDL&svc.oparam3=%28%22gable%20cw%22%29%20AND%20pubDate:2007&svc.oparam4=0&svc.oparam5=1&svc.oparam6=score%20desc&svc.oparam7=LANL&svc.oparam8=&svc.oparam9= "View abstract and other details"){.strong}
+stratigraphy](https://oppie.lanl.gov/oppie/service?url_ver=Z39.88-2004&rft_id=info:lanl-repo/oppie&svc_val_fmt=http://oppie.lanl.gov/openurl/oppie.html&svc_id=info:lanl-repo/svc/oppie/full-rec&svc.oparam1=info:lanl-repo/isi/000247151900006&svc.oparam2=info:lanl-repo/svc/getDIDL&svc.oparam3=%28%22gable%20cw%22%29%20AND%20pubDate:2007&svc.oparam4=0&svc.oparam5=1&svc.oparam6=score%20desc&svc.oparam7=LANL&svc.oparam8=&svc.oparam9= "View abstract and other details"){.strong
 , JOURNAL OF HYDROLOGY (JUN 10 2007) Vol.339, iss.1-2, p.65-78
 
 **Year 2005:**

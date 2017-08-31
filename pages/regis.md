@@ -15,8 +15,8 @@ title: LANL  LaGriT
 
 
 
- ansparent.gif){.strut              LaGriT Licensing, Distribution, a 
- width="160" height="1"}            nd Installation                   
+               LaGriT Licensing, Distribution, a 
+ width="160" height="1"            nd Installation                   
                                     --------------------------------- 
                                     ---------------                   
 
@@ -75,8 +75,8 @@ title: LANL  LaGriT
                                     you have questions.               
 
                                     ![](http://www.lanl.gov/images/tr 
-                                    ansparent.gif){.strut             
-                                    width="420" height="1"}           
+                                                 
+                                    width="420" height="1"           
 
 
 

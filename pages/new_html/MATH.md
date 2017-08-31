@@ -40,7 +40,7 @@ indicates the type of work to perform.
 > sink\_attr:\
 > sink\_attr = (src\_attr) operator (value), where value can be either a
 > numerical constant or a second mesh object attribute.[\
-> min, max ]{style="font-weight: bold;"}are not to be confused with the
+> min, max ]{style="font-weight: bold;"are not to be confused with the
 > minimum or maximum value of an attribute; rather the the result is a
 > comparison of pairs of source values.\
 >
@@ -67,7 +67,7 @@ indicates the type of work to perform.
 > 'times 'element volume' at each element and either saves these
 > products or sums the products and saves the integrated result.\
 > The syntax is:
-> [math/integrate/]{style="font-weight: bold;"}&lt;/&gt;[cmo\_sink/attr\_sink/range/attr\_src\_field]{style="font-family: monospace;"}&lt;&gt;[]{style="font-weight: bold;"}\
+> [math/integrate/]{style="font-weight: bold;"&lt;/&gt;[cmo\_sink/attr\_sink/range/attr\_src\_field]{style="font-family: monospace;"&lt;&gt;[]{style="font-weight: bold;"\
 > &lt;/&gt;&lt;&gt;The 'field\_value' for an element is either the value
 > of attr\_src (if the attr\_src is an element attribute and has length
 > 'nelements') or is the average of the values at the vertices of the
@@ -80,7 +80,7 @@ indicates the type of work to perform.
 > products are summed up and the resulting sum if stored in sink\_attr.
 > (If the user requires just the integrated sum this alternative avoids
 > having to use the pair of commands '[integrate,
-> sum]{style="font-weight: bold;"}' and also avoids creating the
+> sum]{style="font-weight: bold;"' and also avoids creating the
 > 'nelement' long sink attribute)\
 > It is assumed that the sink and source attributes are in the same mesh
 > object and the second cmo name is ignored.\

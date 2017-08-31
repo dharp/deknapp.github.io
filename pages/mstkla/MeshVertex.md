@@ -2,10 +2,10 @@
 GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20VERTEX:) [![](../images/arrow3.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.html) [![](../images/arrow4.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/GenRegion.html)
+[![](../images/arrow2.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20VERTEX:) [![](../images/arrow3.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.html) [![](../images/arrow4.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/GenRegion.html)
 
  
 
@@ -55,21 +55,21 @@ Coordinates of mesh vertex
 
 *int* **MV\_IsParent**(*PMeshObj* mesh, *PMeshVert* v);
 
-![](../images/note1.gif){width="31" height="32"}A vertex not on an
+![](../images/note1.gif)"31" height="32"A vertex not on an
 interface is its own parent - return value will be 1
 
 ------------------------------------------------------------------------
 
 *int* **MV\_IsChild**(*PMeshObj* mesh, *PMeshVert* v);
 
-![](../images/note1.gif){width="31" height="32"}A vertex not on an
+![](../images/note1.gif)"31" height="32"A vertex not on an
 interface is its own child - return value will be 1
 
 ------------------------------------------------------------------------
 
 *PMeshVert* **MV\_Parent**(*PMeshObj* mesh, *PMeshVert* v);
 
-![](../images/note1.gif){width="31" height="32"}For a vertex not on an
+![](../images/note1.gif)"31" height="32"For a vertex not on an
 interface, the vertex itself is returned
 
 ------------------------------------------------------------------------
@@ -77,7 +77,7 @@ interface, the vertex itself is returned
 *void* **MV\_Children**(*PMeshVert* mesh, *PMeshVert* v, *int* \*nvc,
 *PMeshVert* \*\*vc)
 
-![](../images/note1.gif){width="31" height="32"}For a vertex not on an
+![](../images/note1.gif)"31" height="32"For a vertex not on an
 interface, a 1 item array with the vertex\
 pointer itself is returned and nvc = 1\
  \
@@ -101,7 +101,7 @@ up of the child vertex 'v' and any other child vertex it is connected\
 to. Note that vertices on 2-manifold (single material) boundaries and\
 in the interior can be considered a parent or a child as required.
 
-![](../images/bullet12.gif){width="27" height="31"}\*\*\* IMPORTANT
+![](../images/bullet12.gif)"27" height="31"\*\*\* IMPORTANT
 \*\*\*\
 When finished with the list of edges, call ME\_Delete on each of the\
 edges and free the vedges list. This is important since the MeshEdge\
@@ -114,7 +114,7 @@ keep track of them.\
 *void* **MV\_Faces**(*PMeshObj* mesh, *PMeshVert* v, *int* \*nvf,
 *PMeshFace* \*\*vfaces);
 
-![](../images/note1.gif){width="31" height="32"}\*\* NOT YET TESTED \*\*
+![](../images/note1.gif)"31" height="32"\*\* NOT YET TESTED \*\*
 
 List of mesh faces connected to vertex. For this routine to work\
 properly, one must call MESH\_BldAdj first. If not the routine will\
@@ -123,7 +123,7 @@ just return 0.
 The behavior of the operator for parent and child vertices is the same\
 as it is for MV\_Edges.
 
-![](../images/bullet12.gif){width="27" height="31"}\*\*\* IMPORTANT
+![](../images/bullet12.gif)"27" height="31"\*\*\* IMPORTANT
 \*\*\*\
 When finished with the list of faces, call MF\_Delete on each of the\
 faces and free the vfaces list. This is important since the MeshFace\
@@ -158,7 +158,7 @@ are returned.
 ------------------------------------------------------------------------
 
 \
-[]{#MV-Attribs}*int* **MV\_GetAttVal**(*PMeshObj* mesh, *PMeshVert* v,
+[]{#MV-Attribs*int* **MV\_GetAttVal**(*PMeshObj* mesh, *PMeshVert* v,
 *char \**attname, *int \**ival,\
 *double \**rval, *char \**cval, *void \*\**pval, *AttType \**atype);
 
@@ -184,7 +184,7 @@ now.....\
  \
  
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20VERTEX:) [![](../images/arrow3.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.html) [![](../images/arrow4.gif){width="30"
-height="30"}](http://www.ees.lanl.gov/staff/rao/mstkla/GenRegion.html)
+[![](../images/arrow2.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/mstkla.html#MESH%20VERTEX:) [![](../images/arrow3.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/MeshEdge.html) [![](../images/arrow4.gif)"30"
+height="30"](http://www.ees.lanl.gov/staff/rao/mstkla/GenRegion.html)

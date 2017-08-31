@@ -43,7 +43,7 @@ title: READ
 > > This is supported for the suffixes listed below. Suffix may be upper
 > > or lower case.\
 > > \
-> > []{style="font-weight: bold;"}**read** /
+> > []{style="font-weight: bold;"**read** /
 > > example.\[inpavsgmvtslglagrit\] / mesh\_object\_name\
 > > \
 > > See links to various formats for more detailed explanations and

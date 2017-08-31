@@ -2,12 +2,12 @@
 GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX64 6.5 IP28) \[Netscape\]'
 ---
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html#MODEL%20ENTITY:) [![](../images/arrow3.gif){width="30"
-height="30"}](Geom.html) [![](../images/arrow4.gif){width="30"
-height="30"}](GeomRegion.html)
+[![](../images/arrow2.gif)"30"
+height="30"](mstkla.html#MODEL%20ENTITY:) [![](../images/arrow3.gif)"30"
+height="30"](Geom.html) [![](../images/arrow4.gif)"30"
+height="30"](GeomRegion.html)
 
-![](../images/construction14.gif){width="169" height="131"}
+![](../images/construction14.gif)"169" height="131"
 
 ------------------------------------------------------------------------
 
@@ -71,7 +71,7 @@ Check if model entity is on external boundary
 
  
 
-[![](../images/arrow2.gif){width="30"
-height="30"}](mstkla.html#MODEL%20ENTITY:) [![](../images/arrow3.gif){width="30"
-height="30"}](Geom.html) [![](../images/arrow4.gif){width="30"
-height="30"}](GeomRegion.html)
+[![](../images/arrow2.gif)"30"
+height="30"](mstkla.html#MODEL%20ENTITY:) [![](../images/arrow3.gif)"30"
+height="30"](Geom.html) [![](../images/arrow4.gif)"30"
+height="30"](GeomRegion.html)

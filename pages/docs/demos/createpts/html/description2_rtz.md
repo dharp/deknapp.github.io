@@ -18,8 +18,8 @@ title: '\*arguments:'
 >
 > Output Image
 >
-> > [![](image/image2tn.gif){width="116"
-> > height="138"}](image/image2.gif) [cylindrical
+> > [![](image/image2tn.gif)"116"
+> > height="138"](image/image2.gif) [cylindrical
 > > grid](image/image2.gif)
 >
 > Input file\

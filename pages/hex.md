@@ -15,8 +15,8 @@ title: LANL  LaGriT
 
 
 
- ansparent.gif){.strut              Hex Examples                      
- width="160" height="1"}            ============                      
+               Hex Examples                      
+ width="160" height="1"            ============                      
 
                                     Click on picture to expand        
 
@@ -32,13 +32,13 @@ title: LANL  LaGriT
 
 
 
-                                     [![](images/hex_xyz.jpg){width= 
+                                     [![](images/hex_xyz.jpg) 
                                     "2                               
 
                                      25"                             
 
 
-                                     height="225"}](images/hex_xyz.j 
+                                     height="225"](images/hex_xyz.j 
                                     pg                               
 
                                      )                               
@@ -62,14 +62,14 @@ title: LANL  LaGriT
 
 
 
-                                     [![](images/hex_rtz.jpg){width= 
+                                     [![](images/hex_rtz.jpg) 
                                     "2  [![](images/hex_rtp.jpg){wid 
                                     th="2                            
                                      25"                             
                                         25"                          
 
-                                     height="225"}](images/hex_rtz.j 
-                                    pg  height="225"}](images/hex_rt 
+                                     height="225"](images/hex_rtz.j 
+                                    pg  height="225"](images/hex_rt 
                                     p.jpg                            
                                      )                               
                                         )                            
@@ -88,8 +88,8 @@ title: LANL  LaGriT
                                     ------+                           
 
                                     ![](http://www.lanl.gov/images/tr 
-                                    ansparent.gif){.strut             
-                                    width="420" height="1"}           
+                                                 
+                                    width="420" height="1"           
 
 
 

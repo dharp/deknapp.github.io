@@ -9,5 +9,5 @@ title: '\*arguments:'
 > > > format options.\
 > > >  \
 > > > [Example 1](description_dump.html)
-> > > [![](../images/output_tn.gif){width="114"
-> > > height="89"}](description_dump.html)
+> > > [![](../images/output_tn.gif)"114"
+> > > height="89"](description_dump.html)

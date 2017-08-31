@@ -20,7 +20,7 @@ cmo/create/cmo1\
 stack/layers/avs/ surf-12.inp 1/ surf-5.inp 2/ surf5.inp
 3/surf\_slope3.inp 4/ surf25.inp 4 / trunc 4 / pinch 0.
 
-![](x5.gif){width="550" height="400"}
+![](x5.gif)"550" height="400"
 
 `Read 5 surface files, truncate by 4th surface.`\
 `No buffers at interfaces, no refinements.`
@@ -56,7 +56,7 @@ cmo create cmo1\
 stack/layers/avs/ surf-12.inp 1/ surf-5.inp 2/ surf5.inp 3/
 surf\_slope3.inp 4/ surf25.inp 4 / trunc 4 / buffer 1. pinch 0.
 
-![](x5_buff.gif){width="550" height="400"}
+![](x5_buff.gif)"550" height="400"
 
 `Read 5 surface files, truncate by 4th surface.`\
 `buffers at interfaces, no refinements.`
@@ -94,7 +94,7 @@ cmo create cmo1\
 stack/layers/avs/surf-12.inp 1/surf-5.inp 2/surf5.inp 3/surf\_slope3.inp
 4/ trunc 4 / pinch 0.
 
-![](x5top.gif){width="550" height="400"}\
+![](x5top.gif)"550" height="400"\
 `Read 4 surface files, truncate by last surface.`\
 `No buffers at interfaces, no refinements.`
 
@@ -127,7 +127,7 @@ cmo create cmo1\
 stack/layers/avs/surf-12.inp 1/surf-5.inp 2/surf5.inp 3/surf\_slope3.inp
 4/ trunc 4 / buffer 1. pinch 0.
 
-![](x5top_buff.gif){width="550" height="400"}
+![](x5top_buff.gif)"550" height="400"
 
 `Read 5 surface files, truncate by last surface.`\
 `buffers at interfaces, no refinements.`
@@ -184,7 +184,7 @@ Images are 250 high by 500 wide, gmv = gmv -w  0  0  550 275
 bead0
 =====
 
-![](bead.gif){width="500" height="250"}\
+![](bead.gif)"500" height="250"\
 buffer 2.   pinch 0.\
 unit 2 thickness = 1.
 
@@ -207,7 +207,7 @@ unit 2 thickness = 1.
 bead1
 =====
 
-![](bead1.gif){width="500" height="250"}\
+![](bead1.gif)"500" height="250"\
 buffer 2.  / dpinch 0.0  dmin 1.
 
 Post process node changes =         76\
@@ -231,7 +231,7 @@ unit 2 thickness = 2.0
 bead3
 =====
 
-![](bead3.gif){width="500" height="250"}\
+![](bead3.gif)"500" height="250"\
 buffer 2. /  dpinch .0   dmin 1.5   move 3\
 unit 2 thickness = 3.
 
@@ -254,7 +254,7 @@ unit 2 thickness = 3.
 bead4
 =====
 
-![](bead4.gif){width="500" height="250"}\
+![](bead4.gif)"500" height="250"\
 buffer 2. / dpinch .0   dmin 1.5    move 2
 
 `SUMMARY VOLUME/AREA of ELEMENT COLORS`\
@@ -277,7 +277,7 @@ buffer 2. / dpinch .0   dmin 1.5    move 2
 bead5
 =====
 
-![](bead5.gif){width="500" height="250"}\
+![](bead5.gif)"500" height="250"\
 buffer 2. / dpinch .0   dmin 1.5   move 1
 
 `SUMMARY VOLUME/AREA of ELEMENT COLORS`\
@@ -300,7 +300,7 @@ buffer 2. / dpinch .0   dmin 1.5   move 1
 bead2 - last image
 ==================
 
-![](bead2.gif){width="500" height="250"}\
+![](bead2.gif)"500" height="250"\
 buffer 2. / dpinch 1.0   dmin 2.0
 
 `SUMMARY VOLUME/AREA of ELEMENT COLORS`\

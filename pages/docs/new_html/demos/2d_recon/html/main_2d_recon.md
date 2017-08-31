@@ -14,5 +14,5 @@ title: '\*arguments:'
 > > criterion and has improved element shapes.\
 > > \
 > > [Example 1](description_2drecon.html)   reconnect a mesh\
-> > [![](image/image1_tn.gif){width="144"
-> > height="144"}](description_2drecon.html)
+> > [![](image/image1_tn.gif)"144"
+> > height="144"](description_2drecon.html)

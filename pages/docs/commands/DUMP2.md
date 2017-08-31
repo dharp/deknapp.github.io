@@ -149,7 +149,7 @@ keepatt**\]   \[**keepatt\_voronoi  keepatt\_median**\]   \
         / \[ **ascii  binary** \] / \[**scalar  vector  both 
 area\_scalar  area\_vector  area\_both**\]\
         / \[**all  graph  coefs  none**\] / \[**hybrid  nohybrid**
-\] ]{style="font-family: monospace;"}\
+\] ]{style="font-family: monospace;"\
 \
 
 Write out a series of files for the FEHM flow and transport code. The
@@ -163,19 +163,19 @@ options.](dump/DUMP3.html) \
 \
 The file\_name is used to form the names of the following 7 files:\
 
-[file\_name]{style="font-style: italic;"}.fehm - coordinates and
+[file\_name]{style="font-style: italic;".fehm - coordinates and
 geometry ( see dump/coord/... command)\
-[file\_name]{style="font-style: italic;"}\_material.zone - node imt
+[file\_name]{style="font-style: italic;"\_material.zone - node imt
 (material) zone lists ( see dump/zone\_imt/... command)\
-[file\_name]{style="font-style: italic;"}\_outside.zone - node external
+[file\_name]{style="font-style: italic;"\_outside.zone - node external
 boundary zone lists (see dump/zone\_outside/... command)\
-[file\_name]{style="font-style: italic;"}\_outside\_vor.area - node
+[file\_name]{style="font-style: italic;"\_outside\_vor.area - node
 external boundary area lists (see dump/zone\_outside/... command)\
-[file\_name]{style="font-style: italic;"}\_interface.zone - zone lists
+[file\_name]{style="font-style: italic;"\_interface.zone - zone lists
 for nodes along material interfaces\
-[file\_name]{style="font-style: italic;"}\_multi\_mat.zone - lists of
+[file\_name]{style="font-style: italic;"\_multi\_mat.zone - lists of
 node pairs connected across material interfaces\
-[file\_name]{style="font-style: italic;"}.stor - FEHM format file giving
+[file\_name]{style="font-style: italic;".stor - FEHM format file giving
 the voronoi (control volume) associated with each node and the sparce
 matrix structure
 
@@ -197,7 +197,7 @@ definitions and surface, names, types and definitions.\
 
 \
 **dump/gmv**/file-name/\[mesh-object\]/\[**ascii** 
-**binary**[\]]{style="font-family: monospace;"}\
+**binary**[\]]{style="font-family: monospace;"\
 \
 
 Write a file to be read by the graphics program
@@ -215,7 +215,7 @@ Write a gocad TSURF file. See [GOCAD
 TSURF](http://www.connectflow.com/geovisage/User/Formats/GocadTsurf.html). \
 
 **dump / lagrit** /file\_name/\[cmo\_name\]/ \[**ascii**  **binary**[\]
-]{style="font-family: monospace;"}\
+]{style="font-family: monospace;"\
 \
 
 Write a LaGriT restart file that contains geometry and mesh object
@@ -245,19 +245,19 @@ triangle mesh objects.\
         / \[**scalar  vector  both  area\_scalar  area\_vector 
 area\_both**\]\
         / \[**all  graph  coefs  none**\] / \[**hybrid  nohybrid**
-\] ]{style="font-family: monospace;"}\
+\] ]{style="font-family: monospace;"\
 \
 
 Same syntax as **dump/fehm** except the only output is the FEHM sparse
 matrix coefficient STOR file
-[file\_name]{style="font-style: italic;"}.stor.\
+[file\_name]{style="font-style: italic;".stor.\
 File can be written in ascii or binary (fortran unformatted platform
 dependent). The area coefficient values can be written as scalar or
 vector.\
-The compression default is [all]{style="font-weight: bold;"} which will
+The compression default is [all]{style="font-weight: bold;" which will
 compress both the list of area coefficients and the indices. The
-[coefs]{style="font-weight: bold;"} compression, or
-[none]{style="font-weight: bold;"} compression both use and older
+[coefs]{style="font-weight: bold;" compression, or
+[none]{style="font-weight: bold;" compression both use and older
 algorithm and will result in larger files and may take longer to run.\
 The **stor** file is one of a set of files written when the **fehm**
 file type is called.\
@@ -284,8 +284,8 @@ output.
 
 \
 \
-**dump**[ / ]{style="font-family: monospace;"}**zone**[
-/file\_name/\[cmo\_name\] / ]{style="font-family: monospace;"}
+**dump**[ / ]{style="font-family: monospace;"**zone**[
+/file\_name/\[cmo\_name\] / ]{style="font-family: monospace;"
 \[**delatt  keepatt**\]   \[**keepatt\_voronoi  keepatt\_median**\]\
 \
 
@@ -299,33 +299,33 @@ outside nodes can be created with the **keepatt\_voronoi** or
 **keepatt\_median** options (see zone\_outside).\
 \
 Files are written in FEHM format and are described in the
-[dump/fehm]{style="font-weight: bold;"} command [by clicking here for
+[dump/fehm]{style="font-weight: bold;" command [by clicking here for
 details.](dump/DUMP3.html)\
 \
 The file\_name is used to create names for the following 5 files:\
-[file\_name]{style="font-style: italic;"}\_material.zone - node imt
+[file\_name]{style="font-style: italic;"\_material.zone - node imt
 (material) zone lists ( see dump/zone\_imt/... command)\
-[file\_name]{style="font-style: italic;"}\_outside.zone - node external
+[file\_name]{style="font-style: italic;"\_outside.zone - node external
 boundary zone lists (see dump/zone\_outside/... command)\
-[file\_name]{style="font-style: italic; text-decoration: underline;"}[\_outside\_vor.area]{style="text-decoration: underline;"}
-or [file\_name]{style="font-style: italic;"}\_outside\_med.area - node
+[file\_name]{style="font-style: italic; text-decoration: underline;"[\_outside\_vor.area]{style="text-decoration: underline;"
+or [file\_name]{style="font-style: italic;"\_outside\_med.area - node
 external boundary area lists (see dump/zone\_outside/... command)\
-[file\_name]{style="font-style: italic;"}\_interface.zone - zone lists
+[file\_name]{style="font-style: italic;"\_interface.zone - zone lists
 for nodes along material interfaces, 0 length file if mesh is single
 material\
-[file\_name]{style="font-style: italic;"}\_multi\_mat.zone - lists of
+[file\_name]{style="font-style: italic;"\_multi\_mat.zone - lists of
 node pairs connected across material interfaces, 0 length file if mesh
 is single material\
 
 \
 \
-**dump**[ / ]{style="font-family: monospace;"}**zone\_imt**[
-/file\_name/\[cmo\_name\] / ]{style="font-family: monospace;"} \[
+**dump**[ / ]{style="font-family: monospace;"**zone\_imt**[
+/file\_name/\[cmo\_name\] / ]{style="font-family: monospace;" \[
 imt\_value \]  \
 \
 
 Will output only one file with name
-[file\_name]{style="font-style: italic;"}\_material.zone. It is written
+[file\_name]{style="font-style: italic;"\_material.zone. It is written
 in FEHM zone format and are described [by clicking here for
 details.](dump/DUMP3.html)\
 file\_name\_**material**.**zone** is node list for each integer material
@@ -338,9 +338,9 @@ The **zone\_imt** file is one of a set of files written when the
 **fehm** file type is called.\
 
 \
-**dump**[ / ]{style="font-family: monospace;"}**zone\_outside** 
+**dump**[ / ]{style="font-family: monospace;"**zone\_outside** 
 **zone\_outside\_minmax**[ /file\_name/\[cmo\_name\] /
-]{style="font-family: monospace;"}\
+]{style="font-family: monospace;"\
      \[**delatt  keepatt**\]  \[**keepatt\_voronoi 
 keepatt\_median**\]\
 \
@@ -350,9 +350,9 @@ associated outside area list.\
 \
 There are two files written:\
 \
-1. [file\_name]{style="font-style: italic;"}\_outside.zone is a node
+1. [file\_name]{style="font-style: italic;"\_outside.zone is a node
 list for each of 6 possible external boundaries.\
-If [keepatt]{style="font-weight: bold;"} is specified, then 6 node based
+If [keepatt]{style="font-weight: bold;" is specified, then 6 node based
 attributes are added to the mesh object with the names top, bottom,
 left\_w, right\_e, back\_n, and front\_s. A node can occur in multiple
 zones. For instance, a node located on a top corner of the mesh can be
@@ -371,8 +371,8 @@ found in zones for top, front\_s, and left\_w.
 
 \
 2.
-[file\_name]{style="font-style: italic; text-decoration: underline;"}[\_outside\_vor.area]{style="text-decoration: underline;"}
-[]{style="font-style: italic;"} is a list of Voronoi area vectors
+[file\_name]{style="font-style: italic; text-decoration: underline;"[\_outside\_vor.area]{style="text-decoration: underline;"
+[]{style="font-style: italic;" is a list of Voronoi area vectors
 (Ax\_i,Ay\_i,Az\_i) associated with each external node. It is written to
 match the node lists as written in the outside.zone file. Along with
 each outside zone tag (such as top), there is a sum of each vector for
@@ -386,15 +386,15 @@ that zone. For applications such as infiltration, the z component (each
        0.000000000000E+00   2.500000000000E-01   1.250000000000E-01
 
 \
-If the keyword [keepatt\_voronoi]{style="font-weight: bold;"} is
+If the keyword [keepatt\_voronoi]{style="font-weight: bold;" is
 specified, three node attributes (xn\_varea, yn\_varea, zn\_varea)
 representing the voronoi area are added.\
-If the keyword [keepatt\_median]{style="font-weight: bold;"} is
+If the keyword [keepatt\_median]{style="font-weight: bold;" is
 specified, three node attributes (xn\_marea, yn\_marea, zn\_marea)
 representing the median area are added and the file name will be
-[file\_name]{style="font-style: italic;"}\_outside\_med.area. Note that
+[file\_name]{style="font-style: italic;"\_outside\_med.area. Note that
 the old version file name
-[file\_name]{style="font-style: italic;"}\_outside.area has area vectors
+[file\_name]{style="font-style: italic;"\_outside.area has area vectors
 computed with the median strategy.\
 \
 The option **zone\_outside\_minmax** is used to find the min and max

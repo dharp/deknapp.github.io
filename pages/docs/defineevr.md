@@ -4,7 +4,7 @@ Generator: Microsoft Word 98
 
 ****
 
-[]{#_Toc374864041}[]{#_Toc375390638}[]{#_Toc390510541}[]{#_Toc390570210}[]{#_Toc390573616}[]{#_Toc390581206}[]{#_Toc397506926}[]{#_Toc397507074}[]{#_Toc397507199}[]{}
+[]{#_Toc374864041[]{#_Toc375390638[]{#_Toc390510541[]{#_Toc390570210[]{#_Toc390573616[]{#_Toc390581206[]{#_Toc397506926[]{#_Toc397507074[]{#_Toc397507199[]
 
 The **region** command is used to divide the enclosing volume into
 regions. The directional operators **lt**, **le**, **gt**, **** and
@@ -43,4 +43,4 @@ If a region touches an external boundary, include the surface that
 defines the enclosing volume in **region** and **mregion** commands. For
 example, the regions *top* and *bottom* are enclosed by the surface cube
 
-![](new_html/Image224.gif){width="344" height="239"}
+![](new_html/Image224.gif)"344" height="239"

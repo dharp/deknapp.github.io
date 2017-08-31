@@ -118,7 +118,7 @@ ignored.
 
 **smooth**/**position**/**aspect**//\[ifirst,ilast,istride/toldamage\]\
 **smooth**/**position/laplace/**\[ifisrt,ilast,istride\]/\[rlxwt\]/\[ntimes\]/\[nwtty\]/\[useisn\]/\[extrnbr\]\
-**smooth**/**position/network/**\[ifisrt,ilast,istride\]/\[niter\]/\[weight\]/\[**check****nocheck**}
+**smooth**/**position/network/**\[ifisrt,ilast,istride\]/\[niter\]/\[weight\]/\[**check****nocheck**
 
 EXAMPLES:\
  

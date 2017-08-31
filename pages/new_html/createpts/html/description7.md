@@ -21,6 +21,6 @@ title: '\*arguments:'
 >
 > Images of GMV output
 >
->  [![](image/image7tn.gif){width="164"
-> height="167"}](image/image7a.gif)[imagea.gif](image/image7a.gif)[![](image/image7btn.gif){width="225"
-> height="175"}](image/image7b.gif)[imageb.gif](image/image7b.gif)
+>  [![](image/image7tn.gif)"164"
+> height="167"](image/image7a.gif)[imagea.gif](image/image7a.gif)[![](image/image7btn.gif)"225"
+> height="175"](image/image7b.gif)[imageb.gif](image/image7b.gif)

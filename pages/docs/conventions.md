@@ -57,8 +57,8 @@ first and third point determine the second vector. By curling the
 fingers of the right hand from the first vector toward the second
 vector, the right thumb will point in the direction of the normal.\
 
-![](new_html/demos/2d_connect/test/html/image/Image230.jpg){width="189"
-height="148"}
+![](new_html/demos/2d_connect/test/html/image/Image230.jpg)"189"
+height="148"
 
 10\. To separate commands on the same line use a semicolon (;).\
 11. Three coordinate systems are used.
@@ -75,5 +75,5 @@ xy-plane measured from the positive x-axis toward the positive y-axis,
 **t** (theta) is the angle measured from the positive z-axis to the
 positive y axis.
 
-![](new_html/demos/2d_connect/test/html/image/Image231.jpg){width="411"
-height="264"}
+![](new_html/demos/2d_connect/test/html/image/Image231.jpg)"411"
+height="264"
