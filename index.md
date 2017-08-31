@@ -62,7 +62,20 @@ generation. See Description and Manual at
 
 LaGriT and PyLaGriT are now distributed as open-source software under a
 BSD 3-Clause License (See
-[License](https://lagrit.lanl.gov/licensing.shtml)).
+[License](pages/licensing.md)).
+
+
+- [Online Manual](pages/manual.md)
+- [Features](pages/features.md)
+- [Applications](pages/applications.md)
+- [Development Team](pages/development.md)
+- [LaGriT Facts (pdf)] TBD 
+- [Graphics examples](pages/graphics.md)
+- [Licensing](pages/licensing.md)
+- [Publications](pages/publications.md)
+- [Release Notes](pages/release.md)
+
+-[Contact LaGriT] TBD 
 
 *NOTICE: Information from this server resides on a computer system
 funded by the U.S.Department of Energy. Anyone using this system
