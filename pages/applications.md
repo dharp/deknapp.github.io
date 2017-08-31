@@ -12,8 +12,6 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
-
 ![](images/lagrit2.jpg){width="180" height="120"}
 LaGriT Applications
 -------------------
@@ -80,4 +78,3 @@ by the U.S.Department of Energy. Anyone using this system consents to
 monitoring of this use by system or security personnel. See [conditions
 of use.](http://www.lanl.gov/copyright.shtml)*
 
-</div>
