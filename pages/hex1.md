@@ -26,7 +26,7 @@ dump/gmv/gmv\_hex\_xyz/\
  
 
 
-[Return to LaGriT Home Page](index.smd)
+[Return to LaGriT Home Page](index.md)
 
  
 

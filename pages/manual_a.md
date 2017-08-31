@@ -24,8 +24,8 @@ Online Manual
 ### II.  LaGriT COMMANDS
 
 > A. [Conventions](docs/conventions.md)\
-> B. [Alphabetic listing of LaGriT commands](commands.smd)\
-> C. [LaGriT commands by Category](commands_cat.smd)
+> B. [Alphabetic listing of LaGriT commands](commands.md)\
+> C. [LaGriT commands by Category](commands_cat.md)
 
 ### III. MESH OBJECTS
 
@@ -41,7 +41,7 @@ Online Manual
 >  B. [Issuing Commands from a User Program](docs/issuing.md)\
 >  C. [Writing User Commands](docs/writing.md)\
 >  D. [Accessing the Mesh Object](docs/accessing.md)\
->  E.  [Utility Subroutines](util.smd)
+>  E.  [Utility Subroutines](util.md)
 
 > > <div align="left">
 > >
@@ -59,7 +59,7 @@ C.  [Fatal memory management errors](docs/errors.md#panic) (PANIC!)
  
 
 
-[Return to LaGriT Home Page](index.smd)
+[Return to LaGriT Home Page](index.md)
 
  
 

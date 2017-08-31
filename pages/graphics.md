@@ -24,13 +24,13 @@ LaGriT Examples
 [SEMICONDUCTOR](semiexamples.shtm 
 l)                                
 
-[GEOMETRY](geometry.smd)        
+[GEOMETRY](geometry.md)        
 
-[HEXAHEDRAL GRIDS](hex.smd)     
+[HEXAHEDRAL GRIDS](hex.md)     
 
-[HYBRID](hybrid.smd)            
+[HYBRID](hybrid.md)            
 
-[GRAIN GROWTH](grain.smd)       
+[GRAIN GROWTH](grain.md)       
 
 [Download simple LaGriT control   
 files that highlight particular   
@@ -71,14 +71,14 @@ Still Images
 ------------                      
 
 -   [Mesh for scanning microscopy 
-    simulation](denise.smd)     
+    simulation](denise.md)     
 -   [Tetrahedral LaGriT mesh for  
     Microstructure                
-    Evolution](tinkas.smd)      
+    Evolution](tinkas.md)      
 -   [Finite Element               
-    Calculation](finite.smd)    
+    Calculation](finite.md)    
 -   [Laplacian                    
-    smoothing](tee.smd)         
+    smoothing](tee.md)         
 -   [Biological                   
     Structures](pdfs/biology.pdf) 
 

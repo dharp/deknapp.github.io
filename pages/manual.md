@@ -33,11 +33,11 @@ Demos](docs/demos/index.md)
 s.md)                           
 -   B. [Alphabetic listing of     
 LaGriT                        
-commands](commands.smd)     
+commands](commands.md)     
 -   C. [LaGriT commands by        
-Category](commands_cat.smd) 
+Category](commands_cat.md) 
 -   D. [Table of LaGriT           
-Commands](table.smd)        
+Commands](table.md)        
 
 ### III. MESH OBJECTS             
 
@@ -72,7 +72,7 @@ Commands](docs/writing.md)
 Object](docs/accessing.md)  
 
 -   E.  [Utility                  
-Subroutines](util.smd)      
+Subroutines](util.md)      
 
 ### V.  ERRORS                    
 

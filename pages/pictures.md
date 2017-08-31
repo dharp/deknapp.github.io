@@ -21,10 +21,10 @@ LaGriT Images
 Still Images
 ------------
 
--   [Mesh for scanning microscopy simulation](denise.smd)
--   [Tetrahedral LaGriT mesh for Microstructure Evolution](tinkas.smd)
--   [Finite Element Calculation](finite.smd)
--   [Laplacian smoothing](tee.smd)
+-   [Mesh for scanning microscopy simulation](denise.md)
+-   [Tetrahedral LaGriT mesh for Microstructure Evolution](tinkas.md)
+-   [Finite Element Calculation](finite.md)
+-   [Laplacian smoothing](tee.md)
 -   [Biological Structures](pdfs/biology.pdf)
 
 Gif Animations

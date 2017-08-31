@@ -125,7 +125,7 @@ open-source repository at\
 
 \
 *Compiled executable versions of LaGriT will continue to available
-through https://lagrit.lanl.gov/licensing.smd*\
+through https://lagrit.lanl.gov/licensing.md*\
 
 \
 

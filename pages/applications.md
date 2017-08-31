@@ -17,7 +17,7 @@ LaGriT Applications
 -------------------
 
 \
-Visit [meshing.lanl.gov](http://meshing.lanl.gov/proj/index.smd) for
+Visit [meshing.lanl.gov](http://meshing.lanl.gov/proj/index.md) for
 exmaples of Mesh applications in Geological Applications: Porous Flow,
 Hydrology, CO2, oil and gas, Crustal Deformation, Hydrothermal Systems,
 and more. The following are graphics and software output formats used
@@ -32,7 +32,7 @@ with LaGriT and may be obtained from their respective sources.
 -   [GMV (General Mesh
     Viewer)](http://www.generalmeshviewer.com/GMVHome.md)\
 -   [Tecplot](http://www.tecplot.com) (commercial)
--   [VISIT](https://computing.llnl.gov/vis/visit.smd) (free)
+-   [VISIT](https://computing.llnl.gov/vis/visit.md) (free)
 
 \
 \
@@ -54,7 +54,7 @@ with LaGriT and may be obtained from their respective sources.
             https://github.com/MeshToolkit/MSTK
 
 -   [LASETUP - interface for generating and viewing LaGriT
-    geometries.](lasetup.smd)\
+    geometries.](lasetup.md)\
 
 \
 \
@@ -76,5 +76,5 @@ Trademark is owned by the University of California\
 NOTICE: Information from this server resides on a computer system funded
 by the U.S.Department of Energy. Anyone using this system consents to
 monitoring of this use by system or security personnel. See [conditions
-of use.](http://www.lanl.gov/copyright.smd)*
+of use.](http://www.lanl.gov/copyright.md)*
 

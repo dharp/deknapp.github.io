@@ -36,7 +36,7 @@ title: LANL  LaGriT
 
                                     1\. A signed version of the [soft 
                                     ware license agreement](licensing 
-                                    .smd)                           
+                                    .md)                           
                                     sent to:                          
 
                                     NOTE: Read it carefully to be     

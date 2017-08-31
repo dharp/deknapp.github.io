@@ -287,7 +287,7 @@ Banner when LaGriT is started (eg Linux):\
  lagrit.lanl.gov/docs/DUMP2.md\                                      
  lagrit.lanl.gov/docs/DUMP3.md\                                      
  lagrit.lanl.gov/docs/memory.md\                                     
- lagrit.lanl.gov/table.smd\                                          
+ lagrit.lanl.gov/table.md\                                          
  lagrit.lanl.gov/docs/READ.md\                                       
  lagrit.lanl.gov/docs/CMO2.md\                                       
  lagrit.lanl.gov/docs/COMPUTE.md\                                    
@@ -312,9 +312,9 @@ Banner when LaGriT is started (eg Linux):\
  lagrit.lanl.gov/docs/read\_gmv.md\                                  
  lagrit.lanl.gov/docs/read\_gocad.md\                                
  lagrit.lanl.gov/docs/read\_lagrit.md\                               
- lagrit.lanl.gov/table.smd\                                          
- lagrit.lanl.gov/publications.smd\                                   
- http://lagrit.lanl.gov/release.smd\                                 
+ lagrit.lanl.gov/table.md\                                          
+ lagrit.lanl.gov/publications.md\                                   
+ http://lagrit.lanl.gov/release.md\                                 
  ### Test Cases Modified:                                              
 
  test/level01\                                                         
