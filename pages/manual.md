@@ -27,8 +27,7 @@ Demos](docs/demos/index.md)
 ### II.  LaGriT COMMANDS          
 
 -   A.                            
-[Conventions](docs/convention 
-s.md)                           
+[Conventions](docs/conventions.md)                           
 -   B. [Alphabetic listing of     
 LaGriT                        
 commands](commands.md)     
@@ -82,8 +81,7 @@ errors](docs/errors.md#panic)
 
 \                                 
 \                                 
-###  [**LaGriT REFERENCES**](docs 
-/References.md)                 
+###  [**LaGriT REFERENCES**](docs/References.md)                 
 
 \                                 
 ###  [**Download lagrit.lanl.gov  
