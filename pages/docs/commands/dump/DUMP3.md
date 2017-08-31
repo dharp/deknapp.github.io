@@ -23,7 +23,7 @@ Though the syntax for both are the same, with command
 [stor]{style="font-weight: bold;", only the stor file is written. With
 command [fehm]{style="font-weight: bold;", the full set of 7 FEHM files
 are written. The full set of fehm files will look like the following,
-where "[file\_name]{style="font-style: italic;"" is the root of each
+where "[file\_name]{style="font-style: italic; is the root of each
 name:
 
 

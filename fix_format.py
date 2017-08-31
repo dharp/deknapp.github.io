@@ -5,11 +5,13 @@ def filter_file(infile_name, no_list):
     with open(infile_name, 'r') as infile, open(outfile_name, 'w') as outfile:
 	data = infile.read()
         for no in no_list:
-            data = data.replace('html','md')
+            data = data.replace(no, '')
         outfile.write(data)
 
 dr = '/home/nknapp/deknapp.github.io/pages/'
-no_list = ["![](images/lagrit2.jpg)", "180", "=120", "120"]
+no_list = ['\"\"']
+
+
 for root, drs, fles in os.walk(dr):
     for fle in fles:
         if ".md" in fle and "temp" not in fle:

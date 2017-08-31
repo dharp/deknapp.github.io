@@ -41,7 +41,7 @@ If a LaGriT file is read, the geometric model info will be read as well.
 *void* **MESH\_InitFromCMO**(*PMeshObj* mesh, *char* \*cmoname);
 
 Initialize the mesh object from a given cmo. If '*cmoname*' is NULL (say
-sent in as the character string ""), the mesh object is initialized from
+sent in as the character string ), the mesh object is initialized from
 the default mesh object. If not the given cmo is made is active and the
 mesh object is\
 initialized from that.

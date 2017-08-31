@@ -14,7 +14,7 @@ title: LANL  LaGriT
 
 
 
-"" ""
+ 
 LaGriT Code Development Team
 ----------------------------
 

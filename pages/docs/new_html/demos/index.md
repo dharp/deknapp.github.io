@@ -28,7 +28,7 @@ title: 'Examples - DRAFT'
 addmesh options addmesh (index) addmesh/add addmesh/amr addmesh/append
 addmesh/delete addmesh/match addmesh/merge
 
-[![](addmesh/test/md/image/addmesh_add/addmesh_out1_tn.gif)""
+[![](addmesh/test/md/image/addmesh_add/addmesh_out1_tn.gif)
 "95"](addmesh/test/md/main_addmesh.md)
 
 ------------------------------------------------------------------------

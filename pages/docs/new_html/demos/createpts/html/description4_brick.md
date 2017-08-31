@@ -23,7 +23,7 @@ title: '\*arguments:'
 >
 > > [![](image/image4tn.gif)"168"
 > > "158"](image/image4a.gif) [View
-> > A](image/image4a.gif)[![](image/image4btn.gif)""
+> > A](image/image4a.gif)[![](image/image4btn.gif)
 > > "174"](image/image4b.gif) [View B](image/image4b.gif)
 >
 > Input file\

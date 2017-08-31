@@ -227,17 +227,17 @@ The corresponding faces of the elements are in side\_ss1
          0.5, 1, 1, 1, 1, 1, 1, 1, 1, 1 ;                              
 
       eb_names =                                                       
-       "",                                                             
-       "" ;                                                            
+       ,                                                             
+        ;                                                            
 
       ss_names =                                                       
-       "",                                                             
-       "" ;                                                            
+       ,                                                             
+        ;                                                            
 
       coor_names =                                                     
-       "",                                                             
-       "",                                                             
-       "" ;                                                            
+       ,                                                             
+       ,                                                             
+        ;                                                            
 
       qa_records =                                                     
        "mohex",                                                        
@@ -254,7 +254,7 @@ The corresponding faces of the elements are in side\_ss1
        0 ;                                                             
 
       attrib_name1 =                                                   
-       "" ;                                                            
+        ;                                                            
 
       connect1 =                                                       
        10, 11, 14, 13, 19, 20, 23, 22,                                 
@@ -269,7 +269,7 @@ The corresponding faces of the elements are in side\_ss1
        0 ;                                                             
 
       attrib_name2 =                                                   
-       "" ;                                                            
+        ;                                                            
 
       connect2 =                                                       
        1, 2, 5, 4, 10, 11, 14, 13,                                     
@@ -464,9 +464,9 @@ Output ExodusII file using **psets/eltsets**:
  , 1, 1 ;                                                              
 
       eb_names =                                                       
-       "",                                                             
-       "",                                                             
-       "" ;                                                            
+       ,                                                             
+       ,                                                             
+        ;                                                            
 
       ns_names =                                                       
        "p1[W\374\177",                                                 
@@ -479,8 +479,8 @@ Output ExodusII file using **psets/eltsets**:
        "e3[W\374\177" ;                                                
 
       coor_names =                                                     
-       "",                                                             
-       "" ;                                                            
+       ,                                                             
+        ;                                                            
 
       qa_records =                                                     
        "motri",                                                        
@@ -500,7 +500,7 @@ Output ExodusII file using **psets/eltsets**:
        0 ;                                                             
 
       attrib_name1 =                                                   
-       "" ;                                                            
+        ;                                                            
 
       connect1 =                                                       
        11, 15, 14,                                                     
@@ -519,7 +519,7 @@ Output ExodusII file using **psets/eltsets**:
        0 ;                                                             
 
       attrib_name2 =                                                   
-       "" ;                                                            
+        ;                                                            
 
       connect2 =                                                       
        2, 3, 6,                                                        
@@ -535,7 +535,7 @@ Output ExodusII file using **psets/eltsets**:
        0 ;                                                             
 
       attrib_name3 =                                                   
-       "" ;                                                            
+        ;                                                            
 
       connect3 =                                                       
        1, 2, 5,                                                        

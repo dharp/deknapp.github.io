@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-"" ""
+ 
 LaGriT Applications
 -------------------
 

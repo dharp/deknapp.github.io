@@ -689,7 +689,7 @@ LaGriT V2.200 November 2010
 
 Banner when LaGriT is started (eg Linux):\
 
-``` {wrap=""
+``` {wrap=
 *               *    Program:  LaGriT V2.200   Linux m32      *                 
 *               *    date_compile: 2010/11/22                 *     
 ```
