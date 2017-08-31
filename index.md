@@ -58,7 +58,7 @@ coarsening and refinement of synthetic and realistic data. PyLaGriT
 enhances the workflow, enabling rapid iterations for use in simulations
 incorporating uncertainty in system geometry and automatic mesh
 generation. See Description and Manual at
-[lanl.github.io/LaGriT](https://lanl.github.io/LaGriT/).\
+[lanl.github.io/LaGriT](https://lanl.github.io/LaGriT/).
 
 LaGriT and PyLaGriT are now distributed as open-source software under a
 BSD 3-Clause License (See
