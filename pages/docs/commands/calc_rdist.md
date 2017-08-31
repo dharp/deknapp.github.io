@@ -20,7 +20,7 @@ title: 'CALC\_RDIST'
 >
 > FORMAT:
 >
-> > **calc\_rdist**/x0,y0,z0/\[radius\_index\]/\[**pset,get,**pset\_name|ifirst,ilast,istride\]
+> > **calc\_rdist**/x0,y0,z0/\[radius\_index\]/\[**pset,get,**pset\_nameifirst,ilast,istride\]
 > >
 > > x0,y0,z0 are the coordinates of the center point used in the
 > > calculation.\

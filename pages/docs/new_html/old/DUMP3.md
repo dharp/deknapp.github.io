@@ -4,8 +4,8 @@ Generator: Microsoft Word 98
 title: DUMP
 ---
 
-> **dump/fehm**/file\_name/\[cmo\_name\]/ \[**binary** |**ascii** |
-> **binaryc**| **asciic** \]  //
+> **dump/fehm**/file\_name/\[cmo\_name\]/ \[**binary** **ascii** 
+> **binaryc** **asciic** \]  //
 > \[**scalar,vector,both,area\_scalar,area\_vector,area\_both,alternate\_scalar**\]
 > /  \[**delatt,keepatt**\]\
 > \

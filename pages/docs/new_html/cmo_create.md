@@ -5,7 +5,7 @@ GENERATOR: 'Mozilla/4.75 \[en\] (X11; U; IRIX 6.5 IP32) \[Netscape\]'
 
  
 **create/**mo\_name/\[npoints/nelements/
-**tet|hex|pri|pyr|tri|qua|hyb|triplane/**\]
+**tethexpripyrtriquahybtriplane/**\]
 Creates a new Mesh Object 'mo\_name', which becomes the Current Mesh
 Object.\
 If a Mesh is created using the first (mesh\_type) format, then values
@@ -14,7 +14,7 @@ are supplied for the other parameters as follows:\
   ---------------- ------------ ------------- ------------ ------------ ------------
   mesh             ndimension   ndimension    nodes\_per   faces\_per   edges\_per
   name             geom         topo          element      element      element
-                                                                        
+
   **tet**          3            3             4            4            6
   **hex**          3            3             8            6            12
   **pri**(sm)      3            3             6            5            9

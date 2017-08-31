@@ -169,7 +169,7 @@ value of its master.\
 > > \
 > > **filter** / [element]{style="font-weight: bold;"} /
 > > \[[search\_range]{style="font-family: monospace;"}[\]]{style="font-family: courier new,courier,monospace;"}
-> > / \[ **nodelete** | [delete]{style="font-weight: bold;"} \]\
+> > / \[ **nodelete**  [delete]{style="font-weight: bold;"} \]\
 >
 >  EXAMPLES:\
 >

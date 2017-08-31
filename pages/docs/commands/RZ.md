@@ -40,7 +40,7 @@ title: RZ
 >
 > FORMAT:
 >
-> **rz**/**xyz**|**rtz**|**rtp**|ni,nj,nk/xmin,ymin,zmin/xmax,ymax,zmax/\
+> **rz**/**xyz****rtz****rtp**ni,nj,nk/xmin,ymin,zmin/xmax,ymax,zmax/\
 > iiz,ijz,ikz/\[iirat,ijrat,ikrat/xrz,yrz,zrz/\]\
 > **rz/line**/np///xmin,ymin,zmin,xmax,ymax,zmax/iiz,ijz,ikz/\
 >  

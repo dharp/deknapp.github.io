@@ -1,7 +1,7 @@
 ---
 GENERATOR: 'Mozilla/4.79C-SGI \[en\] (X11; U; IRIX64 6.5 IP30) \[Netscape\]'
 Generator: Microsoft Word 98
-Template: |
+Template: 
     Macintosh HD:Applications:Microsoft Office 98:Word Custom
     Install:Microsoft Office 98:Templates:Web Pages:Blank Web Page
 title: EXTRACT

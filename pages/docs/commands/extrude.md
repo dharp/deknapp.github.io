@@ -20,14 +20,14 @@ title: EXTRUDE
 >
 > FORMAT:
 >
-> > **extrude**/mesh1/mesh2/**const|min**/offset/**volume|bubble**/\[**norm**|x1,y1,z1\]
+> > **extrude**/mesh1/mesh2/**constmin**/offset/**volumebubble**/\[**norm**x1,y1,z1\]
 
 > > OR
 
 > > **extrude**/mesh1/mesh2/**interp**/layers/**range1/range2**
 
 > > where **range1** and **range2** are defined as
-> > **\[pset,get,**`pset_name`**|**`ifirst,ilast,istride`**\]**
+> > **\[pset,get,**`pset_name`****`ifirst,ilast,istride`**\]**
 >
 > mesh1 is the name of the resulting mesh.
 >

@@ -118,7 +118,7 @@ elements will be hex.\
 FORMAT:
 
 > **stack/layers**\
-> **\[avs | gmv \]**\
+> **\[avs  gmv \]**\
 > \[minx,miny, maxx,maxy\]\
 > filename(1) \[matno\] filename(i) \[matnum, addnum\] filename(n)
 > \[matnum, addnum\] **\[ flip \]**\

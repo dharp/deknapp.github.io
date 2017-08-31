@@ -30,7 +30,7 @@ title: RMPOINT
 
 FORMAT:
 
-**rmpoint**/ifirst,ilast,istride/\[**exclusive**|**inclusive** \]\
+**rmpoint**/ifirst,ilast,istride/\[**exclusive****inclusive** \]\
 **rmpoint**/**compress**/\
 **rmpoint/zero\_volume**/threshold\
 **rmpoint/element**\

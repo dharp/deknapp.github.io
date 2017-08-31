@@ -29,4 +29,4 @@ That is, absolute is really a translation rather than a rescale.
 
 **FORMAT:**
 
-**scale**/ifirst,ilast,istride/**absolute**|**relative**/xyz/|rtz|rtp/iscale,jscale,kscale/xcen,ycen,zcen
+**scale**/ifirst,ilast,istride/**absolute****relative**/xyz/rtzrtp/iscale,jscale,kscale/xcen,ycen,zcen

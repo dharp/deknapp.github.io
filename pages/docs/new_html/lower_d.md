@@ -128,8 +128,8 @@ title: FIELD
 > > **lower\_d** / **extract**/ \[cmo\_name/cmo1/cmo2/cmo2\]\
 > >  create lower\_d structures into named mesh objects cmo1, cmo2,
 > > cmo3.\
-> > **lower\_d** / **filter**/ \[cmo\_name\] /\[iclr1 | itp | **imt** |
-> > **clr** \] / value \[ **and** | **or** | **new** \]\
+> > **lower\_d** / **filter**/ \[cmo\_name\] /\[iclr1  itp  **imt** 
+> > **clr** \] / value \[ **and**  **or**  **new** \]\
 > >   these commands are advised for expert users only.
 >
 > EXAMPLES:

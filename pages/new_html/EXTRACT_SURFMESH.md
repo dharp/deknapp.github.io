@@ -1,7 +1,7 @@
 ---
 GENERATOR: 'Mozilla/4.5 \[en\] (X11; I; IRIX 6.3 IP32) \[Netscape\]'
 Generator: Microsoft Word 98
-Template: |
+Template: 
     Macintosh HD:Applications:Microsoft Office 98:Word Custom
     Install:Microsoft Office 98:Templates:Web Pages:Blank Web Page
 title: EXTRACT
@@ -29,10 +29,10 @@ title: EXTRACT
 > > elements on the side of the face normal (0 if the face is on an
 > > external boundary) and "itetclr1"  indicates the color of the
 > > elements on the opposite side of the normal.\
-> >                    |\
-> >                    |------&gt; normal\
-> >                    |\
-> >  mregion5  |   mregion1
+> >                    \
+> >                    ------&gt; normal\
+> >                    \
+> >  mregion5     mregion1
 > >
 > > For the face shown in the figure above itetclr0 = 1, itetclr1 = 5
 > >

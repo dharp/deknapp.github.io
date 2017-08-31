@@ -9,7 +9,7 @@ GENERATOR: 'Mozilla/4.72 \[en\] (X11; U; Linux 2.2.14-5.0 i686) \[Netscape\]'
 >
 > SHORT FORMAT:
 >
-> > **read**/filename.\[lg|lagrit|LaGriT\]/cmo\_name\
+> > **read**/filename.\[lglagritLaGriT\]/cmo\_name\
 > > \
 > > [Note that the filename is case-sensitive, though the extension
 > > itself is not. When using the short format, the file will be read in
@@ -17,7 +17,7 @@ GENERATOR: 'Mozilla/4.72 \[en\] (X11; U; Linux 2.2.14-5.0 i686) \[Netscape\]'
 >
 > LONG FORMAT:
 >
-> > **read**/**LaGriT**/file\_name/\[cmo-name\]/\[**ascii**|
+> > **read**/**LaGriT**/file\_name/\[cmo-name\]/\[**ascii**
 > > **binary**\]\
 > >      cmo\_name    -    ignored all mesh objects are read from the
 > > file\

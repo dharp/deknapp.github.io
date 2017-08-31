@@ -29,7 +29,7 @@ valid file\_types are: **coord**, **zone**, **gmv**, **avs**, **chad**,
 Will output a file with node list x,y,z values and element connectivity
 list in FEHM format.
 
-**dump** / **zone** /file\_name/\[cmo\_name\]/\[**delatt|keepatt**\]\
+**dump** / **zone** /file\_name/\[cmo\_name\]/\[**delattkeepatt**\]\
 Will output a set of 4 files.
 
 file\_name\_**material**.**zone** is node list for each material (imt)
@@ -70,7 +70,7 @@ file\_name\_**material**.**zone** is node list for each material (imt)
 value.
 
 **dump** / **zone\_outside** / file\_name/\[cmo\_name\] /
-\[**delatt**|**keepatt**\]
+\[**delatt****keepatt**\]
 
 Will output only two files:\
 file\_name\_**outside**.**zone** is a node list for each of 6 possible
@@ -108,7 +108,7 @@ will write an ascii file containing the geometry information for the
 current run. This information includes the region and mregion
 definitions and surface, names, types and definitions.
 
-**dump/lagrit**/file\_name/\[cmo\_name\]/ \[**ascii** | **binary**\]
+**dump/lagrit**/file\_name/\[cmo\_name\]/ \[**ascii**  **binary**\]
 
 will write an restart file that contains geometry and mesh object
 information.  cmo\_name can be '**-all-**' in which case all mesh
@@ -135,13 +135,13 @@ adjacent to each element.\
 File format:\
 elem\_number number\_of\_adjacent\_elem e1 e2 ... en  
 
-**dump/gmv**/file-name/\[mesh-object\]/\[**ascii** | **binary**\]
+**dump/gmv**/file-name/\[mesh-object\]/\[**ascii**  **binary**\]
 
 Write a file to be read by the graphics program
 [GMV](http://laws.lanl.gov/XCM/gmv/GMVHome.html).  The defaults are
 binary and current mesh object.
 
-[**dump/fehm**/file\_name/\[cmo\_name\[**scalar|vector|both|area\_scalar|area\_vector|area\_both**\]/\[**delatt,keepatt**\]](http://lagrit.lanl.gov/new_html/DUMP3.html)\
+[**dump/fehm**/file\_name/\[cmo\_name\[**scalarvectorbotharea\_scalararea\_vectorarea\_both**\]/\[**delatt,keepatt**\]](http://lagrit.lanl.gov/new_html/DUMP3.html)\
 
 Write out a series of files for the FEHM flow and transport code. The
 file\_name is the file root name for:\

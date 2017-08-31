@@ -6,7 +6,7 @@ title: RZ
 
  
 
-> **CREATEPTS/xyz|rtz|rtp|line**
+> **CREATEPTS/xyzrtzrtpline**
 >
 > > This command adds points to the mesh. It can distribute points
 > > evenly or according to a ratio zoning method.\
@@ -42,7 +42,7 @@ title: RZ
 > FORMAT:\
 >  
 >
-> **createpts**/**xyz**|**rtz**|**rtp**|ni,nj,nk/xmin,ymin,zmin/xmax,ymax,zmax/\
+> **createpts**/**xyz****rtz****rtp**ni,nj,nk/xmin,ymin,zmin/xmax,ymax,zmax/\
 > iiz,ijz,ikz/\[iirat,ijrat,ikrat/xrz,yrz,zrz/\]\
 > **createpts/line**/np///xmin,ymin,zmin,xmax,ymax,zmax/iiz,ijz,ikz/
 >

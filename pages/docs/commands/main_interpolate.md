@@ -261,12 +261,12 @@ INTERPOLATE
 > > attsrc / &\
 > > \[tie\_option\] \[flag\_option\] \[keep\_option\]
 > > \[intrp\_function\]
-> > **interpolate | intrp**   /  **map | voronoi | continuous |
+> > **interpolate  intrp**   /  **map  voronoi  continuous 
 > > default**  /  &\
-> > cmosink, attsink  /   1,0,0   /  cmosrc, attsrc  /  \[ **tiemin |
+> > cmosink, attsink  /   1,0,0   /  cmosrc, attsrc  /  \[ **tiemin 
 > > tiemax** \]   &\
-> > \[ flag\_value  |  **plus1  | nearest,** near\_attribute \]  \[
-> > **keepatt | delatt** \]  \[ intrp\_function \]
+> > \[ flag\_value    **plus1   nearest,** near\_attribute \]  \[
+> > **keepatt  delatt** \]  \[ intrp\_function \]
 >
 > EXAMPLES:
 >

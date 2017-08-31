@@ -245,7 +245,7 @@ ICONTAB(1,icr1(ip))).
   ------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   TENSOR                    Dimension of XCONTAB 
   XCONTAB(TENSOR,NPOINTS)   This is a 3x3 matrix which multiplied by the velocity vector, constrains the velocity to the degrees of freedom possessed by the node.  May be constructed by calls to constrainv.
-                            
+
   ------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **b.   Mesh Object Attribute Definition** :\

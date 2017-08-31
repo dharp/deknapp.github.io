@@ -36,7 +36,7 @@ GENERATOR: 'Mozilla/4.7 \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 > >
 > > cgeom\
 > >    geometry label (same convention as for rz)\
-> >    allowed values: xyz|rtp|rtz (cartesian, cylindrical, spherical)\
+> >    allowed values: xyzrtprtz (cartesian, cylindrical, spherical)\
 > >    default: xyz if not present, error return if not allowed
 > >
 > > spacing\

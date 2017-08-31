@@ -15,7 +15,7 @@ title: RMMAT
 >   **FORMAT**
 >
 > > **rmmat**/material
-> > number/\[**all|node|element**\]/\[**exclusive**\]\
+> > number/\[**allnodeelement**\]/\[**exclusive**\]\
 > > default is: **rmmat**/material number or **rmmat**/material
 > > number/**all**\
 > > removes nodes with imt = material number and removes elements with

@@ -4,7 +4,7 @@ GENERATOR: 'Mozilla/4.7 \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 ---
 
  \
-     Examples of:    **createpts/sphere/**1|2|8|diamond
+     Examples of:    **createpts/sphere/**128diamond
 /nr,npt,xirad,xorad /xcen,ycen,zcen/iz/irat,rz/\
  \
  

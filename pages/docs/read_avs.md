@@ -11,7 +11,7 @@ GENERATOR: 'Mozilla/4.72 \[en\] (X11; U; Linux 2.2.14-5.0 i686) \[Netscape\]'
 >
 > SHORT FORMAT:
 >
-> > **read**/filename.\[inp|avs\]/cmo\_name\
+> > **read**/filename.\[inpavs\]/cmo\_name\
 > > \
 > > [Note that the filename is case-sensitive, though the extension
 > > itself is not.]{style="font-family: Times New Roman,Times;"}\

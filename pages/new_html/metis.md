@@ -50,18 +50,18 @@ METIS Interface to LAGriT
 FORMAT (partition):
 
 >  \
-> metis / partition / metis\_partmeshnodal | metis\_partmeshdual/ node |
+> metis / partition / metis\_partmeshnodal  metis\_partmeshdual/ node 
 > dual / npartitions / inodeprt / ielemprt
 
 \
 FORMAT (reorder):
 
-> metis / reorder / metis\_edgend | metis\_nodend / node | dual /
+> metis / reorder / metis\_edgend  metis\_nodend / node  dual /
 > \[iperm\] / \[invperm\]
 
 FORMAT (reorder with weights):
 
-> metis / reorder / mmetis\_nodewnd / node | dual / \[iperm\] /
+> metis / reorder / mmetis\_nodewnd / node  dual / \[iperm\] /
 > \[invperm\] / ivert\_weight
 
 EXAMPLES (partition):

@@ -20,17 +20,17 @@ title: 'PSET (Point Set)'
 > > extended such that **not**/p1/p2 means p1 and (not(p2)).\
 > > **list** lists nodes in a pset or names of all psets\
 > > **write** write pset node list to a file\
-> > pset / \[name|-all-\] / write/ file\_name\[.vertexset\] /
-> > \[ascii|binary\]\
+> > pset / \[name-all-\] / write/ file\_name\[.vertexset\] /
+> > \[asciibinary\]\
 > > **zone** write pset node list to a file (FEHM Flow and Transport
 > > code zone file format)\
-> > pset / \[name|-all-\] / zone / file\_name\[.zone\] / \[ascii\]
+> > pset / \[name-all-\] / zone / file\_name\[.zone\] / \[ascii\]
 > > \[zone\_number\]\
 > > **zonn** write pset node list to a file (FEHM Flow and Transport
 > > code zonn file format)\
-> > pset / \[name|-all-\] / zonn / file\_name\[.zonn\] / \[ascii\]
+> > pset / \[name-all-\] / zonn / file\_name\[.zonn\] / \[ascii\]
 > > \[zone\_number\]\
-> > In write|zone|zonn mode the file name suffix .vertexset|.zone|.zonn
+> > In writezonezonn mode the file name suffix .vertexset.zone.zonn
 > > is added if the string provided does not have the file name suffix.
 > > The -all- argument specifies that all psets are output. The name
 > > argument is the name of a single pset.\
@@ -78,18 +78,18 @@ FORMAT:
 **pset**/pset name/
 
 **seq**/ifirst,ilast,istride\
-**union|inter|not|delete/**pset1\[/pset2/.../psetn\]\
+**unioninternotdelete/**pset1\[/pset2/.../psetn\]\
 **list**\
-**write** / file\_name\[.vertexset\] / \[ascii|binary\]\
+**write** / file\_name\[.vertexset\] / \[asciibinary\]\
 **zone** / file\_name\[.zone\] / \[ascii\] \[zone\_number\]\
 **zonn** / file\_name\[.zonn\] / \[ascii\] \[zone\_number\]\
 **delete**\
 **attribute**/attribute
-/ifirst,ilast,istride/value/\[lt|le|gt|ge|eq|ne\]\
+/ifirst,ilast,istride/value/\[ltlegtgeeqne\]\
 **attribute**/attribute
-/ifirst,ilast,istride/\[lt|le|gt|ge|eq|ne\]/value\
-**zq**/attribute /ifirst,ilast,istride/value/\[lt|le|gt|ge|eq|ne\]\
-**zq**/attribute /ifirst,ilast,istride/\[lt|le|gt|ge|eq|ne\]/value\
+/ifirst,ilast,istride/\[ltlegtgeeqne\]/value\
+**zq**/attribute /ifirst,ilast,istride/value/\[ltlegtgeeqne\]\
+**zq**/attribute /ifirst,ilast,istride/\[ltlegtgeeqne\]/value\
 **region**/region name/ifirst,ilast,istride\
 **mregion**/mregion name/ifirst,ilast,istride\
 **geom**/**xyz**/ifirst,ilast,istride/xl,yl,zl/xu,yu,zu/xcen,ycen,zcen\

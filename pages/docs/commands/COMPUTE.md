@@ -65,7 +65,7 @@ title: COMPUTE
 > > surface are extrapolated "downward" into the mesh in the direction
 > > specified in the command. The\
 > > direction specified in the command must be one of
-> > [\[zpos|zneg|ypos|yneg|xpos|xneg\]]{style="font-family: Courier New,Courier,monospace;"}.
+> > [\[zposznegyposynegxposxneg\]]{style="font-family: Courier New,Courier,monospace;"}.
 > > For example,\
 > > specifing
 > > [zpos]{style="font-family: Courier New,Courier,monospace;"} will
@@ -120,19 +120,19 @@ title: COMPUTE
 > >  
 >
 > +-----------------------------------------------------------------------+
-> | <div align="left">                                                    |
-> |                                                                       |
-> | ![Example: distance\_field](../distance_field_01.png){width="300"     |
-> | height="300"}                                                         |
-> |                                                                       |
-> | </div>                                                                |
+>  <div align="left">                                                    
+>                                                                        
+>  ![Example: distance\_field](../distance_field_01.png){width="300"     
+>  height="300"}                                                         
+>                                                                        
+>  </div>                                                                
 > +-----------------------------------------------------------------------+
-> |     cmo / create / cmo_src                                            |
-> |     createpts/rtz/1,91,1/3.,0.,0./3.,270.,0./1,1,1/                   |
-> |     cmo / create / cmo_snk                                            |
-> |     createpts / xyz / 30 30 1 / -5. -5. -5. / 5. 5. 5. / 1 1 1        |
-> |     compute / distance_field / cmo_snk / cmo_src / dfield             |
-> |     finish                                                            |
+>      cmo / create / cmo_src                                            
+>      createpts/rtz/1,91,1/3.,0.,0./3.,270.,0./1,1,1/                   
+>      cmo / create / cmo_snk                                            
+>      createpts / xyz / 30 30 1 / -5. -5. -5. / 5. 5. 5. / 1 1 1        
+>      compute / distance_field / cmo_snk / cmo_src / dfield             
+>      finish                                                            
 > +-----------------------------------------------------------------------+
 >
 > :  **Example: distance\_field**
@@ -146,94 +146,94 @@ title: COMPUTE
 > </div>
 >
 > +-----------------------------------+-----------------------------------+
-> | ![signed distance                 |     *                             |
-> | field](../../images/distance_fiel |     * Create some of the necessar |
-> | d_02.png){width="300"             | y parts                           |
-> | height="300"}\                    |     *                             |
-> |                                   |     cmo / create / mo_tet         |
-> |                                   |     createpts/random/rtp/.1/1,0,0 |
-> |                                   | /1,180,360////.02                 |
-> |                                   |     connect                       |
-> |                                   |     resetpts / itp                |
-> |                                   |     *                             |
-> |                                   |     * Extract the external surfac |
-> |                                   | e                                 |
-> |                                   |     *                             |
-> |                                   |     extract / surfmesh / 1 0 0 /  |
-> |                                   | mo_tri / mo_tet / external        |
-> |                                   |     dump / gmv / tri_surf.gmv / m |
-> |                                   | o_tri                             |
-> |                                   |     cmo / delete / mo_tet         |
-> |                                   |     cmo / printatt / mo_tri / -xy |
-> |                                   | z- / minmax                       |
-> |                                   |     cmo / create / mo_pts         |
-> |                                   |     *                             |
-> |                                   |     * Create an xyz node distribu |
-> |                                   | tion and connect the nodes.       |
-> |                                   |     *                             |
-> |                                   |     createpts / xyz / 31 31 31 /  |
-> |                                   | -1 -1 -1 / 1 1 1 / 1 1 1          |
-> |                                   |     connect                       |
-> |                                   |     resetpts / itp                |
-> |                                   |     *                             |
-> |                                   |     * Compute the signed distance |
-> |                                   |  field                            |
-> |                                   |     *                             |
-> |                                   |     compute / signed_distance_fie |
-> |                                   | ld / mo_pts / mo_tri / dfield1    |
-> |                                   |     addmesh / append / mo_all / m |
-> |                                   | o_pts / mo_tri                    |
-> |                                   |     dump / gmv / signed_dfield1.g |
-> |                                   | mv / mo_all                       |
-> |                                   |     *                             |
-> |                                   |     * Do the same thing but use a |
-> |                                   |  surface of quads that make       |
-> |                                   |     * two nested spheres.         |
-> |                                   |     *                             |
-> |                                   |     cmo / create / mo_hex / / / h |
-> |                                   | ex                                |
-> |                                   |     createpts/sphere/8/5/5000/1.0 |
-> |                                   | ,0.5/0.,0.,0./1,0,0.0/            |
-> |                                   |     filter / 1 0 0                |
-> |                                   |     resetpts / itp                |
-> |                                   |     extract / surfmesh / 1 0 0 /  |
-> |                                   | mo_quad / mo_hex / external       |
-> |                                   |     dump / gmv / quad_surf.gmv /  |
-> |                                   | mo_quad                           |
-> |                                   |     *                             |
-> |                                   |     * Compute the signed distance |
-> |                                   |  field                            |
-> |                                   |     *                             |
-> |                                   |     compute / signed_distance_fie |
-> |                                   | ld / mo_pts / mo_quad / dfield2   |
-> |                                   |     addmesh / append / mo_all2 /  |
-> |                                   | mo_pts / mo_quad                  |
-> |                                   |     dump / gmv / signed_dfield2.g |
-> |                                   | mv / mo_all2                      |
-> |                                   |     cmo / status                  |
-> |                                   |     quality                       |
-> |                                   |     cmo / printatt / mo_pts / -al |
-> |                                   | l- / minmax                       |
-> |                                   |     finish                        |
-> |                                   |                                   |
-> |                                   | \                                 |
+>  ![signed distance                      *                             
+>  field](../../images/distance_fiel      * Create some of the necessar 
+>  d_02.png){width="300"              y parts                           
+>  height="300"}\                         *                             
+>                                         cmo / create / mo_tet         
+>                                         createpts/random/rtp/.1/1,0,0 
+>                                     /1,180,360////.02                 
+>                                         connect                       
+>                                         resetpts / itp                
+>                                         *                             
+>                                         * Extract the external surfac 
+>                                     e                                 
+>                                         *                             
+>                                         extract / surfmesh / 1 0 0 /  
+>                                     mo_tri / mo_tet / external        
+>                                         dump / gmv / tri_surf.gmv / m 
+>                                     o_tri                             
+>                                         cmo / delete / mo_tet         
+>                                         cmo / printatt / mo_tri / -xy 
+>                                     z- / minmax                       
+>                                         cmo / create / mo_pts         
+>                                         *                             
+>                                         * Create an xyz node distribu 
+>                                     tion and connect the nodes.       
+>                                         *                             
+>                                         createpts / xyz / 31 31 31 /  
+>                                     -1 -1 -1 / 1 1 1 / 1 1 1          
+>                                         connect                       
+>                                         resetpts / itp                
+>                                         *                             
+>                                         * Compute the signed distance 
+>                                      field                            
+>                                         *                             
+>                                         compute / signed_distance_fie 
+>                                     ld / mo_pts / mo_tri / dfield1    
+>                                         addmesh / append / mo_all / m 
+>                                     o_pts / mo_tri                    
+>                                         dump / gmv / signed_dfield1.g 
+>                                     mv / mo_all                       
+>                                         *                             
+>                                         * Do the same thing but use a 
+>                                      surface of quads that make       
+>                                         * two nested spheres.         
+>                                         *                             
+>                                         cmo / create / mo_hex / / / h 
+>                                     ex                                
+>                                         createpts/sphere/8/5/5000/1.0 
+>                                     ,0.5/0.,0.,0./1,0,0.0/            
+>                                         filter / 1 0 0                
+>                                         resetpts / itp                
+>                                         extract / surfmesh / 1 0 0 /  
+>                                     mo_quad / mo_hex / external       
+>                                         dump / gmv / quad_surf.gmv /  
+>                                     mo_quad                           
+>                                         *                             
+>                                         * Compute the signed distance 
+>                                      field                            
+>                                         *                             
+>                                         compute / signed_distance_fie 
+>                                     ld / mo_pts / mo_quad / dfield2   
+>                                         addmesh / append / mo_all2 /  
+>                                     mo_pts / mo_quad                  
+>                                         dump / gmv / signed_dfield2.g 
+>                                     mv / mo_all2                      
+>                                         cmo / status                  
+>                                         quality                       
+>                                         cmo / printatt / mo_pts / -al 
+>                                     l- / minmax                       
+>                                         finish                        
+>                                                                       
+>                                     \                                 
 > +-----------------------------------+-----------------------------------+
 >
 > :  **Example: signed\_distance\_field**
 >
 > +-----------------------------------------------------------------------+
-> | ![Example: lin\_extp\_before](../../images/lin_extp_before.jpg)\      |
+>  ![Example: lin\_extp\_before](../../images/lin_extp_before.jpg)\      
 > +-----------------------------------------------------------------------+
-> |     infile buildsurf.lgi                                              |
-> |                                                                       |
-> |     * Expand the cubical mesh such that its top (positive z-axis) loo |
-> | ks like the sinusoidal                                                |
-> |     * surface denoted by zhigh                                        |
-> |     compute / linear_transform / cube / zhigh                         |
-> |                                                                       |
-> |     finish                                                            |
+>      infile buildsurf.lgi                                              
+>                                                                        
+>      * Expand the cubical mesh such that its top (positive z-axis) loo 
+>  ks like the sinusoidal                                                
+>      * surface denoted by zhigh                                        
+>      compute / linear_transform / cube / zhigh                         
+>                                                                        
+>      finish                                                            
 > +-----------------------------------------------------------------------+
-> | ![Example: lin\_extp\_after](../../images/lin_extp_after.jpg)         |
+>  ![Example: lin\_extp\_after](../../images/lin_extp_after.jpg)         
 > +-----------------------------------------------------------------------+
 >
 > : **\

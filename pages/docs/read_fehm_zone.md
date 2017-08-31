@@ -1,9 +1,9 @@
 ---
 GENERATOR: 'Mozilla/4.72 \[en\] (X11; U; Linux 2.2.14-5.0 i686) \[Netscape\]'
-title: 'read / zone | zonn'
+title: 'read / zone  zonn'
 ---
 
-> **read/zone|zonn**
+> **read/zonezonn**
 
 > > Read in a list of node numbers in FEHM zone/zonn file format (See
 > > <http://FEHM.lanl.gov>). It is assumed that a MO already exists and
@@ -12,7 +12,7 @@ title: 'read / zone | zonn'
 > > zone/zonn file is less than or equal to the number of nodes in the
 > > MO.\
 > > \
-> > The second token zone|zonn does not have any effect other than
+> > The second token zonezonn does not have any effect other than
 > > specify that the input file is of the zone/zonn format. The
 > > zone/zonn option is controled by the value of the zone/zonn keyword
 > > that is read from inside the input file. If the keyword 'zone' is
@@ -29,8 +29,8 @@ title: 'read / zone | zonn'
 >
 > FORMAT:
 >
-> > **read / zone | zonn / file\_name / \[mo\_name | -def- \] /
-> > \[att\_name | -def-\]**\
+> > **read / zone  zonn / file\_name / \[mo\_name  -def- \] /
+> > \[att\_name  -def-\]**\
 >
 >  EXAMPLE:
 >
@@ -88,7 +88,7 @@ title: 'read / zone | zonn'
 >  AN EXAMPLE USING ZONE FILES:\
 >
 >     *
->     * LaGriT control file to test read / zone|zonn
+>     * LaGriT control file to test read / zonezonn
 >     *
 >     *
 >     cmo / create / cmo / / / tet

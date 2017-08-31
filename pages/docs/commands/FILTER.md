@@ -29,10 +29,10 @@ title: FILTERKD and FILTER
 >
 > **FORMAT**:
 >
-> > **filterkd**/ifirst,ilast,istride/\[tolerance\] / \[**nocheck** |
+> > **filterkd**/ifirst,ilast,istride/\[tolerance\] / \[**nocheck** 
 > > **zero\_element**\]\
 > > \
-> > **filter**/ifirst,ilast,istride/\[tolerance\] / \[**min|max**
+> > **filter**/ifirst,ilast,istride/\[tolerance\] / \[**minmax**
 > > /attribute\]\
 > > *This version of filter is being replaced with the kd-tree search
 > > algorithm used in filterkd that more accurately identifies nodes
@@ -56,7 +56,7 @@ title: FILTERKD and FILTER
 > > > as using the tolerence value as mininum edge length. Duplicate
 > > > nodes not associated with these flat elements are not removed.
 > > >
-> > > **min|max** / attribute option is available with the **filter**
+> > > **minmax** / attribute option is available with the **filter**
 > > > command. Nodes for deletion are detected based on the standard
 > > > geometric criteria however, the choice about which node is
 > > > retained is determined based on comparison of the attribute values
@@ -64,7 +64,7 @@ title: FILTERKD and FILTER
 > >
 > > \
 > > **filter**/[element]{style="font-weight: bold;"}/\[search\_range\]/
-> > \[**nodelete** | [delete]{style="font-weight: bold;"}\]
+> > \[**nodelete**  [delete]{style="font-weight: bold;"}\]
 > >
 > > > [ Search a mesh object for duplicate elements. A duplicate element
 > > > is defined as having the exact same set of nodes in the element

@@ -1,7 +1,7 @@
 ---
 GENERATOR: 'Mozilla/4.7C-SGI \[en\] (X11; I; IRIX64 6.5 IP30) \[Netscape\]'
 Generator: Microsoft Word 98
-Template: |
+Template: 
     Macintosh HD:Applications:Microsoft Office 98:Word Custom
     Install:Microsoft Office 98:Templates:Web Pages:Blank Web Page
 title: CMO
@@ -78,8 +78,8 @@ nelements:\
 **[cmo/newlen](cmo_newlen.html)**/mo\_name/
 
 Print the value of an attribute:\
-**[cmo/printatt](cmo_printatt.html)**/mo\_name/att\_name|-**all-**|**-xyz-**|**nod**
-/ \[**minmax**|**list**|**value**\] **** /\[ifirst,ilast,istride\]
+**[cmo/printatt](cmo_printatt.html)**/mo\_name/att\_name-**all-****-xyz-****nod**
+/ \[**minmax****list****value**\] **** /\[ifirst,ilast,istride\]
 
 Read values for an attribute from a file:\
 **[cmo/readatt](cmo_readatt.html)**/mo\_name/att\_name/\[...\]/operation/file\_name
@@ -94,8 +94,8 @@ Set the value of an attribute:\
 **[cmo/setatt](cmo_setatt.html)**/mo\_name/att\_name/ifirst,ilast,istride/value
 
 Create an integer attribute that contains the node or element number:\
-**[cmo/set\_id/](cmo_setid.html)**mo\_name/**node** |**element**
-|**both**/\[att\_nam1\]/\[att\_nam2\]
+**[cmo/set\_id/](cmo_setid.html)**mo\_name/**node** **element**
+**both**/\[att\_nam1\]/\[att\_nam2\]
 
 Print the mesh object status (all attributes and values of scalars)\
 [**cmo/status**/](cmo_status.html)mo\_name/\[**brief**\]

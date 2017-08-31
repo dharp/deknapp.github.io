@@ -195,7 +195,7 @@ FORMATS:
 
 > **refine**/refine\_option/ \[field\]/ \[interpolation\]/refine\_type
 > /ifirst, ilast, istride/xrefine/yrefine/zrefine/inclusive\_flag/\
-> **refine/roughness///edge**/ifirst,ilast,istride/distance/surface\_name/**exclusive|inclusive**\
+> **refine/roughness///edge**/ifirst,ilast,istride/distance/surface\_name/**exclusiveinclusive**\
 > **refine/edge\_list///edge/**edge\_list/\
 > **refine/interface/// edge/pset,get**,psetname\
 > **refine/element\_set / eltset,get**,esetname\

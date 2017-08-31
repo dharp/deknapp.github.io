@@ -2,7 +2,7 @@
 GENERATOR: 'Mozilla/4.79C-SGI \[en\] (X11; U; IRIX64 6.5 IP30) \[Netscape\]'
 Generator: Microsoft Word 97
 Keywords:  
-LaGriT command memory : |
+LaGriT command memory : 
     Description metadata should be 25-30 words and written from the specific
     to the general. Put your top keywords first but don't repeat title
     information.

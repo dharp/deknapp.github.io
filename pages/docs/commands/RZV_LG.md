@@ -35,12 +35,12 @@ title: RZS
 >
 > FORMAT:
 
-**rzv/xyz**|**rtz**|**rtp** /\
+**rzv/xyz****rtz****rtp** /\
                 \[ n1,n2,n3\
                  /v11,v12,v13/v21,v22,v23/v31,v32,v33\
                   /v01,v02,v03\
                  /r11,r12,r13/r21,r22,r23/r31,r32,r33\
-                 /**component**|**vector**\
+                 /**component****vector**\
                  /f1,f2,f3\]\
 default = **xyz**\
 default = 0:      n~i~, v~i~, v~0j~\

@@ -14,7 +14,7 @@ CREATE\_GRAPH
 > The default name of the attributes that are created are different
 > depending on which option (metis or lagrit) is used.
 >
-> `create_graph / metis / [node | dual] / [nxadj] / [nadjncy]  create_graph/ lagrit / dual / jtetoff / jtet   `
+> `create_graph / metis / [node  dual] / [nxadj] / [nadjncy]  create_graph/ lagrit / dual / jtetoff / jtet   `
 >
 > See the [dump](DUMP2.html) command for options to output the adjacency
 > graph to a file.`   `
@@ -47,7 +47,7 @@ METIS Interface to LaGriT\
 
 FORMAT:
 
-> `create_graph / metis / [node | dual] / [nxadj] / [nadjncy]`
+> `create_graph / metis / [node  dual] / [nxadj] / [nadjncy]`
 
 EXAMPLES:
 

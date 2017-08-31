@@ -1,7 +1,7 @@
 ---
 GENERATOR: 'Mozilla/4.5 \[en\] (X11; I; IRIX 6.3 IP32) \[Netscape\]'
 Generator: Microsoft Word 98
-Template: |
+Template: 
     Macintosh HD:Applications:Microsoft Office 98:Word Custom
     Install:Microsoft Office 98:Templates:Web Pages:Blank Web Page
 title: EXTRACT
@@ -39,15 +39,15 @@ title: EXTRACT
 > > [idface1]{style="font-weight: bold;"} record the local face number
 > > of the input mesh objects.\
 > > [\
-> >                    |]{style="font-family: monospace;"}\
-> > [                   |------&gt;
+> >                    ]{style="font-family: monospace;"}\
+> > [                   ------&gt;
 > > normal]{style="font-family: monospace;"}\
-> > [                   |]{style="font-family: monospace;"}\
-> > [       itetclr = 1 |   itetclr =
+> > [                   ]{style="font-family: monospace;"}\
+> > [       itetclr = 1    itetclr =
 > > 2]{style="font-family: monospace;"}\
-> > [      itetclr0 = 1 |  itetclr1 = 2\
-> >       element\# = 1 |  element\# = 2\
-> >       idelem0  = 1 |  idelem1  =
+> > [      itetclr0 = 1   itetclr1 = 2\
+> >       element\# = 1   element\# = 2\
+> >       idelem0  = 1   idelem1  =
 > > 2]{style="font-family: monospace;"}\
 > > \
 > > A node attribute, [idnode0]{style="font-weight: bold;"}, records the

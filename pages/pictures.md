@@ -1,15 +1,15 @@
 ---
-Keywords: |
+Keywords: 
     Mesh generation focused on Delaunay triangle and tetrahedral meshing.
     Mesh generation for geological applications. Mesh smoothing
     (optimization), reconnection, hybrid meshing (quadrilateral, prism,
     pyramid, line elements). Constructive solid geometry, Voronoi control
     volume area volume coefficient calculation.
-description: |
+description: 
     LaGriT is a library of user callable tools that provide mesh generation,
     mesh optimization and dynamic mesh maintenance in two and three
     dimensions for a variety of applications.
-title: LANL | LaGriT |
+title: LANL  LaGriT 
 ---
 
 <div id="content-org">
@@ -46,21 +46,21 @@ Gif Animations
         (3MB)](new_html/backsideshort_swe_10-3.gif)
 -   Rotating Hump
     -   Evolving Adaptive Grid
-        ([6MB](new_html/vertgrid_rotation_10-4.gif)| [0.6
+        ([6MB](new_html/vertgrid_rotation_10-4.gif) [0.6
         MB](new_html/vertgridshort_rotation_10-4.gif))
-    -   Perspective view ( [3MB](new_html/side_rotation_10-4.gif) | [0.3
+    -   Perspective view ( [3MB](new_html/side_rotation_10-4.gif)  [0.3
         MB](new_html/sideshort_rotation_10-4.gif) )
 
 #### Graph Massage for the shear flow (x,y)'=(-xy,0)
 
 -   Evolving Triangular Grid with Graph Massage (
-    [6MB](new_html/gmtri_shear.gif) | [0.6
+    [6MB](new_html/gmtri_shear.gif)  [0.6
     MB](new_html/gmtrishort_shear.gif) )
 -   Evolving Quadrilateral Grid with Graph Massage (
-    [3MB](new_html/gmquad_shear.gif) | [0.3
+    [3MB](new_html/gmquad_shear.gif)  [0.3
     MB](new_html/gmquadshort_shear.gif) )
 -   Evolving Quadrilateral Grid without Graph Massage (
-    [3MB](new_html/nogmquad_shear.gif) | [0.3
+    [3MB](new_html/nogmquad_shear.gif)  [0.3
     MB](new_html/nogmquadshort_shear.gif) )
 
 #### Dendrite formation

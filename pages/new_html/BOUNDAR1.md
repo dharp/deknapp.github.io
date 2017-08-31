@@ -16,7 +16,7 @@ title: BOUNDARY
 >
 > FORMAT:
 >
-> > **boundary/dirichlet**/attr\_name/\[value|identifier\]/surface\_list\
+> > **boundary/dirichlet**/attr\_name/\[valueidentifier\]/surface\_list\
 > > where:
 >
 >   --------------- ---------------------------------------------------------------

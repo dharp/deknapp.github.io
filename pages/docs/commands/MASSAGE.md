@@ -1,7 +1,7 @@
 ---
 GENERATOR: 'Mozilla/4.8 \[en\] (X11; U; SunOS 5.8 sun4u) \[Netscape\]'
 Generator: Microsoft Word 98
-Template: |
+Template: 
     Macintosh HD:Applications:Microsoft Office 98:Word Custom
     Install:Microsoft Office 98:Templates:Web Pages:Blank Web Page
 title: MASSAGE

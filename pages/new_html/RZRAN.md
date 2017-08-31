@@ -38,7 +38,7 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 > >
 > > **cgeom**\
 > >    geometry label (same convention as for rz)\
-> >    allowed values: xyz|rtp|rtz\
+> >    allowed values: xyzrtprtz\
 > >    default: xyz if not present, error return if not allowed
 > >
 > > **spacing**\

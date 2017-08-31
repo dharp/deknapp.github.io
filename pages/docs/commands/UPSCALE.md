@@ -155,7 +155,7 @@ UPSCALE
 > >
 > > > **upscale** / scale\_method / cmosink, attsink /1,0,0/ cmosrc,
 > > > attsrc / &\
-> > >  \[ **keepatt | delatt** \]  \[ **set\_id** \]  \[ **single |
+> > >  \[ **keepatt  delatt** \]  \[ **set\_id** \]  \[ **single 
 > > > divide** \]
 > >
 > > EXAMPLES:
@@ -182,174 +182,174 @@ UPSCALE
 > > sink points are shown below.
 > >
 > > +-----------------------------------+-----------------------------------+
-> > | Example 1:                        | Example 2:                        |
-> > |                                   |                                   |
-> > | > cmo/setatt/cmo\_src/ival/1,0,0/ | > cmo/setatt/cmo\_src/ival/1,0,0/ |
-> > | > 1\                              | > 1\                              |
-> > | > **upscale / sum /** cmo\_sink   | > **upscale / sum /** cmo\_sink   |
-> > | > icount /1,0,0/ cmo\_src ival\   | > icount /1,0,0/ cmo\_src ival/   |
-> > | > math/sum/cmo\_src/sumtot/1,0,0/ | > **single keepatt**\             |
-> > | cmo\_src/ival\                    | > math/sum/cmo\_src/sumtot/1,0,0/ |
-> > | > \                               | cmo\_src/ival\                    |
-> > | > In this example, search will    | > \                               |
-> > | > find the sets of source nodes   | > This is the same as Example 1   |
-> > | > enclosed within each sink       | > except that duplicate boundary  |
-> > | > Voronoi cell.The ival attribute | > points will be counted for the  |
-> > | > values are added for each set   | > first found Voronoi volume and  |
-> > | > and written to the sink icount  | > skipped thereafter. This        |
-> > | > attribute. Because the attribte | > one-to-one correspondance of    |
-> > | > ival has all values set to 1,   | > source nodes to sink Voronoi    |
-> > | > the icount attribute will       | > volume will be stored in the    |
-> > | > contain the number of source    | > source attributes pt\_gtg with  |
-> > | > nodes found in each Voronoi     | > sink node numbers, and          |
-> > | > volume. The source node values  | > dups\_gtg containing flags of   |
-> > | > will be counted regardless if   | > the duplicate boundary points.  |
-> > | > they are on a Voronoi boundary  | > These attributes will not be    |
-> > | > and are in multiple Voronoi     | > deleted.\                       |
-> > | > volumes. The result with        | > In this example, math/sum will  |
-> > | > duplicate boundary points will  | > result in a total equal to the  |
-> > | > be a sum of points used greater | > number of nodes used.           |
-> > | > than the total number of source |                                   |
-> > | > mesh points.\                   |                                   |
-> > | > In this example, math/sum will  |                                   |
-> > | > result in at total greater than |                                   |
-> > | > the number of nodes used if     |                                   |
-> > | > there are duplicatate Voronoi   |                                   |
-> > | > boundary points.                |                                   |
+> >  Example 1:                         Example 2:                        
+> >                                                                       
+> >  > cmo/setatt/cmo\_src/ival/1,0,0/  > cmo/setatt/cmo\_src/ival/1,0,0/ 
+> >  > 1\                               > 1\                              
+> >  > **upscale / sum /** cmo\_sink    > **upscale / sum /** cmo\_sink   
+> >  > icount /1,0,0/ cmo\_src ival\    > icount /1,0,0/ cmo\_src ival/   
+> >  > math/sum/cmo\_src/sumtot/1,0,0/  > **single keepatt**\             
+> >  cmo\_src/ival\                     > math/sum/cmo\_src/sumtot/1,0,0/ 
+> >  > \                                cmo\_src/ival\                    
+> >  > In this example, search will     > \                               
+> >  > find the sets of source nodes    > This is the same as Example 1   
+> >  > enclosed within each sink        > except that duplicate boundary  
+> >  > Voronoi cell.The ival attribute  > points will be counted for the  
+> >  > values are added for each set    > first found Voronoi volume and  
+> >  > and written to the sink icount   > skipped thereafter. This        
+> >  > attribute. Because the attribte  > one-to-one correspondance of    
+> >  > ival has all values set to 1,    > source nodes to sink Voronoi    
+> >  > the icount attribute will        > volume will be stored in the    
+> >  > contain the number of source     > source attributes pt\_gtg with  
+> >  > nodes found in each Voronoi      > sink node numbers, and          
+> >  > volume. The source node values   > dups\_gtg containing flags of   
+> >  > will be counted regardless if    > the duplicate boundary points.  
+> >  > they are on a Voronoi boundary   > These attributes will not be    
+> >  > and are in multiple Voronoi      > deleted.\                       
+> >  > volumes. The result with         > In this example, math/sum will  
+> >  > duplicate boundary points will   > result in a total equal to the  
+> >  > be a sum of points used greater  > number of nodes used.           
+> >  > than the total number of source                                    
+> >  > mesh points.\                                                      
+> >  > In this example, math/sum will                                     
+> >  > result in at total greater than                                    
+> >  > the number of nodes used if                                        
+> >  > there are duplicatate Voronoi                                      
+> >  > boundary points.                                                   
 > > +-----------------------------------+-----------------------------------+
-> > |     cmo/setatt/COARSE_MO/idebug 6 |     cmo/setatt/COARSE_MO/idebug 6 |
-> > |     upscale/sum/COARSE_MO,icount/ |     upscale/sum/COARSE_MO,icount/ |
-> > | 1,0,0/FINE_MO/imt keepatt         | 1,0,0/FINE_MO/imt/single keepatt  |
-> > |                                   |                                   |
-> > |     pt_gtg attribute added to sou |     nodes on Voronoi boundaries s |
-> > | rce cmo.                          | et to a single source volume.     |
-> > |                                   |                                   |
-> > |     dups_gtg attribute added to s |     pt_gtg being used for sink no |
-> > | ource cmo.                        | de id numbers.                    |
-> > |                                   |                                   |
-> > |                                   |     dups_gtg being used for nodes |
-> > |                                   |  on duplicate cell boundaries.    |
-> > |     UPSCALE METHOD:        sum    |                                   |
-> > |                                   |                                   |
-> > |                                   |     UPSCALE METHOD:        sum    |
-> > |            options:    keepatt  m |                                   |
-> > | ultiple                           |                                   |
-> > |                                   |            options:    keepatt    |
-> > |               10  Sink Nodes of i |  single                           |
-> > | count in course mesh: cmoc        |                                   |
-> > |                                   |               10  Sink Nodes of i |
-> > |             1221  Source Nodes of | count in course mesh: cmoc        |
-> > |  imt1 in fine mesh: cmof          |                                   |
-> > |                                   |             1221  Source Nodes of |
-> > |                                   |  imt1 in fine mesh: cmof          |
-> > |       Source Nodes    Percent Don |                                   |
-> > | e                                 |     SKIPPING POINT SEARCH... usin |
-> > |                                   | g lookup attribute pt_gtg         |
-> > |                 306       25 %    |                                   |
-> > |                                   |                                   |
-> > |                                   |       Source Nodes    Percent Don |
-> > |                 611       50 %    | e                                 |
-> > |                                   |                                   |
-> > |                                   |                 306       25 %    |
-> > |                 916       75 %    |                                   |
-> > |                                   |                                   |
-> > |                                   |                 611       50 %    |
-> > |                1221      100 %    |                                   |
-> > |                                   |                                   |
-> > |                                   |                 916       75 %    |
-> > |                1221 Total source  |                                   |
-> > | nodes searched.                   |                                   |
-> > |                                   |                1221      100 %    |
-> > |     ---     Sink id   # of nodes  |                                   |
-> > | used   calculated value ---       |                                   |
-> > |                                   |                1221 Total source  |
-> > |                   1               | nodes searched.                   |
-> > | 189               189             |                                   |
-> > |                                   |     ---     Sink id   # of nodes  |
-> > |     Duplicate nodes               | used   calculated value ---       |
-> > |   1                 1             |                                   |
-> > |                                   |                   1               |
-> > |                   2               | 188               188             |
-> > | 108               108             |                                   |
-> > |                                   |                   2               |
-> > |                   4               | 108               108             |
-> > | 189               189             |                                   |
-> > |                                   |                   4               |
-> > |     Duplicate nodes               | 181               181             |
-> > |   8                 8             |                                   |
-> > |                                   |                   5               |
-> > |                   5               | 256               256             |
-> > | 256               256             |                                   |
-> > |                                   |                   6               |
-> > |                   6               | 192               192             |
-> > | 192               192             |                                   |
-> > |                                   |                   8               |
-> > |                   8               |  72                72             |
-> > |  72                72             |                                   |
-> > |                                   |                   9               |
-> > |                   9               | 128               128             |
-> > | 128               128             |                                   |
-> > |                                   |                  10               |
-> > |                  10               |  96                96             |
-> > |  96                96             |                                   |
-> > |                                   |                   8 sink nodes ou |
-> > |                   8 sink nodes ou | t of                10 assigned v |
-> > | t of                10 assigned v | alues.                            |
-> > | alues.                            |                1221 source nodes  |
-> > |                1230 source nodes  | out of            1221 used as so |
-> > | out of            1221 used as so | urce values.                      |
-> > | urce values.                      |                   9 duplicate nod |
-> > |                   9 duplicate nod | es on Voronoi boundaries used onl |
-> > | es on Voronoi boundaries used mul | y once.                           |
-> > | tiple times.                      |     UPSCALE/sum/ from imt1 to ico |
-> > |     UPSCALE/sum/ from imt1 to ico | unt Done.                         |
-> > | unt Done.                         |                                   |
-> > |                                   |                                   |
-> > |                                   |     cmo/printatt/COARSE_MO/icount |
-> > |     cmo/printatt/COARSE_MO/icount |                                   |
-> > |                                   |                                   |
-> > |                                   |     Attribute: icount             |
-> > |     Attribute: icount             |                                   |
-> > |                                   |                                   |
-> > |                                   |              1        188         |
-> > |              1        189         |                                   |
-> > |                                   |                                   |
-> > |                                   |              2        108         |
-> > |              2        108         |                                   |
-> > |                                   |                                   |
-> > |                                   |              3          0         |
-> > |              3          0         |                                   |
-> > |                                   |                                   |
-> > |                                   |              4        181         |
-> > |              4        189         |                                   |
-> > |                                   |                                   |
-> > |                                   |              5        256         |
-> > |              5        256         |                                   |
-> > |                                   |                                   |
-> > |                                   |              6        192         |
-> > |              6        192         |                                   |
-> > |                                   |                                   |
-> > |                                   |              7          0         |
-> > |              7          0         |                                   |
-> > |                                   |                                   |
-> > |                                   |              8         72         |
-> > |              8         72         |                                   |
-> > |                                   |                                   |
-> > |                                   |              9        128         |
-> > |              9        128         |                                   |
-> > |                                   |                                   |
-> > |                                   |             10         96         |
-> > |             10         96         |                                   |
-> > |                                   |                                   |
-> > |                                   |                                   |
-> > |                                   |                                   |
-> > |     math/sum/COARSE_MO/sumtot/1,0 |                                   |
-> > | ,0/COARSE_MO/icount               |                                   |
-> > |     icount sum =       1230       |     math/sum/COARSE_MO/sumtot/1,0 |
-> > |                                   | ,0/COARSE_MO/icount               |
-> > |                                   |                                   |
-> > |                                   |     icount sum =       1221       |
-> > |                                   |                                   |
+> >      cmo/setatt/COARSE_MO/idebug 6      cmo/setatt/COARSE_MO/idebug 6 
+> >      upscale/sum/COARSE_MO,icount/      upscale/sum/COARSE_MO,icount/ 
+> >  1,0,0/FINE_MO/imt keepatt          1,0,0/FINE_MO/imt/single keepatt  
+> >                                                                       
+> >      pt_gtg attribute added to sou      nodes on Voronoi boundaries s 
+> >  rce cmo.                           et to a single source volume.     
+> >                                                                       
+> >      dups_gtg attribute added to s      pt_gtg being used for sink no 
+> >  ource cmo.                         de id numbers.                    
+> >                                                                       
+> >                                         dups_gtg being used for nodes 
+> >                                      on duplicate cell boundaries.    
+> >      UPSCALE METHOD:        sum                                       
+> >                                                                       
+> >                                         UPSCALE METHOD:        sum    
+> >             options:    keepatt  m                                    
+> >  ultiple                                                              
+> >                                                options:    keepatt    
+> >                10  Sink Nodes of i   single                           
+> >  count in course mesh: cmoc                                           
+> >                                                   10  Sink Nodes of i 
+> >              1221  Source Nodes of  count in course mesh: cmoc        
+> >   imt1 in fine mesh: cmof                                             
+> >                                                 1221  Source Nodes of 
+> >                                      imt1 in fine mesh: cmof          
+> >        Source Nodes    Percent Don                                    
+> >  e                                      SKIPPING POINT SEARCH... usin 
+> >                                     g lookup attribute pt_gtg         
+> >                  306       25 %                                       
+> >                                                                       
+> >                                           Source Nodes    Percent Don 
+> >                  611       50 %     e                                 
+> >                                                                       
+> >                                                     306       25 %    
+> >                  916       75 %                                       
+> >                                                                       
+> >                                                     611       50 %    
+> >                 1221      100 %                                       
+> >                                                                       
+> >                                                     916       75 %    
+> >                 1221 Total source                                     
+> >  nodes searched.                                                      
+> >                                                    1221      100 %    
+> >      ---     Sink id   # of nodes                                     
+> >  used   calculated value ---                                          
+> >                                                    1221 Total source  
+> >                    1                nodes searched.                   
+> >  189               189                                                
+> >                                         ---     Sink id   # of nodes  
+> >      Duplicate nodes                used   calculated value ---       
+> >    1                 1                                                
+> >                                                       1               
+> >                    2                188               188             
+> >  108               108                                                
+> >                                                       2               
+> >                    4                108               108             
+> >  189               189                                                
+> >                                                       4               
+> >      Duplicate nodes                181               181             
+> >    8                 8                                                
+> >                                                       5               
+> >                    5                256               256             
+> >  256               256                                                
+> >                                                       6               
+> >                    6                192               192             
+> >  192               192                                                
+> >                                                       8               
+> >                    8                 72                72             
+> >   72                72                                                
+> >                                                       9               
+> >                    9                128               128             
+> >  128               128                                                
+> >                                                      10               
+> >                   10                 96                96             
+> >   96                96                                                
+> >                                                       8 sink nodes ou 
+> >                    8 sink nodes ou  t of                10 assigned v 
+> >  t of                10 assigned v  alues.                            
+> >  alues.                                            1221 source nodes  
+> >                 1230 source nodes   out of            1221 used as so 
+> >  out of            1221 used as so  urce values.                      
+> >  urce values.                                         9 duplicate nod 
+> >                    9 duplicate nod  es on Voronoi boundaries used onl 
+> >  es on Voronoi boundaries used mul  y once.                           
+> >  tiple times.                           UPSCALE/sum/ from imt1 to ico 
+> >      UPSCALE/sum/ from imt1 to ico  unt Done.                         
+> >  unt Done.                                                            
+> >                                                                       
+> >                                         cmo/printatt/COARSE_MO/icount 
+> >      cmo/printatt/COARSE_MO/icount                                    
+> >                                                                       
+> >                                         Attribute: icount             
+> >      Attribute: icount                                                
+> >                                                                       
+> >                                                  1        188         
+> >               1        189                                            
+> >                                                                       
+> >                                                  2        108         
+> >               2        108                                            
+> >                                                                       
+> >                                                  3          0         
+> >               3          0                                            
+> >                                                                       
+> >                                                  4        181         
+> >               4        189                                            
+> >                                                                       
+> >                                                  5        256         
+> >               5        256                                            
+> >                                                                       
+> >                                                  6        192         
+> >               6        192                                            
+> >                                                                       
+> >                                                  7          0         
+> >               7          0                                            
+> >                                                                       
+> >                                                  8         72         
+> >               8         72                                            
+> >                                                                       
+> >                                                  9        128         
+> >               9        128                                            
+> >                                                                       
+> >                                                 10         96         
+> >              10         96                                            
+> >                                                                       
+> >                                                                       
+> >                                                                       
+> >      math/sum/COARSE_MO/sumtot/1,0                                    
+> >  ,0/COARSE_MO/icount                                                  
+> >      icount sum =       1230            math/sum/COARSE_MO/sumtot/1,0 
+> >                                     ,0/COARSE_MO/icount               
+> >                                                                       
+> >                                         icount sum =       1221       
+> >                                                                       
 > > +-----------------------------------+-----------------------------------+
 > >
 > > EXAMPLE 2 IMAGES: These images show the 10 numbered sink points and
@@ -374,199 +374,199 @@ UPSCALE
 > > Show results for the 3 versions of mean calcuations.
 > >
 > > +-----------------------------------------------------------------------+
-> > |                                                                       |
-> > |     * use single quad element with two nodes located                  |
-> > |     * so they will capture 4 nodes each from source                   |
-> > |                                                                       |
-> > |     * for source mesh FINE_MO with two quad elements                  |
-> > |     * assign bottom nodes to 2 and top nodes to 8                     |
-> > |                                                                       |
-> > |     cmo setatt FINE_MO xmean 2.0                                      |
-> > |     cmo setatt FINE_MO xmean 4,6,1 8.0                                |
-> > |                                                                       |
-> > |     * Upscale using averages                                          |
-> > |     * and write to attributes for nodes 1 and 2 only                  |
-> > |                                                                       |
-> > |     ***** Arithmetic mean *****                                       |
-> > |     upscale/ariave/COARSE_MO amean/1,2,0/ FINE_MO/xmean/              |
-> > |                                                                       |
-> > |     ***** Geometric mean *****                                        |
-> > |     upscale/geoave/COARSE_MO gmean/1,2,0/ FINE_MO/xmean/              |
-> > |                                                                       |
-> > |     ***** Harmonic mean *****                                         |
-> > |     upscale/harave/COARSE_MO hmean/1,2,0/ FINE_MO/xmean/              |
-> > |                                                                       |
-> > |                                                                       |
-> > |     ***** SOURCE VALUES from FINE_MO ********                         |
-> > |                                                                       |
-> > |     cmo printatt FINE_MO xmean                                        |
-> > |                                                                       |
-> > |     Attribute: xmean                                                  |
-> > |                                                                       |
-> > |              1  2.00000E+00                                           |
-> > |                                                                       |
-> > |              2  2.00000E+00                                           |
-> > |                                                                       |
-> > |              3  2.00000E+00                                           |
-> > |                                                                       |
-> > |              4  8.00000E+00                                           |
-> > |                                                                       |
-> > |              5  8.00000E+00                                           |
-> > |                                                                       |
-> > |              6  8.00000E+00                                           |
-> > |                                                                       |
-> > |                                                                       |
-> > |     ***** RESULT VALUES ********                                      |
-> > |                                                                       |
-> > |                                                                       |
-> > |     cmo printatt COARSE_MO amean                                      |
-> > |                                                                       |
-> > |     Attribute: amean                                                  |
-> > |                                                                       |
-> > |              1  5.00000E+00                                           |
-> > |                                                                       |
-> > |              2  5.00000E+00                                           |
-> > |                                                                       |
-> > |              3  0.00000E+00                                           |
-> > |                                                                       |
-> > |              4  0.00000E+00                                           |
-> > |                                                                       |
-> > |                                                                       |
-> > |     cmo printatt COARSE_MO gmean                                      |
-> > |                                                                       |
-> > |     Attribute: gmean                                                  |
-> > |                                                                       |
-> > |              1  4.00000E+00                                           |
-> > |                                                                       |
-> > |              2  4.00000E+00                                           |
-> > |                                                                       |
-> > |              3  0.00000E+00                                           |
-> > |                                                                       |
-> > |              4  0.00000E+00                                           |
-> > |                                                                       |
-> > |                                                                       |
-> > |     cmo printatt COARSE_MO hmean                                      |
-> > |                                                                       |
-> > |     Attribute: hmean                                                  |
-> > |                                                                       |
-> > |              1  3.20000E+00                                           |
-> > |                                                                       |
-> > |              2  3.20000E+00                                           |
-> > |                                                                       |
-> > |              3  0.00000E+00                                           |
-> > |                                                                       |
-> > |              4  0.00000E+00                                           |
-> > |                                                                       |
-> > |                                                                       |
+> >                                                                        
+> >      * use single quad element with two nodes located                  
+> >      * so they will capture 4 nodes each from source                   
+> >                                                                        
+> >      * for source mesh FINE_MO with two quad elements                  
+> >      * assign bottom nodes to 2 and top nodes to 8                     
+> >                                                                        
+> >      cmo setatt FINE_MO xmean 2.0                                      
+> >      cmo setatt FINE_MO xmean 4,6,1 8.0                                
+> >                                                                        
+> >      * Upscale using averages                                          
+> >      * and write to attributes for nodes 1 and 2 only                  
+> >                                                                        
+> >      ***** Arithmetic mean *****                                       
+> >      upscale/ariave/COARSE_MO amean/1,2,0/ FINE_MO/xmean/              
+> >                                                                        
+> >      ***** Geometric mean *****                                        
+> >      upscale/geoave/COARSE_MO gmean/1,2,0/ FINE_MO/xmean/              
+> >                                                                        
+> >      ***** Harmonic mean *****                                         
+> >      upscale/harave/COARSE_MO hmean/1,2,0/ FINE_MO/xmean/              
+> >                                                                        
+> >                                                                        
+> >      ***** SOURCE VALUES from FINE_MO ********                         
+> >                                                                        
+> >      cmo printatt FINE_MO xmean                                        
+> >                                                                        
+> >      Attribute: xmean                                                  
+> >                                                                        
+> >               1  2.00000E+00                                           
+> >                                                                        
+> >               2  2.00000E+00                                           
+> >                                                                        
+> >               3  2.00000E+00                                           
+> >                                                                        
+> >               4  8.00000E+00                                           
+> >                                                                        
+> >               5  8.00000E+00                                           
+> >                                                                        
+> >               6  8.00000E+00                                           
+> >                                                                        
+> >                                                                        
+> >      ***** RESULT VALUES ********                                      
+> >                                                                        
+> >                                                                        
+> >      cmo printatt COARSE_MO amean                                      
+> >                                                                        
+> >      Attribute: amean                                                  
+> >                                                                        
+> >               1  5.00000E+00                                           
+> >                                                                        
+> >               2  5.00000E+00                                           
+> >                                                                        
+> >               3  0.00000E+00                                           
+> >                                                                        
+> >               4  0.00000E+00                                           
+> >                                                                        
+> >                                                                        
+> >      cmo printatt COARSE_MO gmean                                      
+> >                                                                        
+> >      Attribute: gmean                                                  
+> >                                                                        
+> >               1  4.00000E+00                                           
+> >                                                                        
+> >               2  4.00000E+00                                           
+> >                                                                        
+> >               3  0.00000E+00                                           
+> >                                                                        
+> >               4  0.00000E+00                                           
+> >                                                                        
+> >                                                                        
+> >      cmo printatt COARSE_MO hmean                                      
+> >                                                                        
+> >      Attribute: hmean                                                  
+> >                                                                        
+> >               1  3.20000E+00                                           
+> >                                                                        
+> >               2  3.20000E+00                                           
+> >                                                                        
+> >               3  0.00000E+00                                           
+> >                                                                        
+> >               4  0.00000E+00                                           
+> >                                                                        
+> >                                                                        
 > > +-----------------------------------------------------------------------+
-> > | **Image 1 shows Arithmetic mean result of 5.0**\                      |
-> > | Result Sink nodes 1 and 2 are the two lower nodes of the single quad  |
-> > | element in image.\                                                    |
-> > | Source nodes are on the two adjacent quad elements.                   |
-> > |                                                                       |
-> > |     UPSCALE METHOD:     ariave                                        |
-> > |                                                                       |
-> > |                4  Sink Nodes of amean in course mesh: cmoc            |
-> > |                                                                       |
-> > |                2  Selected Set of Nodes will be written               |
-> > |                                                                       |
-> > |                6  Source Nodes of xmean in fine mesh: cmof            |
-> > |                                                                       |
-> > |                                                                       |
-> > |       Source Nodes    Percent Done                                    |
-> > |                                                                       |
-> > |                   3       25 %                                        |
-> > |                                                                       |
-> > |                   5       50 %                                        |
-> > |                                                                       |
-> > |                   6 Total source nodes searched.                      |
-> > |                                                                       |
-> > |     ---     Sink id   # of nodes used   calculated value ---          |
-> > |                                                                       |
-> > |                   1                4    0.5000000E+01                 |
-> > |                                                                       |
-> > |                   2                4    0.5000000E+01                 |
-> > |                                                                       |
-> > |                   2 sink nodes out of                 4 assigned valu |
-> > | es.                                                                   |
-> > |                   2 duplicate nodes on Voronoi boundaries used multip |
-> > | le times.                                                             |
-> > |     UPSCALE/ariave/ from xmean to amean Done.                         |
-> > |                                                                       |
-> > |                                                                       |
-> > | ![](../../images/upscale_arithmetic.jpg)                              |
+> >  **Image 1 shows Arithmetic mean result of 5.0**\                      
+> >  Result Sink nodes 1 and 2 are the two lower nodes of the single quad  
+> >  element in image.\                                                    
+> >  Source nodes are on the two adjacent quad elements.                   
+> >                                                                        
+> >      UPSCALE METHOD:     ariave                                        
+> >                                                                        
+> >                 4  Sink Nodes of amean in course mesh: cmoc            
+> >                                                                        
+> >                 2  Selected Set of Nodes will be written               
+> >                                                                        
+> >                 6  Source Nodes of xmean in fine mesh: cmof            
+> >                                                                        
+> >                                                                        
+> >        Source Nodes    Percent Done                                    
+> >                                                                        
+> >                    3       25 %                                        
+> >                                                                        
+> >                    5       50 %                                        
+> >                                                                        
+> >                    6 Total source nodes searched.                      
+> >                                                                        
+> >      ---     Sink id   # of nodes used   calculated value ---          
+> >                                                                        
+> >                    1                4    0.5000000E+01                 
+> >                                                                        
+> >                    2                4    0.5000000E+01                 
+> >                                                                        
+> >                    2 sink nodes out of                 4 assigned valu 
+> >  es.                                                                   
+> >                    2 duplicate nodes on Voronoi boundaries used multip 
+> >  le times.                                                             
+> >      UPSCALE/ariave/ from xmean to amean Done.                         
+> >                                                                        
+> >                                                                        
+> >  ![](../../images/upscale_arithmetic.jpg)                              
 > > +-----------------------------------------------------------------------+
-> > | **Image 2 shows Geometric mean result of 4.0**\                       |
-> > | Result Sink nodes 1 and 2 are the two lower nodes of the single quad  |
-> > | element in image.\                                                    |
-> > | Source nodes are on the two adjacent quad elements.                   |
-> > |                                                                       |
-> > |     UPSCALE METHOD:     geoave                                        |
-> > |                                                                       |
-> > |                4  Sink Nodes of gmean in course mesh: cmoc            |
-> > |                                                                       |
-> > |                2  Selected Set of Nodes will be written               |
-> > |                                                                       |
-> > |                6  Source Nodes of xmean in fine mesh: cmof            |
-> > |                                                                       |
-> > |                                                                       |
-> > |       Source Nodes    Percent Done                                    |
-> > |                                                                       |
-> > |                   3       25 %                                        |
-> > |                                                                       |
-> > |                   5       50 %                                        |
-> > |                                                                       |
-> > |                   6 Total source nodes searched.                      |
-> > |                                                                       |
-> > |     ---     Sink id   # of nodes used   calculated value ---          |
-> > |                                                                       |
-> > |                   1                4    0.4000000E+01                 |
-> > |                                                                       |
-> > |                   2                4    0.4000000E+01                 |
-> > |                                                                       |
-> > |                   2 sink nodes out of                 4 assigned valu |
-> > | es.                                                                   |
-> > |                   2 duplicate nodes on Voronoi boundaries used multip |
-> > | le times.                                                             |
-> > |     UPSCALE/geoave/ from xmean to gmean Done.                         |
-> > |                                                                       |
-> > | ![Image 1](../../images/upscale_geometric.jpg)                        |
+> >  **Image 2 shows Geometric mean result of 4.0**\                       
+> >  Result Sink nodes 1 and 2 are the two lower nodes of the single quad  
+> >  element in image.\                                                    
+> >  Source nodes are on the two adjacent quad elements.                   
+> >                                                                        
+> >      UPSCALE METHOD:     geoave                                        
+> >                                                                        
+> >                 4  Sink Nodes of gmean in course mesh: cmoc            
+> >                                                                        
+> >                 2  Selected Set of Nodes will be written               
+> >                                                                        
+> >                 6  Source Nodes of xmean in fine mesh: cmof            
+> >                                                                        
+> >                                                                        
+> >        Source Nodes    Percent Done                                    
+> >                                                                        
+> >                    3       25 %                                        
+> >                                                                        
+> >                    5       50 %                                        
+> >                                                                        
+> >                    6 Total source nodes searched.                      
+> >                                                                        
+> >      ---     Sink id   # of nodes used   calculated value ---          
+> >                                                                        
+> >                    1                4    0.4000000E+01                 
+> >                                                                        
+> >                    2                4    0.4000000E+01                 
+> >                                                                        
+> >                    2 sink nodes out of                 4 assigned valu 
+> >  es.                                                                   
+> >                    2 duplicate nodes on Voronoi boundaries used multip 
+> >  le times.                                                             
+> >      UPSCALE/geoave/ from xmean to gmean Done.                         
+> >                                                                        
+> >  ![Image 1](../../images/upscale_geometric.jpg)                        
 > > +-----------------------------------------------------------------------+
-> > | **Image 3 shows Harmonic mean result of 3.2**\                        |
-> > | Result Sink nodes 1 and 2 are the two lower nodes of the single quad  |
-> > | element in image.\                                                    |
-> > | Source nodes are on the two adjacent quad elements.                   |
-> > |                                                                       |
-> > |     UPSCALE METHOD:     harave                                        |
-> > |                                                                       |
-> > |                4  Sink Nodes of hmean in course mesh: cmoc            |
-> > |                                                                       |
-> > |                2  Selected Set of Nodes will be written               |
-> > |                                                                       |
-> > |                6  Source Nodes of xmean in fine mesh: cmof            |
-> > |                                                                       |
-> > |                                                                       |
-> > |       Source Nodes    Percent Done                                    |
-> > |                                                                       |
-> > |                   3       25 %                                        |
-> > |                                                                       |
-> > |                   5       50 %                                        |
-> > |                                                                       |
-> > |                   6 Total source nodes searched.                      |
-> > |                                                                       |
-> > |     ---     Sink id   # of nodes used   calculated value ---          |
-> > |                                                                       |
-> > |                   1                4    0.3200000E+01                 |
-> > |                                                                       |
-> > |                   2                4    0.3200000E+01                 |
-> > |                                                                       |
-> > |                   2 sink nodes out of                 4 assigned valu |
-> > | es.                                                                   |
-> > |                   2 duplicate nodes on Voronoi boundaries used multip |
-> > | le times.                                                             |
-> > |     UPSCALE/harave/ from xmean to hmean Done.                         |
-> > |                                                                       |
-> > | ![](../../images/upscale_harmonic.jpg)                                |
+> >  **Image 3 shows Harmonic mean result of 3.2**\                        
+> >  Result Sink nodes 1 and 2 are the two lower nodes of the single quad  
+> >  element in image.\                                                    
+> >  Source nodes are on the two adjacent quad elements.                   
+> >                                                                        
+> >      UPSCALE METHOD:     harave                                        
+> >                                                                        
+> >                 4  Sink Nodes of hmean in course mesh: cmoc            
+> >                                                                        
+> >                 2  Selected Set of Nodes will be written               
+> >                                                                        
+> >                 6  Source Nodes of xmean in fine mesh: cmof            
+> >                                                                        
+> >                                                                        
+> >        Source Nodes    Percent Done                                    
+> >                                                                        
+> >                    3       25 %                                        
+> >                                                                        
+> >                    5       50 %                                        
+> >                                                                        
+> >                    6 Total source nodes searched.                      
+> >                                                                        
+> >      ---     Sink id   # of nodes used   calculated value ---          
+> >                                                                        
+> >                    1                4    0.3200000E+01                 
+> >                                                                        
+> >                    2                4    0.3200000E+01                 
+> >                                                                        
+> >                    2 sink nodes out of                 4 assigned valu 
+> >  es.                                                                   
+> >                    2 duplicate nodes on Voronoi boundaries used multip 
+> >  le times.                                                             
+> >      UPSCALE/harave/ from xmean to hmean Done.                         
+> >                                                                        
+> >  ![](../../images/upscale_harmonic.jpg)                                
 > > +-----------------------------------------------------------------------+
 > >
 > > \

@@ -39,7 +39,7 @@ In the command description that follows certain symbols have special
 meaning.
 
 \[ \]          surround optional parameters\
-|             signifies alternate choices\
+             signifies alternate choices\
 , or /      separates parameters\
 \_\_\_        underline specifies default
 

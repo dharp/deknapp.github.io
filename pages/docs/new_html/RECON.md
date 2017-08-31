@@ -44,7 +44,7 @@ title: RECON
 >
 > FORMAT:
 >
-> > **recon**/\[**1**|**0**\]/\[damage\]/\[**checkaxy**\]
+> > **recon**/\[**1****0**\]/\[damage\]/\[**checkaxy**\]
 >
 > EXAMPLES:
 >

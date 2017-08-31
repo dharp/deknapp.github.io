@@ -47,27 +47,27 @@ element. The following controls may be supplied:\
  
 
 +-----------------------------------+-----------------------------------+
-| > rlxwt default(0.5)              | > weight for underrelaxed         |
-|                                   | > Laplacian smothing              |
+ > rlxwt default(0.5)               > weight for underrelaxed         
+                                    > Laplacian smothing              
 +-----------------------------------+-----------------------------------+
-| > ntimes default(5)               | > number of smoothing iterations  |
+ > ntimes default(5)                > number of smoothing iterations  
 +-----------------------------------+-----------------------------------+
-| > nwttry default(3)               | > number of attempts to not       |
-|                                   | > tangle the mesh by halving the  |
-|                                   | > smoothing weight.               |
+ > nwttry default(3)                > number of attempts to not       
+                                    > tangle the mesh by halving the  
+                                    > smoothing weight.               
 +-----------------------------------+-----------------------------------+
-| > useisn default(1)               | > 1 means interface nodes are     |
-|                                   | > smoothed based alonga           |
-|                                   | > multimaterial edge with all the |
-|                                   | > same materials as the candidate |
-|                                   | > node. 0 means interface nodes   |
-|                                   | > are smoothed based on all       |
-|                                   | > interface neighbors             |
+ > useisn default(1)                > 1 means interface nodes are     
+                                    > smoothed based alonga           
+                                    > multimaterial edge with all the 
+                                    > same materials as the candidate 
+                                    > node. 0 means interface nodes   
+                                    > are smoothed based on all       
+                                    > interface neighbors             
 +-----------------------------------+-----------------------------------+
-| > extrnbr default(**inclusive**)  | > **inclusive** means do not      |
-|                                   | > restrict neighbors \            |
-|                                   | > **exclusive** means restrict    |
-|                                   | > neighbors to nodes in pset      |
+ > extrnbr default(**inclusive**)   > **inclusive** means do not      
+                                    > restrict neighbors \            
+                                    > **exclusive** means restrict    
+                                    > neighbors to nodes in pset      
 +-----------------------------------+-----------------------------------+
 
  5. **aspect**---Adjusts node positions such that the aspect ratio of
@@ -107,7 +107,7 @@ will help to avoid element inversions.
 
 FORMAT:
 
-**smooth**/**position**/**esug**|**mega**|**geometry**|**elliptic|**|**random**/
+**smooth**/**position**/**esug****mega****geometry****elliptic****random**/
 \[ifirst,ilast,istride \]/\[control\]\
 **smooth**/**position**/**lpfilter/**/ \[ifirst,ilast,istride\]
 /\[filtdeg\]/\[k\_pb\]/**network**
@@ -118,7 +118,7 @@ ignored.
 
 **smooth**/**position**/**aspect**//\[ifirst,ilast,istride/toldamage\]\
 **smooth**/**position/laplace/**\[ifisrt,ilast,istride\]/\[rlxwt\]/\[ntimes\]/\[nwtty\]/\[useisn\]/\[extrnbr\]\
-**smooth**/**position/network/**\[ifisrt,ilast,istride\]/\[niter\]/\[weight\]/\[**check**|**nocheck**}
+**smooth**/**position/network/**\[ifisrt,ilast,istride\]/\[niter\]/\[weight\]/\[**check****nocheck**}
 
 EXAMPLES:\
  

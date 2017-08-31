@@ -51,13 +51,13 @@ FORMAT:
 **pset**/pset name/
 
 **seq**/ifirst,ilast,istride\
-**union|inter|not|delete/**pset1\[/pset2/.../psetn\]\
+**unioninternotdelete/**pset1\[/pset2/.../psetn\]\
 **list**\
 **delete**\
 **attribute**/attribute /ifirst,ilast,istride/value/\
-  \[**le**| **gt**| **gt**| **ne**| **eq**\]\
-**zq**/attribute /ifirst,ilast,istride/value/\[**le**| **gt**| **gt**|
-**ne**| **eq**\]\
+  \[**le** **gt** **gt** **ne** **eq**\]\
+**zq**/attribute /ifirst,ilast,istride/value/\[**le** **gt** **gt**
+**ne** **eq**\]\
 **region**/region name/ifirst,ilast,istride\
 **mregion**/mregion name/ifirst,ilast,istride
 

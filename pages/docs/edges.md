@@ -40,7 +40,7 @@ title: 'edges.html'
 > values at the edge ends exceeds c.\
 >          Tag if
 >
-> > > | f(1) - f(2) | &gt; c
+> > >  f(1) - f(2)  &gt; c
 >
 >      5) Lambda Refine: Refine if lambda/dx &lt; c. Where dx  is a
 > scale length (here taken to be the edge length

@@ -1,5 +1,5 @@
 ---
-description: |
+description: 
     Description metadata should be 25-30 words and written from the specific
     to the general. Put your top keywords first but don't repeat title
     information.

@@ -16,7 +16,7 @@ complete the perimeter.
 
 FORMAT:
 
-**triangulate** \[/**clockwise** | **counterclockwise**\]\
+**triangulate** \[/**clockwise**  **counterclockwise**\]\
 clockwise is the default.  Orientation is defined with the viewer above
 the xy plane.
 

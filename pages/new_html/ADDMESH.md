@@ -14,7 +14,7 @@ title: ADDMESH
 > FORMAT:
 >
 > > **addmesh / add /**mesh3 / mesh1 / mesh2
-> > /\[refine\_factor\]/\[**tet**|**edge**\]\
+> > /\[refine\_factor\]/\[**tet****edge**\]\
 > > **addmesh** / **amr** / mesh3 / mesh1 / mesh2 /\
 > > **addmesh / append** / mesh3 / mesh1 / mesh2 /\
 > > **addmesh / delete** / mesh3 / mesh1 / mesh2 /\

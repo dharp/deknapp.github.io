@@ -14,7 +14,7 @@ title: BUBBLE
 
 FORMAT:
 
-> **bubble**/mesh1/mesh2/**const|min**/offset/\[**norm**|x1,y1,z1\]
+> **bubble**/mesh1/mesh2/**constmin**/offset/\[**norm**x1,y1,z1\]
 
 mesh1 is the name of the resulting mesh.
 

@@ -28,13 +28,13 @@ title: ELTSET
 >
 > FORMAT:
 >
-> > **eltset**/eset\_name/element\_attribute\_name/**eq**|**ne**|**lt**|**gt**|**le**|**ge**/value/\
-> > **eltset/**eset\_nam**e/union|inter|not|delete/**eset\_list/\
-> > **eltset/**eset\_name**/inclusive|exclusive/pset/get/**pset\_name/\
-> > **eltset/**eset\_name**/region|mregion/**region\_name**|**mregion\_name**/**\
-> > **eltset**/eset\_name /**volume/ eq|ne|lt|gt|le|ge** /value\
+> > **eltset**/eset\_name/element\_attribute\_name/**eq****ne****lt****gt****le****ge**/value/\
+> > **eltset/**eset\_nam**e/unioninternotdelete/**eset\_list/\
+> > **eltset/**eset\_name**/inclusiveexclusive/pset/get/**pset\_name/\
+> > **eltset/**eset\_name**/regionmregion/**region\_name****mregion\_name**/**\
+> > **eltset**/eset\_name /**volume/ eqneltgtlege** /value\
 > > **eltset**/eset\_name /\
-> > **aspect**/ **eq|ne|lt|gt|le|ge** /value
+> > **aspect**/ **eqneltgtlege** /value
 >
 > EXAMPLES:
 >

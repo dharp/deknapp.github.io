@@ -24,7 +24,7 @@ into 5 bins then totaled, min and max values are also reported.\
 displays a count of the number of elements whose aspect ratio falls in
 each of 7 bins .  If **y** is specified create an attribute named aratio
 that will contain the value of the aspect ratio of each element.\
-**quality**/**angle**/**gt**|**lt**/value\]/\
+**quality**/**angle**/**gt****lt**/value\]/\
 displays a count of the number of elements with a dihedral angle that is
 greater than or less than the supplied value.\
 **quality**/**pcc**\
@@ -52,7 +52,7 @@ max volumes are reported. number\_of\_bins must be the 2nd argument to
 the values in the itetclr attribute. Number\_of\_bins applies to each
 tetclr value.  For each itetclr value, the volume of elements will be
 totaled.\
-**quality/volume**/**lt**|**gt**|**eq**|**ne**/xvalue\
+**quality/volume**/**lt****gt****eq****ne**/xvalue\
 will report volumes based on compare operator and given xvalue, for
 instance quality/volume/**lt** 0.0/ will report total number of elements
 with volumes less than 0.0 It may be used in combination of other volume
@@ -66,8 +66,8 @@ in itetclr .
 
 Any combination of quality\_type options may occur with the **volume**
 quality\_type, for example:\
-**quality**/**volume**/number\_of\_bins/**itetclr**/**lt**| **gt** |
-**eq** | **ne** | xvalue/**eltset**,**get**,ename.\
+**quality**/**volume**/number\_of\_bins/**itetclr**/**lt** **gt** 
+**eq**  **ne**  xvalue/**eltset**,**get**,ename.\
  
 
 EXAMPLES:

@@ -2,7 +2,7 @@
 GENERATOR: 'Mozilla/4.79C-SGI \[en\] (X11; U; IRIX64 6.5 IP30) \[Netscape\]'
 Generator: Microsoft Word 97
 Keywords:  
-LaGriT command cmo/addatt: |
+LaGriT command cmo/addatt: 
     Description metadata should be 25-30 words and written from the specific
     to the general. Put your top keywords first but don't repeat title
     information.
@@ -180,8 +180,8 @@ cmo/addatt
 > > **node\_num\_diff**: creates an integer attribute with the maximum
 > > difference in node number between the node and any node it is
 > > connected to. That is for node i connected to nodes j\_1, j\_2,
-> > ...j\_n, the attribute will contain attribute=max(|i-j\_1|,|i-j\_2|,
-> > ... |i-j\_n|)
+> > ...j\_n, the attribute will contain attribute=max(i-j\_1,i-j\_2,
+> > ... i-j\_n)
 > >
 > > **xyz\_rtp**: create three node attributes and fill them with the
 > > node coordinate, x,y,z in spherical coordinates, r,theta,phi.

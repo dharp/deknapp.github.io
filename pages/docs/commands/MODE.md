@@ -47,7 +47,7 @@ title: FIELD
 >
 > > **mode/discrete**/surface\_cmo/tolldamage\
 > > **mode**/**adaption\_field**/field\_name\
-> > **mode/recon**/**geom**|**delaunay**|**adaptio**n\
+> > **mode/recon**/**geom****delaunay****adaptio**n\
 > >  
 >
 > EXAMPLES:

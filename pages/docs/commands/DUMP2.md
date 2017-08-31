@@ -2,7 +2,7 @@
 GENERATOR: 'Mozilla/4.79C-SGI \[en\] (X11; U; IRIX64 6.5 IP30) \[Netscape\]'
 Generator: Microsoft Word 97
 Keywords:  
-LaGriT command DUMP output format: |
+LaGriT command DUMP output format: 
     Description metadata should be 25-30 words and written from the specific
     to the general. Put your top keywords first but don't repeat title
     information.
@@ -34,7 +34,7 @@ file name as described below.
 \
 SHORT SYNTAX:\
 
-**dump**/ file\_name.\[**inp | avs | gmv | lg | lagrit | ts | exo** \] /
+**dump**/ file\_name.\[**inp  avs  gmv  lg  lagrit  ts  exo** \] /
 \[cmo\_name\]\
 \
 For common file types, a short form syntax can be used which skips the
@@ -96,14 +96,14 @@ The **coord** file is one of a set of files written when the **fehm**
 file type is called.\
 
 \
-**dump** **** / **datex | simul** **** /file\_name/\[cmo\_name\]/\
+**dump** **** / **datex  simul** **** /file\_name/\[cmo\_name\]/\
 \
 
 Will output a file with Geometry, Element, Region, Location, and Dataset
 in DATEX format.
 
 \
-**dump / elem\_adj\_elem** / file\_name/mo\_name \[delatt | keepatt |
+**dump / elem\_adj\_elem** / file\_name/mo\_name \[delatt  keepatt 
 attonly\]\
 \
 
@@ -126,7 +126,7 @@ node\_number number\_of\_adjacent\_elem e1 e2 ... en  \
 
 \
 \
-**dump / exo | exodusii** / file\_name/ mo\_name \[ **psets** \] / \[
+**dump / exo  exodusii** / file\_name/ mo\_name \[ **psets** \] / \[
 **eltsets**\] / \[ **facesets** file1 file2 ... filen \]\
 \
 
@@ -144,11 +144,11 @@ written.](EXODUS.html)\
 
 \
 \
-**dump / fehm** / file\_name\_root / cmo\_name / [ \[**delatt |
-keepatt**\]   \[**keepatt\_voronoi | keepatt\_median**\]   \
-        / \[ **ascii | binary** \] / \[**scalar | vector | both |
-area\_scalar | area\_vector | area\_both**\]\
-        / \[**all | graph | coefs | none**\] / \[**hybrid | nohybrid**
+**dump / fehm** / file\_name\_root / cmo\_name / [ \[**delatt 
+keepatt**\]   \[**keepatt\_voronoi  keepatt\_median**\]   \
+        / \[ **ascii  binary** \] / \[**scalar  vector  both 
+area\_scalar  area\_vector  area\_both**\]\
+        / \[**all  graph  coefs  none**\] / \[**hybrid  nohybrid**
 \] ]{style="font-family: monospace;"}\
 \
 
@@ -196,7 +196,7 @@ current run. This information includes the region and mregion
 definitions and surface, names, types and definitions.\
 
 \
-**dump/gmv**/file-name/\[mesh-object\]/\[**ascii** |
+**dump/gmv**/file-name/\[mesh-object\]/\[**ascii** 
 **binary**[\]]{style="font-family: monospace;"}\
 \
 
@@ -214,7 +214,7 @@ GMV files.\
 Write a gocad TSURF file. See [GOCAD
 TSURF](http://www.connectflow.com/geovisage/User/Formats/GocadTsurf.html). \
 
-**dump / lagrit** /file\_name/\[cmo\_name\]/ \[**ascii** | **binary**[\]
+**dump / lagrit** /file\_name/\[cmo\_name\]/ \[**ascii**  **binary**[\]
 ]{style="font-family: monospace;"}\
 \
 
@@ -240,11 +240,11 @@ Output in STL, stereo lithography format. This is only supported for
 triangle mesh objects.\
 
 \
-**dump / stor** / file\_name\_root / cmo\_name / [ \[ **ascii | binary**
+**dump / stor** / file\_name\_root / cmo\_name / [ \[ **ascii  binary**
 \] /\
-        / \[**scalar | vector | both | area\_scalar | area\_vector |
+        / \[**scalar  vector  both  area\_scalar  area\_vector 
 area\_both**\]\
-        / \[**all | graph | coefs | none**\] / \[**hybrid | nohybrid**
+        / \[**all  graph  coefs  none**\] / \[**hybrid  nohybrid**
 \] ]{style="font-family: monospace;"}\
 \
 
@@ -286,7 +286,7 @@ output.
 \
 **dump**[ / ]{style="font-family: monospace;"}**zone**[
 /file\_name/\[cmo\_name\] / ]{style="font-family: monospace;"}
-\[**delatt | keepatt**\]   \[**keepatt\_voronoi | keepatt\_median**\]\
+\[**delatt  keepatt**\]   \[**keepatt\_voronoi  keepatt\_median**\]\
 \
 
 Write out a set of fehm format zone files for the mesh object nodes.
@@ -338,10 +338,10 @@ The **zone\_imt** file is one of a set of files written when the
 **fehm** file type is called.\
 
 \
-**dump**[ / ]{style="font-family: monospace;"}**zone\_outside** |
+**dump**[ / ]{style="font-family: monospace;"}**zone\_outside** 
 **zone\_outside\_minmax**[ /file\_name/\[cmo\_name\] /
 ]{style="font-family: monospace;"}\
-     \[**delatt | keepatt**\]  \[**keepatt\_voronoi |
+     \[**delatt  keepatt**\]  \[**keepatt\_voronoi 
 keepatt\_median**\]\
 \
 

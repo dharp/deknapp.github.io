@@ -10,7 +10,7 @@ title: 'FILTER/ELEMENT'
 >
 > > **FORMAT**:
 > > **filter**/[element]{style="font-weight: bold;"}/\[search\_range\]/\[**nodelete**
-> > | [delete]{style="font-weight: bold;"}\]\
+> >  [delete]{style="font-weight: bold;"}\]\
 >
 > > Search a mesh object for duplicate elements. A duplicate element is
 > > defined as having the exact same set of nodes in the element

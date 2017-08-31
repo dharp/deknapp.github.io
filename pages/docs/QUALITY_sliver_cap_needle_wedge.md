@@ -9,71 +9,71 @@ title: 'QUALITY - compute and report mesh quality measures'
 \
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| \         | **Equilat | **Sliver* | **Cap** - | **Needle* | **Wedge** |
-|           | eral**\   | *         | Character | *         | -Characte |
-|           |           | -         | ize       | -         | rize      |
-|           |           | Character | by large  | Character | by small  |
-|           |           | ize       | maximum   | ize       | minimum   |
-|           |           | by small  | solid     | by small  | dihedral  |
-|           |           | minimum   | angle.\   | min/max   | angle and |
-|           |           | dihedral  |           | edge      | small     |
-|           |           | angle and |           | length    | min/max   |
-|           |           | large     |           | ratio but | edge      |
-|           |           | maximum   |           | not small | length    |
-|           |           | dihedral  |           | minimum   | ratio\    |
-|           |           | angle but |           | dihedral  |           |
-|           |           | not a     |           | angle.\   |           |
-|           |           | large     |           |           |           |
-|           |           | solid     |           |           |           |
-|           |           | angle.\   |           |           |           |
+ \          **Equilat  **Sliver*  **Cap** -  **Needle*  **Wedge** 
+            eral**\    *          Character  *          -Characte 
+                       -          ize        -          rize      
+                       Character  by large   Character  by small  
+                       ize        maximum    ize        minimum   
+                       by small   solid      by small   dihedral  
+                       minimum    angle.\    min/max    angle and 
+                       dihedral              edge       small     
+                       angle and             length     min/max   
+                       large                 ratio but  edge      
+                       maximum               not small  length    
+                       dihedral              minimum    ratio\    
+                       angle but             dihedral             
+                       not a                 angle.\              
+                       large                                      
+                       solid                                      
+                       angle.\                                    
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| \         | ![Equilat | ![Sliver  | ![Cap     | ![Needle  | ![Wedge   |
-|           | eral      | Tetrahedr | Tetrahedr | Tetrahedr | Tetrahedr |
-|           | Tetrahedr | a](../ima | a](../ima | a](../ima | a](../ima |
-|           | a](../ima | ges/quali | ges/quali | ges/quali | ges/quali |
-|           | ges/quali | ty_tet_sl | ty_tet_ca | ty_tet_ne | ty_tet_we |
-|           | ty_tet_eq | iver.png) | p.png){wi | edle.png) | dge.png){ |
-|           | uilateral | {width="2 | dth="200" | {width="2 | width="20 |
-|           | .png){wid | 00"       | height="2 | 00"       | 0"        |
-|           | th="200"  | height="2 | 00"}\     | height="2 | height="2 |
-|           | height="2 | 00"}\     |           | 00"}\     | 00"}\     |
-|           | 00"}\     |           |           |           |           |
+ \          ![Equilat  ![Sliver   ![Cap      ![Needle   ![Wedge   
+            eral       Tetrahedr  Tetrahedr  Tetrahedr  Tetrahedr 
+            Tetrahedr  a](../ima  a](../ima  a](../ima  a](../ima 
+            a](../ima  ges/quali  ges/quali  ges/quali  ges/quali 
+            ges/quali  ty_tet_sl  ty_tet_ca  ty_tet_ne  ty_tet_we 
+            ty_tet_eq  iver.png)  p.png){wi  edle.png)  dge.png){ 
+            uilateral  {width="2  dth="200"  {width="2  width="20 
+            .png){wid  00"        height="2  00"        0"        
+            th="200"   height="2  00"}\      height="2  height="2 
+            height="2  00"}\                 00"}\      00"}\     
+            00"}\                                                 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| `Coordina |     0 0 0 |      1  0 |     1   0 |      .1 - |      1    |
-| tes       |     0 1 1 |   0.1     |    0      | .1  0     | 0    0    |
-|   `       |     1 0 1 |     -1  0 |     1   1 |      .1   |     -1    |
-|           |     1 1 0 |   0.1     |    0      | .1  0     | 0    0    |
-|           |           |      0  1 |     0   0 |     -.1   |      0    |
-|           |           |  -0.1     |    0      |  0  0     | 1    0.1  |
-|           |           |      0 -1 |     0.75  |       0   |      0    |
-|           |           |  -0.1     | 0.25 0.1  |  0  1     | 1   -0.1  |
+ `Coordina      0 0 0       1  0      1   0       .1 -       1    
+ tes            0 1 1    0.1         0       .1  0      0    0    
+   `            1 0 1      -1  0      1   1       .1        -1    
+                1 1 0    0.1         0       .1  0      0    0    
+                            0  1      0   0      -.1         0    
+                        -0.1         0        0  0      1    0.1  
+                            0 -1      0.75         0         0    
+                        -0.1      0.25 0.1    0  1      1   -0.1  
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| `Aspect R | `1.0      | `0.2927E+ | `0.7448E- | `0.3429E+ | `0.2617E+ |
-| atio      |    `      | 00        | 01        | 00        | 00        |
-|    `      |           |  `        |  `        |  `        |  `        |
+ `Aspect R  `1.0       `0.2927E+  `0.7448E-  `0.3429E+  `0.2617E+ 
+ atio          `       00         01         00         00        
+    `                   `          `          `          `        
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| `Min Dihe | `7.05288E | `1.59424E | `1.57932E | `5.33585E | `1.14212E |
-| dral Angl | +01       | +01       | +01       | +01       | +01       |
-| e         |   `       |   `       |   `       |   `       |   `       |
-| `         |           |           |           |           |           |
+ `Min Dihe  `7.05288E  `1.59424E  `1.57932E  `5.33585E  `1.14212E 
+ dral Angl  +01        +01        +01        +01        +01       
+ e            `          `          `          `          `       
+ `                                                                
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| `Max Dihe | `7.05288E | `1.57380E | `1.49550E | `8.74394E | `90.0     |
-| dral Angl | +01       | +02       | +02       | +01       |     `     |
-| e         |   `       |   `       |   `       |   `       |           |
-| `         |           |           |           |           |           |
+ `Max Dihe  `7.05288E  `1.57380E  `1.49550E  `8.74394E  `90.0     
+ dral Angl  +01        +02        +02        +01            `     
+ e            `          `          `          `                  
+ `                                                                
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| `Min Soli | `3.15863E | `9.26487E | `2.87535E | `1.13741E | `3.35189E |
-| d Angle   | +01       | +00       | +00       | +00       | +00       |
-|       `   |   `       |   `       |   `       |   `       |   `       |
+ `Min Soli  `3.15863E  `9.26487E  `2.87535E  `1.13741E  `3.35189E 
+ d Angle    +01        +00        +00        +00        +00       
+       `      `          `          `          `          `       
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| `Max Soli | `3.15863E | `9.26487E | `2.60111E | `5.56182E | `8.19307E |
-| d Angle   | +01       | +00       | +02       | +01       | +01       |
-|       `   |   `       |   `       |   `       |   `       |   `       |
+ `Max Soli  `3.15863E  `9.26487E  `2.60111E  `5.56182E  `8.19307E 
+ d Angle    +01        +00        +02        +01        +01       
+       `      `          `          `          `          `       
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| `Min/Max  | `1.0      | `7.14143E | `2.59808E | `1.98030E | `0.1      |
-| Edge Leng |    `      | -01       | -01       | -01       |    `      |
-| th Ratio  |           |   `       |   `       |   `       |           |
-|        `  |           |           |           |           |           |
+ `Min/Max   `1.0       `7.14143E  `2.59808E  `1.98030E  `0.1      
+ Edge Leng     `       -01        -01        -01           `      
+ th Ratio                `          `          `                  
+        `                                                         
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
 \

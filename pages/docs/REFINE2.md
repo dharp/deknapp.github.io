@@ -76,7 +76,7 @@ title: 'REFINE1.html'
 >      4) Delta: Refine if the magnitude of the difference of the field
 > values at the edge ends exceeds c.
 >
->      Tag if  | f(1) - f(2) | &gt; c
+>      Tag if   f(1) - f(2)  &gt; c
 >
 >      5) Lambda Refine: Refine if lambda/dx &lt; c. Where dx  is a
 > scale length (here taken to be the edge length)\
@@ -207,7 +207,7 @@ title: 'REFINE1.html'
 >      6) Lambda Refine: Refine if lamda/dx &gt;c . Where lambda is
 > taken to be the radius of the circumscribed sphere ROUT of the tet.
 >
->      lambda = | f(xcen) | / grad f
+>      lambda =  f(xcen)  / grad f
 >
 >      f(xcen) = (f(1) + f(2) + f(3) + f(4))/4
 >

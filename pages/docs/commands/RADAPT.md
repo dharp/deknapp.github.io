@@ -95,9 +95,9 @@ title: RADAPT
 > FORMAT:
 >
 > > **radapt** /**\[position**\]/ ****
-> > \[**esug**|**mega**\]/\[ifirst,ilast,istride\] /\[field\]/\
-> > \[**refresh**|**stale**\]\
-> > **radapt** / \[**position**\]/ **** \[**esug**|**mega** \]/
+> > \[**esug****mega**\]/\[ifirst,ilast,istride\] /\[field\]/\
+> > \[**refresh****stale**\]\
+> > **radapt** / \[**position**\]/ **** \[**esug****mega** \]/
 > > \[ifirst,ilast,istride\] / \[**user**\]
 >
 > EXAMPLES:

@@ -83,8 +83,8 @@ which consists of the following steps:
 > is set to \[ ((machine
 > precision)\*1000)\*\*(boxsizex\*boxsizey\*boxsizez)\].  The second
 > test compares the sum of the volumes of the new tetrahedra to the sum
-> of the volumes of the removed tetrahedra.  This test fails if: \[ |
-> (volnewt-vololdt)/vololdt | &gt; machine precision\*10\*\*8\].
+> of the volumes of the removed tetrahedra.  This test fails if: \[ 
+> (volnewt-vololdt)/vololdt  &gt; machine precision\*10\*\*8\].
 >
 > The user can change the 'tightness' of the circumsphere test by adding
 > an attribute to the mesh object called **circumsphere\_factor** and

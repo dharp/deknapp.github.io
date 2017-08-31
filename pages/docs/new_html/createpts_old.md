@@ -10,7 +10,7 @@ title: createpts
 >
 > > Createpts is a wrapper for all the 'rz' type commands. This command
 > > adds points to the mesh.\
-> > **[createpts/](CRTPTSRZ.html)xyz|rtz|rtp|line**\
+> > **[createpts/](CRTPTSRZ.html)xyzrtzrtpline**\
 > > **[createpts/brick](CRTPTBRICK.html)**\
 > > **[createpts/sphere](cresphere.html)**\
 > > **[createpts/random](CRTPTRZRAN.html)**\

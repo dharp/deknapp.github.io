@@ -28,7 +28,7 @@ title: READ
 > > **[read/datex](../read_datex.html)**\
 > > **[read sheetij](../read_sheetij.html)**\
 > > **[read/gmvfreeformat](../read_freeformat.html)**\
-> > **[read/zone|zonn\
+> > **[read/zonezonn\
 > > ](../read_fehm_zone.html)**
 > >
 > > Note: To read tabular data (spreadsheet style x,y,z nodes or
@@ -44,7 +44,7 @@ title: READ
 > > or lower case.\
 > > \
 > > []{style="font-weight: bold;"}**read** /
-> > example.\[inp|avs|gmv|ts|lg|lagrit\] / mesh\_object\_name\
+> > example.\[inpavsgmvtslglagrit\] / mesh\_object\_name\
 > > \
 > > See links to various formats for more detailed explanations and
 > > examples.\

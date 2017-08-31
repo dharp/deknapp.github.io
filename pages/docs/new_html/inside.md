@@ -1,7 +1,7 @@
 ---
 GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 Generator: Microsoft Word 98
-title: |
+title: 
     The inside set of subroutines test whether a query point is strictly
     inside, strictly outside or on the surface of the specified element
 ---

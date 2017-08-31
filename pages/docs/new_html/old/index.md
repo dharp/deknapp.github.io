@@ -1,6 +1,6 @@
 ---
 GENERATOR: 'Mozilla/4.79C-SGI \[en\] (X11; U; IRIX64 6.5 IP30) \[Netscape\]'
-KEYWORDS: |
+KEYWORDS: 
     LaGriT, Unstructured Grid Generation, Delaunay Grid, Voronoi
     Grid&gt;&lt;IMG SRC=
 title: LaGriT CodeLaGriT Manual
@@ -119,6 +119,6 @@ title: LaGriT CodeLaGriT Manual
 > California](http://labs.ucop.edu)for the [US Department of
 > Energy](http://www.energy.gov)**\
 > **          [Los Alamos National
-> Laboratory](http://www.lanl.gov/worldview)| [Copyright © UC
-> 1999](http://www.lanl.gov/Misc/copyright.html)|
+> Laboratory](http://www.lanl.gov/worldview) [Copyright © UC
+> 1999](http://www.lanl.gov/Misc/copyright.html)
 > [Disclaimer](http://www.lanl.gov/Misc/disclaimer.html)**

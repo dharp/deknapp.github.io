@@ -20,8 +20,8 @@ available:  "**gmv**", "**lagrit**" and "**avs**". iomode can be
 
 FORMAT:
 
-> **dump\_recolor/**type/file/mo/\[**restore|
-> norestore**\]/\[**create|existing**\] /imode
+> **dump\_recolor/**type/file/mo/\[**restore
+> norestore**\]/\[**createexisting**\] /imode
 
 EXAMPLE:
 

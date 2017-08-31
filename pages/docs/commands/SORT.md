@@ -140,18 +140,18 @@ before being sent to the sort routine.
 
 SINGLE KEY bins FORMAT:
 
-> **sort** / cmo\_name / **bins** / \[ **ascending | descending** \] /
+> **sort** / cmo\_name / **bins** / \[ **ascending  descending** \] /
 > sort\_key\_name / sort\_attribute / \[epsilon\_user\]
 
 MULTI-KEY FORMAT:
 
-> **sort**/ cmo\_name / **index | rank** / \[ **ascending | descending**
+> **sort**/ cmo\_name / **index  rank** / \[ **ascending  descending**
 > \] / sort\_key\_name / in\_att1, in\_att2, in\_att3 ...
 
 LINE GRAPH FORMAT:
 
-> **sort** / cmo\_name / **line\_graph** / \[ **ascending | descending**
-> \] / sort\_key\_name / \[**elements | nodes**\]
+> **sort** / cmo\_name / **line\_graph** / \[ **ascending  descending**
+> \] / sort\_key\_name / \[**elements  nodes**\]
 
 EXAMPLES:
 
@@ -190,7 +190,7 @@ LINKS:
 > [Example 2 for sort and reorder](../sort_lagrit_input_2)
 
 BEGIN OLD FORMAT - No longer supported but syntax will still work.\
-Old Format - **sort / xyz / \[ index | bins | rank** \]
+Old Format - **sort / xyz / \[ index  bins  rank** \]
 
 > sort/xyz/index - sorts the x,y,z coordinate integer arrays i\_index,
 > j\_index, k\_index such that xic(i\_index(i)) i=1,..nnodes lists the

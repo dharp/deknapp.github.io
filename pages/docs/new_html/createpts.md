@@ -14,7 +14,7 @@ title: createpts
 > > Createpts is a wrapper for all the 'rz' type commands found
 > > elsewhere in the documentation.\
 > > \
-> > **[createpts/](CRTPTSRZ.html)xyz|rtz|rtp|line**\
+> > **[createpts/](CRTPTSRZ.html)xyzrtzrtpline**\
 > > **[createpts/brick](CRTPTBRICK.html)**\
 > > **[createpts/interp](createpts_interp.html)**\
 > > **[createpts/sphere](cresphere.html)**\

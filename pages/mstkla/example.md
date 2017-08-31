@@ -102,7 +102,7 @@ mesh:\\t%d\\n",MESH\_NumRegions(mesh));
   for (i = 0; i &lt; nv; i++) {\
     vert = MESH\_Vertex(mesh,i);
 
-    if (MV\_Type(mesh,vert) == VDELETED || MV\_Type(mesh,vert) ==
+    if (MV\_Type(mesh,vert) == VDELETED  MV\_Type(mesh,vert) ==
 VIGNORE)\
       continue;
 

@@ -45,7 +45,7 @@ GENERATOR: 'Mozilla/4.05C-SGI \[en\] (X11; I; IRIX 6.5 IP32) \[Netscape\]'
 >      5) Lambda Refine: Refine if lamda/dx &gt; c . Where lambda is
 > taken to be the radius of the circumscribed sphere ROUT of the tet.
 >
-> > > lambda = |f(xcen)| /grad f\
+> > > lambda = f(xcen) /grad f\
 > > > f(xcen) = (f(1) + f(2) + f(3) + f(4))/4
 > >
 > >  where xcen is the centroid of the tet, and we have assumed linear

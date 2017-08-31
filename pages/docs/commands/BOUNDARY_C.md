@@ -60,15 +60,15 @@ title: BOUNDARY
 > > **boundary\_components**- (this syntax is the same as
 > > boundary\_components / node)
 >
-> > **boundary\_components** / node / \[reset|noreset\]
+> > **boundary\_components** / node / \[resetnoreset\]
 > >
 > > **boundary\_components** / node / material\_id\_number /
-> > \[reset|noreset\]
+> > \[resetnoreset\]
 >
-> > **boundary\_components** / element / \[reset|noreset\]
+> > **boundary\_components** / element / \[resetnoreset\]
 >
 > > **boundary\_components** / element / material\_id\_number /
-> > \[reset|noreset\]
+> > \[resetnoreset\]
 >
 > EXAMPLE:
 >

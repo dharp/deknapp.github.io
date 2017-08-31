@@ -5,7 +5,7 @@ Template: 'Macintosh HD:Microsoft Office 98:Templates:Web Pages:Blank Web Page'
 title: '\*arguments:'
 ---
 
-> Description: createpts/xyz|rtz|rtp|line examples
+> Description: createpts/xyzrtzrtpline examples
 >
 > > The objective is to add points to a mesh using the **createpts**
 > > command.

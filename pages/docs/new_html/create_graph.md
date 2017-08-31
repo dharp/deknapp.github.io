@@ -13,7 +13,7 @@ CREATE\_GRAPH
 > See [METIS](metis.html)documentation for description of graph format.\
 > The default name of the attributes that are created are different
 > depending on which option (metis or lagrit) is used.
-> create\_graph / metis / \[node | dual\] / \[nxadj\] / \[nadjncy\]\
+> create\_graph / metis / \[node  dual\] / \[nxadj\] / \[nadjncy\]\
 > create\_graph/ lagrit / dual / jtetoff / jtet
 
 \
@@ -35,7 +35,7 @@ LIMITATIONS
 
 FORMAT:
 
-> create\_graph / metis / \[node | dual\] / \[nxadj\] / \[nadjncy\]
+> create\_graph / metis / \[node  dual\] / \[nxadj\] / \[nadjncy\]
 
 EXAMPLES:
 

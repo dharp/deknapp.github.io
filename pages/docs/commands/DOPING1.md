@@ -86,19 +86,19 @@ title: DOPING
 > >
 > > FORMAT:
 > >
-> > > **doping**/**constant**/field\_out/**set|add|sub/**
+> > > **doping**/**constant**/field\_out/**setaddsub/**
 > > > ifirst,ilast,istride/value\
-> > > **doping/gaussian/**field\_out/**set|add|sub**/
+> > > **doping/gaussian/**field\_out/**setaddsub**/
 > > > ifirst,ilast,istride/\
 > > > **xyz**/x1,y1,z1/x2,y2,z2/lateral\_diffusion/
 > > > concentration/standard\_deviation/\
-> > > **doping/table/**field\_out/**set|add|sub**/cmo\_ref/attr\_ref/\[**linear|log**|**asinh**\]\
-> > > **doping/table/**field\_out/**set|add|sub**/cmo\_ref/attr\_ref/\[**linear|log**|**asinh**\]/
+> > > **doping/table/**field\_out/**setaddsub**/cmo\_ref/attr\_ref/\[**linearlog****asinh**\]\
+> > > **doping/table/**field\_out/**setaddsub**/cmo\_ref/attr\_ref/\[**linearlog****asinh**\]/
 > > > \[geom\_out/geom\_ref\]\
 > > > **doping/integer1**/**imt1**/**set**/ifirst,ilast,istride/cmo\_ref
-> > > /**imt1**/**min**|**max**\
+> > > /**imt1**/**min****max**\
 > > > **doping/integer2/**field\_out2**/set**/ifirst,ilast,istride/cmo\_ref/attr\_ref/\
-> > > **min**|**max**|**minp**|**maxp**/\[**create**|**use**\]
+> > > **min****max****minp****maxp**/\[**create****use**\]
 > >
 > > EXAMPLE:
 > >

@@ -12,7 +12,7 @@ title: COLORMAP
 >
 > FORMAT:
 >
-> > **colormap**/**\[add\]|create|delete\]**/\[cmo\_name\]
+> > **colormap**/**\[add\]createdelete\]**/\[cmo\_name\]
 > > **add** -- The material adjacency characteristics of the specified
 > > mesh object is added to the existing material adjacency graph, which
 > > is created if it didn't exist.  This is the default action.\

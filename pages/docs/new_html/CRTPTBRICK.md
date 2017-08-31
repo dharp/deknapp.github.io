@@ -30,10 +30,10 @@ isym,jsym,ksym symmetry flags - not documented
 
 FORMAT:
 
-**createpts/brick**/**xyz**|**rtz**|**rtp**/ni,nj,nk/xmin,ymin,zmin/xmax,ymax,zmax/\
+**createpts/brick**/**xyz****rtz****rtp**/ni,nj,nk/xmin,ymin,zmin/xmax,ymax,zmax/\
 iiz,ijz,ikz/\[iirat,ijrat,ikrat/xrz,yrz,zrz/isym,jsym,ksym\]\
 or\
-**createpts/brick/xyz|rtz|rtp/**ni,nj,nk/**pset,get,**name/**connect/**\
+**createpts/brick/xyzrtzrtp/**ni,nj,nk/**pset,get,**name/**connect/**\
 Use this option with **quadxyz** to connect logically rectangular grids.
 
 \

@@ -15,7 +15,7 @@ title: LOG
 
 > FORMAT:
 >
-> > **log**/**bat**|**tty**/**on**|**off**/
+> > **log**/**bat****tty**/**on****off**/
 >
 > EXAMPLE:
 >

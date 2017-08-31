@@ -17,7 +17,7 @@ title: RZS
 >
 > FORMAT:
 
-**createpts/vector/**\[ |xyz|rtz|rtp /\
+**createpts/vector/**\[ xyzrtzrtp /\
                 \[ n1,n2,n3\
                  /v11,v12,v13/v21,v22,v23/v31,v32,v33\
                   /v01,v02,v03\

@@ -1,7 +1,7 @@
 ---
 GENERATOR: 'Mozilla/4.7C-SGI \[en\] (X11; I; IRIX64 6.5 IP30) \[Netscape\]'
 Generator: Microsoft Word 98
-Template: |
+Template: 
     Macintosh HD:Applications:Microsoft Office 98:Word Custom
     Install:Microsoft Office 98:Templates:Web Pages:Blank Web Page
 title: SURFACE
@@ -76,7 +76,7 @@ must be either a 2D quad Mesh Object or a 2D triangle Mesh Object. A
 discussion of inside and outside with respect to sheet surfaces is
 presented after the EXAMPLES section.\
 **surface**/sphere1/ibtype/**sphere**/x\_center,y\_center,z\_center,radius\
-**surface**/s3/ibtype/**tabular**/x1,y1,z1/x2,y2,z2/rz|rt/&
+**surface**/s3/ibtype/**tabular**/x1,y1,z1/x2,y2,z2/rzrt/&
 
 r1,z1 &\
 r2,z2 &\

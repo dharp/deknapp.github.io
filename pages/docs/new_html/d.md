@@ -101,7 +101,7 @@ enddo
 **ielmface2(inode,iface,itettyp(it))** gives the edge number associated
 with inode on facet **iface** of element it.
 
-**ielmedge1(1|2,iedge,itettyp(it))** gives the node offset associated
+**ielmedge1(12,iedge,itettyp(it))** gives the node offset associated
 with edge **iedge** of element it.
 
 To loop through all pairs of edge nodes (**i1,i2**) of all elements in

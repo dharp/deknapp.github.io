@@ -26,7 +26,7 @@ are written. The full set of fehm files will look like the following,
 where "[file\_name]{style="font-style: italic;"}" is the root of each
 name:
 
-          
+
     file_name.fehmn              file_name_interface.zone      file_name_outside_vor.area     
     file_name_material.zone      file_name_multi_mat.zone      file_name_outside.zone       file_name.stor
 
@@ -113,7 +113,7 @@ name:
 \
 FORMAT:
 
-> **dump / fehm | stor /** file\_name / \[cmo\_name\]\
+> **dump / fehm  stor /** file\_name / \[cmo\_name\]\
 > \
 > \
 > \
@@ -125,11 +125,11 @@ FORMAT:
 > The following command settings are optional and can occur in any order
 > after the cmo\_name.\
 > \
->  / \[ **ascii | binary** \]  \
->  / \[ **scalar | vector | both | area\_scalar | area\_vector |
+>  / \[ **ascii  binary** \]  \
+>  / \[ **scalar  vector  both  area\_scalar  area\_vector 
 > area\_both**\]\
->   / \[ **all | graph | coefs | none** \]\
->  / \[ **delatt, | keepatt** \]\
+>   / \[ **all  graph  coefs  none** \]\
+>  / \[ **delatt,  keepatt** \]\
 > / \[ **hybrid, nohybrid** \]
 > IO Mode Options for stor file\
 > Area Coefficient Options for writing stor file coefficient values\

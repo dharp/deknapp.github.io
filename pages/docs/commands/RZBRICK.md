@@ -39,10 +39,10 @@ for 2D this will work:\
 
 FORMAT:
 
-**rzbrick**/**xyz**|**rtz**|**rtp**/ni,nj,nk/xmin,ymin,zmin/xmax,ymax,zmax/\
+**rzbrick**/**xyz****rtz****rtp**/ni,nj,nk/xmin,ymin,zmin/xmax,ymax,zmax/\
 iiz,ijz,ikz/\[iirat,ijrat,ikrat/xrz,yrz,zrz/isym,jsym,ksym\]\
 or\
-**rzbrick/xyz|rtz|rtp/**ni,nj,nk/**pset,get,**name/**connect/**\
+**rzbrick/xyzrtzrtp/**ni,nj,nk/**pset,get,**name/**connect/**\
 Use this option with **quadxyz** to connect logically rectangular grids.
 
 EXAMPLE:

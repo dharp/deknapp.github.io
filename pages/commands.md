@@ -1,15 +1,15 @@
 ---
-Keywords: |
+Keywords: 
     Mesh generation focused on Delaunay triangle and tetrahedral meshing.
     Mesh generation for geological applications. Mesh smoothing
     (optimization), reconnection, hybrid meshing (quadrilateral, prism,
     pyramid, line elements). Constructive solid geometry, Voronoi control
     volume area volume coefficient calculation.
-description: |
+description: 
     LaGriT is a library of user callable tools that provide mesh generation,
     mesh optimization and dynamic mesh maintenance in two and three
     dimensions for a variety of applications.
-title: LANL | LaGriT |
+title: LANL  LaGriT 
 ---
 
 <div id="content-org">
@@ -17,9 +17,9 @@ title: LANL | LaGriT |
 ![](images/lagrit2.jpg){width="180" height="120"}
 #### Alphabetic Listing of LaGriT Commands
 
-[A](#A) | [B](#B) | [C](#C) | [D](#D) | [E](#E) | [F](#F) | [G](#G) |
-[H](#H) | [I](#I) | [K](#K) | [L](#L) | [M](#M) | [N](#N) | [O](#O) |
-[P](#P) | [Q](#Q) | [R](#R) | [S](#S) | [T](#T) | [U](#U) | [Z](#Z)
+[A](#A)  [B](#B)  [C](#C)  [D](#D)  [E](#E)  [F](#F)  [G](#G) 
+[H](#H)  [I](#I)  [K](#K)  [L](#L)  [M](#M)  [N](#N)  [O](#O) 
+[P](#P)  [Q](#Q)  [R](#R)  [S](#S)  [T](#T)  [U](#U)  [Z](#Z)
 
 []{#A} [ADDMESH](docs/commands/ADDMESH.html) (join meshes)\
 [ASSIGN](docs/commands/ASSIGN.html) (set global variables)
