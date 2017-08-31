@@ -30,7 +30,7 @@ title: '\*arguments:'
 spherical [![](image/image3tn.gif){width="159"
 height="156"}](description3_rtp.html)
 
-</div>
+
 
 [Example 4](description4_brick.html)
 

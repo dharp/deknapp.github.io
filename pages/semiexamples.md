@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 
  ansparent.gif){.strut              Semiconductor Examples            
@@ -74,4 +74,4 @@ title: LANL  LaGriT
                                     width="420" height="1"}           
 
 
-</div>
+

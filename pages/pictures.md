@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 ![](images/lagrit2.jpg){width="180" height="120"}
 LaGriT Images
@@ -71,4 +71,4 @@ Gif Animations
     -   without grid [temperature field displayed
         (10MB)](new_html/dendriteng.gif)
 
-</div>
+

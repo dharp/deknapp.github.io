@@ -7,7 +7,7 @@ keywords:
 title: Semiconductor
 ---
 
-<div id="content-org">
+
 
 ![](http://www.lanl.gov/images/xtransparent.gif){.strut width="160"
 height="1"}
@@ -80,4 +80,4 @@ height="1"}
 ![](http://www.lanl.gov/images/xtransparent.gif){.strut width="160"
 height="1"}
 
-</div>
+

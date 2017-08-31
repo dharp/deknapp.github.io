@@ -1,18 +1,26 @@
 import os, sys, textwrap
 
-def filter_file(infile_name, character):
+def filter_file(infile_name, no_list):
     outfile_name = infile_name[:-3] + '_temp.md'
     with open(infile_name, 'r') as infile, open(outfile_name, 'w') as outfile:
 	data = infile.read()
-	data = data.replace(character, "")
-	outfile.write(data)
+        for no in no_list:
+            data = data.replace(no, "")
+        outfile.write(data)
 
 dr = '/home/nknapp/deknapp.github.io/pages/'
 
-#for root, drs, fles in os.walk(dr):
-#    for fle in fles:
-#        if ".md" in fle and "temp" not in fle:
-#            os.remove(os.path.join(root, fle))
+no_list = ['<div id="content-org">', '</div>'] 
+
+for root, drs, fles in os.walk(dr):
+    for fle in fles:
+        if ".md" in fle and "temp" not in fle:
+            filter_file(os.path.join(root, fle), no_list)
+
+for root, drs, fles in os.walk(dr):
+    for fle in fles:
+        if ".md" in fle and "temp" not in fle:
+            os.remove(os.path.join(root, fle))
 
 for root, drs, fles in os.walk(dr):
     for fle in fles:

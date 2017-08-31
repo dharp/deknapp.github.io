@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 ![](http://www.lanl.gov/images/transparent.gif){.strut width="160"
 height="1"}
@@ -72,9 +72,9 @@ Applications \
 
 **Material Deposition**
 
-</div>
+
 
 ![](http://www.lanl.gov/images/transparent.gif){.strut width="420"
 height="1"}
 
-</div>
+

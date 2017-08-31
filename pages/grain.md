@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 ![](images/lagrit2.jpg){width="180" height="120"}
 GRAIN GROWTH EXAMPLES
@@ -22,4 +22,4 @@ GRAIN GROWTH EXAMPLES
 
 [5 grain evolution showing grid](pdfs/grid.pdf)
 
-</div>
+

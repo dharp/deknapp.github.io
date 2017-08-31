@@ -11,13 +11,13 @@ Banner](https://lagrit.lanl.gov/images/lagrit1.jpg)](https://ancho.lanl.gov/lagr
 
 ------------------------------------------------------------------------
 
-</div>
+
 
 <div id="metanav" class="nav">
 
-</div>
 
-</div>
+
+
 
 ### LaGriT V2.200 Release Notes
 

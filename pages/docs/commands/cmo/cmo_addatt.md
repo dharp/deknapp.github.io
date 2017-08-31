@@ -231,7 +231,7 @@ cmo/addatt
 > >
 > > ![](../../quad_quality_equation.png)
 > >
-> > </div>
+> > 
 > >
 > > where [![](../../alpha.png)]{.equation} is a normalization constant
 > > and [![](../../h_max.png)]{.equation} is the longest length among
@@ -242,7 +242,7 @@ cmo/addatt
 > >
 > > ![](../../h_s_eq.png),
 > >
-> > </div>
+> > 
 > >
 > > where [![](../../l_i.png)]{.equation} is the length of edge *i*.
 > > [![](../../s_min.png)]{.equation} is the minimum area of the four
@@ -257,7 +257,7 @@ cmo/addatt
 > >
 > > ![](../../regularity.png)
 > >
-> > </div>
+> > 
 > >
 > > where
 > >
@@ -265,7 +265,7 @@ cmo/addatt
 > >
 > > ![](../../p_ac.png)
 > >
-> > </div>
+> > 
 > >
 > > and
 > >
@@ -273,7 +273,7 @@ cmo/addatt
 > >
 > > ![](../../p_bd.png)
 > >
-> > </div>
+> > 
 > >
 > > This is a measure of the extent to which the quad is planar, which
 > > cannot be detected by the previous metric alone. A perfectly planar

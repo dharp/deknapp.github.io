@@ -783,7 +783,7 @@ title: LANL  LaGriT
                                     ---+-----------------+----------- 
                                     ------+                           
 
-                                    </div>                            
+                                                                
 
                                     ![](http://www.lanl.gov/images/tr 
                                     ansparent.gif){.strut             

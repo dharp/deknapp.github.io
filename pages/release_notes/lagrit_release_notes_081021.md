@@ -10,13 +10,13 @@ title: 'LaGriT V2.004 Release Notes, 10/21/2008'
 
 ------------------------------------------------------------------------
 
-</div>
+
 
 <div id="metanav" class="nav">
 
-</div>
 
-</div>
+
+
 
 <div id="main">
 
@@ -63,7 +63,7 @@ Message:
 
 <div id="legend">
 
-</div>
+
 
 \
 07/08/08:
@@ -287,7 +287,7 @@ Message:
 
 ### \
 
-</div>
+
 
 04/08/08:
 ---------
@@ -550,7 +550,7 @@ Message:
 
 ### 
 
-</div>
+
 
 \
 
@@ -662,13 +662,13 @@ Message:
 \
 :   \
 
-</div>
+
 
 <div id="altlinks">
 
-</div>
 
-</div>
+
+
 
 <div id="footer">
 
@@ -683,6 +683,6 @@ By [Edgewall Software](http://www.edgewall.org/).
 Visit the Trac open source project at\
 <http://trac.edgewall.org/>
 
-</div>
+
 
 \

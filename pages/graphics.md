@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 
 LaGriT Examples                   
@@ -171,4 +171,4 @@ ansparent.gif){.strut
 width="420" height="1"}           
 
 
-</div>
+

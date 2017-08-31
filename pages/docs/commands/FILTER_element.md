@@ -33,7 +33,7 @@ value of its duplicate.\
 For an element that is a duplicate, icrl2 is set to the original itetclr
 value of its master.\
 
-</div>
+
 
 > > For example, consider the 4 element mesh, where element 2 and 3 are
 > > duplicates and:\
@@ -94,7 +94,7 @@ value of its master.\
 > >          4         
 > > 2                                                          \
 > >
-> > </div>
+> > 
 > >
 > > \
 > > All elements are tested. The search for each element's duplicate

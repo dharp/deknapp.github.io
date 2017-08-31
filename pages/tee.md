@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 
  ansparent.gif){.strut              Grain Evolution in a T-Junction   
@@ -256,4 +256,4 @@ title: LANL  LaGriT
                                     width="420" height="1"}           
 
 
-</div>
+

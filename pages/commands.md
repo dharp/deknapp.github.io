@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 ![](images/lagrit2.jpg){width="180" height="120"}
 #### Alphabetic Listing of LaGriT Commands
@@ -150,4 +150,4 @@ coarse grid)\
 
 []{#Z} [ZQ](docs/commands/UNG2AVS.html) (depreciated, see cmo/setatt)\
 
-</div>
+

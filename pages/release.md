@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 ![](images/lagrit2.jpg){width="180" height="120"}
 Release Notes
@@ -39,4 +39,4 @@ Release Notes
 -   [Release Notes May 1999 (PDF)](pdfs/release_notes6.pdf)
 -   [Release Notes October 1999 (PDF)](pdfs/release_notes7.pdf)
 
-</div>
+

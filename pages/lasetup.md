@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 ![](images/lagrit2.jpg){width="180" height="120"}
 Lasetup
@@ -48,4 +48,4 @@ extension. Extensions are listed near the top of the output of xdpyinfo.
 
 Questions may be directed to: John Fowler at <jxf@lanl.gov>
 
-</div>
+

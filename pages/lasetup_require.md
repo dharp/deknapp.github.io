@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 ![](images/lagrit2.jpg){width="180" height="120"}
 X3dsetup Requirements
@@ -67,4 +67,4 @@ There is a macro MESALIBS in the makefile that you will have to modify,
 but it might help you get started. I have compiled lasetup with Mesa, so
 I know it can be done. :)
 
-</div>
+

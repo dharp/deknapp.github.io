@@ -67,7 +67,7 @@ name:
     5 = right\_e = right or east = positive x direction (1,0,0)\
     6 = back\_n = back or north = positive y direction (0,1,0)\
 
-    </div>
+    
 
     If keepatt is specified, then 6 node based attributes are added to
     the mesh object with the names top, bottom, left\_w, right\_e,

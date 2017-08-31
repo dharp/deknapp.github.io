@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 ![](images/lagrit2.jpg){width="180" height="120"}
 Utility Subroutines
@@ -41,4 +41,4 @@ Utility Subroutines
 9.  [Geometry Information](docs/geom.html) (geom\_lg.h,
     get\_material\_number)
 
-</div>
+

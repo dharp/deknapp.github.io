@@ -180,7 +180,7 @@ title: MASSAGE
     with both endpoints in the PSET.  This represents an intermediate
     case between 'inclusive' and [exclusive]{style="font-weight: bold;"}
 
-</div>
+
 
 > Note:  Since CEL\_CHAIN is called only once at the end of **MASSAGE**,
 > it may be necessary to call **MASSAGE** twice for optimal results. 

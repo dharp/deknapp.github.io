@@ -271,7 +271,7 @@ This release include the following enhancements:
     list in FEHM zone or zonn format. Each node or element number found
     in the list has attribute tagged.
 
-    </div>
+    
 
 This release include the following fixes:
 
@@ -281,7 +281,7 @@ This release include the following fixes:
     Fixed incorrect zero result and fixed attribute handling so vector
     array is formed using irank = 3.
 
-    </div>
+    
 
 -   **\#108: cmo/addatt/mo/area\_normal/xyz/att\_v\_area**
     <div>
@@ -289,7 +289,7 @@ This release include the following fixes:
     Result is off by factor of 2, fixed area normal to assign half the
     cross product (for triangles).
 
-    </div>
+    
 
 -   **\#132: synth\_norm**
     <div>
@@ -299,7 +299,7 @@ This release include the following fixes:
     y\_n\_norm z\_n\_norm on the input cmo. Attribute names are ignored
     on the command line, added better reporting for this.
 
-    </div>
+    
 
 \
 
@@ -346,14 +346,14 @@ changes. Improved error catching for common routines.
              bc02.faceset bc03.faceset bc04.faceset &
              bc05.faceset bc08.faceset bc09.faceset
 
-    </div>
+    
 
 -   **dump** (short version)
     <div>
 
     3 token short syntax for dump (avs,gmv,lg,lagrit,ts,exo)
 
-    </div>
+    
 
 -   **extract/surfmesh**
     <div>
@@ -363,7 +363,7 @@ changes. Improved error catching for common routines.
     and idface1. Now copies user-created node-based attributes from
     source.
 
-    </div>
+    
 
 -   **interpolate**
     <div>
@@ -373,7 +373,7 @@ changes. Improved error catching for common routines.
     for extreme small or large numbers where epsilon values are
     difficult to evaluate correctly.
 
-    </div>
+    
 
 -   **massage**
     <div>
@@ -382,7 +382,7 @@ changes. Improved error catching for common routines.
         Syntax:
           massage / [bisection length/field name] / merge_length / toldamage / ...
 
-    </div>
+    
 
 -   **massage2**
     <div>
@@ -393,14 +393,14 @@ changes. Improved error catching for common routines.
           massage2/ [file name] / [Target Length Scale]/[field name]/ &
              merge_length/toldamage/[tolroughness]/[ifirst,ilast,istride]/ ...
 
-    </div>
+    
 
 -   **math**
     <div>
 
     add modulo and mod options
 
-    </div>
+    
 
 -   **recon**
     <div>
@@ -408,7 +408,7 @@ changes. Improved error catching for common routines.
     Code improvements related to recon 0 and recon 1 will result in
     slightly different but better connectivity results.
 
-    </div>
+    
 
 -   **sort**
     <div>
@@ -418,7 +418,7 @@ changes. Improved error catching for common routines.
         Syntax:
           sort / line_graph / cmo / ascending  descending / [key] / [nodes/elements]
 
-    </div>
+    
 
 \
 

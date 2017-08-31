@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 ![](images/lagrit2.jpg){width="180" height="120"}
 LaGriT Registration and Download
@@ -106,4 +106,4 @@ POSSIBILITY OF SUCH DAMAGE.
 \
 \
 
-</div>
+

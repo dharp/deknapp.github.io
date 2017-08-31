@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 
  ansparent.gif){.strut              Pictures Created By Denise George 
@@ -26,4 +26,4 @@ title: LANL  LaGriT
                                     width="420" height="1"}           
 
 
-</div>
+

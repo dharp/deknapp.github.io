@@ -125,7 +125,7 @@ title: COMPUTE
 >  ![Example: distance\_field](../distance_field_01.png){width="300"     
 >  height="300"}                                                         
 >                                                                        
->  </div>                                                                
+>                                                                  
 > +-----------------------------------------------------------------------+
 >      cmo / create / cmo_src                                            
 >      createpts/rtz/1,91,1/3.,0.,0./3.,270.,0./1,1,1/                   
@@ -143,7 +143,7 @@ title: COMPUTE
 >
 > ****\
 >
-> </div>
+> 
 >
 > 
 >  ![signed distance                      *                             

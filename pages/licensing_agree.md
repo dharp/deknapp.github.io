@@ -12,7 +12,7 @@ description:
 title: LANL  LaGriT 
 ---
 
-<div id="content-org">
+
 
 ![](images/lagrit2.jpg){width="180" height="120"}
 LaGriT License Agreements
@@ -30,4 +30,4 @@ made available. A fax copy is not sufficient.
     [Postscript](pdfs/Commercial_agreement_lagrit.ps) 
     [PDF](pdfs/Commercial_agreement_lagrit.pdf))
 
-</div>
+
